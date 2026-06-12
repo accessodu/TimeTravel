@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TimeTravel-A11y</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header role="banner">
+    <h1><span aria-hidden="true">⏱</span> TimeTravel-A11y</h1>
+    <p class="subtitle">AI-Assisted Non-Visual Temporal Navigation</p>
+  </header>
+
+  <main id="main">
+    <div id="sr-status" role="status" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+    <div id="sr-alert"  role="alert"  aria-live="assertive" aria-atomic="true" class="sr-only"></div>
+
+    <section aria-label="Launch">
+      <div class="form-group">
+        <label for="urlInput">URL to explore:</label>
+        <input type="url" id="urlInput" placeholder="https://example.com"
+               spellcheck="false" autocomplete="url" aria-describedby="urlHelp"/>
+        <span id="urlHelp" class="help-text">Auto-filled from your current tab. Edit if needed.</span>
+      </div>
+
+      <!-- Primary action: open overlay with this URL -->
+      <button id="analyzeBtn" class="btn-primary" type="button">
+        ⧉ Open Full Analysis Overlay
+      </button>
+      <p class="help-text center" id="overlayHelp">
+        Opens the overlay on the current page · or press
+        <strong id="shortcutHint"></strong> on any page
+      </p>
+
+      <details id="settingsPanel">
+        <summary>AI Settings <span class="dim">(optional)</span></summary>
+        <div class="settings-inner">
+          <div class="form-group">
+            <label for="providerSelect">AI Provider:</label>
+            <select id="providerSelect">
+              <option value="groq">Groq — free cloud API (llama3)</option>
+              <option value="ollama">Ollama — local, no key needed</option>
+              <option value="none">None — heuristic analysis only</option>
+            </select>
+          </div>
+          <div id="groqSettings" class="form-group">
+            <label for="groqKey">Groq API Key:</label>
+            <input type="password" id="groqKey" placeholder="gsk_…" autocomplete="off"/>
+            <span class="help-text">Free at console.groq.com</span>
+          </div>
+          <div id="ollamaSettings" class="form-group" hidden>
+            <label for="ollamaModel">Ollama model:</label>
+            <input type="text" id="ollamaModel" value="llama3.2" autocomplete="off"/>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <!-- Error / status feedback -->
+    <div id="feedback" hidden role="alert"></div>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

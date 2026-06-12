@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "TimeTravel-A11y",
+  "version": "1.2.0",
+  "description": "AI chain-of-verification temporal navigation of web archives, with audio read-out, for screen reader users",
+  "permissions": ["tabs", "storage", "scripting"],
+  "host_permissions": [
+    "https://web.archive.org/*",
+    "http://localhost:11434/*",
+    "https://api.groq.com/*",
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "icons/icon16.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "TimeTravel-A11y: Explore Web Archives"
+  },
+  "background": {
+    "service_worker": "background/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content/overlay.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "commands": {
+    "toggle-overlay": {
+      "suggested_key": {
+        "default": "Alt+Shift+T",
+        "mac": "Alt+Shift+T"
+      },
+      "description": "Toggle TimeTravel-A11y overlay on current page"
+    }
+  }
+}
