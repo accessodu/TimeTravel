@@ -1,0 +1,1021 @@
+{
+  "mode": "single",
+  "url": "https://sigir.org/",
+  "fromYear": 2015,
+  "toYear": 2024,
+  "focus": "",
+  "coveApplied": true,
+  "selfConsistencySamples": 1,
+  "totalCaptures": 9,
+  "capturesCapped": false,
+  "uniqueCaptures": 9,
+  "selectedCaptures": 9,
+  "firstCapture": "January 1, 2015",
+  "lastCapture": "September 20, 2024",
+  "yearBreakdown": {
+    "2015": 2,
+    "2021": 1,
+    "2024": 6
+  },
+  "overview": "Corrected changes to the SIGIR website based on snapshot analysis.",
+  "changes": [
+    {
+      "id": 1,
+      "description": "Call for Nominations for the ACM SIGIR Academy",
+      "type": "content_added",
+      "section": "null",
+      "period": "Between November 12, 2022 and April 28, 2024",
+      "beforeDate": "null",
+      "afterDate": "April 28, 2024",
+      "beforeText": null,
+      "afterText": "We established the SIGIR Academy to honor and recognize individuals who have made significant, cumulative contributions to the development of the field of information retrieval.",
+      "confidence": "high",
+      "confidenceReason": "The quote is verbatim-present in Snapshot 4. Confidence 100/100 — quote match 100%, agreement 100% across samples.",
+      "uncertainty": "None.",
+      "verificationNotes": "Q1-Q5 passed.",
+      "stability": 1,
+      "beforeUrl": "https://web.archive.org/web/20150101121850/https://sigir.org/",
+      "afterUrl": "https://web.archive.org/web/20240428005521/https://sigir.org/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "added",
+      "archivalReason": "Content present in the later capture but absent earlier.",
+      "confidenceScore": 100,
+      "changeMagnitude": null
+    },
+    {
+      "id": 2,
+      "description": "SIGIR Forum June 2020",
+      "type": "content_added",
+      "section": "null",
+      "period": "Between January 1, 2015 and April 16, 2021",
+      "beforeDate": "null",
+      "afterDate": "April 16, 2021",
+      "beforeText": null,
+      "afterText": "The June 2020 issue of the SIGIR Forum is available online. Check the latest news about our IR community in the time of a global pandemic in the Chair’s Letter. We are excited to announce the SIGIR 2020 Award Winners.",
+      "confidence": "high",
+      "confidenceReason": "The quote is verbatim-present in Snapshot 3, but it could be an archival/replay artifact. Confidence 95/100 — quote match 95%, agreement 100% across samples.",
+      "uncertainty": "The quote may be missing from earlier snapshots due to truncation or failed loading.",
+      "verificationNotes": "Q1-Q5 passed, but Q3 is uncertain.",
+      "stability": 1,
+      "beforeUrl": "https://web.archive.org/web/20150101121850/https://sigir.org/",
+      "afterUrl": "https://web.archive.org/web/20210416212930/https://sigir.org/",
+      "verified": true,
+      "verifyScore": 95,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "added",
+      "archivalReason": "Content present in the later capture but absent earlier.",
+      "confidenceScore": 95,
+      "changeMagnitude": null
+    },
+    {
+      "id": 3,
+      "description": "Call for Nominations TIST EiC",
+      "type": "content_removed",
+      "section": "null",
+      "period": "Between January 1, 2015 and December 3, 2014",
+      "beforeDate": "January 1, 2015",
+      "afterDate": "December 3, 2014",
+      "beforeText": "The current Editor-in-Chief (EiC) of the ACM Transactions on Intelligent Systems and Technology (TIST) is stepping down after two terms, and the ACM Publications Board has set up a nominating committee to assist the Board in selecting the next EiC.",
+      "afterText": null,
+      "confidence": "low",
+      "confidenceReason": "The quote is not present in any snapshot after December 3, 2014. Confidence 25/100 — quote match 100%, agreement 100% across samples, replay reliability 25%.",
+      "uncertainty": "The quote may be missing from earlier snapshots due to truncation or failed loading.",
+      "verificationNotes": "Q1-Q5 failed.",
+      "stability": 1,
+      "beforeUrl": "https://web.archive.org/web/20150101121850/https://sigir.org/",
+      "afterUrl": "https://web.archive.org/web/20240920202352/https://sigir.org/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "broken_replay",
+      "archivalReason": "Content absent, but the later capture failed to replay fully — not confirmed as a real deletion.",
+      "confidenceScore": 25,
+      "changeMagnitude": null
+    }
+  ],
+  "changeMagnitudes": [
+    {
+      "from": "January 1, 2015",
+      "to": "January 1, 2015",
+      "dissimilarity": 0,
+      "similarity": 100
+    },
+    {
+      "from": "January 1, 2015",
+      "to": "April 16, 2021",
+      "dissimilarity": 72,
+      "similarity": 28
+    },
+    {
+      "from": "April 16, 2021",
+      "to": "April 28, 2024",
+      "dissimilarity": 36,
+      "similarity": 64
+    },
+    {
+      "from": "April 28, 2024",
+      "to": "August 31, 2024",
+      "dissimilarity": 0,
+      "similarity": 100
+    }
+  ],
+  "overallChangeScore": 70,
+  "peakChange": {
+    "from": "January 1, 2015",
+    "to": "April 16, 2021",
+    "dissimilarity": 72,
+    "similarity": 28
+  },
+  "stableContent": [
+    "unchanged topics"
+  ],
+  "replayWarnings": [
+    "6 script resource(s) not preserved in this capture",
+    "9 script resource(s) not preserved in this capture",
+    "Page text is unusually short — likely incomplete replay",
+    "8 script resource(s) not preserved in this capture"
+  ],
+  "captureGaps": [
+    "gaps over 60 days",
+    "2297-day gap: January 1, 2015 → April 16, 2021",
+    "1096-day gap: April 16, 2021 → April 16, 2024",
+    "123-day gap: April 28, 2024 → August 29, 2024"
+  ],
+  "a11yAudit": {
+    "before": "January 1, 2015",
+    "after": "September 5, 2024",
+    "deltas": [
+      {
+        "metric": "Focusable elements before main content",
+        "before": 1,
+        "after": 0,
+        "direction": "better"
+      },
+      {
+        "metric": "Links before main content",
+        "before": 1,
+        "after": 0,
+        "direction": "better"
+      },
+      {
+        "metric": "Form inputs without labels",
+        "before": 2,
+        "after": 1,
+        "direction": "better"
+      },
+      {
+        "metric": "Heading count",
+        "before": 14,
+        "after": 1,
+        "direction": "worse"
+      }
+    ],
+    "findings": [
+      "Search input lost its accessible label after redesign."
+    ],
+    "verdict": "Accessibility appears to have IMPROVED over time."
+  },
+  "privacy": null,
+  "keySnapshots": [
+    {
+      "timestamp": "20150101121850",
+      "date": "January 1, 2015",
+      "url": "https://web.archive.org/web/20150101121850/https://sigir.org/",
+      "issues": [
+        "6 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 14
+    },
+    {
+      "timestamp": "20150101121852",
+      "date": "January 1, 2015",
+      "url": "https://web.archive.org/web/20150101121852/https://sigir.org/",
+      "issues": [
+        "6 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 14
+    },
+    {
+      "timestamp": "20210416212930",
+      "date": "April 16, 2021",
+      "url": "https://web.archive.org/web/20210416212930/https://sigir.org/",
+      "issues": [
+        "9 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 14
+    },
+    {
+      "timestamp": "20240416002637",
+      "date": "April 16, 2024",
+      "url": "https://web.archive.org/web/20240416002637/https://sigir.org/",
+      "issues": [
+        "Page text is unusually short — likely incomplete replay"
+      ],
+      "sectionCount": 1
+    },
+    {
+      "timestamp": "20240428005521",
+      "date": "April 28, 2024",
+      "url": "https://web.archive.org/web/20240428005521/https://sigir.org/",
+      "issues": [
+        "8 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 14
+    },
+    {
+      "timestamp": "20240829124419",
+      "date": "August 29, 2024",
+      "url": "https://web.archive.org/web/20240829124419/https://sigir.org/",
+      "issues": [
+        "Page text is unusually short — likely incomplete replay"
+      ],
+      "sectionCount": 1
+    },
+    {
+      "timestamp": "20240831033922",
+      "date": "August 31, 2024",
+      "url": "https://web.archive.org/web/20240831033922/https://sigir.org/",
+      "issues": [
+        "8 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 14
+    },
+    {
+      "timestamp": "20240905215927",
+      "date": "September 5, 2024",
+      "url": "https://web.archive.org/web/20240905215927/https://sigir.org/",
+      "issues": [
+        "Page text is unusually short — likely incomplete replay"
+      ],
+      "sectionCount": 1
+    },
+    {
+      "timestamp": "20240920202352",
+      "date": "September 20, 2024",
+      "url": "https://web.archive.org/web/20240920202352/https://sigir.org/",
+      "issues": [
+        "Page text is unusually short — likely incomplete replay"
+      ],
+      "sectionCount": 0
+    }
+  ],
+  "_rescore": {
+    "schema": 1,
+    "params": {
+      "url": "https://sigir.org/",
+      "fromYear": 2015,
+      "toYear": 2024,
+      "focus": ""
+    },
+    "ai": {
+      "changes": [
+        {
+          "id": 1,
+          "description": "Call for Nominations for the ACM SIGIR Academy",
+          "type": "content_added",
+          "section": "null",
+          "period": "Between November 12, 2022 and April 28, 2024",
+          "beforeDate": "null",
+          "afterDate": "April 28, 2024",
+          "beforeText": "null",
+          "afterText": "We established the SIGIR Academy to honor and recognize individuals who have made significant, cumulative contributions to the development of the field of information retrieval.",
+          "confidence": "high",
+          "confidenceReason": "The quote is verbatim-present in Snapshot 4.",
+          "uncertainty": "None.",
+          "verificationNotes": "Q1-Q5 passed.",
+          "stability": 1
+        },
+        {
+          "id": 2,
+          "description": "SIGIR Early Career Researcher Awards",
+          "type": "content_added",
+          "section": "null",
+          "period": "Between November 12, 2022 and April 28, 2024",
+          "beforeDate": "null",
+          "afterDate": "April 28, 2024",
+          "beforeText": "null",
+          "afterText": "null",
+          "confidence": "high",
+          "confidenceReason": "The quote is not present in any snapshot before November 12, 2022, and is verbatim-present in Snapshot 4.",
+          "uncertainty": "None.",
+          "verificationNotes": "Q1-Q5 passed.",
+          "stability": 1
+        },
+        {
+          "id": 3,
+          "description": "SIGIR Forum June 2020",
+          "type": "content_added",
+          "section": "null",
+          "period": "Between January 1, 2015 and April 16, 2021",
+          "beforeDate": "null",
+          "afterDate": "April 16, 2021",
+          "beforeText": "null",
+          "afterText": "The June 2020 issue of the SIGIR Forum is available online. Check the latest news about our IR community in the time of a global pandemic in the Chair’s Letter. We are excited to announce the SIGIR 2020 Award Winners.",
+          "confidence": "medium",
+          "confidenceReason": "The quote is verbatim-present in Snapshot 3, but it could be an archival/replay artifact.",
+          "uncertainty": "The quote may be missing from earlier snapshots due to truncation or failed loading.",
+          "verificationNotes": "Q1-Q5 passed, but Q3 is uncertain.",
+          "stability": 1
+        },
+        {
+          "id": 4,
+          "description": "Call for Nominations TIST EiC",
+          "type": "content_removed",
+          "section": "null",
+          "period": "Between January 1, 2015 and December 3, 2014",
+          "beforeDate": "January 1, 2015",
+          "afterDate": "December 3, 2014",
+          "beforeText": "The current Editor-in-Chief (EiC) of the ACM Transactions on Intelligent Systems and Technology (TIST) is stepping down after two terms, and the ACM Publications Board has set up a nominating committee to assist the Board in selecting the next EiC.",
+          "afterText": "null",
+          "confidence": "low",
+          "confidenceReason": "The quote is not present in any snapshot after December 3, 2014.",
+          "uncertainty": "The quote may be missing from earlier snapshots due to truncation or failed loading.",
+          "verificationNotes": "Q1-Q5 failed.",
+          "stability": 1
+        }
+      ],
+      "overview": "Corrected changes to the SIGIR website based on snapshot analysis.",
+      "coveApplied": true,
+      "samples": 1,
+      "stableContent": [
+        "unchanged topics"
+      ],
+      "captureGaps": [
+        "gaps over 60 days"
+      ]
+    },
+    "captureCounts": {
+      "total": 9,
+      "unique": 9,
+      "selected": 9
+    },
+    "snapshots": [
+      {
+        "date": "2015-01-01T00:00:00.000Z",
+        "timestamp": "20150101121850",
+        "url": "https://web.archive.org/web/20150101121850/https://sigir.org/",
+        "fullText": "SIGIR | Special Interest Group on Information Retrieval SIGIR Special Interest Group on Information Retrieval Find my information... www.acm.org Menu Skip to content Conferences Sponsored Conferences Other IR Conferences Events Past Events General Information Fact sheet Membership Officers and Volunteers Services Awards Travel Grants Sponsorship History Hosting SIGIR Hosting ICTIR Hosting CHIIR Funding for SIGIR-Related Events Reports Resources Museum SIG-IRList The Forum Editorial Policy and Forum Editors Issues Call for Nominations TIST EiC December 3, 2014 News ACM , call for nominations , editor in chief Krisztian Balog The current Editor-in-Chief (EiC) of the ACM Transactions on Intelligent Systems and Technology (TIST) is stepping down after two terms, and the ACM Publications Board has set up a nominating committee to assist the Board in selecting the next EiC. Nominations are invited for a three-year term as TIST EiC, beginning on April 1, 2015. The EiC appointment may be renewed at most one time. This is an entirely voluntary position, but ACM will provide appropriate administrative support. The EiC is responsible for maintaining the highest editorial quality, for setting technical direction of the papers published in TIST, and for maintaining a reasonable pipeline of articles for publication. He/she has final say on acceptance of papers and appointment of Associate Editors. The EiC is expected to adhere to the commitments expressed in the policy on Rights and Responsibilities in ACM Publishing . For more information about the role of the EiC, see ACM&#8217;s Evaluation Criteria for Editors-in-Chief . Each nomination should include a vita along with a brief nominating statement of why the nominee should be considered. Self-nomination is encouraged, and should include a statement of the candidate&#8217;s vision for the future development of TIST. The deadline for submitting nominations is January 30, 2015, although nominations will continue to be accepted until the position is filled. Please send nominations to the nominating committee chair: Subbarao Kambhampati (rao AT asu.edu). The search committee members are Subbarao Kambhampati (Arizona State University), Chair Boi Faltings (Swiss Federal Inst. of Technology, Lausanne) Maria Gini (University of Minnesota) Craig Knoblock (USC/ISI) Stephen Smith (Carnegie-Mellon University) CHIIR 2016 and 2017 venues selected November 26, 2014 News chiir Krisztian Balog The steering committee of the ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR) is pleased to announce the selection of the following venues for the 2016 and 2017 conferences: 2016: Chapel Hill, North Carolina, USA. General Chairs: Diane Kelly and Rob Capra. 2017: Oslo, Norway. General Chairs: Ragnar Nordlie and Nils Pharo. More information on each of the conferences will be available soon. SIGIR Forum December 2014 November 26, 2014 News forum Krisztian Balog The December 2014 issue of the SIGIR Forum is available online. Call for bids to host CHIIR 2016 and 2017 August 28, 2014 News call for bids , chiir Krisztian Balog The ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR) (pronounced “cheer”) provides a forum for the dissemination and discussion of research on the user-centered aspects of information interaction and information retrieval. The conference focuses on elements such as human involvement in search activities, and information seeking and use in context. CHIIR is a merger of two successful events: the Information Interaction in Context conference (IIiX) and the Human Computer Information Retrieval symposium (HCIR). CHIIR builds upon the combined strengths of these events, emphasizing human interaction with information, information seeking contexts, and user-centered approaches to information retrieval, access, and use. CHIIR also publishes related research on human-human information interaction, novel interaction paradigms, and new evaluation methodologies. Research on information interaction and retrieval that draws upon work in areas such as sociology, ethnography, psychology, and human-computer interaction is also welcome at CHIIR. We are soliciting bids to host CHIIR in 2016 or 2017. CHIIR is an annual event held in March. It will alternate, at least initially, between North America and Europe. For this round, we welcome bids from any location in North America or Europe for CHIIR 2016 as well as CHIIR 2017. Optional “expressions of interest” should be submitted by September 15, 2014. The deadline for submitting formal bids is October 31, 2014. Please see the full call for more details . SIGIR Forum June 2014 July 31, 2014 News forum Krisztian Balog The June 2014 issue of the SIGIR Forum is available online. Posts navigation &larr; Older posts Find my information... Recent Posts Call for Nominations TIST EiC CHIIR 2016 and 2017 venues selected SIGIR Forum December 2014 Call for bids to host CHIIR 2016 and 2017 SIGIR Forum June 2014 Recent Comments Archives December 2014 November 2014 August 2014 July 2014 April 2014 February 2014 August 2013 July 2013 Categories News Meta Log in Entries RSS Comments RSS WordPress.org Acm.org SIGs",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "6 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 1,
+          "linksBeforeMain": 1,
+          "headingCount": 14,
+          "h1Count": 7,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 2,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "news",
+              "count": 6
+            },
+            {
+              "label": "krisztian balog",
+              "count": 5
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "SIGIR",
+            "text": "SIGIR"
+          },
+          {
+            "level": 2,
+            "heading": "Special Interest Group on Information Retrieval",
+            "text": "Special Interest Group on Information Retrieval Find my information... www.acm.org"
+          },
+          {
+            "level": 3,
+            "heading": "Menu",
+            "text": "Menu Skip to content Conferences Sponsored Conferences Other IR Conferences Events Past Events General Information Fact sheet Membership Officers and Volunteers Services Awards Travel Grants Sponsorship History Hosting SIGIR Hosting ICTIR Hosting CHIIR Funding for SIGIR-Related Events Reports Resources Museum SIG-IRList The Forum Editorial Policy and Forum Editors Issues"
+          },
+          {
+            "level": 1,
+            "heading": "Call for Nominations TIST EiC",
+            "text": "Call for Nominations TIST EiC December 3, 2014 News ACM , call for nominations , editor in chief Krisztian Balog The current Editor-in-Chief (EiC) of the ACM Transactions on Intelligent Systems and Technology (TIST) is stepping down after two terms, and the ACM Publications Board has set up a nominating committee to assist the Board in selecting the next EiC. Nominations are invited for a three-year term as TIST EiC, beginning on April 1, 2015. The EiC appointment may be renewed at most one time. This is an entirely voluntary position, but ACM will provide appropriate administrative support. T"
+          },
+          {
+            "level": 1,
+            "heading": "CHIIR 2016 and 2017 venues selected",
+            "text": "CHIIR 2016 and 2017 venues selected November 26, 2014 News chiir Krisztian Balog The steering committee of the ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR) is pleased to announce the selection of the following venues for the 2016 and 2017 conferences: 2016: Chapel Hill, North Carolina, USA. General Chairs: Diane Kelly and Rob Capra. 2017: Oslo, Norway. General Chairs: Ragnar Nordlie and Nils Pharo. More information on each of the conferences will be available soon."
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum December 2014",
+            "text": "SIGIR Forum December 2014 November 26, 2014 News forum Krisztian Balog The December 2014 issue of the SIGIR Forum is available online."
+          },
+          {
+            "level": 1,
+            "heading": "Call for bids to host CHIIR 2016 and 2017",
+            "text": "Call for bids to host CHIIR 2016 and 2017 August 28, 2014 News call for bids , chiir Krisztian Balog The ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR) (pronounced “cheer”) provides a forum for the dissemination and discussion of research on the user-centered aspects of information interaction and information retrieval. The conference focuses on elements such as human involvement in search activities, and information seeking and use in context. CHIIR is a merger of two successful events: the Information Interaction in Context conference (IIiX) and the Human Compute"
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum June 2014",
+            "text": "SIGIR Forum June 2014 July 31, 2014 News forum Krisztian Balog The June 2014 issue of the SIGIR Forum is available online."
+          },
+          {
+            "level": 1,
+            "heading": "Posts navigation",
+            "text": "Posts navigation &larr; Older posts Find my information..."
+          },
+          {
+            "level": 3,
+            "heading": "Recent Posts",
+            "text": "Recent Posts Call for Nominations TIST EiC CHIIR 2016 and 2017 venues selected SIGIR Forum December 2014 Call for bids to host CHIIR 2016 and 2017 SIGIR Forum June 2014"
+          },
+          {
+            "level": 3,
+            "heading": "Recent Comments",
+            "text": "Recent Comments"
+          },
+          {
+            "level": 3,
+            "heading": "Archives",
+            "text": "Archives December 2014 November 2014 August 2014 July 2014 April 2014 February 2014 August 2013 July 2013"
+          },
+          {
+            "level": 3,
+            "heading": "Categories",
+            "text": "Categories News"
+          },
+          {
+            "level": 3,
+            "heading": "Meta",
+            "text": "Meta Log in Entries RSS Comments RSS WordPress.org Acm.org SIGs"
+          }
+        ]
+      },
+      {
+        "date": "2015-01-01T00:00:00.000Z",
+        "timestamp": "20150101121852",
+        "url": "https://web.archive.org/web/20150101121852/https://sigir.org/",
+        "fullText": "SIGIR | Special Interest Group on Information Retrieval SIGIR Special Interest Group on Information Retrieval Find my information... www.acm.org Menu Skip to content Conferences Sponsored Conferences Other IR Conferences Events Past Events General Information Fact sheet Membership Officers and Volunteers Services Awards Travel Grants Sponsorship History Hosting SIGIR Hosting ICTIR Hosting CHIIR Funding for SIGIR-Related Events Reports Resources Museum SIG-IRList The Forum Editorial Policy and Forum Editors Issues Call for Nominations TIST EiC December 3, 2014 News ACM , call for nominations , editor in chief Krisztian Balog The current Editor-in-Chief (EiC) of the ACM Transactions on Intelligent Systems and Technology (TIST) is stepping down after two terms, and the ACM Publications Board has set up a nominating committee to assist the Board in selecting the next EiC. Nominations are invited for a three-year term as TIST EiC, beginning on April 1, 2015. The EiC appointment may be renewed at most one time. This is an entirely voluntary position, but ACM will provide appropriate administrative support. The EiC is responsible for maintaining the highest editorial quality, for setting technical direction of the papers published in TIST, and for maintaining a reasonable pipeline of articles for publication. He/she has final say on acceptance of papers and appointment of Associate Editors. The EiC is expected to adhere to the commitments expressed in the policy on Rights and Responsibilities in ACM Publishing . For more information about the role of the EiC, see ACM&#8217;s Evaluation Criteria for Editors-in-Chief . Each nomination should include a vita along with a brief nominating statement of why the nominee should be considered. Self-nomination is encouraged, and should include a statement of the candidate&#8217;s vision for the future development of TIST. The deadline for submitting nominations is January 30, 2015, although nominations will continue to be accepted until the position is filled. Please send nominations to the nominating committee chair: Subbarao Kambhampati (rao AT asu.edu). The search committee members are Subbarao Kambhampati (Arizona State University), Chair Boi Faltings (Swiss Federal Inst. of Technology, Lausanne) Maria Gini (University of Minnesota) Craig Knoblock (USC/ISI) Stephen Smith (Carnegie-Mellon University) CHIIR 2016 and 2017 venues selected November 26, 2014 News chiir Krisztian Balog The steering committee of the ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR) is pleased to announce the selection of the following venues for the 2016 and 2017 conferences: 2016: Chapel Hill, North Carolina, USA. General Chairs: Diane Kelly and Rob Capra. 2017: Oslo, Norway. General Chairs: Ragnar Nordlie and Nils Pharo. More information on each of the conferences will be available soon. SIGIR Forum December 2014 November 26, 2014 News forum Krisztian Balog The December 2014 issue of the SIGIR Forum is available online. Call for bids to host CHIIR 2016 and 2017 August 28, 2014 News call for bids , chiir Krisztian Balog The ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR) (pronounced “cheer”) provides a forum for the dissemination and discussion of research on the user-centered aspects of information interaction and information retrieval. The conference focuses on elements such as human involvement in search activities, and information seeking and use in context. CHIIR is a merger of two successful events: the Information Interaction in Context conference (IIiX) and the Human Computer Information Retrieval symposium (HCIR). CHIIR builds upon the combined strengths of these events, emphasizing human interaction with information, information seeking contexts, and user-centered approaches to information retrieval, access, and use. CHIIR also publishes related research on human-human information interaction, novel interaction paradigms, and new evaluation methodologies. Research on information interaction and retrieval that draws upon work in areas such as sociology, ethnography, psychology, and human-computer interaction is also welcome at CHIIR. We are soliciting bids to host CHIIR in 2016 or 2017. CHIIR is an annual event held in March. It will alternate, at least initially, between North America and Europe. For this round, we welcome bids from any location in North America or Europe for CHIIR 2016 as well as CHIIR 2017. Optional “expressions of interest” should be submitted by September 15, 2014. The deadline for submitting formal bids is October 31, 2014. Please see the full call for more details . SIGIR Forum June 2014 July 31, 2014 News forum Krisztian Balog The June 2014 issue of the SIGIR Forum is available online. Posts navigation &larr; Older posts Find my information... Recent Posts Call for Nominations TIST EiC CHIIR 2016 and 2017 venues selected SIGIR Forum December 2014 Call for bids to host CHIIR 2016 and 2017 SIGIR Forum June 2014 Recent Comments Archives December 2014 November 2014 August 2014 July 2014 April 2014 February 2014 August 2013 July 2013 Categories News Meta Log in Entries RSS Comments RSS WordPress.org Acm.org SIGs",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "6 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 1,
+          "linksBeforeMain": 1,
+          "headingCount": 14,
+          "h1Count": 7,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 2,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "news",
+              "count": 6
+            },
+            {
+              "label": "krisztian balog",
+              "count": 5
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "SIGIR",
+            "text": "SIGIR"
+          },
+          {
+            "level": 2,
+            "heading": "Special Interest Group on Information Retrieval",
+            "text": "Special Interest Group on Information Retrieval Find my information... www.acm.org"
+          },
+          {
+            "level": 3,
+            "heading": "Menu",
+            "text": "Menu Skip to content Conferences Sponsored Conferences Other IR Conferences Events Past Events General Information Fact sheet Membership Officers and Volunteers Services Awards Travel Grants Sponsorship History Hosting SIGIR Hosting ICTIR Hosting CHIIR Funding for SIGIR-Related Events Reports Resources Museum SIG-IRList The Forum Editorial Policy and Forum Editors Issues"
+          },
+          {
+            "level": 1,
+            "heading": "Call for Nominations TIST EiC",
+            "text": "Call for Nominations TIST EiC December 3, 2014 News ACM , call for nominations , editor in chief Krisztian Balog The current Editor-in-Chief (EiC) of the ACM Transactions on Intelligent Systems and Technology (TIST) is stepping down after two terms, and the ACM Publications Board has set up a nominating committee to assist the Board in selecting the next EiC. Nominations are invited for a three-year term as TIST EiC, beginning on April 1, 2015. The EiC appointment may be renewed at most one time. This is an entirely voluntary position, but ACM will provide appropriate administrative support. T"
+          },
+          {
+            "level": 1,
+            "heading": "CHIIR 2016 and 2017 venues selected",
+            "text": "CHIIR 2016 and 2017 venues selected November 26, 2014 News chiir Krisztian Balog The steering committee of the ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR) is pleased to announce the selection of the following venues for the 2016 and 2017 conferences: 2016: Chapel Hill, North Carolina, USA. General Chairs: Diane Kelly and Rob Capra. 2017: Oslo, Norway. General Chairs: Ragnar Nordlie and Nils Pharo. More information on each of the conferences will be available soon."
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum December 2014",
+            "text": "SIGIR Forum December 2014 November 26, 2014 News forum Krisztian Balog The December 2014 issue of the SIGIR Forum is available online."
+          },
+          {
+            "level": 1,
+            "heading": "Call for bids to host CHIIR 2016 and 2017",
+            "text": "Call for bids to host CHIIR 2016 and 2017 August 28, 2014 News call for bids , chiir Krisztian Balog The ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR) (pronounced “cheer”) provides a forum for the dissemination and discussion of research on the user-centered aspects of information interaction and information retrieval. The conference focuses on elements such as human involvement in search activities, and information seeking and use in context. CHIIR is a merger of two successful events: the Information Interaction in Context conference (IIiX) and the Human Compute"
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum June 2014",
+            "text": "SIGIR Forum June 2014 July 31, 2014 News forum Krisztian Balog The June 2014 issue of the SIGIR Forum is available online."
+          },
+          {
+            "level": 1,
+            "heading": "Posts navigation",
+            "text": "Posts navigation &larr; Older posts Find my information..."
+          },
+          {
+            "level": 3,
+            "heading": "Recent Posts",
+            "text": "Recent Posts Call for Nominations TIST EiC CHIIR 2016 and 2017 venues selected SIGIR Forum December 2014 Call for bids to host CHIIR 2016 and 2017 SIGIR Forum June 2014"
+          },
+          {
+            "level": 3,
+            "heading": "Recent Comments",
+            "text": "Recent Comments"
+          },
+          {
+            "level": 3,
+            "heading": "Archives",
+            "text": "Archives December 2014 November 2014 August 2014 July 2014 April 2014 February 2014 August 2013 July 2013"
+          },
+          {
+            "level": 3,
+            "heading": "Categories",
+            "text": "Categories News"
+          },
+          {
+            "level": 3,
+            "heading": "Meta",
+            "text": "Meta Log in Entries RSS Comments RSS WordPress.org Acm.org SIGs"
+          }
+        ]
+      },
+      {
+        "date": "2021-04-16T00:00:00.000Z",
+        "timestamp": "20210416212930",
+        "url": "https://web.archive.org/web/20210416212930/https://sigir.org/",
+        "fullText": "SIGIR | Special Interest Group on Information Retrieval SIGIR Special Interest Group on Information Retrieval Find my information... www.acm.org Menu Skip to content General Information About ACM SIGIR Artifact Badging Fact sheet Membership Officers and Volunteers Services Travel Grants In-cooperation events List of SIGIR Locations and History Hosting SIGIR Hosting CHIIR Funding for SIGIR-Related Events Reports Conferences Other IR Conferences Conference Code of Conduct Diversity, Equity and Inclusivity (DEI) Initiative Sponsored Conferences TOIS Presentation International Conference on the Theory of Information Retrieval (ICTIR) Events Upcoming events Past Events Awards Gerard Salton Awards Best Paper Awards Best Student Paper Awards Best Short Paper Awards Doctoral Consortium Awards Vannevar Bush Best Paper Awards SIGIR Test of Time Awards ACM SIGIR Academy Resources Museum SIGIR Forum Editorial Policy and Forum Editors Issues SIG-IRList SIGIR Forum June 2020 June 22, 2020 News Nattiya Kanhabua The June 2020 issue of the SIGIR Forum is available online. Check the latest news about our IR community in the time of a global pandemic in the Chair&#8217;s Letter. We are excited to announce the ACM SIGIR Academy that was recently established to honor and recognize individuals, who have made significant, cumulative contributions to the field of IR. The rest of this issue contains visionary/opinion papers, event reports and dissertation abstracts. SIGIR Forum June 2018 July 5, 2018 News Nattiya Kanhabua The June 2018 issue of the SIGIR Forum is available online. Check out recent news from our SIGIR Chair. This issue of SIGIR Forum contains an abundance of information about the future of SIGIR, including a report from the organizers of the third Strategic Workshop on Information Retrieval in Lorne (SWIRL), which sets an agenda for the next few years of IR research, as well as reports describing the SIGIR Community Member Survey that was conducted earlier this year about preprints and ACM artifact review and badging. Introducing New SIGIR Chapter: Tokyo March 8, 2018 News Nattiya Kanhabua Following a very successful SIGIR 2017 Conference, a new ACM SIGIR Chapter has formed in Tokyo (http://sigir.jp/). Congratulations to the Tokyo ACM SIGIR team for establishing this Chapter! Interested in starting a local chapter of SIGIR in your area? Contact our SIGIR Chair (Diane Kelly) and visit: https://www.acm.org/chapters/chapter-in-a-box . SIGIR Forum July (Special Edition) 2017 June 29, 2017 News Nattiya Kanhabua The July (Special Edition) 2017 issue of the SIGIR Forum is available online. This special issue of SIGIR Forum marks the 40th anniversary of the ACM SIGIR Conference by showcasing papers selected for the ACM SIGIR Test of Time Award from the years [phone] These papers document the history and evolution of IR research and practice, and illustrate the intellectual impact the SIGIR Conference has had over time. The ACM SIGIR Test of Time Award recognizes conference papers that have had a longlasting influence on information retrieval research. When the award guidelines were created, eligible papers were identified as those that were published in a window of time 10 to 12 years prior to the year of the award. This meant that the first year this award was given, 2014, eligible papers came from the years [phone] To identify papers published during the period [phone]that might also be recognized with the Test of Time Award, a committee was created, which was led by Keith van Rijsbergen. Members of the committee were: Nicholas Belkin, Charlie Clarke, Susan Dumais, Norbert Fuhr, Donna Harman, Diane Kelly, Stephen Robertson, Stefan Rueger, Ian Ruthven, Tetsuya Sakai, Mark Sanderson, Ryen White, and Chengxiang Zhai. Read more about this special issue: July (Special Edition) 2017 issue SIGIR Forum June 2017 June 29, 2017 News Nattiya Kanhabua The June 2017 issue of the SIGIR Forum is available online. Check out recent news from our SIGIR Chair, SIGIR 2016 Test of Time Award, and more. Posts navigation &larr; Older posts Find my information... Recent Posts SIGIR Forum June 2020 SIGIR Forum June 2018 Introducing New SIGIR Chapter: Tokyo SIGIR Forum July (Special Edition) 2017 SIGIR Forum June 2017 Recent Comments Archives June 2020 July 2018 March 2018 June 2017 April 2017 March 2017 January 2017 December 2016 July 2016 June 2016 January 2016 December 2015 June 2015 January 2015 December 2014 November 2014 August 2014 July 2014 April 2014 February 2014 August 2013 July 2013 Categories News Meta Log in Entries RSS Comments RSS WordPress.org Acm.org SIGs",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "9 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 1,
+          "linksBeforeMain": 1,
+          "headingCount": 14,
+          "h1Count": 7,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 2,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "news",
+              "count": 6
+            },
+            {
+              "label": "nattiya kanhabua",
+              "count": 5
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "SIGIR",
+            "text": "SIGIR"
+          },
+          {
+            "level": 2,
+            "heading": "Special Interest Group on Information Retrieval",
+            "text": "Special Interest Group on Information Retrieval Find my information... www.acm.org"
+          },
+          {
+            "level": 3,
+            "heading": "Menu",
+            "text": "Menu Skip to content General Information About ACM SIGIR Artifact Badging Fact sheet Membership Officers and Volunteers Services Travel Grants In-cooperation events List of SIGIR Locations and History Hosting SIGIR Hosting CHIIR Funding for SIGIR-Related Events Reports Conferences Other IR Conferences Conference Code of Conduct Diversity, Equity and Inclusivity (DEI) Initiative Sponsored Conferences TOIS Presentation International Conference on the Theory of Information Retrieval (ICTIR) Events Upcoming events Past Events Awards Gerard Salton Awards Best Paper Awards Best Student Paper Awards "
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum June 2020",
+            "text": "SIGIR Forum June 2020 June 22, 2020 News Nattiya Kanhabua The June 2020 issue of the SIGIR Forum is available online. Check the latest news about our IR community in the time of a global pandemic in the Chair&#8217;s Letter. We are excited to announce the ACM SIGIR Academy that was recently established to honor and recognize individuals, who have made significant, cumulative contributions to the field of IR. The rest of this issue contains visionary/opinion papers, event reports and dissertation abstracts."
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum June 2018",
+            "text": "SIGIR Forum June 2018 July 5, 2018 News Nattiya Kanhabua The June 2018 issue of the SIGIR Forum is available online. Check out recent news from our SIGIR Chair. This issue of SIGIR Forum contains an abundance of information about the future of SIGIR, including a report from the organizers of the third Strategic Workshop on Information Retrieval in Lorne (SWIRL), which sets an agenda for the next few years of IR research, as well as reports describing the SIGIR Community Member Survey that was conducted earlier this year about preprints and ACM artifact review and badging."
+          },
+          {
+            "level": 1,
+            "heading": "Introducing New SIGIR Chapter: Tokyo",
+            "text": "Introducing New SIGIR Chapter: Tokyo March 8, 2018 News Nattiya Kanhabua Following a very successful SIGIR 2017 Conference, a new ACM SIGIR Chapter has formed in Tokyo (http://sigir.jp/). Congratulations to the Tokyo ACM SIGIR team for establishing this Chapter! Interested in starting a local chapter of SIGIR in your area? Contact our SIGIR Chair (Diane Kelly) and visit: https://www.acm.org/chapters/chapter-in-a-box ."
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum July (Special Edition) 2017",
+            "text": "SIGIR Forum July (Special Edition) 2017 June 29, 2017 News Nattiya Kanhabua The July (Special Edition) 2017 issue of the SIGIR Forum is available online. This special issue of SIGIR Forum marks the 40th anniversary of the ACM SIGIR Conference by showcasing papers selected for the ACM SIGIR Test of Time Award from the years 1978-2001. These papers document the history and evolution of IR research and practice, and illustrate the intellectual impact the SIGIR Conference has had over time. The ACM SIGIR Test of Time Award recognizes conference papers that have had a longlasting influence on infor"
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum June 2017",
+            "text": "SIGIR Forum June 2017 June 29, 2017 News Nattiya Kanhabua The June 2017 issue of the SIGIR Forum is available online. Check out recent news from our SIGIR Chair, SIGIR 2016 Test of Time Award, and more."
+          },
+          {
+            "level": 1,
+            "heading": "Posts navigation",
+            "text": "Posts navigation &larr; Older posts Find my information..."
+          },
+          {
+            "level": 3,
+            "heading": "Recent Posts",
+            "text": "Recent Posts SIGIR Forum June 2020 SIGIR Forum June 2018 Introducing New SIGIR Chapter: Tokyo SIGIR Forum July (Special Edition) 2017 SIGIR Forum June 2017"
+          },
+          {
+            "level": 3,
+            "heading": "Recent Comments",
+            "text": "Recent Comments"
+          },
+          {
+            "level": 3,
+            "heading": "Archives",
+            "text": "Archives June 2020 July 2018 March 2018 June 2017 April 2017 March 2017 January 2017 December 2016 July 2016 June 2016 January 2016 December 2015 June 2015 January 2015 December 2014 November 2014 August 2014 July 2014 April 2014 February 2014 August 2013 July 2013"
+          },
+          {
+            "level": 3,
+            "heading": "Categories",
+            "text": "Categories News"
+          },
+          {
+            "level": 3,
+            "heading": "Meta",
+            "text": "Meta Log in Entries RSS Comments RSS WordPress.org Acm.org SIGs"
+          }
+        ]
+      },
+      {
+        "date": "2024-04-16T00:00:00.000Z",
+        "timestamp": "20240416002637",
+        "url": "https://web.archive.org/web/20240416002637/https://sigir.org/",
+        "fullText": "One moment, please... Please wait while your request is being verified...",
+        "issues": [
+          {
+            "kind": "short_capture",
+            "detail": "Page text is unusually short — likely incomplete replay"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 0,
+          "linksBeforeMain": 0,
+          "headingCount": 1,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 1,
+          "totalInputs": 1,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Please wait while your request is being verified...",
+            "text": "Please wait while your request is being verified..."
+          }
+        ]
+      },
+      {
+        "date": "2024-04-28T00:00:00.000Z",
+        "timestamp": "20240428005521",
+        "url": "https://web.archive.org/web/20240428005521/https://sigir.org/",
+        "fullText": "SIGIR | Special Interest Group on Information Retrieval SIGIR Special Interest Group on Information Retrieval Find my information... www.acm.org Menu Skip to content General Information About ACM SIGIR Artifact Badging Fact sheet Membership Officers and Volunteers Services Travel Grants In-cooperation events List of SIGIR Locations and History Hosting SIGIR Hosting CHIIR Funding for SIGIR-Related Events Reports Conferences Other IR Conferences Conference Code of Conduct Diversity, Equity and Inclusivity (DEI) Initiative Sponsored Conferences TOIS Presentation International Conference on the Theory of Information Retrieval (ICTIR) Events Upcoming events Past Events Awards Gerard Salton Awards Best Paper Awards Best Student Paper Awards Best Short Paper Awards Doctoral Consortium Awards Vannevar Bush Best Paper Awards SIGIR Test of Time Award SIGIR Academy SIGIR Early Career Researcher Awards Resources Museum SIGIR Forum Editorial Policy and Forum Editors Issues SIG-IRList Call for Nominations for the ACM SIGIR Academy November 12, 2022 News Ryen White We established the SIGIR Academy to honor and recognize individuals who have made significant, cumulative contributions to the development of the field of information retrieval (IR). See https://sigir.org/awards/sigir-academy/ […] Announcing the SIGIR Early Career Researcher Awards November 12, 2022 News Ryen White This new award recognizes outstanding contributions and leadership to the SIGIR community in research, community engagement, and/or diversity, equity, and inclusion by an early career researcher (ECR). […] SIGIR Forum June 2020 June 22, 2020 News Nattiya Kanhabua The June 2020 issue of the SIGIR Forum is available online. Check the latest news about our IR community in the time of a global pandemic in the Chair&#8217;s […] SIGIR Forum June 2018 July 5, 2018 News Nattiya Kanhabua The June 2018 issue of the SIGIR Forum is available online. Check out recent news from our SIGIR Chair. This issue of SIGIR Forum contains an abundance […] Introducing New SIGIR Chapter: Tokyo March 8, 2018 News Nattiya Kanhabua Following a very successful SIGIR 2017 Conference, a new ACM SIGIR Chapter has formed in Tokyo (http://sigir.jp/). Congratulations to the Tokyo ACM SIGIR team for establishing this Chapter! Interested […] Posts navigation &larr; Older posts Find my information... Recent Posts Call for Nominations for the ACM SIGIR Academy Announcing the SIGIR Early Career Researcher Awards SIGIR Forum June 2020 SIGIR Forum June 2018 Introducing New SIGIR Chapter: Tokyo Recent Comments Archives November 2022 June 2020 July 2018 March 2018 June 2017 April 2017 March 2017 January 2017 December 2016 July 2016 June 2016 January 2016 December 2015 June 2015 January 2015 December 2014 November 2014 August 2014 July 2014 April 2014 February 2014 August 2013 July 2013 Categories News Meta Log in Entries feed Comments feed WordPress.org Acm.org SIGs",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "8 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 1,
+          "linksBeforeMain": 1,
+          "headingCount": 14,
+          "h1Count": 7,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 2,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "news",
+              "count": 6
+            },
+            {
+              "label": "nattiya kanhabua",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "SIGIR",
+            "text": "SIGIR"
+          },
+          {
+            "level": 2,
+            "heading": "Special Interest Group on Information Retrieval",
+            "text": "Special Interest Group on Information Retrieval Find my information... www.acm.org"
+          },
+          {
+            "level": 3,
+            "heading": "Menu",
+            "text": "Menu Skip to content General Information About ACM SIGIR Artifact Badging Fact sheet Membership Officers and Volunteers Services Travel Grants In-cooperation events List of SIGIR Locations and History Hosting SIGIR Hosting CHIIR Funding for SIGIR-Related Events Reports Conferences Other IR Conferences Conference Code of Conduct Diversity, Equity and Inclusivity (DEI) Initiative Sponsored Conferences TOIS Presentation International Conference on the Theory of Information Retrieval (ICTIR) Events Upcoming events Past Events Awards Gerard Salton Awards Best Paper Awards Best Student Paper Awards "
+          },
+          {
+            "level": 1,
+            "heading": "Call for Nominations for the ACM SIGIR Academy",
+            "text": "Call for Nominations for the ACM SIGIR Academy November 12, 2022 News Ryen White We established the SIGIR Academy to honor and recognize individuals who have made significant, cumulative contributions to the development of the field of information retrieval (IR). See https://sigir.org/awards/sigir-academy/ […]"
+          },
+          {
+            "level": 1,
+            "heading": "Announcing the SIGIR Early Career Researcher Awards",
+            "text": "Announcing the SIGIR Early Career Researcher Awards November 12, 2022 News Ryen White This new award recognizes outstanding contributions and leadership to the SIGIR community in research, community engagement, and/or diversity, equity, and inclusion by an early career researcher (ECR). […]"
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum June 2020",
+            "text": "SIGIR Forum June 2020 June 22, 2020 News Nattiya Kanhabua The June 2020 issue of the SIGIR Forum is available online. Check the latest news about our IR community in the time of a global pandemic in the Chair&#8217;s […]"
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum June 2018",
+            "text": "SIGIR Forum June 2018 July 5, 2018 News Nattiya Kanhabua The June 2018 issue of the SIGIR Forum is available online. Check out recent news from our SIGIR Chair. This issue of SIGIR Forum contains an abundance […]"
+          },
+          {
+            "level": 1,
+            "heading": "Introducing New SIGIR Chapter: Tokyo",
+            "text": "Introducing New SIGIR Chapter: Tokyo March 8, 2018 News Nattiya Kanhabua Following a very successful SIGIR 2017 Conference, a new ACM SIGIR Chapter has formed in Tokyo (http://sigir.jp/). Congratulations to the Tokyo ACM SIGIR team for establishing this Chapter! Interested […]"
+          },
+          {
+            "level": 1,
+            "heading": "Posts navigation",
+            "text": "Posts navigation &larr; Older posts Find my information..."
+          },
+          {
+            "level": 3,
+            "heading": "Recent Posts",
+            "text": "Recent Posts Call for Nominations for the ACM SIGIR Academy Announcing the SIGIR Early Career Researcher Awards SIGIR Forum June 2020 SIGIR Forum June 2018 Introducing New SIGIR Chapter: Tokyo"
+          },
+          {
+            "level": 3,
+            "heading": "Recent Comments",
+            "text": "Recent Comments"
+          },
+          {
+            "level": 3,
+            "heading": "Archives",
+            "text": "Archives November 2022 June 2020 July 2018 March 2018 June 2017 April 2017 March 2017 January 2017 December 2016 July 2016 June 2016 January 2016 December 2015 June 2015 January 2015 December 2014 November 2014 August 2014 July 2014 April 2014 February 2014 August 2013 July 2013"
+          },
+          {
+            "level": 3,
+            "heading": "Categories",
+            "text": "Categories News"
+          },
+          {
+            "level": 3,
+            "heading": "Meta",
+            "text": "Meta Log in Entries feed Comments feed WordPress.org Acm.org SIGs"
+          }
+        ]
+      },
+      {
+        "date": "2024-08-29T00:00:00.000Z",
+        "timestamp": "20240829124419",
+        "url": "https://web.archive.org/web/20240829124419/https://sigir.org/",
+        "fullText": "One moment, please... Please wait while your request is being verified...",
+        "issues": [
+          {
+            "kind": "short_capture",
+            "detail": "Page text is unusually short — likely incomplete replay"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 0,
+          "linksBeforeMain": 0,
+          "headingCount": 1,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 1,
+          "totalInputs": 1,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Please wait while your request is being verified...",
+            "text": "Please wait while your request is being verified..."
+          }
+        ]
+      },
+      {
+        "date": "2024-08-31T00:00:00.000Z",
+        "timestamp": "20240831033922",
+        "url": "https://web.archive.org/web/20240831033922/https://sigir.org/",
+        "fullText": "SIGIR | Special Interest Group on Information Retrieval SIGIR Special Interest Group on Information Retrieval Find my information... www.acm.org Menu Skip to content General Information About ACM SIGIR Artifact Badging Fact sheet Membership Officers and Volunteers Services Travel Grants In-cooperation events List of SIGIR Locations and History Hosting SIGIR Hosting CHIIR Funding for SIGIR-Related Events Reports Conferences Other IR Conferences Conference Code of Conduct Diversity, Equity and Inclusivity (DEI) Initiative Sponsored Conferences TOIS Presentation International Conference on the Theory of Information Retrieval (ICTIR) Events Upcoming events Past Events Awards Gerard Salton Awards Best Paper Awards Best Student Paper Awards Best Short Paper Awards Doctoral Consortium Awards Vannevar Bush Best Paper Awards SIGIR Test of Time Award SIGIR Academy SIGIR Early Career Researcher Awards Resources Museum SIGIR Forum Editorial Policy and Forum Editors Issues SIG-IRList Call for Nominations for the ACM SIGIR Academy November 12, 2022 News Ryen White We established the SIGIR Academy to honor and recognize individuals who have made significant, cumulative contributions to the development of the field of information retrieval (IR). See https://sigir.org/awards/sigir-academy/ […] Announcing the SIGIR Early Career Researcher Awards November 12, 2022 News Ryen White This new award recognizes outstanding contributions and leadership to the SIGIR community in research, community engagement, and/or diversity, equity, and inclusion by an early career researcher (ECR). […] SIGIR Forum June 2020 June 22, 2020 News Nattiya Kanhabua The June 2020 issue of the SIGIR Forum is available online. Check the latest news about our IR community in the time of a global pandemic in the Chair&#8217;s […] SIGIR Forum June 2018 July 5, 2018 News Nattiya Kanhabua The June 2018 issue of the SIGIR Forum is available online. Check out recent news from our SIGIR Chair. This issue of SIGIR Forum contains an abundance […] Introducing New SIGIR Chapter: Tokyo March 8, 2018 News Nattiya Kanhabua Following a very successful SIGIR 2017 Conference, a new ACM SIGIR Chapter has formed in Tokyo (http://sigir.jp/). Congratulations to the Tokyo ACM SIGIR team for establishing this Chapter! Interested […] Posts navigation &larr; Older posts Find my information... Recent Posts Call for Nominations for the ACM SIGIR Academy Announcing the SIGIR Early Career Researcher Awards SIGIR Forum June 2020 SIGIR Forum June 2018 Introducing New SIGIR Chapter: Tokyo Recent Comments Archives November 2022 June 2020 July 2018 March 2018 June 2017 April 2017 March 2017 January 2017 December 2016 July 2016 June 2016 January 2016 December 2015 June 2015 January 2015 December 2014 November 2014 August 2014 July 2014 April 2014 February 2014 August 2013 July 2013 Categories News Meta Log in Entries feed Comments feed WordPress.org Acm.org SIGs",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "8 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 1,
+          "linksBeforeMain": 1,
+          "headingCount": 14,
+          "h1Count": 7,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 2,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "news",
+              "count": 6
+            },
+            {
+              "label": "nattiya kanhabua",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "SIGIR",
+            "text": "SIGIR"
+          },
+          {
+            "level": 2,
+            "heading": "Special Interest Group on Information Retrieval",
+            "text": "Special Interest Group on Information Retrieval Find my information... www.acm.org"
+          },
+          {
+            "level": 3,
+            "heading": "Menu",
+            "text": "Menu Skip to content General Information About ACM SIGIR Artifact Badging Fact sheet Membership Officers and Volunteers Services Travel Grants In-cooperation events List of SIGIR Locations and History Hosting SIGIR Hosting CHIIR Funding for SIGIR-Related Events Reports Conferences Other IR Conferences Conference Code of Conduct Diversity, Equity and Inclusivity (DEI) Initiative Sponsored Conferences TOIS Presentation International Conference on the Theory of Information Retrieval (ICTIR) Events Upcoming events Past Events Awards Gerard Salton Awards Best Paper Awards Best Student Paper Awards "
+          },
+          {
+            "level": 1,
+            "heading": "Call for Nominations for the ACM SIGIR Academy",
+            "text": "Call for Nominations for the ACM SIGIR Academy November 12, 2022 News Ryen White We established the SIGIR Academy to honor and recognize individuals who have made significant, cumulative contributions to the development of the field of information retrieval (IR). See https://sigir.org/awards/sigir-academy/ […]"
+          },
+          {
+            "level": 1,
+            "heading": "Announcing the SIGIR Early Career Researcher Awards",
+            "text": "Announcing the SIGIR Early Career Researcher Awards November 12, 2022 News Ryen White This new award recognizes outstanding contributions and leadership to the SIGIR community in research, community engagement, and/or diversity, equity, and inclusion by an early career researcher (ECR). […]"
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum June 2020",
+            "text": "SIGIR Forum June 2020 June 22, 2020 News Nattiya Kanhabua The June 2020 issue of the SIGIR Forum is available online. Check the latest news about our IR community in the time of a global pandemic in the Chair&#8217;s […]"
+          },
+          {
+            "level": 1,
+            "heading": "SIGIR Forum June 2018",
+            "text": "SIGIR Forum June 2018 July 5, 2018 News Nattiya Kanhabua The June 2018 issue of the SIGIR Forum is available online. Check out recent news from our SIGIR Chair. This issue of SIGIR Forum contains an abundance […]"
+          },
+          {
+            "level": 1,
+            "heading": "Introducing New SIGIR Chapter: Tokyo",
+            "text": "Introducing New SIGIR Chapter: Tokyo March 8, 2018 News Nattiya Kanhabua Following a very successful SIGIR 2017 Conference, a new ACM SIGIR Chapter has formed in Tokyo (http://sigir.jp/). Congratulations to the Tokyo ACM SIGIR team for establishing this Chapter! Interested […]"
+          },
+          {
+            "level": 1,
+            "heading": "Posts navigation",
+            "text": "Posts navigation &larr; Older posts Find my information..."
+          },
+          {
+            "level": 3,
+            "heading": "Recent Posts",
+            "text": "Recent Posts Call for Nominations for the ACM SIGIR Academy Announcing the SIGIR Early Career Researcher Awards SIGIR Forum June 2020 SIGIR Forum June 2018 Introducing New SIGIR Chapter: Tokyo"
+          },
+          {
+            "level": 3,
+            "heading": "Recent Comments",
+            "text": "Recent Comments"
+          },
+          {
+            "level": 3,
+            "heading": "Archives",
+            "text": "Archives November 2022 June 2020 July 2018 March 2018 June 2017 April 2017 March 2017 January 2017 December 2016 July 2016 June 2016 January 2016 December 2015 June 2015 January 2015 December 2014 November 2014 August 2014 July 2014 April 2014 February 2014 August 2013 July 2013"
+          },
+          {
+            "level": 3,
+            "heading": "Categories",
+            "text": "Categories News"
+          },
+          {
+            "level": 3,
+            "heading": "Meta",
+            "text": "Meta Log in Entries feed Comments feed WordPress.org Acm.org SIGs"
+          }
+        ]
+      },
+      {
+        "date": "2024-09-05T00:00:00.000Z",
+        "timestamp": "20240905215927",
+        "url": "https://web.archive.org/web/20240905215927/https://sigir.org/",
+        "fullText": "One moment, please... Please wait while your request is being verified...",
+        "issues": [
+          {
+            "kind": "short_capture",
+            "detail": "Page text is unusually short — likely incomplete replay"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 0,
+          "linksBeforeMain": 0,
+          "headingCount": 1,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 1,
+          "totalInputs": 1,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Please wait while your request is being verified...",
+            "text": "Please wait while your request is being verified..."
+          }
+        ]
+      },
+      {
+        "date": "2024-09-20T00:00:00.000Z",
+        "timestamp": "20240920202352",
+        "url": "https://web.archive.org/web/20240920202352/https://sigir.org/",
+        "fullText": "One moment, please... Please wait while your request is being verified...",
+        "issues": [
+          {
+            "kind": "short_capture",
+            "detail": "Page text is unusually short — likely incomplete replay"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 0,
+          "linksBeforeMain": 0,
+          "headingCount": 0,
+          "h1Count": 0,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 0,
+          "totalInputs": 0,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": []
+      }
+    ]
+  }
+}

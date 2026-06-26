@@ -1,0 +1,696 @@
+{
+  "mode": "single",
+  "url": "https://doaj.org/",
+  "fromYear": 2015,
+  "toYear": 2024,
+  "focus": "",
+  "coveApplied": true,
+  "selfConsistencySamples": 4,
+  "totalCaptures": 9,
+  "capturesCapped": false,
+  "uniqueCaptures": 9,
+  "selectedCaptures": 9,
+  "firstCapture": "January 2, 2015",
+  "lastCapture": "December 3, 2019",
+  "yearBreakdown": {
+    "2015": 2,
+    "2017": 2,
+    "2018": 2,
+    "2019": 3
+  },
+  "overview": "Corrected changes to the Directory of Open Access Journals (DOAJ) based on snapshot analysis.",
+  "changes": [
+    {
+      "id": 1,
+      "description": "Change in wording of funding model",
+      "type": "wording_change",
+      "section": "null",
+      "period": "Between January 2015 and October 2017",
+      "beforeDate": "January 2, 2015",
+      "afterDate": "October 29, 2017",
+      "beforeText": "There is a new process to have journals indexed in the DOAJ. All journals must apply using our new Application Form . Due to the extensive and detailed information we require, only a journal's publisher should complete the form.",
+      "afterText": "DOAJ is independent. All funding is via donations, 50% of which comes from sponsors and 50% from members and publisher members .",
+      "confidence": "medium",
+      "confidenceReason": "The exact wording of the funding model changed between the two snapshots, but the change could be an archival/replay artifact. Confidence 75/100 — quote match 100%, agreement 75% across samples.",
+      "verificationNotes": "Q1 failed, Q2 failed, Q3 corrected, Q4 confirmed, Q5 confirmed",
+      "stability": 0.75,
+      "beforeUrl": "https://web.archive.org/web/20150102082526/https://doaj.org/",
+      "afterUrl": "https://web.archive.org/web/20171029082146/https://doaj.org/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "wording_change",
+      "archivalReason": "Both versions verified in their captures — a genuine wording/policy change.",
+      "confidenceScore": 75,
+      "changeMagnitude": null
+    },
+    {
+      "id": 2,
+      "description": "Introduction of cookie notice",
+      "type": "content_added",
+      "section": "Latest News",
+      "beforeDate": "January 31, 2019",
+      "afterDate": "December 3, 2019",
+      "beforeText": null,
+      "afterText": "This website uses cookies to ensure you get the best experience. Learn more | Hide this message",
+      "stability": 0.75,
+      "beforeUrl": "https://web.archive.org/web/20190131220902/https://doaj.org/",
+      "afterUrl": "https://web.archive.org/web/20191203013737/https://doaj.org/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "added",
+      "archivalReason": "Content present in the later capture but absent earlier.",
+      "confidence": "medium",
+      "confidenceScore": 75,
+      "changeMagnitude": 68,
+      "confidenceReason": "Confidence 75/100 — quote match 100%, agreement 75% across samples."
+    }
+  ],
+  "changeMagnitudes": [
+    {
+      "from": "January 2, 2015",
+      "to": "January 2, 2015",
+      "dissimilarity": 1,
+      "similarity": 99
+    },
+    {
+      "from": "January 2, 2015",
+      "to": "March 3, 2017",
+      "dissimilarity": 79,
+      "similarity": 21
+    },
+    {
+      "from": "March 3, 2017",
+      "to": "October 29, 2017",
+      "dissimilarity": 78,
+      "similarity": 22
+    },
+    {
+      "from": "October 29, 2017",
+      "to": "February 17, 2018",
+      "dissimilarity": 77,
+      "similarity": 23
+    },
+    {
+      "from": "February 17, 2018",
+      "to": "April 1, 2018",
+      "dissimilarity": 69,
+      "similarity": 31
+    },
+    {
+      "from": "April 1, 2018",
+      "to": "January 31, 2019",
+      "dissimilarity": 72,
+      "similarity": 28
+    },
+    {
+      "from": "January 31, 2019",
+      "to": "December 3, 2019",
+      "dissimilarity": 68,
+      "similarity": 32
+    },
+    {
+      "from": "December 3, 2019",
+      "to": "December 3, 2019",
+      "dissimilarity": 3,
+      "similarity": 97
+    }
+  ],
+  "overallChangeScore": 80,
+  "peakChange": {
+    "from": "January 2, 2015",
+    "to": "March 3, 2017",
+    "dissimilarity": 79,
+    "similarity": 21
+  },
+  "stableContent": [
+    "unchanged topics"
+  ],
+  "replayWarnings": [
+    "10 script resource(s) not preserved in this capture",
+    "9 script resource(s) not preserved in this capture",
+    "11 script resource(s) not preserved in this capture",
+    "12 script resource(s) not preserved in this capture",
+    "13 script resource(s) not preserved in this capture"
+  ],
+  "captureGaps": [
+    "gaps over 60 days",
+    "791-day gap: January 2, 2015 → March 3, 2017",
+    "240-day gap: March 3, 2017 → October 29, 2017",
+    "111-day gap: October 29, 2017 → February 17, 2018",
+    "305-day gap: April 1, 2018 → January 31, 2019",
+    "306-day gap: January 31, 2019 → December 3, 2019"
+  ],
+  "a11yAudit": {
+    "before": "January 2, 2015",
+    "after": "December 3, 2019",
+    "deltas": [
+      {
+        "metric": "Images missing alt text",
+        "before": 21,
+        "after": 1,
+        "direction": "better"
+      },
+      {
+        "metric": "Form inputs without labels",
+        "before": 4,
+        "after": 5,
+        "direction": "worse"
+      }
+    ],
+    "findings": [
+      "Ambiguous links: \"read more...\" ×3."
+    ],
+    "verdict": "No clear accessibility trend detected."
+  },
+  "privacy": null,
+  "keySnapshots": [
+    {
+      "timestamp": "20150102082526",
+      "date": "January 2, 2015",
+      "url": "https://web.archive.org/web/20150102082526/https://doaj.org/",
+      "issues": [
+        "10 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 2
+    },
+    {
+      "timestamp": "20150102094641",
+      "date": "January 2, 2015",
+      "url": "https://web.archive.org/web/20150102094641/https://doaj.org/",
+      "issues": [
+        "10 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 2
+    },
+    {
+      "timestamp": "20170303131352",
+      "date": "March 3, 2017",
+      "url": "https://web.archive.org/web/20170303131352/https://doaj.org/",
+      "issues": [
+        "9 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 2
+    },
+    {
+      "timestamp": "20171029082146",
+      "date": "October 29, 2017",
+      "url": "https://web.archive.org/web/20171029082146/https://doaj.org/",
+      "issues": [
+        "11 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 2
+    },
+    {
+      "timestamp": "20180217185306",
+      "date": "February 17, 2018",
+      "url": "https://web.archive.org/web/20180217185306/https://doaj.org/",
+      "issues": [
+        "11 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 2
+    },
+    {
+      "timestamp": "20180401074340",
+      "date": "April 1, 2018",
+      "url": "https://web.archive.org/web/20180401074340/https://doaj.org/",
+      "issues": [
+        "12 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 2
+    },
+    {
+      "timestamp": "20190131220902",
+      "date": "January 31, 2019",
+      "url": "https://web.archive.org/web/20190131220902/https://doaj.org/",
+      "issues": [
+        "13 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 2
+    },
+    {
+      "timestamp": "20191203013737",
+      "date": "December 3, 2019",
+      "url": "https://web.archive.org/web/20191203013737/https://doaj.org/",
+      "issues": [
+        "9 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 2
+    },
+    {
+      "timestamp": "20191203161620",
+      "date": "December 3, 2019",
+      "url": "https://web.archive.org/web/20191203161620/https://doaj.org/",
+      "issues": [
+        "9 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 2
+    }
+  ],
+  "_rescore": {
+    "schema": 1,
+    "params": {
+      "url": "https://doaj.org/",
+      "fromYear": 2015,
+      "toYear": 2024,
+      "focus": ""
+    },
+    "ai": {
+      "changes": [
+        {
+          "id": 2,
+          "description": "Change in wording of funding model",
+          "type": "wording_change",
+          "section": "null",
+          "period": "Between January 2015 and October 2017",
+          "beforeDate": "January 2, 2015",
+          "afterDate": "October 29, 2017",
+          "beforeText": "There is a new process to have journals indexed in the DOAJ. All journals must apply using our new Application Form . Due to the extensive and detailed information we require, only a journal's publisher should complete the form.",
+          "afterText": "DOAJ is independent. All funding is via donations, 50% of which comes from sponsors and 50% from members and publisher members .",
+          "confidence": "medium",
+          "confidenceReason": "The exact wording of the funding model changed between the two snapshots, but the change could be an archival/replay artifact.",
+          "verificationNotes": "Q1 failed, Q2 failed, Q3 corrected, Q4 confirmed, Q5 confirmed",
+          "stability": 0.75
+        },
+        {
+          "id": 5,
+          "description": "Introduction of cookie notice",
+          "type": "content_added",
+          "section": null,
+          "beforeDate": "January 31, 2019",
+          "afterDate": "December 3, 2019",
+          "beforeText": null,
+          "afterText": "This website uses cookies to ensure you get the best experience. Learn more | Hide this message",
+          "stability": 0.75
+        }
+      ],
+      "overview": "Corrected changes to the Directory of Open Access Journals (DOAJ) based on snapshot analysis.",
+      "coveApplied": true,
+      "samples": 4,
+      "stableContent": [
+        "unchanged topics"
+      ],
+      "captureGaps": [
+        "gaps over 60 days"
+      ]
+    },
+    "captureCounts": {
+      "total": 9,
+      "unique": 9,
+      "selected": 9
+    },
+    "snapshots": [
+      {
+        "date": "2015-01-02T00:00:00.000Z",
+        "timestamp": "20150102082526",
+        "url": "https://web.archive.org/web/20150102082526/https://doaj.org/",
+        "fullText": "Directory of Open Access Journals SUPPORT DOAJ Home Search Apply News About For Publishers Login journals articles [Advanced Search] Directory of Open Access Journals (DOAJ) DOAJ is an online directory that indexes and provides access to quality open access, peer-reviewed journals. There is a new process to have journals indexed in the DOAJ. All journals must apply using our new Application Form . Due to the extensive and detailed information we require, only a journal's publisher should complete the form. Latest News Seasons Greetings We would like to thank all of you for what has turned out to be a wonderful and successful year for DOAJ: we launched our advanced application form and created our network of voluntary Associate Editors and Editors who help us process reapplications and new applications. The DOAJ Team is particularly grateful this year to [&#8230;] Read More... Tue, 23 Dec 2014 at 09:25 Reapplications: are your journals ready? Are you ready? We&#8217;re almost there! Testing is underway and the final pieces are fitting into place. REMEMBER: all journals that were accepted into DOAJ before March 2014 MUST reapply to remain indexed in the Directory. Are you ready to reapply? We&#8217;ll be opening the reapplication system soon so it&#8217;s important that, if you are responsible for a [&#8230;] Read More... Mon, 15 Dec 2014 at 09:30 Update on our reapplication process I just read a great post in the Digital Commons&#8217; DC Telegraph which has prompted me to write a little update of where we are with the reapplication process that we have been speaking about—that is, the process where all existing journals in DOAJ have to reapply to stay indexed. As happens with some development [&#8230;] Read More... Wed, 26 Nov 2014 at 18:18 Read more DOAJ news on our news page 10,135 Journals 6,035 searchable at Article level 136 Countries 1,814,694 Articles News --> FAQs Features Open Access Information Best Practice Download metadata New Journals Feed Our sponsors Our members Our publisher members &copy; 2014 DOAJ. This work is licensed under CC BY-SA Contact us / IS4OA / Cottage Labs LLP",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "10 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 60,
+          "linksBeforeMain": 55,
+          "headingCount": 2,
+          "h1Count": 0,
+          "imgsNoAlt": 21,
+          "totalImgs": 26,
+          "inputsNoLabel": 4,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more...",
+              "count": 3
+            }
+          ],
+          "footerLinks": 24
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "Directory of Open Access Journals (DOAJ)",
+            "text": "Directory of Open Access Journals (DOAJ) DOAJ is an online directory that indexes and provides access to quality open access, peer-reviewed journals. There is a new process to have journals indexed in the DOAJ. All journals must apply using our new Application Form . Due to the extensive and detailed information we require, only a journal's publisher should complete the form."
+          },
+          {
+            "level": 2,
+            "heading": "Latest News",
+            "text": "Latest News Seasons Greetings We would like to thank all of you for what has turned out to be a wonderful and successful year for DOAJ: we launched our advanced application form and created our network of voluntary Associate Editors and Editors who help us process reapplications and new applications. The DOAJ Team is particularly grateful this year to [&#8230;] Read More... Tue, 23 Dec 2014 at 09:25 Reapplications: are your journals ready? Are you ready? We&#8217;re almost there! Testing is underway and the final pieces are fitting into place. REMEMBER: all journals that were accepted into DOA"
+          }
+        ]
+      },
+      {
+        "date": "2015-01-02T00:00:00.000Z",
+        "timestamp": "20150102094641",
+        "url": "https://web.archive.org/web/20150102094641/https://doaj.org/",
+        "fullText": "Directory of Open Access Journals SUPPORT DOAJ Home Search Apply News About For Publishers Login journals articles [Advanced Search] Directory of Open Access Journals (DOAJ) DOAJ is an online directory that indexes and provides access to quality open access, peer-reviewed journals. There is a new process to have journals indexed in the DOAJ. All journals must apply using our new Application Form . Due to the extensive and detailed information we require, only a journal's publisher should complete the form. Latest News Seasons Greetings We would like to thank all of you for what has turned out to be a wonderful and successful year for DOAJ: we launched our advanced application form and created our network of voluntary Associate Editors and Editors who help us process reapplications and new applications. The DOAJ Team is particularly grateful this year to [&#8230;] Read More... Tue, 23 Dec 2014 at 09:25 Reapplications: are your journals ready? Are you ready? We&#8217;re almost there! Testing is underway and the final pieces are fitting into place. REMEMBER: all journals that were accepted into DOAJ before March 2014 MUST reapply to remain indexed in the Directory. Are you ready to reapply? We&#8217;ll be opening the reapplication system soon so it&#8217;s important that, if you are responsible for a [&#8230;] Read More... Mon, 15 Dec 2014 at 09:30 Update on our reapplication process I just read a great post in the Digital Commons&#8217; DC Telegraph which has prompted me to write a little update of where we are with the reapplication process that we have been speaking about—that is, the process where all existing journals in DOAJ have to reapply to stay indexed. As happens with some development [&#8230;] Read More... Wed, 26 Nov 2014 at 18:18 Read more DOAJ news on our news page 10,135 Journals 6,035 searchable at Article level 136 Countries 1,814,700 Articles News --> FAQs Features Open Access Information Best Practice Download metadata New Journals Feed Our sponsors Our members Our publisher members &copy; 2014 DOAJ. This work is licensed under CC BY-SA Contact us / IS4OA / Cottage Labs LLP",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "10 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 60,
+          "linksBeforeMain": 55,
+          "headingCount": 2,
+          "h1Count": 0,
+          "imgsNoAlt": 21,
+          "totalImgs": 26,
+          "inputsNoLabel": 4,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more...",
+              "count": 3
+            }
+          ],
+          "footerLinks": 24
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "Directory of Open Access Journals (DOAJ)",
+            "text": "Directory of Open Access Journals (DOAJ) DOAJ is an online directory that indexes and provides access to quality open access, peer-reviewed journals. There is a new process to have journals indexed in the DOAJ. All journals must apply using our new Application Form . Due to the extensive and detailed information we require, only a journal's publisher should complete the form."
+          },
+          {
+            "level": 2,
+            "heading": "Latest News",
+            "text": "Latest News Seasons Greetings We would like to thank all of you for what has turned out to be a wonderful and successful year for DOAJ: we launched our advanced application form and created our network of voluntary Associate Editors and Editors who help us process reapplications and new applications. The DOAJ Team is particularly grateful this year to [&#8230;] Read More... Tue, 23 Dec 2014 at 09:25 Reapplications: are your journals ready? Are you ready? We&#8217;re almost there! Testing is underway and the final pieces are fitting into place. REMEMBER: all journals that were accepted into DOA"
+          }
+        ]
+      },
+      {
+        "date": "2017-03-03T00:00:00.000Z",
+        "timestamp": "20170303131352",
+        "url": "https://web.archive.org/web/20170303131352/https://doaj.org/",
+        "fullText": "Directory of Open Access Journals --> SUPPORT DOAJ Home Search Browse Subjects Apply News About For Publishers API Login journals articles [Advanced Search] Directory of Open Access Journals (DOAJ) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. Latest News ScienceOpen and DOAJ combine efforts to make scholarly publishing more visible Guidelines for free indexing applicants Publishing can be a big, expensive business, or it can be done on a small scale by research communities themselves – by researchers for researchers. For very narrow topics and small communities it can make sense to just do it yourself and there are wide range of journals that offer [&#8230;] Read More... Tue, 28 Feb 2017 at 11:52 DOAJ EDITORS ON THE EFFECTS OF THE NEW DOAJ CRITERIA This is a guest post by Andrea Marchitelli, Paola Galimberti and Andrea Bollini, who write about their experience of being DOAJ editors and their published paper: &#8220;Helping journals to improve their publishing standards: a data analysis of DOAJ new criteria effects&#8221; After DOAJ implemented new criteria for inclusion of open access journals and invited all [&#8230;] Read More... Wed, 15 Feb 2017 at 08:21 Continued support from Austria to DOAJ We are happy to announce that Austria is continuing its strong support to DOAJ. As we informed last year universities, research centers, the Austrian Science Fund (FWF) and the Federal Ministry of Science, Research and Economy (BMWFW) decided to support the work we do, generating more than € 30,000 to DOAJ. We are extremely grateful [&#8230;] Read More... Mon, 06 Feb 2017 at 10:20 Read more DOAJ news on our news page 9,389 Journals 6,747 searchable at Article level 128 Countries 2,436,631 Articles News --> FAQs Interacting with DOAJ Open Access Information Best Practice Download metadata New Journals Feed Our members Our publisher members Our sponsors Our volunteers SUPPORT DOAJ &copy; 2017 DOAJ. The DOAJ site and its metadata are licensed under CC BY-SA Contact us / IS4OA / Cottage Labs LLP",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "9 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 78,
+          "linksBeforeMain": 73,
+          "headingCount": 2,
+          "h1Count": 0,
+          "imgsNoAlt": 1,
+          "totalImgs": 39,
+          "inputsNoLabel": 4,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more...",
+              "count": 3
+            }
+          ],
+          "footerLinks": 37
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "Directory of Open Access Journals (DOAJ)",
+            "text": "Directory of Open Access Journals (DOAJ) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals."
+          },
+          {
+            "level": 2,
+            "heading": "Latest News",
+            "text": "Latest News ScienceOpen and DOAJ combine efforts to make scholarly publishing more visible Guidelines for free indexing applicants Publishing can be a big, expensive business, or it can be done on a small scale by research communities themselves – by researchers for researchers. For very narrow topics and small communities it can make sense to just do it yourself and there are wide range of journals that offer [&#8230;] Read More... Tue, 28 Feb 2017 at 11:52 DOAJ EDITORS ON THE EFFECTS OF THE NEW DOAJ CRITERIA This is a guest post by Andrea Marchitelli, Paola Galimberti and Andrea Bollini, who"
+          }
+        ]
+      },
+      {
+        "date": "2017-10-29T00:00:00.000Z",
+        "timestamp": "20171029082146",
+        "url": "https://web.archive.org/web/20171029082146/https://doaj.org/",
+        "fullText": "Directory of Open Access Journals --> SUPPORT DOAJ Home Search Browse Subjects Apply News About For Publishers API Login journals articles [Advanced Search] Directory of Open Access Journals (DOAJ) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 50% of which comes from sponsors and 50% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. Latest News DOAJ and SCIENTIFIC KNOWLEDGE SERVICES partner to achieve broader support for Open Access to scientific literature The new agreement underpins the Directory of Open Access Journals in its work to reach new members and generate more support and shows the strong commitment of Scientific Knowledge Services to the Open Science movement. &#160; DOAJ announces the agreement with Scientific Knowledge Services (SKS) as its exclusive agent in a selection of countries from [&#8230;] Read More... Published Thu, 19 Oct 2017 at 13:43 Parts of DOAJ metadata in my catalogue/discovery service/A-Z List have changed, are out-of-date or are missing completely. Why? It&#8217;s time to update your index and/or ask your discovery service provider to do so! We have received several messages via our Feedback account from library catalogue administrators, their readers, and researchers asking why all of a sudden so many of the articles indexed from DOAJ are now missing? Within library catalogues, users are perhaps [&#8230;] Read More... Published Mon, 25 Sep 2017 at 06:06 DOAJ gets its first sponsor from Mexico! &#124; ¡DOAJ consigue su primer patrocinador de México! DOAJ has had excellent connections and representation throughout Latin America for many years, thanks to previous work by Redalyc, sponsorship from SciElo and, more recently, our fantastic DOAJ Latin America Ambassador. This week we welcome our first sponsor from Mexico: the Tecnológico de Monterrey. This sponsorship is of great importance to both DOAJ and the open [&#8230;] Read More... Published Fri, 25 Aug 2017 at 07:00 Read more DOAJ news on our news page 10,293 Journals 7,437 searchable at Article level 121 Countries 2,652,030 Articles News --> FAQs Interacting with DOAJ Open Access Information Best Practice Download metadata New Journals Feed Our members Our publisher members Our sponsors Our volunteers SUPPORT DOAJ &copy; 2017 DOAJ. The DOAJ site and its metadata are licensed under CC BY-SA Contact us / IS4OA / Cottage Labs LLP",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "11 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 84,
+          "linksBeforeMain": 79,
+          "headingCount": 2,
+          "h1Count": 0,
+          "imgsNoAlt": 1,
+          "totalImgs": 43,
+          "inputsNoLabel": 4,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more...",
+              "count": 3
+            }
+          ],
+          "footerLinks": 41
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "Directory of Open Access Journals (DOAJ)",
+            "text": "Directory of Open Access Journals (DOAJ) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 50% of which comes from sponsors and 50% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available."
+          },
+          {
+            "level": 2,
+            "heading": "Latest News",
+            "text": "Latest News DOAJ and SCIENTIFIC KNOWLEDGE SERVICES partner to achieve broader support for Open Access to scientific literature The new agreement underpins the Directory of Open Access Journals in its work to reach new members and generate more support and shows the strong commitment of Scientific Knowledge Services to the Open Science movement. &#160; DOAJ announces the agreement with Scientific Knowledge Services (SKS) as its exclusive agent in a selection of countries from [&#8230;] Read More... Published Thu, 19 Oct 2017 at 13:43 Parts of DOAJ metadata in my catalogue/discovery service/A-Z "
+          }
+        ]
+      },
+      {
+        "date": "2018-02-17T00:00:00.000Z",
+        "timestamp": "20180217185306",
+        "url": "https://web.archive.org/web/20180217185306/https://doaj.org/",
+        "fullText": "Directory of Open Access Journals --> SUPPORT DOAJ Home Search Browse Subjects Apply News About For Publishers API Login journals articles [Advanced Search] Directory of Open Access Journals (DOAJ) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 50% of which comes from sponsors and 50% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. DOAJ operates an education and outreach program across the globe, focussing on improving the quality of applications submitted. Latest News Open Access in the Francophone Global South: Between Collective Empowerment and Neocolonialism This is a guest post by Florence Piron from Université Laval, Québec, Canada. An anthropologist and ethicist, Florence Piron is a professor in the Department of Information and Communication at Université Laval where she teaches courses on ethics and democracy. She is the founding President of the Association for Science and Common Good and its open [&#8230;] Read More... Published Wed, 14 Feb 2018 at 14:33 New Sponsorship Model from 2018 From January 2018, DOAJ has introduced a tiered system of sponsorship &#8211; a structure which is tried and tested and that, we believe, will meet our current sponsors’ expectations and hopefully raise our appeal to new sponsors. To make sure that the model remains realistic, we have tiered pricing for both commercial and non-commercial entities. [&#8230;] Read More... Published Fri, 02 Feb 2018 at 13:32 DOAJ launches the DOAJ Best Practice Guide DOAJ has launched the DOAJ Best Practice Guide. The Guide is a web resource that provides selection criteria, resources and tools for the identification of reputable open access journals to support researchers, publishers and librarians in their search of best practice and transparency standards. It is also an attempt to collect discussions about open access to publications and its development. It is developed [&#8230;] Read More... Published Tue, 30 Jan 2018 at 11:26 Read more DOAJ news on our news page 11,182 Journals 8,122 searchable at Article level 123 Countries 2,912,231 Articles News --> FAQs OAI-PMH, XML, Widgets Open Access Resources Best Practice Download metadata New Journals Feed SCOSS: facilitating funding for sustainable OA Our members Our publisher members Our sponsors Our volunteers SUPPORT DOAJ &copy; 2018 DOAJ. The DOAJ site and its metadata are licensed under CC BY-SA Contact us / IS4OA / Cottage Labs LLP",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "11 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 48,
+          "linksBeforeMain": 43,
+          "headingCount": 2,
+          "h1Count": 0,
+          "imgsNoAlt": 1,
+          "totalImgs": 3,
+          "inputsNoLabel": 4,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more...",
+              "count": 3
+            }
+          ],
+          "footerLinks": 4
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "Directory of Open Access Journals (DOAJ)",
+            "text": "Directory of Open Access Journals (DOAJ) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 50% of which comes from sponsors and 50% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. DOAJ operates an education and outreach program across the globe, focussing on improving the quality of applications submitted."
+          },
+          {
+            "level": 2,
+            "heading": "Latest News",
+            "text": "Latest News Open Access in the Francophone Global South: Between Collective Empowerment and Neocolonialism This is a guest post by Florence Piron from Université Laval, Québec, Canada. An anthropologist and ethicist, Florence Piron is a professor in the Department of Information and Communication at Université Laval where she teaches courses on ethics and democracy. She is the founding President of the Association for Science and Common Good and its open [&#8230;] Read More... Published Wed, 14 Feb 2018 at 14:33 New Sponsorship Model from 2018 From January 2018, DOAJ has introduced a tiered sy"
+          }
+        ]
+      },
+      {
+        "date": "2018-04-01T00:00:00.000Z",
+        "timestamp": "20180401074340",
+        "url": "https://web.archive.org/web/20180401074340/https://doaj.org/",
+        "fullText": "Directory of Open Access Journals --> SUPPORT DOAJ Home Search Browse Subjects Apply News About For Publishers API Login journals articles [Advanced Search] Directory of Open Access Journals (DOAJ) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 50% of which comes from sponsors and 50% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. DOAJ operates an education and outreach program across the globe, focussing on improving the quality of applications submitted. Latest News Extended downtime &#8211; Wed 21st March 2018 DOAJ will be offline for approximately 8.5 hours from 12.50-21.10 UTC, or 12.50 to 21.10 GMT on Wednesday 21st March 2018. DOAJ will experience an extended period of downtime on Wednesday 21st March 2018 while our hosting service, Digital Ocean, installs some important security fixes: On January 4, 2018, multiple vulnerabilities in the design of [&#8230;] Read More... Published Tue, 20 Mar 2018 at 13:00 Update on discontinued journals DOAJ will remove all journals that have ceased to publish unless they are continued by another title. Although reversing a previous decision, we have taken this step after careful consideration in order to keep our metadata as relevant and as accurate as possible. Although there are clear advantages to retaining published articles from discontinued journals, there [&#8230;] Read More... Published Mon, 19 Mar 2018 at 08:53 WARNING: doaj.co, doaj.net &#160; Two URLs have been brought to our attention which I wanted to alert the community to. The first, doaj.co, has been made to look just like DOAJ and the second, doaj.net, has been set up to look like a journal. Please be extremely wary of both of these URLs. Neither of these sites are [&#8230;] Read More... Published Fri, 09 Mar 2018 at 10:11 Read more DOAJ news on our news page 11,105 Journals 8,045 searchable at Article level 124 Countries 2,984,682 Articles News --> FAQs OAI-PMH, XML, Widgets Open Access Resources Best Practice Download metadata New Journals Feed SCOSS: facilitating funding for sustainable OA Our members Our publisher members Our sponsors Our volunteers SUPPORT DOAJ &copy; 2018 DOAJ. The DOAJ site and its metadata are licensed under CC BY-SA Contact us / IS4OA / Cottage Labs LLP",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "12 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 49,
+          "linksBeforeMain": 43,
+          "headingCount": 2,
+          "h1Count": 0,
+          "imgsNoAlt": 1,
+          "totalImgs": 3,
+          "inputsNoLabel": 5,
+          "totalInputs": 5,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more...",
+              "count": 3
+            }
+          ],
+          "footerLinks": 4
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "Directory of Open Access Journals (DOAJ)",
+            "text": "Directory of Open Access Journals (DOAJ) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 50% of which comes from sponsors and 50% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. DOAJ operates an education and outreach program across the globe, focussing on improving the quality of applications submitted."
+          },
+          {
+            "level": 2,
+            "heading": "Latest News",
+            "text": "Latest News Extended downtime &#8211; Wed 21st March 2018 DOAJ will be offline for approximately 8.5 hours from 12.50-21.10 UTC, or 12.50 to 21.10 GMT on Wednesday 21st March 2018. DOAJ will experience an extended period of downtime on Wednesday 21st March 2018 while our hosting service, Digital Ocean, installs some important security fixes: On January 4, 2018, multiple vulnerabilities in the design of [&#8230;] Read More... Published Tue, 20 Mar 2018 at 13:00 Update on discontinued journals DOAJ will remove all journals that have ceased to publish unless they are continued by another title. A"
+          }
+        ]
+      },
+      {
+        "date": "2019-01-31T00:00:00.000Z",
+        "timestamp": "20190131220902",
+        "url": "https://web.archive.org/web/20190131220902/https://doaj.org/",
+        "fullText": "Directory of Open Access Journals --> SUPPORT DOAJ Home Search Browse Subjects Apply News About For Publishers API Login journals articles [Advanced Search] DOAJ (Directory of Open Access Journals) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 40% of which comes from sponsors and 60% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. DOAJ operates an education and outreach program across the globe, focussing on improving the quality of applications submitted. Latest News RESOLVED: DOAJ IN READ-ONLY MODE 30th January UPDATE: Our maintenance work completed successfully yesterday and read only mode for DOAJ has been disabled. All functions are working as normal. The DOAJ will be in read-only mode from 20:00 to 22:00 CET on Wednesday 30th January. This will affect usual functionality of DOAJ in four main areas. There may also be a brief [&#8230;] Read More... Published Wed, 30 Jan 2019 at 08:51 First institution from the Middle East to support DOAJ! We are very happy to be able to welcome King Abdullah University of Science &#38; Technology, Kingdom of Saudi Arabia as the first institution from the Middle East to support DOAJ based on the recommedations of SCOSS (www.scoss.org). J. K. Vijayakumar (Vijay), Library Director says: &#8220;As a strong supporter of Open Access movement and as [&#8230;] Read More... Published Fri, 11 Jan 2019 at 17:28 Large Scale Publisher Survey reveals Global Trends in Open Access Publishing 9th January 2019 &#8211; A survey of publishers with journals indexed in DOAJ (Directory of Open Access Journals) has revealed surprising trends in the way that content is published; what types of organisations are publishing the content; on how publishing standards are being accepted globally; and geographical trends on the uptake of open access. The [&#8230;] Read More... Published Wed, 09 Jan 2019 at 08:12 Read more DOAJ news on our news page 12,522 Journals 9,602 searchable at Article level 129 Countries 3,719,763 Articles News --> FAQs OAI-PMH, XML, Widgets Open Access Resources Transparency & Best Practice Download metadata Journals Added/Removed New Journals Feed Funding for sustainable Open Access (incl. SCOSS) Our members Our publisher members Our sponsors Our volunteers SUPPORT DOAJ Gold Sponsor Our other sponsors &copy; 2019 DOAJ. The DOAJ site and its metadata are licensed under CC BY-SA Privacy / Contact us / IS4OA / Cottage Labs LLP",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "13 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 53,
+          "linksBeforeMain": 47,
+          "headingCount": 2,
+          "h1Count": 0,
+          "imgsNoAlt": 1,
+          "totalImgs": 4,
+          "inputsNoLabel": 5,
+          "totalInputs": 5,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more...",
+              "count": 3
+            }
+          ],
+          "footerLinks": 7
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "DOAJ (Directory of Open Access Journals)",
+            "text": "DOAJ (Directory of Open Access Journals) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 40% of which comes from sponsors and 60% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. DOAJ operates an education and outreach program across the globe, focussing on improving the quality of applications submitted."
+          },
+          {
+            "level": 2,
+            "heading": "Latest News",
+            "text": "Latest News RESOLVED: DOAJ IN READ-ONLY MODE 30th January UPDATE: Our maintenance work completed successfully yesterday and read only mode for DOAJ has been disabled. All functions are working as normal. The DOAJ will be in read-only mode from 20:00 to 22:00 CET on Wednesday 30th January. This will affect usual functionality of DOAJ in four main areas. There may also be a brief [&#8230;] Read More... Published Wed, 30 Jan 2019 at 08:51 First institution from the Middle East to support DOAJ! We are very happy to be able to welcome King Abdullah University of Science &#38; Technology, Kingdom of"
+          }
+        ]
+      },
+      {
+        "date": "2019-12-03T00:00:00.000Z",
+        "timestamp": "20191203013737",
+        "url": "https://web.archive.org/web/20191203013737/https://doaj.org/",
+        "fullText": "Directory of Open Access Journals This website uses cookies to ensure you get the best experience. Learn more | Hide this message SUPPORT DOAJ Toggle navigation DOAJ (current) Search Browse Subjects Apply News About For Publishers API Login Search DOAJ journals articles [Advanced Search] DOAJ (Directory of Open Access Journals) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 40% of which comes from sponsors and 60% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. DOAJ operates an education and outreach program across the globe, focussing on improving the quality of applications submitted. Why index your journal in DOAJ? Latest News We have removed the Seal from more than 40 journals DOAJ constantly reviews existing records in DOAJ to ensure that they meet DOAJ criteria, particularly those with the Seal. Recently 1432 journals in DOAJ had the Seal. Today that number is 1339. Journals that have been awarded the Seal adhere to outstanding best practice and meet to our 7 carefully chosen criteria. These criteria are [&#8230;] Read More... Published Tue, 05 Nov 2019 at 07:36 Guest post: Overview of the African Open Access Landscape, with a Focus on Scholarly Publishing This is a guest post by Ina Smith, our Ambassador for Southern Africa. Ina managed the pilot for the African Open Science Platform project from October 2016 until October 2019. She holds a Master’s Degree from the University of Pretoria (South Africa) in Computer-Integrated Education, a Higher Education Teaching Diploma, and two degrees (BBibl and [&#8230;] Read More... Published Fri, 11 Oct 2019 at 12:51 OAPEN joins Think. Check. Submit. OAPEN (Open Access Publishing in European Networks) has joined the group of organisations endorsing the Think. Check. Submit. (TCS) initiative. This is an obvious yet important strategic development for TCS as there is as much need for the TCS tools and resources in the world of books, as in the world of journals. The addition [&#8230;] Read More... Published Mon, 07 Oct 2019 at 09:00 Read more DOAJ news on our news page 14,023 Journals 11,075 searchable at Article level 130 Countries 4,461,440 Articles News --> FAQs OAI-PMH, XML, Widgets Open Access Resources Transparency & Best Practice Download metadata Journals Added/Removed New Journals Feed Funding for sustainable Open Access (incl. SCOSS) Our members Our publisher members Our sponsors Our volunteers SUPPORT DOAJ &copy; 2019 DOAJ. The DOAJ site and its metadata are licensed under CC BY-SA Privacy / Contact us / IS4OA / Cottage Labs LLP",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "9 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 54,
+          "linksBeforeMain": 47,
+          "headingCount": 2,
+          "h1Count": 0,
+          "imgsNoAlt": 1,
+          "totalImgs": 3,
+          "inputsNoLabel": 5,
+          "totalInputs": 5,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more...",
+              "count": 3
+            }
+          ],
+          "footerLinks": 5
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "DOAJ (Directory of Open Access Journals)",
+            "text": "DOAJ (Directory of Open Access Journals) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 40% of which comes from sponsors and 60% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. DOAJ operates an education and outreach program across the globe, focussing on improving the quality of applications submitted. Why index your journal in DOAJ?"
+          },
+          {
+            "level": 2,
+            "heading": "Latest News",
+            "text": "Latest News We have removed the Seal from more than 40 journals DOAJ constantly reviews existing records in DOAJ to ensure that they meet DOAJ criteria, particularly those with the Seal. Recently 1432 journals in DOAJ had the Seal. Today that number is 1339. Journals that have been awarded the Seal adhere to outstanding best practice and meet to our 7 carefully chosen criteria. These criteria are [&#8230;] Read More... Published Tue, 05 Nov 2019 at 07:36 Guest post: Overview of the African Open Access Landscape, with a Focus on Scholarly Publishing This is a guest post by Ina Smith, our Ambass"
+          }
+        ]
+      },
+      {
+        "date": "2019-12-03T00:00:00.000Z",
+        "timestamp": "20191203161620",
+        "url": "https://web.archive.org/web/20191203161620/https://doaj.org/",
+        "fullText": "Directory of Open Access Journals This website uses cookies to ensure you get the best experience. Learn more | Hide this message SUPPORT DOAJ Toggle navigation DOAJ (current) Search Browse Subjects Apply News About For Publishers API Login Search DOAJ journals articles [Advanced Search] DOAJ (Directory of Open Access Journals) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 40% of which comes from sponsors and 60% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. DOAJ operates an education and outreach program across the globe, focussing on improving the quality of applications submitted. Why index your journal in DOAJ? Latest News We have removed the Seal from more than 40 journals DOAJ constantly reviews existing records in DOAJ to ensure that they meet DOAJ criteria, particularly those with the Seal. Recently 1432 journals in DOAJ had the Seal. Today that number is 1339. Journals that have been awarded the Seal adhere to outstanding best practice and meet to our 7 carefully chosen criteria. These criteria are [&#8230;] Read More... Published Tue, 05 Nov 2019 at 07:36 Guest post: Overview of the African Open Access Landscape, with a Focus on Scholarly Publishing This is a guest post by Ina Smith, our Ambassador for Southern Africa. Ina managed the pilot for the African Open Science Platform project from October 2016 until October 2019. She holds a Master’s Degree from the University of Pretoria (South Africa) in Computer-Integrated Education, a Higher Education Teaching Diploma, and two degrees (BBibl and [&#8230;] Read More... Published Fri, 11 Oct 2019 at 12:51 OAPEN joins Think. Check. Submit. OAPEN (Open Access Publishing in European Networks) has joined the group of organisations endorsing the Think. Check. Submit. (TCS) initiative. This is an obvious yet important strategic development for TCS as there is as much need for the TCS tools and resources in the world of books, as in the world of journals. The addition [&#8230;] Read More... Published Mon, 07 Oct 2019 at 09:00 Read more DOAJ news on our news page 14,026 Journals 11,078 searchable at Article level 130 Countries 4,463,205 Articles News --> FAQs OAI-PMH, XML, Widgets Open Access Resources Transparency & Best Practice Download metadata Journals Added/Removed New Journals Feed Funding for sustainable Open Access (incl. SCOSS) Our members Our publisher members Our sponsors Our volunteers SUPPORT DOAJ &copy; 2019 DOAJ. The DOAJ site and its metadata are licensed under CC BY-SA Privacy / Contact us / IS4OA / Cottage Labs LLP",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "9 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 54,
+          "linksBeforeMain": 47,
+          "headingCount": 2,
+          "h1Count": 0,
+          "imgsNoAlt": 1,
+          "totalImgs": 3,
+          "inputsNoLabel": 5,
+          "totalInputs": 5,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more...",
+              "count": 3
+            }
+          ],
+          "footerLinks": 5
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "DOAJ (Directory of Open Access Journals)",
+            "text": "DOAJ (Directory of Open Access Journals) DOAJ is a community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals. DOAJ is independent. All funding is via donations, 40% of which comes from sponsors and 60% from members and publisher members . All DOAJ services are free of charge including being indexed in DOAJ. All data is freely available. DOAJ operates an education and outreach program across the globe, focussing on improving the quality of applications submitted. Why index your journal in DOAJ?"
+          },
+          {
+            "level": 2,
+            "heading": "Latest News",
+            "text": "Latest News We have removed the Seal from more than 40 journals DOAJ constantly reviews existing records in DOAJ to ensure that they meet DOAJ criteria, particularly those with the Seal. Recently 1432 journals in DOAJ had the Seal. Today that number is 1339. Journals that have been awarded the Seal adhere to outstanding best practice and meet to our 7 carefully chosen criteria. These criteria are [&#8230;] Read More... Published Tue, 05 Nov 2019 at 07:36 Guest post: Overview of the African Open Access Landscape, with a Focus on Scholarly Publishing This is a guest post by Ina Smith, our Ambass"
+          }
+        ]
+      }
+    ]
+  },
+  "backend": "groq:llama-3.1-8b-instant"
+}

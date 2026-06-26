@@ -1,0 +1,1124 @@
+{
+  "mode": "single",
+  "url": "https://archive.org/about/",
+  "fromYear": 2015,
+  "toYear": 2024,
+  "focus": "",
+  "coveApplied": false,
+  "selfConsistencySamples": 2,
+  "totalCaptures": 9,
+  "capturesCapped": false,
+  "uniqueCaptures": 9,
+  "selectedCaptures": 9,
+  "firstCapture": "January 2, 2015",
+  "lastCapture": "March 25, 2019",
+  "yearBreakdown": {
+    "2015": 4,
+    "2016": 1,
+    "2017": 1,
+    "2019": 3
+  },
+  "overview": "The Internet Archive's About page underwent significant changes between January 2015 and March 2019, with the addition and removal of sections, and updates to the search functionality and navigation.",
+  "changes": [],
+  "changeMagnitudes": [
+    {
+      "from": "January 2, 2015",
+      "to": "January 3, 2015",
+      "dissimilarity": 0,
+      "similarity": 100
+    },
+    {
+      "from": "January 3, 2015",
+      "to": "September 16, 2015",
+      "dissimilarity": 77,
+      "similarity": 23
+    },
+    {
+      "from": "September 16, 2015",
+      "to": "September 18, 2015",
+      "dissimilarity": 69,
+      "similarity": 31
+    },
+    {
+      "from": "September 18, 2015",
+      "to": "July 14, 2016",
+      "dissimilarity": 7,
+      "similarity": 93
+    },
+    {
+      "from": "July 14, 2016",
+      "to": "February 19, 2017",
+      "dissimilarity": 68,
+      "similarity": 32
+    },
+    {
+      "from": "February 19, 2017",
+      "to": "January 16, 2019",
+      "dissimilarity": 30,
+      "similarity": 70
+    },
+    {
+      "from": "January 16, 2019",
+      "to": "March 25, 2019",
+      "dissimilarity": 26,
+      "similarity": 74
+    },
+    {
+      "from": "March 25, 2019",
+      "to": "March 25, 2019",
+      "dissimilarity": 0,
+      "similarity": 100
+    }
+  ],
+  "overallChangeScore": 78,
+  "peakChange": {
+    "from": "January 3, 2015",
+    "to": "September 16, 2015",
+    "dissimilarity": 77,
+    "similarity": 23
+  },
+  "stableContent": [
+    "Project Gutenberg Biodiversity Heritage Library Children's Library Open Library"
+  ],
+  "replayWarnings": [
+    "2 script resource(s) not preserved in this capture",
+    "5 script resource(s) not preserved in this capture",
+    "4 script resource(s) not preserved in this capture",
+    "6 script resource(s) not preserved in this capture",
+    "7 script resource(s) not preserved in this capture"
+  ],
+  "captureGaps": [
+    "January 2, 2015 to January 3, 2015",
+    "January 3, 2015 to September 16, 2015",
+    "256-day gap: January 3, 2015 → September 16, 2015",
+    "300-day gap: September 18, 2015 → July 14, 2016",
+    "220-day gap: July 14, 2016 → February 19, 2017",
+    "696-day gap: February 19, 2017 → January 16, 2019",
+    "68-day gap: January 16, 2019 → March 25, 2019"
+  ],
+  "a11yAudit": {
+    "before": "January 2, 2015",
+    "after": "March 25, 2019",
+    "deltas": [
+      {
+        "metric": "Focusable elements before main content",
+        "before": 34,
+        "after": 141,
+        "direction": "worse"
+      },
+      {
+        "metric": "Links before main content",
+        "before": 27,
+        "after": 133,
+        "direction": "worse"
+      },
+      {
+        "metric": "Images missing alt text",
+        "before": 5,
+        "after": 3,
+        "direction": "better"
+      }
+    ],
+    "findings": [
+      "Search input gained an accessible label.",
+      "Ambiguous links: \"latest this just in\" ×5, \"blog\" ×3."
+    ],
+    "verdict": "Accessibility appears to have DECREASED over time."
+  },
+  "privacy": null,
+  "keySnapshots": [
+    {
+      "timestamp": "20150102223531",
+      "date": "January 2, 2015",
+      "url": "https://web.archive.org/web/20150102223531/https://archive.org/about/",
+      "issues": [
+        "2 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 7
+    },
+    {
+      "timestamp": "20150103123539",
+      "date": "January 3, 2015",
+      "url": "https://web.archive.org/web/20150103123539/https://archive.org/about/",
+      "issues": [
+        "2 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 7
+    },
+    {
+      "timestamp": "20150916112115",
+      "date": "September 16, 2015",
+      "url": "https://web.archive.org/web/20150916112115/https://archive.org/about/",
+      "issues": [
+        "5 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 12
+    },
+    {
+      "timestamp": "20150918220419",
+      "date": "September 18, 2015",
+      "url": "https://web.archive.org/web/20150918220419/https://archive.org/about/",
+      "issues": [
+        "4 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 16
+    },
+    {
+      "timestamp": "20160714152403",
+      "date": "July 14, 2016",
+      "url": "https://web.archive.org/web/20160714152403/https://archive.org/about/",
+      "issues": [
+        "6 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 17
+    },
+    {
+      "timestamp": "20170219103657",
+      "date": "February 19, 2017",
+      "url": "https://web.archive.org/web/20170219103657/https://archive.org/about/",
+      "issues": [
+        "6 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 13
+    },
+    {
+      "timestamp": "20190116024059",
+      "date": "January 16, 2019",
+      "url": "https://web.archive.org/web/20190116024059/https://archive.org/about/",
+      "issues": [
+        "7 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 13
+    },
+    {
+      "timestamp": "20190325002348",
+      "date": "March 25, 2019",
+      "url": "https://web.archive.org/web/20190325002348/https://archive.org/about/",
+      "issues": [
+        "7 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 13
+    },
+    {
+      "timestamp": "20190325005250",
+      "date": "March 25, 2019",
+      "url": "https://web.archive.org/web/20190325005250/https://archive.org/about/",
+      "issues": [
+        "7 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 13
+    }
+  ],
+  "_rescore": {
+    "schema": 1,
+    "params": {
+      "url": "https://archive.org/about/",
+      "fromYear": 2015,
+      "toYear": 2024,
+      "focus": ""
+    },
+    "ai": {
+      "changes": [
+        {
+          "id": 1,
+          "description": "Navigation change",
+          "section": null,
+          "beforeDate": "January 2, 2015",
+          "afterDate": "September 16, 2015",
+          "beforeText": "Read More | News [more] | About the Internet Archive | Why the Archive is Building an 'Internet Library' | Future Libraries - How People Envision Using Internet Libraries | Related Projects and Research | Storage and Preservation",
+          "afterText": "Featured | Top | Featured | Top | Featured | Top | Featured | Featured",
+          "stability": 1
+        }
+      ],
+      "overview": "The Internet Archive's About page underwent significant changes between January 2015 and March 2019, with the addition and removal of sections, and updates to the search functionality and navigation.",
+      "coveApplied": false,
+      "samples": 2,
+      "stableContent": [
+        "Project Gutenberg Biodiversity Heritage Library Children's Library Open Library"
+      ],
+      "captureGaps": [
+        "January 2, 2015 to January 3, 2015",
+        "January 3, 2015 to September 16, 2015"
+      ]
+    },
+    "captureCounts": {
+      "total": 9,
+      "unique": 9,
+      "selected": 9
+    },
+    "snapshots": [
+      {
+        "date": "2015-01-02T00:00:00.000Z",
+        "timestamp": "20150102223531",
+        "url": "https://web.archive.org/web/20150102223531/https://archive.org/about/",
+        "fullText": "Internet Archive: About IA Web Video Texts Audio Software About Account TVNews OpenLibrary Home Donate | Store | Blog | FAQ | Jobs | Volunteer Positions | Contact | Bios | Forums | Projects | Terms, Privacy, & Copyright Search: All Media Types Wayback Machine Video Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies News & Public Affairs Prelinger Archives Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media Texts American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Children's Library Biodiversity Heritage Library Additional Collections Audio Audio Books & Poetry Community Audio Computers & Technology Grateful Dead Live Music Archive Music, Arts & Culture Netlabels News & Public Affairs Non-English Audio Podcasts Radio Programs Spirituality & Religion Education Math Lectures from MSRI AP Courses MIT OpenCourseWare UChannel Colloquia (ArsDigita University) Chinese University Lectures Forums FAQs Advanced Search Anonymous User ( login or join us ) Upload Read More Why the Archive is Building an &#146;Internet Library&#146; Future Libraries Storage and Preservation Related Projects and Research Researcher Access Server Statistics Archive Statistics Job Opportunities at the Internet Archive Usage Logs News [more] Modi govt blocks 32 websites India blocks 32 websites, including GitHub, Internet Archive, Pastebin, Vimeo Internet Archive har frigivet 900 klassiske arkadespil, som man kan spille ganske gratis fra sin browser. Unlocking the Imagery of 500 Years of Books Kodachrome home-movie of a Long Beach fast food joint in 1952 The internet time machine – how your favourite websites used to look The 11 most useful web tools of 2014 Brewster Kahle's quest to make all human knowledge available Internet Archive Lets You Go Retro for Free Trending up: Internet Archive; Trending down: Russia Member About the Internet Archive The Internet Archive is a 501(c)(3) non-profit that was founded to build an Internet library. Its purposes include offering permanent access for researchers, historians, scholars, people with disabilities, and the general public to historical collections that exist in digital format. Founded in 1996 and located in San Francisco , the Archive has been receiving data donations from Alexa Internet and others. In late 1999, the organization started to grow to include more well-rounded collections. Now the Internet Archive includes: texts , audio , moving images , and software as well as archived web pages in our collections, and provides specialized services for adaptive reading and information access for the blind and other persons with disabilities. Why the Archive is Building an 'Internet Library' Libraries exist to preserve society's cultural artifacts and to provide access to them. If libraries are to continue to foster education and scholarship in this era of digital technology, it's essential for them to extend those functions into the digital world. Many early movies were recycled to recover the silver in the film. The Library of Alexandria - an ancient center of learning containing a copy of every book in the world - was eventually burned to the ground. Even now, at the turn of the 21st century, no comprehensive archives of television or radio programs exist. But without cultural artifacts, civilization has no memory and no mechanism to learn from its successes and failures. And paradoxically, with the explosion of the Internet, we live in what Danny Hillis has referred to as our \" digital dark age .\" The Internet Archive is working to prevent the Internet - a new medium with major historical significance - and other \"born-digital\" materials from disappearing into the past. Collaborating with institutions including the Library of Congress and the Smithsonian , we are working to preserve a record for generations to come. Open and free access to literature and other writings has long been considered essential to education and to the maintenance of an open society. Public and philanthropic enterprises have supported it through the ages. The Internet Archive is opening its collections to researchers, historians, and scholars. The Archive has no vested interest in the discoveries of the users of its collections, nor is it a grant-making organization. At present, the size of our Web collection is such that using it requires programming skills . However, we are hopeful about the development of tools and methods that will give the general public easy and meaningful access to our collective history. In addition to developing our own collections, we are working to promote the formation of other Internet libraries in the United States and elsewhere. Find out How to make a Monetary Donation to the Archive About our announcement and discussion lists on Internet libraries and movie archives as well as our user forums Future Libraries - How People Envision Using Internet Libraries From ephemera to artifact: Internet libraries can change the content of the Internet from ephemera to enduring artifacts of our political and cultural lives. \"I believe historians need every possible piece of paper and archived byte of digital data they can muster. The Smithsonian Institution sees the value, and has affiliated with the Archive to preserve the 1996 campaign Web sites , official and unofficial.\" Dan Gillmor, computing editor, San Jose Mercury News, 1 September 1996 Protecting our right to know: Most states have pre-Internet sunshine laws that require public access to government documents. Yet while the Internet has generally increased public access to information, states have just begun to amend those laws to reflect today's Internet environment. According to Bill Chamberlin, director of the Marion Brechner Citizen Access Project at the University of Florida's College of Journalism and Communications, such laws are being enacted \"piecemeal, one state at a time,\" and cover information that varies widely in nature - everything from \"all public records\" to specialized information such as education reports and the licensing status of medical practitioners. In the meantime, while public officials are posting more information on the Internet than their state legislatures require, there's little regulatory control over exactly what is posted, when it's taken off, or how often it's updated. This leaves a gap that online libraries can help to fill. Exercising our \"right to remember\": Without paper libraries, it would be hard to exercise our \"right to remember\" our political history or hold government accountable. With much of the public's business now moving from paper to digital media, Internet libraries are certain to become essential in maintaining that right. Imagine, for instance, how news coverage of an election campaign might suffer if journalists had only limited access to previous statements that candidates had made in the media. \"The Internet Archive is a service so essential that its founding is bound to be looked back on with the fondness and respect that people now have for the public libraries seeded by Andrew Carnegie a century ago.... Digitized information, especially on the Internet, has such rapid turnover these days that total loss is the norm. Civilization is developing severe amnesia as a result; indeed it may have become too amnesiac already to notice the problem properly. The Internet Archive is the beginning of a cure - the beginning of complete, detailed, accessible, searchable memory for society, and not just scholars this time, but everyone.\" Stewart Brand, president, The Long Now Foundation Establishing Internet centers internationally: What is a country without a memory of its cultural heritage? Internet libraries are the place to preserve the aspect of a country's heritage that exists on the Internet. Tracing the way our language changes: During the late 19th century, James Murray, a professor at Oxford University, built the first edition of the Oxford English Dictionary by sending copies of selected books to \"men of letters\" who volunteered to search them for the first occurrences of words and to trace the migration of their various meanings. Internet libraries could allow linguists to automate much of this extremely labor-intensive process. Tracking the Web's evolution: Historians, sociologists, and journalists could use Internet libraries to hold up a mirror to society. For example, they might ask when different ethnic groups or special interests or certain businesses became a presence on the Internet. \"We don't know where this Internet is going, and once we get there it will be very instructive to look back.\" Donald Heath, president of the Internet Society in Reston, Virginia Reviving dead links: A few services - such as UC Berkeley's Digital Library Project , the Online Computer Library Center , and Alexa Internet are starting to offer access to archived versions of Web pages when those pages have been removed from the Web. This means that if you get a \"404 - Page Not Found\" error, you'll still be able to find a version of the page. Understanding the economy: Economists could use Archive data such as link structures - what and how many links a site contains - to investigate how the Web affects commerce. Finding out what the Web tells us about ourselves: Researchers could use data on links and traffic to better understand human behavior and communication. \"Researchers could use the Archive's Web snapshots in combination with usage statistics to compare how people in different countries use the Web over long periods of time.... Political scientists and sociologists could use the data to study how public opinion gets formed. For example, suppose a device for increasing privacy became available: Would it change usage patterns?\" Bernardo Huberman, Xerox Palo Alto Research Center \"The Internet Archive has created a kind of test tube that allows a broad range of researchers to analyze the Web in ways that have never been possible before. What makes this type of research unique is that it often requires the fusion of traditional tools and techniques with new methods, and it results in the development of new theories, techniques, and metrics.\" James Pitkow, Xerox Palo Alto Research Center Looking back: With a \"way-back machine\" - a device that displayed the Web as it looked on a given date - historians and others would literally have a window on the past. How would you use an Internet library ? Related Projects and Research Internet libraries raise many issues in a range of areas, including archiving technology, copyright, privacy and free speech, trademark, trade secrets, import/export issues, stolen property, pornography, the question of who will have access to the libraries, and more. Below are links to projects, resources, and institutions related to Internet libraries. Internet Libraries and Librarianship Archiving Technology Internet Mapping Internet Statistics Copyright Privacy and Free Speech Internet Libraries and Librarianship Alexa Internet has catalogued Web sites and provides this information in a free service. www.alexa.com The American Library Association is a major trade association of American libraries. www.ala.org The Australian National Library collects material including organizational Web sites. pandora.nla.gov.au/documents.html The Council on Library and Information Resources works to ensure the well-being of the scholarly communication system. www.clir.org See its publication Why Digitize? at www.clir.org/pubs/reports/pub80-smith/pub80.html The Digital Library Forum (D-Lib) publishes an online magazine and other resources for building digital libraries. www.dlib.org Attorney I. Trotter Hardy explains copyright law and examines its implications for digital materials in his paper Internet Archives and Copyright. copyright_TH.php The Internet Public Library site has many links to online resources for the general public. www.ipl.org Brewster Kahle is a founder of WAIS Inc. and Alexa Internet and chairman of the board of the Internet Archive. See his paper The Ethics of Digital Librarianship at ethics_BK.php Michael Lesk of the National Science Foundation has written extensively on digital archiving and digital libraries. www.purl.net/NET/lesk The Library of Congress is the national library of the United States. www.loc.gov The Museum Digital Library plans to help digitize collections and provide access to them. www.digitalmuseums.org The National Archives and Records Administration oversees the management of all US federal records. It also archives federal Web sites including the Clinton White House site . www.nara.gov The National Science Foundation Digital Library Program has funded academic research on digital libraries. www.nsf.gov/home/crssprgm/dli/start.htm National Technical Information Service (NTIS) , U.S. Department of Commerce, Technology Administration. NTIS is an archive and distributor of scientific, technical, engineering and business related information developed by and for the federal government. www.ntis.gov Network Wizards has been tracking Internet growth for many years. www.nw.com Project Gutenberg is making ASCII versions of classic literature openly available. www.gutenberg.org The Radio and Television Archive has many links to related resources. www.rtvf.unt.edu/links/histsites.htm Revival of the Library of Alexandria is a project to revive the ancient library in Egypt. www.bibalex.org The Society of American Archivists is a professional association focused on ensuring the identification, preservation, and use of records of historical value. www.archivists.org The Royal Institute of Technology Library in Sweden is creating a system of quality-assessed information resources on the Internet for academic use. www.lib.kth.se/main/eng The United States Government Printing Office produces and distributes information published by the US government. www.access.gpo.gov The University of Virginia is building a catalog of digital library activities. http://www.lib.virginia.edu/digital/ Archiving Technology The Association for Computing Machinery (ACM) computing and public policy page includes papers and news on pending legislation on issues including universal access, copyright and intellectual property, free speech and the Internet, and privacy. www.acm.org/serving The Carnegie Mellon University Informedia Digital Video Library Project is studying how multimedia digital libraries can be established and used. www.informedia.cs.cmu.edu The Intermemory Project aims to develop highly survivable and available storage systems. www.intermemory.org The National Film Preservation Board, established by the National Film Preservation Act of 1988, works with the Library of Congress to study and implement plans for film and television preservation. The site's research page includes links to the board's 1993 film preservation study , a 1994 film preservation plan , and a 1997 television and video study . All the documents warn of the dire state of film and television preservation in the United States. lcweb.loc.gov/film/filmpres.html The National Institute of Standards and Technology (NIST) posts IEC International Standard names and symbols for prefixes for binary multiples for use in data processing and data transmission. www.physics.nist.gov/cuu/Units/binary.html The Text Retrieval Conference (TREC) encourages research in information retrieval from large text collections. trec.nist.gov Internet Mapping An Atlas of Cyberspaces has maps and dynamic tools for visualizing Web browsing. www.cybergeography.com/atlas/surf.html The Internet Mapping Project is a long-term project by a scientist at Bell Labs to collect routing data on the Internet. www.cs.bell-labs.com/who/ches/map The Matrix Information Directory Service has good maps and visualizations of the networked world. www.mids.org Peacock Maps has maps of Internet connectivity. www.peacockmaps.com Internet Statistics WebReference has an Internet statistics page (publisher: Internet.com). webreference.com/internet/statistics.html Copyright The Association for Computing Machinery (ACM) copyright information page includes text of pertinent laws and pending legislation. www.acm.org/usacm/copyright Tom W. Bell teaches intellectual property and Internet law at Chapman University School of Law. www.tomwbell.com His site includes a graph showing the trend of the maximum US copyright term at www.tomwbell.com/writings/(C)_Term.html Cornell University posts the text of copyright law at www4.law.cornell.edu/uscode/unframed/17/107.html www4.law.cornell.edu/uscode/unframed/17/108.html The Digital Future Coalition is a nonprofit working on the issues of copyright in the digital age. The National Academy Press is the publishing arm of the national academies . \"The Digital Dilemma: Intellectual Property in the Information Age\" http://www.nap.edu/html/digital_dilemma/ \"LC21: A Digital Strategy for the Library of Congress\" www.nap.edu/books/[phone]/html Pamela Samuelson is a professor in the School of Information Management and Systems at UC Berkeley. info.berkeley.edu/~pam Title 17 of US copyright code www.loc.gov/copyright/title17/ US Government Copyright Office www.loc.gov/copyright Privacy and Free Speech The Association for Computing Machinery (ACM) free-speech information page includes the text of pertinent laws and pending legislation. www.acm.org/usacm/speech The Association for Computing Machinery (ACM) privacy information page includes the text of congressional testimony and links to other resources. www.acm.org/usacm/privacy The Benton Foundation Communications Policy and Practice Program has the goal of infusing the emerging communications environment with public-interest values. www.benton.org/cpphome.html The Center for Democracy and Technology works to promote democratic values and constitutional liberties in the digital age. www.cdt.org The Computers Freedom and Privacy Conference has a site containing information on each annual conference held since 1991. www.cfp.org The Electronic Frontier Foundation works to protect fundamental civil liberties, including privacy and freedom of expression in the arena of computers and the Internet. www.eff.org The Electronic Privacy Information Center, a project of the Fund for Constitutional Government , is a public-interest research center whose goal is to focus public attention on emerging civil liberties issues and to protect privacy, the First Amendment, and constitutional values. www.epic.org The Free Expression Policy Project is a think tank on artistic and intellectual freedom at NYU's Brennan Center for Justice. Through policy research and advocacy, they explore freedom of expression issues including censorship, copyright law, media localism, and corporate media reform. www.fepproject.org The Internet Free Expression Alliance is an information and advocacy organization focused on free speech as it relates to the Internet. www.ifea.net The Internet Privacy Coalition aims to protect privacy on the Internet by promoting the widespread availability of strong encryption and the relaxation of export controls on cryptography. www.privacy.org/ipc The Privacy Page includes news, alerts, and links to privacy-related resources. Related organizations include the Electronic Privacy Information Center , the Internet Privacy Coalition , and Privacy International . www.privacy.org Privacy International is a London-based human rights group formed as a watchdog on surveillance by governments and corporations. www.privacy.org/pi Please suggest other pages that may be appropriate here. Storage and Preservation The Archive has two practical considerations in dealing with digital collections: How to store massive amounts of data How to preserve the data for posterity Storage Storing the Archive's collections involves parsing, indexing, and physically encoding the data. With t",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "2 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 34,
+          "linksBeforeMain": 27,
+          "headingCount": 7,
+          "h1Count": 3,
+          "imgsNoAlt": 5,
+          "totalImgs": 7,
+          "inputsNoLabel": 6,
+          "totalInputs": 6,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "alexa internet",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Read More",
+            "text": "Read More Why the Archive is Building an &#146;Internet Library&#146; Future Libraries Storage and Preservation Related Projects and Research Researcher Access Server Statistics Archive Statistics Job Opportunities at the Internet Archive Usage Logs"
+          },
+          {
+            "level": 1,
+            "heading": "News [more]",
+            "text": "News [more] Modi govt blocks 32 websites India blocks 32 websites, including GitHub, Internet Archive, Pastebin, Vimeo Internet Archive har frigivet 900 klassiske arkadespil, som man kan spille ganske gratis fra sin browser. Unlocking the Imagery of 500 Years of Books Kodachrome home-movie of a Long Beach fast food joint in 1952 The internet time machine – how your favourite websites used to look The 11 most useful web tools of 2014 Brewster Kahle's quest to make all human knowledge available Internet Archive Lets You Go Retro for Free Trending up: Internet Archive; Trending down: Russia Membe"
+          },
+          {
+            "level": 1,
+            "heading": "About the Internet Archive",
+            "text": "About the Internet Archive The Internet Archive is a 501(c)(3) non-profit that was founded to build an Internet library. Its purposes include offering permanent access for researchers, historians, scholars, people with disabilities, and the general public to historical collections that exist in digital format. Founded in 1996 and located in San Francisco , the Archive has been receiving data donations from Alexa Internet and others. In late 1999, the organization started to grow to include more well-rounded collections. Now the Internet Archive includes: texts , audio , moving images , and sof"
+          },
+          {
+            "level": 2,
+            "heading": "Why the Archive is Building an 'Internet Library'",
+            "text": "Why the Archive is Building an 'Internet Library' Libraries exist to preserve society's cultural artifacts and to provide access to them. If libraries are to continue to foster education and scholarship in this era of digital technology, it's essential for them to extend those functions into the digital world. Many early movies were recycled to recover the silver in the film. The Library of Alexandria - an ancient center of learning containing a copy of every book in the world - was eventually burned to the ground. Even now, at the turn of the 21st century, no comprehensive archives of televis"
+          },
+          {
+            "level": 2,
+            "heading": "Future Libraries - How People Envision Using Internet Libraries",
+            "text": "Future Libraries - How People Envision Using Internet Libraries From ephemera to artifact: Internet libraries can change the content of the Internet from ephemera to enduring artifacts of our political and cultural lives. \"I believe historians need every possible piece of paper and archived byte of digital data they can muster. The Smithsonian Institution sees the value, and has affiliated with the Archive to preserve the 1996 campaign Web sites , official and unofficial.\" Dan Gillmor, computing editor, San Jose Mercury News, 1 September 1996 Protecting our right to know: Most states have pre-"
+          },
+          {
+            "level": 2,
+            "heading": "Related Projects and Research",
+            "text": "Related Projects and Research Internet libraries raise many issues in a range of areas, including archiving technology, copyright, privacy and free speech, trademark, trade secrets, import/export issues, stolen property, pornography, the question of who will have access to the libraries, and more. Below are links to projects, resources, and institutions related to Internet libraries. Internet Libraries and Librarianship Archiving Technology Internet Mapping Internet Statistics Copyright Privacy and Free Speech Internet Libraries and Librarianship Alexa Internet has catalogued Web sites and pro"
+          },
+          {
+            "level": 2,
+            "heading": "Storage and Preservation",
+            "text": "Storage and Preservation The Archive has two practical considerations in dealing with digital collections: How to store massive amounts of data How to preserve the data for posterity Storage Storing the Archive's collections involves parsing, indexing, and physically encoding the data. With the Internet collections growing at exponential rates, this task poses an ongoing challenge. Our hardware consists of PCs with clusters of IDE hard drives. Data is stored on DLT tape and hard drives in various appropriate formats, depending on the collection. Web data is received and stored in archive forma"
+          }
+        ]
+      },
+      {
+        "date": "2015-01-03T00:00:00.000Z",
+        "timestamp": "20150103123539",
+        "url": "https://web.archive.org/web/20150103123539/https://archive.org/about/",
+        "fullText": "Internet Archive: About IA Web Video Texts Audio Software About Account TVNews OpenLibrary Home Donate | Store | Blog | FAQ | Jobs | Volunteer Positions | Contact | Bios | Forums | Projects | Terms, Privacy, & Copyright Search: All Media Types Wayback Machine Video Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies News & Public Affairs Prelinger Archives Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media Texts American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Biodiversity Heritage Library Children's Library Additional Collections Audio Audio Books & Poetry Community Audio Computers & Technology Grateful Dead Live Music Archive Music, Arts & Culture Netlabels News & Public Affairs Non-English Audio Podcasts Radio Programs Spirituality & Religion Education Math Lectures from MSRI MIT OpenCourseWare UChannel Colloquia (ArsDigita University) Chinese University Lectures AP Courses Forums FAQs Advanced Search Anonymous User ( login or join us ) Upload Read More Why the Archive is Building an &#146;Internet Library&#146; Future Libraries Storage and Preservation Related Projects and Research Researcher Access Server Statistics Archive Statistics Job Opportunities at the Internet Archive Usage Logs News [more] Modi govt blocks 32 websites India blocks 32 websites, including GitHub, Internet Archive, Pastebin, Vimeo Internet Archive har frigivet 900 klassiske arkadespil, som man kan spille ganske gratis fra sin browser. Unlocking the Imagery of 500 Years of Books Kodachrome home-movie of a Long Beach fast food joint in 1952 The internet time machine – how your favourite websites used to look The 11 most useful web tools of 2014 Brewster Kahle's quest to make all human knowledge available Internet Archive Lets You Go Retro for Free Trending up: Internet Archive; Trending down: Russia Member About the Internet Archive The Internet Archive is a 501(c)(3) non-profit that was founded to build an Internet library. Its purposes include offering permanent access for researchers, historians, scholars, people with disabilities, and the general public to historical collections that exist in digital format. Founded in 1996 and located in San Francisco , the Archive has been receiving data donations from Alexa Internet and others. In late 1999, the organization started to grow to include more well-rounded collections. Now the Internet Archive includes: texts , audio , moving images , and software as well as archived web pages in our collections, and provides specialized services for adaptive reading and information access for the blind and other persons with disabilities. Why the Archive is Building an 'Internet Library' Libraries exist to preserve society's cultural artifacts and to provide access to them. If libraries are to continue to foster education and scholarship in this era of digital technology, it's essential for them to extend those functions into the digital world. Many early movies were recycled to recover the silver in the film. The Library of Alexandria - an ancient center of learning containing a copy of every book in the world - was eventually burned to the ground. Even now, at the turn of the 21st century, no comprehensive archives of television or radio programs exist. But without cultural artifacts, civilization has no memory and no mechanism to learn from its successes and failures. And paradoxically, with the explosion of the Internet, we live in what Danny Hillis has referred to as our \" digital dark age .\" The Internet Archive is working to prevent the Internet - a new medium with major historical significance - and other \"born-digital\" materials from disappearing into the past. Collaborating with institutions including the Library of Congress and the Smithsonian , we are working to preserve a record for generations to come. Open and free access to literature and other writings has long been considered essential to education and to the maintenance of an open society. Public and philanthropic enterprises have supported it through the ages. The Internet Archive is opening its collections to researchers, historians, and scholars. The Archive has no vested interest in the discoveries of the users of its collections, nor is it a grant-making organization. At present, the size of our Web collection is such that using it requires programming skills . However, we are hopeful about the development of tools and methods that will give the general public easy and meaningful access to our collective history. In addition to developing our own collections, we are working to promote the formation of other Internet libraries in the United States and elsewhere. Find out How to make a Monetary Donation to the Archive About our announcement and discussion lists on Internet libraries and movie archives as well as our user forums Future Libraries - How People Envision Using Internet Libraries From ephemera to artifact: Internet libraries can change the content of the Internet from ephemera to enduring artifacts of our political and cultural lives. \"I believe historians need every possible piece of paper and archived byte of digital data they can muster. The Smithsonian Institution sees the value, and has affiliated with the Archive to preserve the 1996 campaign Web sites , official and unofficial.\" Dan Gillmor, computing editor, San Jose Mercury News, 1 September 1996 Protecting our right to know: Most states have pre-Internet sunshine laws that require public access to government documents. Yet while the Internet has generally increased public access to information, states have just begun to amend those laws to reflect today's Internet environment. According to Bill Chamberlin, director of the Marion Brechner Citizen Access Project at the University of Florida's College of Journalism and Communications, such laws are being enacted \"piecemeal, one state at a time,\" and cover information that varies widely in nature - everything from \"all public records\" to specialized information such as education reports and the licensing status of medical practitioners. In the meantime, while public officials are posting more information on the Internet than their state legislatures require, there's little regulatory control over exactly what is posted, when it's taken off, or how often it's updated. This leaves a gap that online libraries can help to fill. Exercising our \"right to remember\": Without paper libraries, it would be hard to exercise our \"right to remember\" our political history or hold government accountable. With much of the public's business now moving from paper to digital media, Internet libraries are certain to become essential in maintaining that right. Imagine, for instance, how news coverage of an election campaign might suffer if journalists had only limited access to previous statements that candidates had made in the media. \"The Internet Archive is a service so essential that its founding is bound to be looked back on with the fondness and respect that people now have for the public libraries seeded by Andrew Carnegie a century ago.... Digitized information, especially on the Internet, has such rapid turnover these days that total loss is the norm. Civilization is developing severe amnesia as a result; indeed it may have become too amnesiac already to notice the problem properly. The Internet Archive is the beginning of a cure - the beginning of complete, detailed, accessible, searchable memory for society, and not just scholars this time, but everyone.\" Stewart Brand, president, The Long Now Foundation Establishing Internet centers internationally: What is a country without a memory of its cultural heritage? Internet libraries are the place to preserve the aspect of a country's heritage that exists on the Internet. Tracing the way our language changes: During the late 19th century, James Murray, a professor at Oxford University, built the first edition of the Oxford English Dictionary by sending copies of selected books to \"men of letters\" who volunteered to search them for the first occurrences of words and to trace the migration of their various meanings. Internet libraries could allow linguists to automate much of this extremely labor-intensive process. Tracking the Web's evolution: Historians, sociologists, and journalists could use Internet libraries to hold up a mirror to society. For example, they might ask when different ethnic groups or special interests or certain businesses became a presence on the Internet. \"We don't know where this Internet is going, and once we get there it will be very instructive to look back.\" Donald Heath, president of the Internet Society in Reston, Virginia Reviving dead links: A few services - such as UC Berkeley's Digital Library Project , the Online Computer Library Center , and Alexa Internet are starting to offer access to archived versions of Web pages when those pages have been removed from the Web. This means that if you get a \"404 - Page Not Found\" error, you'll still be able to find a version of the page. Understanding the economy: Economists could use Archive data such as link structures - what and how many links a site contains - to investigate how the Web affects commerce. Finding out what the Web tells us about ourselves: Researchers could use data on links and traffic to better understand human behavior and communication. \"Researchers could use the Archive's Web snapshots in combination with usage statistics to compare how people in different countries use the Web over long periods of time.... Political scientists and sociologists could use the data to study how public opinion gets formed. For example, suppose a device for increasing privacy became available: Would it change usage patterns?\" Bernardo Huberman, Xerox Palo Alto Research Center \"The Internet Archive has created a kind of test tube that allows a broad range of researchers to analyze the Web in ways that have never been possible before. What makes this type of research unique is that it often requires the fusion of traditional tools and techniques with new methods, and it results in the development of new theories, techniques, and metrics.\" James Pitkow, Xerox Palo Alto Research Center Looking back: With a \"way-back machine\" - a device that displayed the Web as it looked on a given date - historians and others would literally have a window on the past. How would you use an Internet library ? Related Projects and Research Internet libraries raise many issues in a range of areas, including archiving technology, copyright, privacy and free speech, trademark, trade secrets, import/export issues, stolen property, pornography, the question of who will have access to the libraries, and more. Below are links to projects, resources, and institutions related to Internet libraries. Internet Libraries and Librarianship Archiving Technology Internet Mapping Internet Statistics Copyright Privacy and Free Speech Internet Libraries and Librarianship Alexa Internet has catalogued Web sites and provides this information in a free service. www.alexa.com The American Library Association is a major trade association of American libraries. www.ala.org The Australian National Library collects material including organizational Web sites. pandora.nla.gov.au/documents.html The Council on Library and Information Resources works to ensure the well-being of the scholarly communication system. www.clir.org See its publication Why Digitize? at www.clir.org/pubs/reports/pub80-smith/pub80.html The Digital Library Forum (D-Lib) publishes an online magazine and other resources for building digital libraries. www.dlib.org Attorney I. Trotter Hardy explains copyright law and examines its implications for digital materials in his paper Internet Archives and Copyright. copyright_TH.php The Internet Public Library site has many links to online resources for the general public. www.ipl.org Brewster Kahle is a founder of WAIS Inc. and Alexa Internet and chairman of the board of the Internet Archive. See his paper The Ethics of Digital Librarianship at ethics_BK.php Michael Lesk of the National Science Foundation has written extensively on digital archiving and digital libraries. www.purl.net/NET/lesk The Library of Congress is the national library of the United States. www.loc.gov The Museum Digital Library plans to help digitize collections and provide access to them. www.digitalmuseums.org The National Archives and Records Administration oversees the management of all US federal records. It also archives federal Web sites including the Clinton White House site . www.nara.gov The National Science Foundation Digital Library Program has funded academic research on digital libraries. www.nsf.gov/home/crssprgm/dli/start.htm National Technical Information Service (NTIS) , U.S. Department of Commerce, Technology Administration. NTIS is an archive and distributor of scientific, technical, engineering and business related information developed by and for the federal government. www.ntis.gov Network Wizards has been tracking Internet growth for many years. www.nw.com Project Gutenberg is making ASCII versions of classic literature openly available. www.gutenberg.org The Radio and Television Archive has many links to related resources. www.rtvf.unt.edu/links/histsites.htm Revival of the Library of Alexandria is a project to revive the ancient library in Egypt. www.bibalex.org The Society of American Archivists is a professional association focused on ensuring the identification, preservation, and use of records of historical value. www.archivists.org The Royal Institute of Technology Library in Sweden is creating a system of quality-assessed information resources on the Internet for academic use. www.lib.kth.se/main/eng The United States Government Printing Office produces and distributes information published by the US government. www.access.gpo.gov The University of Virginia is building a catalog of digital library activities. http://www.lib.virginia.edu/digital/ Archiving Technology The Association for Computing Machinery (ACM) computing and public policy page includes papers and news on pending legislation on issues including universal access, copyright and intellectual property, free speech and the Internet, and privacy. www.acm.org/serving The Carnegie Mellon University Informedia Digital Video Library Project is studying how multimedia digital libraries can be established and used. www.informedia.cs.cmu.edu The Intermemory Project aims to develop highly survivable and available storage systems. www.intermemory.org The National Film Preservation Board, established by the National Film Preservation Act of 1988, works with the Library of Congress to study and implement plans for film and television preservation. The site's research page includes links to the board's 1993 film preservation study , a 1994 film preservation plan , and a 1997 television and video study . All the documents warn of the dire state of film and television preservation in the United States. lcweb.loc.gov/film/filmpres.html The National Institute of Standards and Technology (NIST) posts IEC International Standard names and symbols for prefixes for binary multiples for use in data processing and data transmission. www.physics.nist.gov/cuu/Units/binary.html The Text Retrieval Conference (TREC) encourages research in information retrieval from large text collections. trec.nist.gov Internet Mapping An Atlas of Cyberspaces has maps and dynamic tools for visualizing Web browsing. www.cybergeography.com/atlas/surf.html The Internet Mapping Project is a long-term project by a scientist at Bell Labs to collect routing data on the Internet. www.cs.bell-labs.com/who/ches/map The Matrix Information Directory Service has good maps and visualizations of the networked world. www.mids.org Peacock Maps has maps of Internet connectivity. www.peacockmaps.com Internet Statistics WebReference has an Internet statistics page (publisher: Internet.com). webreference.com/internet/statistics.html Copyright The Association for Computing Machinery (ACM) copyright information page includes text of pertinent laws and pending legislation. www.acm.org/usacm/copyright Tom W. Bell teaches intellectual property and Internet law at Chapman University School of Law. www.tomwbell.com His site includes a graph showing the trend of the maximum US copyright term at www.tomwbell.com/writings/(C)_Term.html Cornell University posts the text of copyright law at www4.law.cornell.edu/uscode/unframed/17/107.html www4.law.cornell.edu/uscode/unframed/17/108.html The Digital Future Coalition is a nonprofit working on the issues of copyright in the digital age. The National Academy Press is the publishing arm of the national academies . \"The Digital Dilemma: Intellectual Property in the Information Age\" http://www.nap.edu/html/digital_dilemma/ \"LC21: A Digital Strategy for the Library of Congress\" www.nap.edu/books/[phone]/html Pamela Samuelson is a professor in the School of Information Management and Systems at UC Berkeley. info.berkeley.edu/~pam Title 17 of US copyright code www.loc.gov/copyright/title17/ US Government Copyright Office www.loc.gov/copyright Privacy and Free Speech The Association for Computing Machinery (ACM) free-speech information page includes the text of pertinent laws and pending legislation. www.acm.org/usacm/speech The Association for Computing Machinery (ACM) privacy information page includes the text of congressional testimony and links to other resources. www.acm.org/usacm/privacy The Benton Foundation Communications Policy and Practice Program has the goal of infusing the emerging communications environment with public-interest values. www.benton.org/cpphome.html The Center for Democracy and Technology works to promote democratic values and constitutional liberties in the digital age. www.cdt.org The Computers Freedom and Privacy Conference has a site containing information on each annual conference held since 1991. www.cfp.org The Electronic Frontier Foundation works to protect fundamental civil liberties, including privacy and freedom of expression in the arena of computers and the Internet. www.eff.org The Electronic Privacy Information Center, a project of the Fund for Constitutional Government , is a public-interest research center whose goal is to focus public attention on emerging civil liberties issues and to protect privacy, the First Amendment, and constitutional values. www.epic.org The Free Expression Policy Project is a think tank on artistic and intellectual freedom at NYU's Brennan Center for Justice. Through policy research and advocacy, they explore freedom of expression issues including censorship, copyright law, media localism, and corporate media reform. www.fepproject.org The Internet Free Expression Alliance is an information and advocacy organization focused on free speech as it relates to the Internet. www.ifea.net The Internet Privacy Coalition aims to protect privacy on the Internet by promoting the widespread availability of strong encryption and the relaxation of export controls on cryptography. www.privacy.org/ipc The Privacy Page includes news, alerts, and links to privacy-related resources. Related organizations include the Electronic Privacy Information Center , the Internet Privacy Coalition , and Privacy International . www.privacy.org Privacy International is a London-based human rights group formed as a watchdog on surveillance by governments and corporations. www.privacy.org/pi Please suggest other pages that may be appropriate here. Storage and Preservation The Archive has two practical considerations in dealing with digital collections: How to store massive amounts of data How to preserve the data for posterity Storage Storing the Archive's collections involves parsing, indexing, and physically encoding the data. With t",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "2 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 34,
+          "linksBeforeMain": 27,
+          "headingCount": 7,
+          "h1Count": 3,
+          "imgsNoAlt": 5,
+          "totalImgs": 7,
+          "inputsNoLabel": 6,
+          "totalInputs": 6,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "alexa internet",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Read More",
+            "text": "Read More Why the Archive is Building an &#146;Internet Library&#146; Future Libraries Storage and Preservation Related Projects and Research Researcher Access Server Statistics Archive Statistics Job Opportunities at the Internet Archive Usage Logs"
+          },
+          {
+            "level": 1,
+            "heading": "News [more]",
+            "text": "News [more] Modi govt blocks 32 websites India blocks 32 websites, including GitHub, Internet Archive, Pastebin, Vimeo Internet Archive har frigivet 900 klassiske arkadespil, som man kan spille ganske gratis fra sin browser. Unlocking the Imagery of 500 Years of Books Kodachrome home-movie of a Long Beach fast food joint in 1952 The internet time machine – how your favourite websites used to look The 11 most useful web tools of 2014 Brewster Kahle's quest to make all human knowledge available Internet Archive Lets You Go Retro for Free Trending up: Internet Archive; Trending down: Russia Membe"
+          },
+          {
+            "level": 1,
+            "heading": "About the Internet Archive",
+            "text": "About the Internet Archive The Internet Archive is a 501(c)(3) non-profit that was founded to build an Internet library. Its purposes include offering permanent access for researchers, historians, scholars, people with disabilities, and the general public to historical collections that exist in digital format. Founded in 1996 and located in San Francisco , the Archive has been receiving data donations from Alexa Internet and others. In late 1999, the organization started to grow to include more well-rounded collections. Now the Internet Archive includes: texts , audio , moving images , and sof"
+          },
+          {
+            "level": 2,
+            "heading": "Why the Archive is Building an 'Internet Library'",
+            "text": "Why the Archive is Building an 'Internet Library' Libraries exist to preserve society's cultural artifacts and to provide access to them. If libraries are to continue to foster education and scholarship in this era of digital technology, it's essential for them to extend those functions into the digital world. Many early movies were recycled to recover the silver in the film. The Library of Alexandria - an ancient center of learning containing a copy of every book in the world - was eventually burned to the ground. Even now, at the turn of the 21st century, no comprehensive archives of televis"
+          },
+          {
+            "level": 2,
+            "heading": "Future Libraries - How People Envision Using Internet Libraries",
+            "text": "Future Libraries - How People Envision Using Internet Libraries From ephemera to artifact: Internet libraries can change the content of the Internet from ephemera to enduring artifacts of our political and cultural lives. \"I believe historians need every possible piece of paper and archived byte of digital data they can muster. The Smithsonian Institution sees the value, and has affiliated with the Archive to preserve the 1996 campaign Web sites , official and unofficial.\" Dan Gillmor, computing editor, San Jose Mercury News, 1 September 1996 Protecting our right to know: Most states have pre-"
+          },
+          {
+            "level": 2,
+            "heading": "Related Projects and Research",
+            "text": "Related Projects and Research Internet libraries raise many issues in a range of areas, including archiving technology, copyright, privacy and free speech, trademark, trade secrets, import/export issues, stolen property, pornography, the question of who will have access to the libraries, and more. Below are links to projects, resources, and institutions related to Internet libraries. Internet Libraries and Librarianship Archiving Technology Internet Mapping Internet Statistics Copyright Privacy and Free Speech Internet Libraries and Librarianship Alexa Internet has catalogued Web sites and pro"
+          },
+          {
+            "level": 2,
+            "heading": "Storage and Preservation",
+            "text": "Storage and Preservation The Archive has two practical considerations in dealing with digital collections: How to store massive amounts of data How to preserve the data for posterity Storage Storing the Archive's collections involves parsing, indexing, and physically encoding the data. With the Internet collections growing at exponential rates, this task poses an ongoing challenge. Our hardware consists of PCs with clusters of IDE hard drives. Data is stored on DLT tape and hard drives in various appropriate formats, depending on the collection. Web data is received and stored in archive forma"
+          }
+        ]
+      },
+      {
+        "date": "2015-09-16T00:00:00.000Z",
+        "timestamp": "20150916112115",
+        "url": "https://web.archive.org/web/20150916112115/https://archive.org/about/",
+        "fullText": "Internet Archive: About IA Skip to main content Search the history of over 436 billion pages on the Internet. Featured All Texts This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections eBooks & Texts Top American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Children's Library Biodiversity Heritage Library Open Library Featured All Video This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11 News & Public Affairs Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media Featured All Audio This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Podcasts Librivox Free Audiobook Radio Programs Spirituality & Religion Today In History Featured All Software This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade Console Living Room Featured All Image This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum &times; Toggle navigation ABOUT CONTACT BLOG PROJECTS SERVICES --> DONATE HELP TERMS JOBS VOLUNTEER PEOPLE Sign In The Internet Archive is a 501(c)(3) non-profit that was founded to build an Internet library. Its purposes include offering permanent access for researchers, historians, scholars, people with disabilities, and the general public to historical collections that exist in digital format. After 12 years it is our pleasure to announce A new Internet Archive. GIVE IT A TRY How to Use the New Site The archive is one of the largest digital collections of information on the Internet. To get the most out of the new site we recommend watching this short 7 minute video. TRY NEW SITE Why Did this Site Change? Read about the history of the archive and the motivation and process of taking one of the most beloved treasures on the Internet forward. READ ABOUT IT",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "5 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 114,
+          "linksBeforeMain": 109,
+          "headingCount": 18,
+          "h1Count": 1,
+          "imgsNoAlt": 13,
+          "totalImgs": 13,
+          "inputsNoLabel": 3,
+          "totalInputs": 3,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "this just in",
+              "count": 5
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured All Texts This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections eBooks & Texts"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Children's Library Biodiversity Heritage Library Open Library"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured All Video This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured All Audio This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Podcasts Librivox Free Audiobook"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured All Software This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured All Image This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum"
+          },
+          {
+            "level": 1,
+            "heading": "A new Internet Archive.",
+            "text": "A new Internet Archive. GIVE IT A TRY"
+          },
+          {
+            "level": 2,
+            "heading": "How to Use the New Site",
+            "text": "How to Use the New Site The archive is one of the largest digital collections of information on the Internet. To get the most out of the new site we recommend watching this short 7 minute video. TRY NEW SITE"
+          },
+          {
+            "level": 2,
+            "heading": "Why Did this Site Change?",
+            "text": "Why Did this Site Change? Read about the history of the archive and the motivation and process of taking one of the most beloved treasures on the Internet forward. READ ABOUT IT"
+          }
+        ]
+      },
+      {
+        "date": "2015-09-18T00:00:00.000Z",
+        "timestamp": "20150918220419",
+        "url": "https://web.archive.org/web/20150918220419/https://archive.org/about/",
+        "fullText": "Internet Archive: About IA Skip to main content Search the history of over 436 billion pages on the Internet. Featured All Texts This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections eBooks & Texts Top American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Biodiversity Heritage Library Children's Library Open Library Featured All Video This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11 News & Public Affairs Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media Featured All Audio This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Podcasts Librivox Free Audiobook Radio Programs Spirituality & Religion Today In History Featured All Software This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade Console Living Room Featured All Image This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum &times; Toggle navigation ABOUT CONTACT BLOG PROJECTS SERVICES --> DONATE HELP TERMS JOBS VOLUNTEER PEOPLE Sign In Read More Why the Archive is Building an &#146;Internet Library&#146; Future Libraries Storage and Preservation Related Projects and Research Researcher Access Server Statistics Archive Statistics Job Opportunities at the Internet Archive Usage Logs News [more] Forbes - History As Big Data: 500 Years Of Book Images And Mapping Millions Of Books The Daily Targum - Founder of Internet Archive Brewster Kahle 'bytes' into dream of making all information public, free on Internet Slate -The Creator of the Internet Archive Should Be the Next Librarian of Congress CBC Radio -Why I spent my summer rescuing thousands of vintage manuals The Atlantic - Introducing the Archive Corps Popular Science - Can we save all the physical media in the world as digital data? Washingtonian - The TBD.com Archives Vanish Again, Maybe for the Last Time The Atlantic - The 2016 Candidates Who Are Making Headlines TechCrunch -The Internet Is Failing The Website Preservation Test The Guardian Is Donald Trump dominating media coverage of the Republican race? Member About the Internet Archive The Internet Archive is a 501(c)(3) non-profit that was founded to build an Internet library. Its purposes include offering permanent access for researchers, historians, scholars, people with disabilities, and the general public to historical collections that exist in digital format. Founded in 1996 and located in San Francisco , the Archive has been receiving data donations from Alexa Internet and others. In late 1999, the organization started to grow to include more well-rounded collections. Now the Internet Archive includes: texts , audio , moving images , and software as well as archived web pages in our collections, and provides specialized services for adaptive reading and information access for the blind and other persons with disabilities. Why the Archive is Building an 'Internet Library' Libraries exist to preserve society's cultural artifacts and to provide access to them. If libraries are to continue to foster education and scholarship in this era of digital technology, it's essential for them to extend those functions into the digital world. Many early movies were recycled to recover the silver in the film. The Library of Alexandria - an ancient center of learning containing a copy of every book in the world - was eventually burned to the ground. Even now, at the turn of the 21st century, no comprehensive archives of television or radio programs exist. But without cultural artifacts, civilization has no memory and no mechanism to learn from its successes and failures. And paradoxically, with the explosion of the Internet, we live in what Danny Hillis has referred to as our \" digital dark age .\" The Internet Archive is working to prevent the Internet - a new medium with major historical significance - and other \"born-digital\" materials from disappearing into the past. Collaborating with institutions including the Library of Congress and the Smithsonian , we are working to preserve a record for generations to come. Open and free access to literature and other writings has long been considered essential to education and to the maintenance of an open society. Public and philanthropic enterprises have supported it through the ages. The Internet Archive is opening its collections to researchers, historians, and scholars. The Archive has no vested interest in the discoveries of the users of its collections, nor is it a grant-making organization. At present, the size of our Web collection is such that using it requires programming skills . However, we are hopeful about the development of tools and methods that will give the general public easy and meaningful access to our collective history. In addition to developing our own collections, we are working to promote the formation of other Internet libraries in the United States and elsewhere. Find out How to make a Monetary Donation to the Archive About our announcement and discussion lists on Internet libraries and movie archives as well as our user forums Future Libraries - How People Envision Using Internet Libraries From ephemera to artifact: Internet libraries can change the content of the Internet from ephemera to enduring artifacts of our political and cultural lives. \"I believe historians need every possible piece of paper and archived byte of digital data they can muster. The Smithsonian Institution sees the value, and has affiliated with the Archive to preserve the 1996 campaign Web sites , official and unofficial.\" Dan Gillmor, computing editor, San Jose Mercury News, 1 September 1996 Protecting our right to know: Most states have pre-Internet sunshine laws that require public access to government documents. Yet while the Internet has generally increased public access to information, states have just begun to amend those laws to reflect today's Internet environment. According to Bill Chamberlin, director of the Marion Brechner Citizen Access Project at the University of Florida's College of Journalism and Communications, such laws are being enacted \"piecemeal, one state at a time,\" and cover information that varies widely in nature - everything from \"all public records\" to specialized information such as education reports and the licensing status of medical practitioners. In the meantime, while public officials are posting more information on the Internet than their state legislatures require, there's little regulatory control over exactly what is posted, when it's taken off, or how often it's updated. This leaves a gap that online libraries can help to fill. Exercising our \"right to remember\": Without paper libraries, it would be hard to exercise our \"right to remember\" our political history or hold government accountable. With much of the public's business now moving from paper to digital media, Internet libraries are certain to become essential in maintaining that right. Imagine, for instance, how news coverage of an election campaign might suffer if journalists had only limited access to previous statements that candidates had made in the media. \"The Internet Archive is a service so essential that its founding is bound to be looked back on with the fondness and respect that people now have for the public libraries seeded by Andrew Carnegie a century ago.... Digitized information, especially on the Internet, has such rapid turnover these days that total loss is the norm. Civilization is developing severe amnesia as a result; indeed it may have become too amnesiac already to notice the problem properly. The Internet Archive is the beginning of a cure - the beginning of complete, detailed, accessible, searchable memory for society, and not just scholars this time, but everyone.\" Stewart Brand, president, The Long Now Foundation Establishing Internet centers internationally: What is a country without a memory of its cultural heritage? Internet libraries are the place to preserve the aspect of a country's heritage that exists on the Internet. Tracing the way our language changes: During the late 19th century, James Murray, a professor at Oxford University, built the first edition of the Oxford English Dictionary by sending copies of selected books to \"men of letters\" who volunteered to search them for the first occurrences of words and to trace the migration of their various meanings. Internet libraries could allow linguists to automate much of this extremely labor-intensive process. Tracking the Web's evolution: Historians, sociologists, and journalists could use Internet libraries to hold up a mirror to society. For example, they might ask when different ethnic groups or special interests or certain businesses became a presence on the Internet. \"We don't know where this Internet is going, and once we get there it will be very instructive to look back.\" Donald Heath, president of the Internet Society in Reston, Virginia Reviving dead links: A few services - such as UC Berkeley's Digital Library Project , the Online Computer Library Center , and Alexa Internet are starting to offer access to archived versions of Web pages when those pages have been removed from the Web. This means that if you get a \"404 - Page Not Found\" error, you'll still be able to find a version of the page. Understanding the economy: Economists could use Archive data such as link structures - what and how many links a site contains - to investigate how the Web affects commerce. Finding out what the Web tells us about ourselves: Researchers could use data on links and traffic to better understand human behavior and communication. \"Researchers could use the Archive's Web snapshots in combination with usage statistics to compare how people in different countries use the Web over long periods of time.... Political scientists and sociologists could use the data to study how public opinion gets formed. For example, suppose a device for increasing privacy became available: Would it change usage patterns?\" Bernardo Huberman, Xerox Palo Alto Research Center \"The Internet Archive has created a kind of test tube that allows a broad range of researchers to analyze the Web in ways that have never been possible before. What makes this type of research unique is that it often requires the fusion of traditional tools and techniques with new methods, and it results in the development of new theories, techniques, and metrics.\" James Pitkow, Xerox Palo Alto Research Center Looking back: With a \"way-back machine\" - a device that displayed the Web as it looked on a given date - historians and others would literally have a window on the past. How would you use an Internet library ? Related Projects and Research Internet libraries raise many issues in a range of areas, including archiving technology, copyright, privacy and free speech, trademark, trade secrets, import/export issues, stolen property, pornography, the question of who will have access to the libraries, and more. Below are links to projects, resources, and institutions related to Internet libraries. Internet Libraries and Librarianship Archiving Technology Internet Mapping Internet Statistics Copyright Privacy and Free Speech Internet Libraries and Librarianship Alexa Internet has catalogued Web sites and provides this information in a free service. www.alexa.com The American Library Association is a major trade association of American libraries. www.ala.org The Australian National Library collects material including organizational Web sites. pandora.nla.gov.au/documents.html The Council on Library and Information Resources works to ensure the well-being of the scholarly communication system. www.clir.org See its publication Why Digitize? at www.clir.org/pubs/reports/pub80-smith/pub80.html The Digital Library Forum (D-Lib) publishes an online magazine and other resources for building digital libraries. www.dlib.org Attorney I. Trotter Hardy explains copyright law and examines its implications for digital materials in his paper Internet Archives and Copyright. copyright_TH.php The Internet Public Library site has many links to online resources for the general public. www.ipl.org Brewster Kahle is a founder of WAIS Inc. and Alexa Internet and chairman of the board of the Internet Archive. See his paper The Ethics of Digital Librarianship at ethics_BK.php Michael Lesk of the National Science Foundation has written extensively on digital archiving and digital libraries. www.purl.net/NET/lesk The Library of Congress is the national library of the United States. www.loc.gov The Museum Digital Library plans to help digitize collections and provide access to them. www.digitalmuseums.org The National Archives and Records Administration oversees the management of all US federal records. It also archives federal Web sites including the Clinton White House site . archives.gov The National Science Foundation Digital Library Program has funded academic research on digital libraries. www.nsf.gov/home/crssprgm/dli/start.htm National Technical Information Service (NTIS) , U.S. Department of Commerce, Technology Administration. NTIS is an archive and distributor of scientific, technical, engineering and business related information developed by and for the federal government. www.ntis.gov Network Wizards has been tracking Internet growth for many years. www.nw.com Project Gutenberg is making ASCII versions of classic literature openly available. www.gutenberg.org The Radio and Television Archive has many links to related resources. www.rtvf.unt.edu/links/histsites.htm Revival of the Library of Alexandria is a project to revive the ancient library in Egypt. www.bibalex.org The Society of American Archivists is a professional association focused on ensuring the identification, preservation, and use of records of historical value. archivists.org/ The Royal Institute of Technology Library in Sweden is creating a system of quality-assessed information resources on the Internet for academic use. www.lib.kth.se/main/eng The United States Government Printing Office produces and distributes information published by the US government. www.access.gpo.gov The University of Virginia is building a catalog of digital library activities. http://www.lib.virginia.edu/digital/ Archiving Technology The Association for Computing Machinery (ACM) computing and public policy page includes papers and news on pending legislation on issues including universal access, copyright and intellectual property, free speech and the Internet, and privacy. www.acm.org/serving The Carnegie Mellon University Informedia Digital Video Library Project is studying how multimedia digital libraries can be established and used. www.informedia.cs.cmu.edu The Intermemory Project aims to develop highly survivable and available storage systems. www.intermemory.org The National Film Preservation Board, established by the National Film Preservation Act of 1988, works with the Library of Congress to study and implement plans for film and television preservation. The site's research page includes links to the board's 1993 film preservation study , a 1994 film preservation plan , and a 1997 television and video study . All the documents warn of the dire state of film and television preservation in the United States. lcweb.loc.gov/film/filmpres.html The National Institute of Standards and Technology (NIST) posts IEC International Standard names and symbols for prefixes for binary multiples for use in data processing and data transmission. www.physics.nist.gov/cuu/Units/binary.html The Text Retrieval Conference (TREC) encourages research in information retrieval from large text collections. trec.nist.gov Internet Mapping An Atlas of Cyberspaces has maps and dynamic tools for visualizing Web browsing. www.cybergeography.com/atlas/surf.html The Internet Mapping Project was a long-term project by a scientist at Bell Labs to collect routing data on the Internet. www.cs.bell-labs.com/who/ches/map The Matrix Information Directory Service has good maps and visualizations of the networked world. mids.org Peacock Maps has maps of Internet connectivity. www.peacockmaps.com Internet Statistics WebReference has an Internet statistics page (publisher: Internet.com). webreference.com/internet/statistics.html Copyright The Association for Computing Machinery (ACM) copyright information page includes text of pertinent laws and pending legislation. www.acm.org/usacm/copyright Tom W. Bell teaches intellectual property and Internet law at Chapman University School of Law. www.tomwbell.com His site includes a graph showing the trend of the maximum US copyright term at www.tomwbell.com/writings/(C)_Term.html Cornell University posts the text of copyright law at www4.law.cornell.edu/uscode/unframed/17/107.html www4.law.cornell.edu/uscode/unframed/17/108.html The Digital Future Coalition is a nonprofit working on the issues of copyright in the digital age. The National Academy Press is the publishing arm of the national academies . \"The Digital Dilemma: Intellectual Property in the Information Age\" http://www.nap.edu/html/digital_dilemma/ \"LC21: A Digital Strategy for the Library of Congress\" www.nap.edu/books/[phone]/html Pamela Samuelson is a professor in the School of Information Management and Systems at UC Berkeley. info.berkeley.edu/~pam Title 17 of US copyright code www.loc.gov/copyright/title17/ US Government Copyright Office www.loc.gov/copyright Privacy and Free Speech The Association for Computing Machinery (ACM) free-speech information page includes the text of pertinent laws and pending legislation. www.acm.org/usacm/speech The Association for Computing Machinery (ACM) privacy information page includes the text of congressional testimony and links to other resources. www.acm.org/usacm/privacy The Benton Foundation Communications Policy and Practice Program has the goal of infusing the emerging communications environment with public-interest values. benton.org/archive The Center for Democracy and Technology works to promote democratic values and constitutional liberties in the digital age. www.cdt.org The Computers Freedom and Privacy Conference has a site containing information on each annual conference held since 1991. www.cfp.org The Electronic Frontier Foundation works to protect fundamental civil liberties, including privacy and freedom of expression in the arena of computers and the Internet. www.eff.org The Electronic Privacy Information Center, a project of the Fund for Constitutional Government , is a public-interest research center whose goal is to focus public attention on emerging civil liberties issues and to protect privacy, the First Amendment, and constitutional values. www.epic.org The Free Expression Policy Project is a think tank on artistic and intellectual freedom at NYU's Brennan Center for Justice. Through policy research and advocacy, they explore freedom of expression issues including censorship, copyright law, media localism, and corporate media reform. www.fepproject.org The Internet Free Expression Alliance is an information and advocacy organization focused on free speech as it relates to the Internet. www.ifea.net The Internet Privacy Coalition aims to protect privacy on the Internet by promoting the widespread availability of strong encryption and the relaxation of export controls on cryptography. privacycoalition.org/ The Privacy Page includes news, alerts, and links to privacy-related resources. Relat",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "4 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 123,
+          "linksBeforeMain": 118,
+          "headingCount": 22,
+          "h1Count": 2,
+          "imgsNoAlt": 14,
+          "totalImgs": 14,
+          "inputsNoLabel": 3,
+          "totalInputs": 3,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "this just in",
+              "count": 5
+            },
+            {
+              "label": "alexa internet",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured All Texts This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections eBooks & Texts"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Biodiversity Heritage Library Children's Library Open Library"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured All Video This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured All Audio This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Podcasts Librivox Free Audiobook"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured All Software This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured All Image This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum"
+          },
+          {
+            "level": 3,
+            "heading": "Read More",
+            "text": "Read More Why the Archive is Building an &#146;Internet Library&#146; Future Libraries Storage and Preservation Related Projects and Research Researcher Access Server Statistics Archive Statistics Job Opportunities at the Internet Archive Usage Logs"
+          },
+          {
+            "level": 1,
+            "heading": "News [more]",
+            "text": "News [more] Forbes - History As Big Data: 500 Years Of Book Images And Mapping Millions Of Books The Daily Targum - Founder of Internet Archive Brewster Kahle 'bytes' into dream of making all information public, free on Internet Slate -The Creator of the Internet Archive Should Be the Next Librarian of Congress CBC Radio -Why I spent my summer rescuing thousands of vintage manuals The Atlantic - Introducing the Archive Corps Popular Science - Can we save all the physical media in the world as digital data? Washingtonian - The TBD.com Archives Vanish Again, Maybe for the Last Time The Atlantic "
+          },
+          {
+            "level": 1,
+            "heading": "About the Internet Archive",
+            "text": "About the Internet Archive The Internet Archive is a 501(c)(3) non-profit that was founded to build an Internet library. Its purposes include offering permanent access for researchers, historians, scholars, people with disabilities, and the general public to historical collections that exist in digital format. Founded in 1996 and located in San Francisco , the Archive has been receiving data donations from Alexa Internet and others. In late 1999, the organization started to grow to include more well-rounded collections. Now the Internet Archive includes: texts , audio , moving images , and sof"
+          },
+          {
+            "level": 2,
+            "heading": "Why the Archive is Building an 'Internet Library'",
+            "text": "Why the Archive is Building an 'Internet Library' Libraries exist to preserve society's cultural artifacts and to provide access to them. If libraries are to continue to foster education and scholarship in this era of digital technology, it's essential for them to extend those functions into the digital world. Many early movies were recycled to recover the silver in the film. The Library of Alexandria - an ancient center of learning containing a copy of every book in the world - was eventually burned to the ground. Even now, at the turn of the 21st century, no comprehensive archives of televis"
+          },
+          {
+            "level": 2,
+            "heading": "Future Libraries - How People Envision Using Internet Libraries",
+            "text": "Future Libraries - How People Envision Using Internet Libraries From ephemera to artifact: Internet libraries can change the content of the Internet from ephemera to enduring artifacts of our political and cultural lives. \"I believe historians need every possible piece of paper and archived byte of digital data they can muster. The Smithsonian Institution sees the value, and has affiliated with the Archive to preserve the 1996 campaign Web sites , official and unofficial.\" Dan Gillmor, computing editor, San Jose Mercury News, 1 September 1996 Protecting our right to know: Most states have pre-"
+          },
+          {
+            "level": 2,
+            "heading": "Related Projects and Research",
+            "text": "Related Projects and Research Internet libraries raise many issues in a range of areas, including archiving technology, copyright, privacy and free speech, trademark, trade secrets, import/export issues, stolen property, pornography, the question of who will have access to the libraries, and more. Below are links to projects, resources, and institutions related to Internet libraries. Internet Libraries and Librarianship Archiving Technology Internet Mapping Internet Statistics Copyright Privacy and Free Speech Internet Libraries and Librarianship Alexa Internet has catalogued Web sites and pro"
+          },
+          {
+            "level": 2,
+            "heading": "Storage and Preservation",
+            "text": "Storage and Preservation The Archive has two practical considerations in dealing with digital collections: How to store massive amounts of data How to preserve the data for posterity Storage Storing the Archive's collections involves parsing, indexing, and physically encoding the data. With the Internet collections growing at exponential rates, this task poses an ongoing challenge. Our hardware consists of PCs with clusters of IDE hard drives. Data is stored on DLT tape and hard drives in various appropriate formats, depending on the collection. Web data is received and stored in archive forma"
+          }
+        ]
+      },
+      {
+        "date": "2016-07-14T00:00:00.000Z",
+        "timestamp": "20160714152403",
+        "url": "https://web.archive.org/web/20160714152403/https://archive.org/about/",
+        "fullText": "Internet Archive: About IA Skip to main content Search the history of over 491 billion pages on the Internet. search Search the Wayback Machine Featured texts All Texts latest This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections eBooks & Texts Top American Libraries Canadian Libraries Universal Library Community Texts Shareware CD-ROMs Project Gutenberg Biodiversity Heritage Library Open Library Children's Library Kimberly Kubus Featured movies All Video latest This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11 News & Public Affairs Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media Featured audio All Audio latest This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Podcasts Librivox Free Audiobook Radio Programs Spirituality & Religion Featured software All Software latest This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade Top Community Software MS-DOS APK Software Sites Tucows Software Library Vintage Software Vectrex Console Living Room Atari 2600 Magnavox Odyssey 2 Bally Astrocade Sega Genesis Sega Game Gear Atari 7800 Sega Master System Featured image All Image latest This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum web texts movies audio software image logo Toggle navigation ABOUT CONTACT BLOG PROJECTS HELP DONATE TERMS JOBS VOLUNTEER PEOPLE search Search the Archive heart --> upload person SIGN IN Read More Why the Archive is Building an &#146;Internet Library&#146; Future Libraries Storage and Preservation Related Projects and Research Researcher Access Server Statistics Archive Statistics Job Opportunities at the Internet Archive Usage Logs News [more] de Volkskrant - The Internet Archive Fast Company - How To Break Open The Web The Ringer - Internet Archive Is a Beautiful Storage Bin for Our Online Memories bOiNGbOiNG - How to protect the future web from its founders' own frailty WIRED - The Inventors of the Internet Are Trying to Build a Truly Permanent Web Tech.Mic - Anonymous Went After the Internet's Most Popular Hub of Lost Knowledge Just to Get ISIS Vice Motherboard - Anti-ISIS Hacktivists Are Attacking the Internet Archive Forbes - Could We Ever Have A Truly Free Internet? BITCOIN MAGAZINE - Decentralized Web Initiative Aims to Reinvent Web With Peer-To-Peer And Blockchain Technology LIBRARY JOURNAL - Please Rewind - Preservation Member About the Internet Archive The Internet Archive is a 501(c)(3) non-profit that was founded to build an Internet library. Its purposes include offering permanent access for researchers, historians, scholars, people with disabilities, and the general public to historical collections that exist in digital format. Founded in 1996 and located in San Francisco , the Archive has been receiving data donations from Alexa Internet and others. In late 1999, the organization started to grow to include more well-rounded collections. Now the Internet Archive includes: texts , audio , moving images , and software as well as archived web pages in our collections, and provides specialized services for adaptive reading and information access for the blind and other persons with disabilities. Why the Archive is Building an 'Internet Library' Libraries exist to preserve society's cultural artifacts and to provide access to them. If libraries are to continue to foster education and scholarship in this era of digital technology, it's essential for them to extend those functions into the digital world. Many early movies were recycled to recover the silver in the film. The Library of Alexandria - an ancient center of learning containing a copy of every book in the world - was eventually burned to the ground. Even now, at the turn of the 21st century, no comprehensive archives of television or radio programs exist. But without cultural artifacts, civilization has no memory and no mechanism to learn from its successes and failures. And paradoxically, with the explosion of the Internet, we live in what Danny Hillis has referred to as our \" digital dark age .\" The Internet Archive is working to prevent the Internet - a new medium with major historical significance - and other \"born-digital\" materials from disappearing into the past. Collaborating with institutions including the Library of Congress and the Smithsonian , we are working to preserve a record for generations to come. Open and free access to literature and other writings has long been considered essential to education and to the maintenance of an open society. Public and philanthropic enterprises have supported it through the ages. The Internet Archive is opening its collections to researchers, historians, and scholars. The Archive has no vested interest in the discoveries of the users of its collections, nor is it a grant-making organization. At present, the size of our Web collection is such that using it requires programming skills . However, we are hopeful about the development of tools and methods that will give the general public easy and meaningful access to our collective history. In addition to developing our own collections, we are working to promote the formation of other Internet libraries in the United States and elsewhere. Find out How to make a Monetary Donation to the Archive About our announcement and discussion lists on Internet libraries and movie archives as well as our user forums Future Libraries - How People Envision Using Internet Libraries From ephemera to artifact: Internet libraries can change the content of the Internet from ephemera to enduring artifacts of our political and cultural lives. \"I believe historians need every possible piece of paper and archived byte of digital data they can muster. The Smithsonian Institution sees the value, and has affiliated with the Archive to preserve the 1996 campaign Web sites , official and unofficial.\" Dan Gillmor, computing editor, San Jose Mercury News, 1 September 1996 Protecting our right to know: Most states have pre-Internet sunshine laws that require public access to government documents. Yet while the Internet has generally increased public access to information, states have just begun to amend those laws to reflect today's Internet environment. According to Bill Chamberlin, director of the Marion Brechner Citizen Access Project at the University of Florida's College of Journalism and Communications, such laws are being enacted \"piecemeal, one state at a time,\" and cover information that varies widely in nature - everything from \"all public records\" to specialized information such as education reports and the licensing status of medical practitioners. In the meantime, while public officials are posting more information on the Internet than their state legislatures require, there's little regulatory control over exactly what is posted, when it's taken off, or how often it's updated. This leaves a gap that online libraries can help to fill. Exercising our \"right to remember\": Without paper libraries, it would be hard to exercise our \"right to remember\" our political history or hold government accountable. With much of the public's business now moving from paper to digital media, Internet libraries are certain to become essential in maintaining that right. Imagine, for instance, how news coverage of an election campaign might suffer if journalists had only limited access to previous statements that candidates had made in the media. \"The Internet Archive is a service so essential that its founding is bound to be looked back on with the fondness and respect that people now have for the public libraries seeded by Andrew Carnegie a century ago.... Digitized information, especially on the Internet, has such rapid turnover these days that total loss is the norm. Civilization is developing severe amnesia as a result; indeed it may have become too amnesiac already to notice the problem properly. The Internet Archive is the beginning of a cure - the beginning of complete, detailed, accessible, searchable memory for society, and not just scholars this time, but everyone.\" Stewart Brand, president, The Long Now Foundation Establishing Internet centers internationally: What is a country without a memory of its cultural heritage? Internet libraries are the place to preserve the aspect of a country's heritage that exists on the Internet. Tracing the way our language changes: During the late 19th century, James Murray, a professor at Oxford University, built the first edition of the Oxford English Dictionary by sending copies of selected books to \"men of letters\" who volunteered to search them for the first occurrences of words and to trace the migration of their various meanings. Internet libraries could allow linguists to automate much of this extremely labor-intensive process. Tracking the Web's evolution: Historians, sociologists, and journalists could use Internet libraries to hold up a mirror to society. For example, they might ask when different ethnic groups or special interests or certain businesses became a presence on the Internet. \"We don't know where this Internet is going, and once we get there it will be very instructive to look back.\" Donald Heath, president of the Internet Society in Reston, Virginia Reviving dead links: A few services - such as UC Berkeley's Digital Library Project , the Online Computer Library Center , and Alexa Internet are starting to offer access to archived versions of Web pages when those pages have been removed from the Web. This means that if you get a \"404 - Page Not Found\" error, you'll still be able to find a version of the page. Understanding the economy: Economists could use Archive data such as link structures - what and how many links a site contains - to investigate how the Web affects commerce. Finding out what the Web tells us about ourselves: Researchers could use data on links and traffic to better understand human behavior and communication. \"Researchers could use the Archive's Web snapshots in combination with usage statistics to compare how people in different countries use the Web over long periods of time.... Political scientists and sociologists could use the data to study how public opinion gets formed. For example, suppose a device for increasing privacy became available: Would it change usage patterns?\" Bernardo Huberman, Xerox Palo Alto Research Center \"The Internet Archive has created a kind of test tube that allows a broad range of researchers to analyze the Web in ways that have never been possible before. What makes this type of research unique is that it often requires the fusion of traditional tools and techniques with new methods, and it results in the development of new theories, techniques, and metrics.\" James Pitkow, Xerox Palo Alto Research Center Looking back: With a \"way-back machine\" - a device that displayed the Web as it looked on a given date - historians and others would literally have a window on the past. How would you use an Internet library ? Related Projects and Research Internet libraries raise many issues in a range of areas, including archiving technology, copyright, privacy and free speech, trademark, trade secrets, import/export issues, stolen property, pornography, the question of who will have access to the libraries, and more. Below are links to projects, resources, and institutions related to Internet libraries. Internet Libraries and Librarianship Archiving Technology Internet Mapping Internet Statistics Copyright Privacy and Free Speech Internet Libraries and Librarianship Alexa Internet has catalogued Web sites and provides this information in a free service. www.alexa.com The American Library Association is a major trade association of American libraries. www.ala.org The Australian National Library collects material including organizational Web sites. pandora.nla.gov.au/documents.html The Council on Library and Information Resources works to ensure the well-being of the scholarly communication system. www.clir.org See its publication Why Digitize? at www.clir.org/pubs/reports/pub80-smith/pub80.html The Digital Library Forum (D-Lib) publishes an online magazine and other resources for building digital libraries. www.dlib.org Attorney I. Trotter Hardy explains copyright law and examines its implications for digital materials in his paper Internet Archives and Copyright. copyright_TH.php The Internet Public Library site has many links to online resources for the general public. www.ipl.org Brewster Kahle is a founder of WAIS Inc. and Alexa Internet and chairman of the board of the Internet Archive. See his paper The Ethics of Digital Librarianship at ethics_BK.php Michael Lesk of the National Science Foundation has written extensively on digital archiving and digital libraries. www.purl.net/NET/lesk The Library of Congress is the national library of the United States. www.loc.gov The Museum Digital Library plans to help digitize collections and provide access to them. www.digitalmuseums.org The National Archives and Records Administration oversees the management of all US federal records. It also archives federal Web sites including the Clinton White House site . archives.gov The National Science Foundation Digital Library Program has funded academic research on digital libraries. www.nsf.gov/home/crssprgm/dli/start.htm National Technical Information Service (NTIS) , U.S. Department of Commerce, Technology Administration. NTIS is an archive and distributor of scientific, technical, engineering and business related information developed by and for the federal government. www.ntis.gov Network Wizards has been tracking Internet growth for many years. www.nw.com Project Gutenberg is making ASCII versions of classic literature openly available. www.gutenberg.org The Radio and Television Archive has many links to related resources. www.rtvf.unt.edu/links/histsites.htm Revival of the Library of Alexandria is a project to revive the ancient library in Egypt. www.bibalex.org The Society of American Archivists is a professional association focused on ensuring the identification, preservation, and use of records of historical value. archivists.org/ The Royal Institute of Technology Library in Sweden is creating a system of quality-assessed information resources on the Internet for academic use. www.lib.kth.se/main/eng The United States Government Printing Office produces and distributes information published by the US government. www.access.gpo.gov The University of Virginia is building a catalog of digital library activities. http://www.lib.virginia.edu/digital/ Archiving Technology The Association for Computing Machinery (ACM) computing and public policy page includes papers and news on pending legislation on issues including universal access, copyright and intellectual property, free speech and the Internet, and privacy. www.acm.org/serving The Carnegie Mellon University Informedia Digital Video Library Project is studying how multimedia digital libraries can be established and used. www.informedia.cs.cmu.edu The Intermemory Project aims to develop highly survivable and available storage systems. www.intermemory.org The National Film Preservation Board, established by the National Film Preservation Act of 1988, works with the Library of Congress to study and implement plans for film and television preservation. The site's research page includes links to the board's 1993 film preservation study , a 1994 film preservation plan , and a 1997 television and video study . All the documents warn of the dire state of film and television preservation in the United States. lcweb.loc.gov/film/filmpres.html The National Institute of Standards and Technology (NIST) posts IEC International Standard names and symbols for prefixes for binary multiples for use in data processing and data transmission. www.physics.nist.gov/cuu/Units/binary.html The Text Retrieval Conference (TREC) encourages research in information retrieval from large text collections. trec.nist.gov Internet Mapping An Atlas of Cyberspaces has maps and dynamic tools for visualizing Web browsing. www.cybergeography.com/atlas/surf.html The Internet Mapping Project was a long-term project by a scientist at Bell Labs to collect routing data on the Internet. www.cs.bell-labs.com/who/ches/map The Matrix Information Directory Service has good maps and visualizations of the networked world. mids.org Peacock Maps has maps of Internet connectivity. www.peacockmaps.com Internet Statistics WebReference has an Internet statistics page (publisher: Internet.com). webreference.com/internet/statistics.html Copyright The Association for Computing Machinery (ACM) copyright information page includes text of pertinent laws and pending legislation. www.acm.org/usacm/copyright Tom W. Bell teaches intellectual property and Internet law at Chapman University School of Law. www.tomwbell.com His site includes a graph showing the trend of the maximum US copyright term at www.tomwbell.com/writings/(C)_Term.html Cornell University posts the text of copyright law at www4.law.cornell.edu/uscode/unframed/17/107.html www4.law.cornell.edu/uscode/unframed/17/108.html The Digital Future Coalition is a nonprofit working on the issues of copyright in the digital age. The National Academy Press is the publishing arm of the national academies . \"The Digital Dilemma: Intellectual Property in the Information Age\" http://www.nap.edu/html/digital_dilemma/ \"LC21: A Digital Strategy for the Library of Congress\" www.nap.edu/books/[phone]/html Pamela Samuelson is a professor in the School of Information Management and Systems at UC Berkeley. info.berkeley.edu/~pam Title 17 of US copyright code www.loc.gov/copyright/title17/ US Government Copyright Office www.loc.gov/copyright Privacy and Free Speech The Association for Computing Machinery (ACM) free-speech information page includes the text of pertinent laws and pending legislation. www.acm.org/usacm/speech The Association for Computing Machinery (ACM) privacy information page includes the text of congressional testimony and links to other resources. www.acm.org/usacm/privacy The Benton Foundation Communications Policy and Practice Program has the goal of infusing the emerging communications environment with public-interest values. benton.org/archive The Center for Democracy and Technology works to promote democratic values and constitutional liberties in the digital age. www.cdt.org The Computers Freedom and Privacy Conference has a site containing information on each annual conference held since 1991. www.cfp.org The Electronic Frontier Foundation works to protect fundamental civil liberties, including privacy and freedom of expression in the arena of computers and the Internet. www.eff.org The Electronic Privacy Information Center, a project of the Fund for Constitutional Government , is a public-interest research center whose goal is to focus public attention on emerging civil liberties issues and to protect privacy, the First Amendment, and constitutional values. www.epic.org The Free Expression Policy Project is a think tank on artistic and intellectual freedom at NYU's Brennan Center for Justice. Through policy research and advocacy, they explore freedom of expression issues including censorship, copyright law, media localism, and corporate media reform. www.fepproject.org The Internet Free Expression Alliance is an information and advocacy organization focused on free speech as it relates to the Intern",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "6 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 137,
+          "linksBeforeMain": 133,
+          "headingCount": 22,
+          "h1Count": 2,
+          "imgsNoAlt": 14,
+          "totalImgs": 15,
+          "inputsNoLabel": 3,
+          "totalInputs": 3,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "latest this just in",
+              "count": 5
+            },
+            {
+              "label": "alexa internet",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured texts All Texts latest This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections eBooks & Texts"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top American Libraries Canadian Libraries Universal Library Community Texts Shareware CD-ROMs Project Gutenberg Biodiversity Heritage Library Open Library"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured movies All Video latest This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured audio All Audio latest This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Podcasts Librivox Free Audiobook"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured software All Software latest This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Community Software MS-DOS APK Software Sites Tucows Software Library Vintage Software Vectrex Console Living Room"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured image All Image latest This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum"
+          },
+          {
+            "level": 3,
+            "heading": "Read More",
+            "text": "Read More Why the Archive is Building an &#146;Internet Library&#146; Future Libraries Storage and Preservation Related Projects and Research Researcher Access Server Statistics Archive Statistics Job Opportunities at the Internet Archive Usage Logs"
+          },
+          {
+            "level": 1,
+            "heading": "News [more]",
+            "text": "News [more] de Volkskrant - The Internet Archive Fast Company - How To Break Open The Web The Ringer - Internet Archive Is a Beautiful Storage Bin for Our Online Memories bOiNGbOiNG - How to protect the future web from its founders' own frailty WIRED - The Inventors of the Internet Are Trying to Build a Truly Permanent Web Tech.Mic - Anonymous Went After the Internet's Most Popular Hub of Lost Knowledge Just to Get ISIS Vice Motherboard - Anti-ISIS Hacktivists Are Attacking the Internet Archive Forbes - Could We Ever Have A Truly Free Internet? BITCOIN MAGAZINE - Decentralized Web Initiative A"
+          },
+          {
+            "level": 1,
+            "heading": "About the Internet Archive",
+            "text": "About the Internet Archive The Internet Archive is a 501(c)(3) non-profit that was founded to build an Internet library. Its purposes include offering permanent access for researchers, historians, scholars, people with disabilities, and the general public to historical collections that exist in digital format. Founded in 1996 and located in San Francisco , the Archive has been receiving data donations from Alexa Internet and others. In late 1999, the organization started to grow to include more well-rounded collections. Now the Internet Archive includes: texts , audio , moving images , and sof"
+          },
+          {
+            "level": 2,
+            "heading": "Why the Archive is Building an 'Internet Library'",
+            "text": "Why the Archive is Building an 'Internet Library' Libraries exist to preserve society's cultural artifacts and to provide access to them. If libraries are to continue to foster education and scholarship in this era of digital technology, it's essential for them to extend those functions into the digital world. Many early movies were recycled to recover the silver in the film. The Library of Alexandria - an ancient center of learning containing a copy of every book in the world - was eventually burned to the ground. Even now, at the turn of the 21st century, no comprehensive archives of televis"
+          },
+          {
+            "level": 2,
+            "heading": "Future Libraries - How People Envision Using Internet Libraries",
+            "text": "Future Libraries - How People Envision Using Internet Libraries From ephemera to artifact: Internet libraries can change the content of the Internet from ephemera to enduring artifacts of our political and cultural lives. \"I believe historians need every possible piece of paper and archived byte of digital data they can muster. The Smithsonian Institution sees the value, and has affiliated with the Archive to preserve the 1996 campaign Web sites , official and unofficial.\" Dan Gillmor, computing editor, San Jose Mercury News, 1 September 1996 Protecting our right to know: Most states have pre-"
+          },
+          {
+            "level": 2,
+            "heading": "Related Projects and Research",
+            "text": "Related Projects and Research Internet libraries raise many issues in a range of areas, including archiving technology, copyright, privacy and free speech, trademark, trade secrets, import/export issues, stolen property, pornography, the question of who will have access to the libraries, and more. Below are links to projects, resources, and institutions related to Internet libraries. Internet Libraries and Librarianship Archiving Technology Internet Mapping Internet Statistics Copyright Privacy and Free Speech Internet Libraries and Librarianship Alexa Internet has catalogued Web sites and pro"
+          },
+          {
+            "level": 2,
+            "heading": "Storage and Preservation",
+            "text": "Storage and Preservation The Archive has two practical considerations in dealing with digital collections: How to store massive amounts of data How to preserve the data for posterity Storage Storing the Archive's collections involves parsing, indexing, and physically encoding the data. With the Internet collections growing at exponential rates, this task poses an ongoing challenge. Our hardware consists of PCs with clusters of IDE hard drives. Data is stored on DLT tape and hard drives in various appropriate formats, depending on the collection. Web data is received and stored in archive forma"
+          }
+        ]
+      },
+      {
+        "date": "2017-02-19T00:00:00.000Z",
+        "timestamp": "20170219103657",
+        "url": "https://web.archive.org/web/20170219103657/https://archive.org/about/",
+        "fullText": "Internet Archive: About IA Skip to main content Search the history of over 279 billion web pages on the Internet. search Search the Wayback Machine Featured texts All Texts latest This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections eBooks & Texts Top American Libraries Canadian Libraries Universal Library Community Texts Shareware CD-ROMs Project Gutenberg Biodiversity Heritage Library Open Library Children's Library Library of the Printed Web Featured movies All Video latest This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11 News & Public Affairs Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media Featured audio All Audio latest This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Podcasts Librivox Free Audiobook Radio Programs Spirituality & Religion Featured software All Software latest This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade Top Community Software MS-DOS APK Software Sites Tucows Software Library Vintage Software Vectrex Console Living Room Atari 2600 Magnavox Odyssey 2 Bally Astrocade ZX Spectrum ZX Spectrum Library: Games Sega Genesis Sega Game Gear Featured image All Image latest This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum web texts movies audio software image logo Toggle navigation ABOUT CONTACT BLOG PROJECTS HELP DONATE TERMS JOBS VOLUNTEER PEOPLE search Search the Archive heart --> upload person SIGN IN Read More Server Statistics Archive Statistics Job Opportunities at the Internet Archive Usage Logs News [more] The New York Times - MacArthur Foundation Picks Eight Projects That Could Change the World Chicago Tribune - MacArthur names 8 semifinalists for $100 million grant The Atlantic - Donald Trump's Lost 1990s Websites VoA - The Wayback Machine Shows History of the Internet Discover - Archivists Want AI to Help Save, Analyze Everything Trump Says LA Times - Fearing climate change databases may be threatened in Trump era, UCLA scientists work to protect them Motherboard - All References to Climate Change Have Been Deleted From the White House Website GCN - Scratching the surface of the Obama administration’s social media data Wired - Rogue Scientists Race to Save Climate Data from Trump The Hindu - An Internet time machine Member About the Internet Archive The Internet Archive is a 501(c)(3) non-profit library. Founded in 1996, our mission is to provide Universal Access to All Knowledge. We collect published works and make them available in digital formats. We are building a public library that can serve anyone in the world with access to the Internet. We began in 1996 by archiving the Internet itself, a medium that was just beginning to grow in use. Like newspapers, the content published on the web was ephemeral - but unlike newspapers, no one was saving it. Today we have 20+ years of web history accessible through the Wayback Machine and we work with 450+ library and other partners through our Archive-It program to identify important web pages. As our web archive grew, so did our commitment to providing digital versions of other published works. Today our archive contains: 279 billion web pages 11 million books and texts 4 million audio recordings (including 160,000 live concerts ) 3 million videos (including 1 million Television News programs ) 1 million images 100,000 software programs Anyone with a free account can upload media to the Internet Archive. We work with thousands of partners globally to save copies of their work into special collections. Because we are a library, we pay special attention to books. Not everyone has access to a public or academic library with a good collection, so to provide universal access we need to provide digital versions of books. We began a program to digitize books in 2005 and today we scan 1,000 books per day in 28 locations around the world. Books published prior to 1923 are available for download, and hundreds of thousands of modern books can be borrowed through our Open Library site. Some of our digitized books are only available to the print disabled . Like the Internet, television is also an ephemeral medium. We began archiving television programs in late 2000, and our first public TV project was an archive of TV news surrounding the events of September 11, 2001 . In 2009 we began to make selected U.S. television news broadcasts searchable by captions in our TV News Archive . This service allows researchers and the public to use television as a citable and sharable reference. The Internet Archive serves millions of people each day and is one of the top 300 web sites in the world. A single copy of the Internet Archive library collection occupies 30+ Petabytes of server space (and we store at least 2 copies of everything). We are funded through donations , grants, and by providing web archiving and book digitization services for our partners. As with most libraries we value the privacy of our patrons , so we avoid keeping the IP (Internet Protocol) addresses of our readers and offer our site in https (secure) protocol. You can find information about our projects on our blog (including important announcements ), contact us , buy swag in our store , and follow us on Twitter and Facebook . Welcome to the library! Recent foundation funding generously provided by:: Andrew W. Mellon Foundation Council on Library and Information Resources Democracy Fund Federal Communications Commission Universal Service Program for Schools and Libraries (E-Rate) Institute of Museum and Library Services (IMLS) Knight Foundation Laura and John Arnold Foundation National Endowment for the Humanities, Office of Digital Humanities National Science Foundation The Peter and Carmen Lucia Buck Foundation The Philadelphia Foundation Rita Allen Foundation",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "6 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 133,
+          "linksBeforeMain": 129,
+          "headingCount": 18,
+          "h1Count": 2,
+          "imgsNoAlt": 14,
+          "totalImgs": 15,
+          "inputsNoLabel": 3,
+          "totalInputs": 3,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "latest this just in",
+              "count": 5
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured texts All Texts latest This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections eBooks & Texts"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top American Libraries Canadian Libraries Universal Library Community Texts Shareware CD-ROMs Project Gutenberg Biodiversity Heritage Library Open Library"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured movies All Video latest This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured audio All Audio latest This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Podcasts Librivox Free Audiobook"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured software All Software latest This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Community Software MS-DOS APK Software Sites Tucows Software Library Vintage Software Vectrex Console Living Room"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured image All Image latest This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum"
+          },
+          {
+            "level": 3,
+            "heading": "Read More",
+            "text": "Read More Server Statistics Archive Statistics Job Opportunities at the Internet Archive Usage Logs"
+          },
+          {
+            "level": 1,
+            "heading": "News [more]",
+            "text": "News [more] The New York Times - MacArthur Foundation Picks Eight Projects That Could Change the World Chicago Tribune - MacArthur names 8 semifinalists for $100 million grant The Atlantic - Donald Trump's Lost 1990s Websites VoA - The Wayback Machine Shows History of the Internet Discover - Archivists Want AI to Help Save, Analyze Everything Trump Says LA Times - Fearing climate change databases may be threatened in Trump era, UCLA scientists work to protect them Motherboard - All References to Climate Change Have Been Deleted From the White House Website GCN - Scratching the surface of the O"
+          },
+          {
+            "level": 1,
+            "heading": "About the Internet Archive",
+            "text": "About the Internet Archive The Internet Archive is a 501(c)(3) non-profit library. Founded in 1996, our mission is to provide Universal Access to All Knowledge. We collect published works and make them available in digital formats. We are building a public library that can serve anyone in the world with access to the Internet. We began in 1996 by archiving the Internet itself, a medium that was just beginning to grow in use. Like newspapers, the content published on the web was ephemeral - but unlike newspapers, no one was saving it. Today we have 20+ years of web history accessible through th"
+          }
+        ]
+      },
+      {
+        "date": "2019-01-16T00:00:00.000Z",
+        "timestamp": "20190116024059",
+        "url": "https://web.archive.org/web/20190116024059/https://archive.org/about/",
+        "fullText": "Internet Archive: About IA Skip to main content Search the history of over 345 billion web pages on the Internet. search Search the Wayback Machine Featured texts All Texts latest This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections Books to Borrow Top American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Biodiversity Heritage Library Children's Library Open Library Books by Language Featured movies All Video latest This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11 News & Public Affairs Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media Featured audio All Audio latest This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Radio Programs Librivox Free Audiobook Spirituality & Religion Podcasts Featured software All Software latest This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade Top Community Software MS-DOS CD-ROM Software Kodi Archive and Support File CD-ROM Software Library APK Vintage Software Console Living Room Software Sites Tucows Software Library Shareware CD-ROMs ZX Spectrum DOOM Level CD ZX Spectrum Library: Games Apple Computer Featured image All Image latest This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum web texts movies audio software image logo Toggle navigation ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE search Search metadata Search text contents Search TV news captions Search archived web sites Advanced Search upload person SIGN IN ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE Read More Server Statistics Archive Statistics Job Opportunities at the Internet Archive Events News [more] National Geographic: How Silicon Valley is finally growing up (sort of) Forbes: Moving Beyond Social Media Towards News As \"Big Data\" In The Cloud Era Caitlin Tucker: Internet Archive: Go Back in Time with the Wayback Machine Forbes: Preserving Online News In An Ephemeral Web: A Look At Four Months Of Global Digital Journalism Portaltic: Las bibliotecas digitales: una lucha para preservar la radio y las p&aacute;ginas web contra la ca&iacute;da en el olvido Open Culture: 11,000 Digitized Books From 1923 Are Now Available Online at the Internet Archive Columbia Journalism Review: Backing up Brazil&rsquo;s internet so Bolsonaro can&rsquo;t censor it LWN.Net: Migrating the Internet Archive to Kubernetes Jbklutse: These are my 5 best websites for reading books online 2019 Hypable: Lost &lsquo;SimCity&rsquo; NES prototype has resurfaced and is available to play Member About the Internet Archive The Internet Archive, a 501(c)(3) non-profit, is building a digital library of Internet sites and other cultural artifacts in digital form. Like a paper library, we provide free access to researchers, historians, scholars, the print disabled, and the general public. Our mission is to provide Universal Access to All Knowledge. We began in 1996 by archiving the Internet itself, a medium that was just beginning to grow in use. Like newspapers, the content published on the web was ephemeral - but unlike newspapers, no one was saving it. Today we have 20+ years of web history accessible through the Wayback Machine and we work with 450+ library and other partners through our Archive-It program to identify important web pages. As our web archive grew, so did our commitment to providing digital versions of other published works. Today our archive contains: 330 billion web pages 20 million books and texts 4.5 million audio recordings (including 180,000 live concerts ) 4 million videos (including 1.6 million Television News programs ) 3 million images 200,000 software programs Anyone with a free account can upload media to the Internet Archive. We work with thousands of partners globally to save copies of their work into special collections. Because we are a library, we pay special attention to books. Not everyone has access to a public or academic library with a good collection, so to provide universal access we need to provide digital versions of books. We began a program to digitize books in 2005 and today we scan 1,000 books per day in 28 locations around the world. Books published prior to 1923 are available for download, and hundreds of thousands of modern books can be borrowed through our Open Library site. Some of our digitized books are only available to the print disabled . Like the Internet, television is also an ephemeral medium. We began archiving television programs in late 2000, and our first public TV project was an archive of TV news surrounding the events of September 11, 2001 . In 2009 we began to make selected U.S. television news broadcasts searchable by captions in our TV News Archive . This service allows researchers and the public to use television as a citable and sharable reference. The Internet Archive serves millions of people each day and is one of the top 300 web sites in the world. A single copy of the Internet Archive library collection occupies 30+ Petabytes of server space (and we store at least 2 copies of everything). We are funded through donations , grants, and by providing web archiving and book digitization services for our partners. As with most libraries we value the privacy of our patrons , so we avoid keeping the IP (Internet Protocol) addresses of our readers and offer our site in https (secure) protocol. You can find information about our projects on our blog (including important announcements ), contact us , buy swag in our store , and follow us on Twitter and Facebook . Welcome to the library! Recent foundation funding generously provided by:: Andrew W. Mellon Foundation Council on Library and Information Resources Democracy Fund Federal Communications Commission Universal Service Program for Schools and Libraries (E-Rate) Institute of Museum and Library Services (IMLS) Knight Foundation Laura and John Arnold Foundation National Endowment for the Humanities, Office of Digital Humanities National Science Foundation The Peter and Carmen Lucia Buck Foundation The Philadelphia Foundation Rita Allen Foundation",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "7 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 140,
+          "linksBeforeMain": 132,
+          "headingCount": 13,
+          "h1Count": 2,
+          "imgsNoAlt": 3,
+          "totalImgs": 4,
+          "inputsNoLabel": 6,
+          "totalInputs": 7,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "latest this just in",
+              "count": 5
+            },
+            {
+              "label": "blog",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured texts All Texts latest This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections Books to Borrow"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Biodiversity Heritage Library Children's Library Open Library Books by Language"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured movies All Video latest This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11 News & Public Affairs Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured audio All Audio latest This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Radio Programs Librivox Free Audiobook Spirituality & Religion Podcasts"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured software All Software latest This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Community Software MS-DOS CD-ROM Software Kodi Archive and Support File CD-ROM Software Library APK Vintage Software Console Living Room Software Sites Tucows Software Library Shareware CD-ROMs ZX Spectrum DOOM Level CD ZX Spectrum Library: Games Apple Computer"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured image All Image latest This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum web texts movies audio software image logo Toggle navigation ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE search Search metadata Search text contents Search TV news captions Search archived web sites Advanced Search upload person SIGN IN ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE"
+          },
+          {
+            "level": 3,
+            "heading": "Read More",
+            "text": "Read More Server Statistics Archive Statistics Job Opportunities at the Internet Archive Events"
+          },
+          {
+            "level": 1,
+            "heading": "News [more]",
+            "text": "News [more] National Geographic: How Silicon Valley is finally growing up (sort of) Forbes: Moving Beyond Social Media Towards News As \"Big Data\" In The Cloud Era Caitlin Tucker: Internet Archive: Go Back in Time with the Wayback Machine Forbes: Preserving Online News In An Ephemeral Web: A Look At Four Months Of Global Digital Journalism Portaltic: Las bibliotecas digitales: una lucha para preservar la radio y las p&aacute;ginas web contra la ca&iacute;da en el olvido Open Culture: 11,000 Digitized Books From 1923 Are Now Available Online at the Internet Archive Columbia Journalism Review: Ba"
+          },
+          {
+            "level": 1,
+            "heading": "About the Internet Archive",
+            "text": "About the Internet Archive The Internet Archive, a 501(c)(3) non-profit, is building a digital library of Internet sites and other cultural artifacts in digital form. Like a paper library, we provide free access to researchers, historians, scholars, the print disabled, and the general public. Our mission is to provide Universal Access to All Knowledge. We began in 1996 by archiving the Internet itself, a medium that was just beginning to grow in use. Like newspapers, the content published on the web was ephemeral - but unlike newspapers, no one was saving it. Today we have 20+ years of web his"
+          }
+        ]
+      },
+      {
+        "date": "2019-03-25T00:00:00.000Z",
+        "timestamp": "20190325002348",
+        "url": "https://web.archive.org/web/20190325002348/https://archive.org/about/",
+        "fullText": "Internet Archive: About IA Skip to main content Search the history of over 351 billion web pages on the Internet. search Search the Wayback Machine Featured texts All Texts latest This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections Books to Borrow Top American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Biodiversity Heritage Library Children's Library Open Library Books by Language Featured movies All Video latest This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11 News & Public Affairs Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media Featured audio All Audio latest This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Radio Programs Librivox Free Audiobook Spirituality & Religion Podcasts Black Tie Brass Featured software All Software latest This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade Top Community Software MS-DOS Kodi Archive and Support File CD-ROM Software APK CD-ROM Software Library Vintage Software Console Living Room Software Sites Tucows Software Library Shareware CD-ROMs ZX Spectrum DOOM Level CD ZX Spectrum Library: Games Apple Computer Featured image All Image latest This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum web texts movies audio software image logo Toggle navigation ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE search Search metadata Search text contents Search TV news captions Search archived web sites Advanced Search upload person SIGN IN ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE Read More Server Statistics Archive Statistics Job Opportunities at the Internet Archive Events News [more] Forbes: Society Desperately Needs an Alternative Web The Verge: The World Wide Web turns 30: our favorite memories from A to Z Loksatta: &#2360;&#2306;&#2325;&#2354;&#2344;&#2366;&#2330;&#2366; &#2326;&#2332;&#2367;&#2344;&#2366; &#2309;&#2360;&#2354;&#2375;&#2354;&#2368; &#2361;&#2368; &#2357;&#2375;&#2348;&#2360;&#2366;&#2312;&#2335; &#2348;&#2328;&#2366;&#2330;! ActuaLitt&eacute;: Un projet pilote pour favoriser la lecture chez les &eacute;tudiants handicap&eacute;s Berkeley Technology Law Journal: A Night Out With BTLJ at the Internet Archive Library Journal: Pilot Project: Internet Archive Helps Make Books Accessible For Students with Disabilities Journalist Resource: Five ways to find public figures&rsquo; yearbooks Gizmodo: The Best Websites and Web Apps for Making Use of Exactly One Hour of Free Time TNW: Meet the man archiving the internet Techdirt: Techdirt Podcast Episode 197: The Grand Re-Opening Of The Public Domain Member About the Internet Archive The Internet Archive, a 501(c)(3) non-profit, is building a digital library of Internet sites and other cultural artifacts in digital form. Like a paper library, we provide free access to researchers, historians, scholars, the print disabled, and the general public. Our mission is to provide Universal Access to All Knowledge. We began in 1996 by archiving the Internet itself, a medium that was just beginning to grow in use. Like newspapers, the content published on the web was ephemeral - but unlike newspapers, no one was saving it. Today we have 20+ years of web history accessible through the Wayback Machine and we work with 450+ library and other partners through our Archive-It program to identify important web pages. As our web archive grew, so did our commitment to providing digital versions of other published works. Today our archive contains: 330 billion web pages 20 million books and texts 4.5 million audio recordings (including 180,000 live concerts ) 4 million videos (including 1.6 million Television News programs ) 3 million images 200,000 software programs Anyone with a free account can upload media to the Internet Archive. We work with thousands of partners globally to save copies of their work into special collections. Because we are a library, we pay special attention to books. Not everyone has access to a public or academic library with a good collection, so to provide universal access we need to provide digital versions of books. We began a program to digitize books in 2005 and today we scan 1,000 books per day in 28 locations around the world. Books published prior to 1923 are available for download, and hundreds of thousands of modern books can be borrowed through our Open Library site. Some of our digitized books are only available to the print disabled . Like the Internet, television is also an ephemeral medium. We began archiving television programs in late 2000, and our first public TV project was an archive of TV news surrounding the events of September 11, 2001 . In 2009 we began to make selected U.S. television news broadcasts searchable by captions in our TV News Archive . This service allows researchers and the public to use television as a citable and sharable reference. The Internet Archive serves millions of people each day and is one of the top 300 web sites in the world. A single copy of the Internet Archive library collection occupies 30+ Petabytes of server space (and we store at least 2 copies of everything). We are funded through donations , grants, and by providing web archiving and book digitization services for our partners. As with most libraries we value the privacy of our patrons , so we avoid keeping the IP (Internet Protocol) addresses of our readers and offer our site in https (secure) protocol. You can find information about our projects on our blog (including important announcements ), contact us , buy swag in our store , and follow us on Twitter and Facebook . Welcome to the library! Recent foundation funding generously provided by:: Andrew W. Mellon Foundation Council on Library and Information Resources Democracy Fund Federal Communications Commission Universal Service Program for Schools and Libraries (E-Rate) Institute of Museum and Library Services (IMLS) Knight Foundation Laura and John Arnold Foundation National Endowment for the Humanities, Office of Digital Humanities National Science Foundation The Peter and Carmen Lucia Buck Foundation The Philadelphia Foundation Rita Allen Foundation",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "7 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 141,
+          "linksBeforeMain": 133,
+          "headingCount": 13,
+          "h1Count": 2,
+          "imgsNoAlt": 3,
+          "totalImgs": 4,
+          "inputsNoLabel": 6,
+          "totalInputs": 7,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "latest this just in",
+              "count": 5
+            },
+            {
+              "label": "blog",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured texts All Texts latest This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections Books to Borrow"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Biodiversity Heritage Library Children's Library Open Library Books by Language"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured movies All Video latest This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11 News & Public Affairs Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured audio All Audio latest This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Radio Programs Librivox Free Audiobook Spirituality & Religion Podcasts Black Tie Brass"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured software All Software latest This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Community Software MS-DOS Kodi Archive and Support File CD-ROM Software APK CD-ROM Software Library Vintage Software Console Living Room Software Sites Tucows Software Library Shareware CD-ROMs ZX Spectrum DOOM Level CD ZX Spectrum Library: Games Apple Computer"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured image All Image latest This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum web texts movies audio software image logo Toggle navigation ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE search Search metadata Search text contents Search TV news captions Search archived web sites Advanced Search upload person SIGN IN ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE"
+          },
+          {
+            "level": 3,
+            "heading": "Read More",
+            "text": "Read More Server Statistics Archive Statistics Job Opportunities at the Internet Archive Events"
+          },
+          {
+            "level": 1,
+            "heading": "News [more]",
+            "text": "News [more] Forbes: Society Desperately Needs an Alternative Web The Verge: The World Wide Web turns 30: our favorite memories from A to Z Loksatta: &#2360;&#2306;&#2325;&#2354;&#2344;&#2366;&#2330;&#2366; &#2326;&#2332;&#2367;&#2344;&#2366; &#2309;&#2360;&#2354;&#2375;&#2354;&#2368; &#2361;&#2368; &#2357;&#2375;&#2348;&#2360;&#2366;&#2312;&#2335; &#2348;&#2328;&#2366;&#2330;! ActuaLitt&eacute;: Un projet pilote pour favoriser la lecture chez les &eacute;tudiants handicap&eacute;s Berkeley Technology Law Journal: A Night Out With BTLJ at the Internet Archive Library Journal: Pilot Project: Int"
+          },
+          {
+            "level": 1,
+            "heading": "About the Internet Archive",
+            "text": "About the Internet Archive The Internet Archive, a 501(c)(3) non-profit, is building a digital library of Internet sites and other cultural artifacts in digital form. Like a paper library, we provide free access to researchers, historians, scholars, the print disabled, and the general public. Our mission is to provide Universal Access to All Knowledge. We began in 1996 by archiving the Internet itself, a medium that was just beginning to grow in use. Like newspapers, the content published on the web was ephemeral - but unlike newspapers, no one was saving it. Today we have 20+ years of web his"
+          }
+        ]
+      },
+      {
+        "date": "2019-03-25T00:00:00.000Z",
+        "timestamp": "20190325005250",
+        "url": "https://web.archive.org/web/20190325005250/https://archive.org/about/",
+        "fullText": "Internet Archive: About IA Skip to main content Search the history of over 351 billion web pages on the Internet. search Search the Wayback Machine Featured texts All Texts latest This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections Books to Borrow Top American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Biodiversity Heritage Library Children's Library Open Library Books by Language Featured movies All Video latest This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11 News & Public Affairs Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media Featured audio All Audio latest This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Radio Programs Librivox Free Audiobook Spirituality & Religion Podcasts Black Tie Brass Featured software All Software latest This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade Top Community Software MS-DOS Kodi Archive and Support File CD-ROM Software APK CD-ROM Software Library Vintage Software Console Living Room Software Sites Tucows Software Library Shareware CD-ROMs ZX Spectrum DOOM Level CD ZX Spectrum Library: Games Apple Computer Featured image All Image latest This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum web texts movies audio software image logo Toggle navigation ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE search Search metadata Search text contents Search TV news captions Search archived web sites Advanced Search upload person SIGN IN ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE Read More Server Statistics Archive Statistics Job Opportunities at the Internet Archive Events News [more] Forbes: Society Desperately Needs an Alternative Web The Verge: The World Wide Web turns 30: our favorite memories from A to Z Loksatta: &#2360;&#2306;&#2325;&#2354;&#2344;&#2366;&#2330;&#2366; &#2326;&#2332;&#2367;&#2344;&#2366; &#2309;&#2360;&#2354;&#2375;&#2354;&#2368; &#2361;&#2368; &#2357;&#2375;&#2348;&#2360;&#2366;&#2312;&#2335; &#2348;&#2328;&#2366;&#2330;! ActuaLitt&eacute;: Un projet pilote pour favoriser la lecture chez les &eacute;tudiants handicap&eacute;s Berkeley Technology Law Journal: A Night Out With BTLJ at the Internet Archive Library Journal: Pilot Project: Internet Archive Helps Make Books Accessible For Students with Disabilities Journalist Resource: Five ways to find public figures&rsquo; yearbooks Gizmodo: The Best Websites and Web Apps for Making Use of Exactly One Hour of Free Time TNW: Meet the man archiving the internet Techdirt: Techdirt Podcast Episode 197: The Grand Re-Opening Of The Public Domain Member About the Internet Archive The Internet Archive, a 501(c)(3) non-profit, is building a digital library of Internet sites and other cultural artifacts in digital form. Like a paper library, we provide free access to researchers, historians, scholars, the print disabled, and the general public. Our mission is to provide Universal Access to All Knowledge. We began in 1996 by archiving the Internet itself, a medium that was just beginning to grow in use. Like newspapers, the content published on the web was ephemeral - but unlike newspapers, no one was saving it. Today we have 20+ years of web history accessible through the Wayback Machine and we work with 450+ library and other partners through our Archive-It program to identify important web pages. As our web archive grew, so did our commitment to providing digital versions of other published works. Today our archive contains: 330 billion web pages 20 million books and texts 4.5 million audio recordings (including 180,000 live concerts ) 4 million videos (including 1.6 million Television News programs ) 3 million images 200,000 software programs Anyone with a free account can upload media to the Internet Archive. We work with thousands of partners globally to save copies of their work into special collections. Because we are a library, we pay special attention to books. Not everyone has access to a public or academic library with a good collection, so to provide universal access we need to provide digital versions of books. We began a program to digitize books in 2005 and today we scan 1,000 books per day in 28 locations around the world. Books published prior to 1923 are available for download, and hundreds of thousands of modern books can be borrowed through our Open Library site. Some of our digitized books are only available to the print disabled . Like the Internet, television is also an ephemeral medium. We began archiving television programs in late 2000, and our first public TV project was an archive of TV news surrounding the events of September 11, 2001 . In 2009 we began to make selected U.S. television news broadcasts searchable by captions in our TV News Archive . This service allows researchers and the public to use television as a citable and sharable reference. The Internet Archive serves millions of people each day and is one of the top 300 web sites in the world. A single copy of the Internet Archive library collection occupies 30+ Petabytes of server space (and we store at least 2 copies of everything). We are funded through donations , grants, and by providing web archiving and book digitization services for our partners. As with most libraries we value the privacy of our patrons , so we avoid keeping the IP (Internet Protocol) addresses of our readers and offer our site in https (secure) protocol. You can find information about our projects on our blog (including important announcements ), contact us , buy swag in our store , and follow us on Twitter and Facebook . Welcome to the library! Recent foundation funding generously provided by:: Andrew W. Mellon Foundation Council on Library and Information Resources Democracy Fund Federal Communications Commission Universal Service Program for Schools and Libraries (E-Rate) Institute of Museum and Library Services (IMLS) Knight Foundation Laura and John Arnold Foundation National Endowment for the Humanities, Office of Digital Humanities National Science Foundation The Peter and Carmen Lucia Buck Foundation The Philadelphia Foundation Rita Allen Foundation",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "7 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 141,
+          "linksBeforeMain": 133,
+          "headingCount": 13,
+          "h1Count": 2,
+          "imgsNoAlt": 3,
+          "totalImgs": 4,
+          "inputsNoLabel": 6,
+          "totalInputs": 7,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "latest this just in",
+              "count": 5
+            },
+            {
+              "label": "blog",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured texts All Texts latest This Just In Smithsonian Libraries FEDLINK (US) Genealogy Lincoln Collection Additional Collections Books to Borrow"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top American Libraries Canadian Libraries Universal Library Community Texts Project Gutenberg Biodiversity Heritage Library Children's Library Open Library Books by Language"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured movies All Video latest This Just In Prelinger Archives Democracy Now! Occupy Wall Street TV NSA Clip Library TV News"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Animation & Cartoons Arts & Music Community Video Computers & Technology Cultural & Academic Films Ephemeral Films Movies Understanding 9/11 News & Public Affairs Spirituality & Religion Sports Videos Television Videogame Videos Vlogs Youth Media"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured audio All Audio latest This Just In Grateful Dead Netlabels Old Time Radio 78 RPMs and Cylinder Recordings Live Music Archive"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Audio Books & Poetry Community Audio Computers & Technology Music, Arts & Culture News & Public Affairs Non-English Audio Radio Programs Librivox Free Audiobook Spirituality & Religion Podcasts Black Tie Brass"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured software All Software latest This Just In Old School Emulation MS-DOS Games Historical Software Classic PC Games Software Library Internet Arcade"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top Community Software MS-DOS Kodi Archive and Support File CD-ROM Software APK CD-ROM Software Library Vintage Software Console Living Room Software Sites Tucows Software Library Shareware CD-ROMs ZX Spectrum DOOM Level CD ZX Spectrum Library: Games Apple Computer"
+          },
+          {
+            "level": 5,
+            "heading": "Featured",
+            "text": "Featured image All Image latest This Just In Flickr Commons Occupy Wall Street Flickr Cover Art USGS Maps Metropolitan Museum"
+          },
+          {
+            "level": 5,
+            "heading": "Top",
+            "text": "Top NASA Images Solar System Collection Ames Research Center Brooklyn Museum web texts movies audio software image logo Toggle navigation ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE search Search metadata Search text contents Search TV news captions Search archived web sites Advanced Search upload person SIGN IN ABOUT CONTACT BLOG PROJECTS HELP DONATE JOBS VOLUNTEER PEOPLE"
+          },
+          {
+            "level": 3,
+            "heading": "Read More",
+            "text": "Read More Server Statistics Archive Statistics Job Opportunities at the Internet Archive Events"
+          },
+          {
+            "level": 1,
+            "heading": "News [more]",
+            "text": "News [more] Forbes: Society Desperately Needs an Alternative Web The Verge: The World Wide Web turns 30: our favorite memories from A to Z Loksatta: &#2360;&#2306;&#2325;&#2354;&#2344;&#2366;&#2330;&#2366; &#2326;&#2332;&#2367;&#2344;&#2366; &#2309;&#2360;&#2354;&#2375;&#2354;&#2368; &#2361;&#2368; &#2357;&#2375;&#2348;&#2360;&#2366;&#2312;&#2335; &#2348;&#2328;&#2366;&#2330;! ActuaLitt&eacute;: Un projet pilote pour favoriser la lecture chez les &eacute;tudiants handicap&eacute;s Berkeley Technology Law Journal: A Night Out With BTLJ at the Internet Archive Library Journal: Pilot Project: Int"
+          },
+          {
+            "level": 1,
+            "heading": "About the Internet Archive",
+            "text": "About the Internet Archive The Internet Archive, a 501(c)(3) non-profit, is building a digital library of Internet sites and other cultural artifacts in digital form. Like a paper library, we provide free access to researchers, historians, scholars, the print disabled, and the general public. Our mission is to provide Universal Access to All Knowledge. We began in 1996 by archiving the Internet itself, a medium that was just beginning to grow in use. Like newspapers, the content published on the web was ephemeral - but unlike newspapers, no one was saving it. Today we have 20+ years of web his"
+          }
+        ]
+      }
+    ]
+  }
+}

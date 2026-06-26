@@ -45,6 +45,7 @@
     {key:'0',group:'Speech',   label:'Repeat last speech',            fn:()=>speak(S.lastSpoken)},
     {key:'c',group:'Export',   label:'Copy report to clipboard',      fn:()=>copyReport()},
     {key:'d',group:'Export',   label:'Download report as .txt',       fn:()=>downloadReport()},
+    {key:'j',group:'Export',   label:'Download data as .json (re-scorable)', fn:()=>downloadReportJson()},
     {key:'r',group:'Control',  label:'Re-run analysis',               fn:()=>triggerAnalyze()},
     {key:'h',group:'Control',  label:'Keyboard help',                 fn:()=>showHelp()},
   ];
@@ -182,7 +183,7 @@
         <!-- Bottom shortcut bar -->
         <div id="sc-bar" aria-hidden="true">
           <span class="sc-chip sc-toggle"><kbd>${TOGGLE_LABEL}</kbd>Toggle</span>
-          ${['1','2','3','n','p','e','b','a','c','d','h'].map(k=>{
+          ${['1','2','3','n','p','e','b','a','c','d','j','h'].map(k=>{
             const sc=SHORTCUTS.find(x=>x.key===k);
             return sc?`<span class="sc-chip"><kbd>${combo(k)}</kbd>${sc.label.split(' ').slice(0,3).join(' ')}</span>`:'';
           }).join('')}
@@ -483,11 +484,13 @@
           ? `<p class="cove-note">✓ Each change was cross-checked by an AI chain-of-verification pass and its quotes matched against the archived captures.</p>`
           : `<p class="cove-note cove-warn">⚠ The AI verification pass was unavailable — changes below are draft-level and were not cross-checked.</p>`}
         <div class="stat-row">
-          <div class="stat-box"><div class="sl">Total captures</div><div class="sv">${r.totalCaptures}</div></div>
+          <div class="stat-box"><div class="sl">Total captures</div><div class="sv">${r.totalCaptures}${r.capturesCapped?'+':''}</div></div>
           <div class="stat-box"><div class="sl">Analyzed</div><div class="sv">${r.selectedCaptures}</div></div>
           <div class="stat-box"><div class="sl">Changes found</div><div class="sv">${r.changes?.length||0}</div></div>
+          ${r.overallChangeScore!=null?`<div class="stat-box"><div class="sl">Content change</div><div class="sv">${r.overallChangeScore}%</div></div>`:''}
           <div class="stat-box"><div class="sl">Period</div><div class="sv sm">${r.fromYear}–${r.toYear}</div></div>
         </div>
+        ${r.peakChange?`<p class="dim" style="margin-top:2px">Largest content shift: ${esc(r.peakChange.from)} → ${esc(r.peakChange.to)} (${r.peakChange.dissimilarity}% different, TF-IDF cosine).</p>`:''}
         ${timeline}
         ${r.focus ? `<div class="focus-tag">Focus: <em>${esc(r.focus)}</em></div>` : ''}
       </section>
@@ -518,7 +521,7 @@
           ${esc(r.a11yAudit.verdict)}
         </p>
         ${r.a11yAudit.deltas.length ? `<table class="a11y-table">
-          <thead><tr><th>Metric</th><th>Before</th><th>After</th><th></th></tr></thead>
+          <thead><tr><th>Metric</th><th>Before</th><th>After</th><th>Trend</th></tr></thead>
           <tbody>${r.a11yAudit.deltas.map(d=>`
             <tr class="dir-${d.direction}">
               <td>${esc(d.metric)}</td><td>${d.before}</td><td>${d.after}</td>
@@ -645,6 +648,8 @@
 
       <div class="conf-row">
         <span class="ch-badge ${confCls(c.confidence)}">${confLabel}</span>
+        ${c.confidenceScore!=null?`<span class="ch-badge ${confCls(c.confidence)}">${c.confidenceScore}/100</span>`:''}
+        ${c.changeMagnitude!=null?`<span class="ch-section">Δ ${c.changeMagnitude}% content shift</span>`:''}
         <span class="conf-reason">${esc(c.confidenceReason||'')}</span>
       </div>
       ${c.verificationNotes ? `<p class="verify-notes"><span class="vn-label">Chain-of-verification:</span> ${esc(c.verificationNotes)}</p>` : ''}
@@ -692,7 +697,7 @@
     if (!r) { speak('No analysis yet. Press Analyze Archive first.'); return; }
 
     if (lvl===1) {
-      speak(`Level 1 — Overview. ${r.overview} Total captures: ${r.totalCaptures}. Analyzed: ${r.selectedCaptures}. Changes detected: ${r.changes?.length||0}. Period: ${r.fromYear} to ${r.toYear}.`);
+      speak(`Level 1 — Overview. ${r.overview} Total captures: ${r.capturesCapped?'over ':''}${r.totalCaptures}. Analyzed: ${r.selectedCaptures}. Changes detected: ${r.changes?.length||0}.${r.overallChangeScore!=null?` Overall content change ${r.overallChangeScore} percent by TF-IDF cosine.`:''} Period: ${r.fromYear} to ${r.toYear}.`);
     } else if (lvl===2) {
       if (!r.changes?.length) { speak('Level 2 — No changes detected.'); return; }
       const list=r.changes.map((x,i)=>`${i+1}. ${x.description}. ${x.period}. ${x.confidence} confidence.`).join(' ');
@@ -846,6 +851,16 @@
     speak('Report downloaded.');
   }
 
+  /* Full structured report incl. the _rescore bundle (raw LLM changes + snapshot
+     texts), so scoring logic can be re-applied later without a re-run. */
+  function downloadReportJson() {
+    const r=S.report; if (!r) { speak('No report to download.'); return; }
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([JSON.stringify(r,null,2)],{type:'application/json'}));
+    a.download=`timetravel-forensics-${Date.now()}.json`; a.click();
+    speak('Data JSON downloaded.');
+  }
+
   function buildPlainText() {
     const r=S.report; if (!r) return '';
     const sep='─'.repeat(52);
@@ -875,9 +890,10 @@
         ? 'Verification: changes cross-checked by AI chain-of-verification and matched against captures.'
         : 'Verification: AI verification pass unavailable — changes are draft-level only.',
       '',
-      `Total captures : ${r.totalCaptures}`,
+      `Total captures : ${r.totalCaptures}${r.capturesCapped?'+ (first 1500 sampled)':''}`,
       `Analyzed       : ${r.selectedCaptures}`,
       `Changes found  : ${r.changes?.length||0}`,
+      r.overallChangeScore!=null ? `Content change : ${r.overallChangeScore}% (TF-IDF cosine, first vs last capture)` : '',
       '',
       r.privacy ? `Privacy: ${r.privacy.count} item(s) masked (${r.privacy.types.join(', ')})` : '',
       '',
@@ -887,7 +903,7 @@
             `${i+1}. [${fmtState(c.archivalState)}] ${c.description}`,
             `   Section   : ${c.section||'(not localized)'}`,
             `   Period    : ${c.period}`,
-            `   Confidence: ${c.confidence}${c.confidenceReason?' — '+c.confidenceReason:''}`,
+            `   Confidence: ${c.confidence}${c.confidenceScore!=null?` (${c.confidenceScore}/100)`:''}${c.confidenceReason?' — '+c.confidenceReason:''}`,
             `   Verified  : ${c.verified?`YES (${c.verifyScore}%)`:'NO — quotes not located in capture'}`,
           ].join('\n'))
         : ['  No changes detected.']),
@@ -915,6 +931,11 @@
         r.a11yAudit.verdict,
         ...r.a11yAudit.deltas.map(d=>`  ${d.metric}: ${d.before} → ${d.after} (${d.direction})`),
         ...r.a11yAudit.findings.map(f=>`  • ${f}`),
+        '',
+      ] : []),
+      ...(r.changeMagnitudes?.length ? [
+        'CONTENT CHANGE TRAJECTORY (TF-IDF cosine dissimilarity)', sep,
+        ...r.changeMagnitudes.map(t=>`  ${t.from} → ${t.to}: ${t.dissimilarity}% changed (${t.similarity}% similar)`),
         '',
       ] : []),
       'STABLE CONTENT',sep,
@@ -994,15 +1015,6 @@
   }
 
   function confCls(c) { return {high:'badge-hi',medium:'badge-med',low:'badge-lo'}[c]||'badge-med'; }
-
-  function fmtType(t) {
-    return {
-      policy_change:'Policy', content_added:'Added', content_removed:'Removed',
-      wording_change:'Wording', navigation_change:'Navigation', link_change:'Link',
-      accessibility_change:'Accessibility', replay_issue:'Replay issue',
-      moved_content:'Moved',
-    }[t]||'Change';
-  }
 
   function fmtState(s) {
     return {

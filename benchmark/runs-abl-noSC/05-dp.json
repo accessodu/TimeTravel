@@ -1,0 +1,1330 @@
+{
+  "mode": "single",
+  "url": "https://dp.la/",
+  "fromYear": 2015,
+  "toYear": 2024,
+  "focus": "",
+  "coveApplied": true,
+  "selfConsistencySamples": 1,
+  "totalCaptures": 9,
+  "capturesCapped": false,
+  "uniqueCaptures": 9,
+  "selectedCaptures": 9,
+  "firstCapture": "January 1, 2015",
+  "lastCapture": "October 24, 2020",
+  "yearBreakdown": {
+    "2015": 2,
+    "2016": 1,
+    "2018": 4,
+    "2020": 2
+  },
+  "overview": "Verification of proposed changes to the Digital Public Library of America website based on snapshot analysis.",
+  "changes": [
+    {
+      "id": 1,
+      "description": "Count of digital items increased",
+      "type": "content_added",
+      "section": "null",
+      "beforeDate": "January 1, 2015",
+      "afterDate": "April 24, 2018",
+      "beforeText": null,
+      "afterText": "Discover 21,454,575 images, texts, videos, and sounds from across the United States",
+      "confidence": "high",
+      "confidenceReason": "The exact verbatim text was found in Snapshot 5, confirming the change. Confidence 100/100 — quote match 100%, agreement 100% across samples.",
+      "verificationNotes": "Q1: Pass; Q2: Pass; Q3: Corrected beforeDate to Snapshot 5; Q4: Editorial change; Q5: Relevant to user focus.",
+      "stability": 1,
+      "beforeUrl": "https://web.archive.org/web/20150101221410/https://dp.la/",
+      "afterUrl": "https://web.archive.org/web/20180424000440/https://dp.la/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "added",
+      "archivalReason": "Content present in the later capture but absent earlier.",
+      "confidenceScore": 100,
+      "changeMagnitude": null
+    },
+    {
+      "id": 2,
+      "description": "Count of digital items increased",
+      "type": "content_added",
+      "section": "null",
+      "beforeDate": "April 24, 2018",
+      "afterDate": "October 16, 2020",
+      "beforeText": "Discover 21,454,575 images, texts, videos, and sounds from across the United States",
+      "afterText": "Discover 40,807,340 images, texts, videos, and sounds from across the United States",
+      "confidence": "high",
+      "confidenceReason": "The exact verbatim text was found in Snapshot 8, confirming the change. Confidence 100/100 — quote match 100%, agreement 100% across samples.",
+      "verificationNotes": "Q1: Pass; Q2: Pass; Q3: Corrected beforeDate to Snapshot 8; Q4: Editorial change; Q5: Relevant to user focus.",
+      "stability": 1,
+      "beforeUrl": "https://web.archive.org/web/20180424000440/https://dp.la/",
+      "afterUrl": "https://web.archive.org/web/20201016181305/https://dp.la/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "wording_change",
+      "archivalReason": "Both versions verified in their captures — a genuine wording/policy change.",
+      "confidenceScore": 100,
+      "changeMagnitude": null
+    },
+    {
+      "id": 3,
+      "description": "DPLAfest event added",
+      "type": "content_added",
+      "section": "null",
+      "beforeDate": "January 1, 2015",
+      "afterDate": "November 15, 2018",
+      "beforeText": null,
+      "afterText": "Join us for DPLAfest 2019: Future Shapers, Culture Makers Taking place in Chicago on April 17-18, 2019, DPLAfest will explore how libraries, archives, museums, and other cultural organizations across the",
+      "confidence": "high",
+      "confidenceReason": "The exact verbatim text was found in Snapshot 7, confirming the addition, but the beforeDate is uncertain. Confidence 100/100 — quote match 100%, agreement 100% across samples.",
+      "verificationNotes": "Q1: N/A; Q2: Pass; Q3: Corrected afterDate to Snapshot 7; Q4: Could be an archival artifact; Q5: Relevant to user focus.",
+      "stability": 1,
+      "beforeUrl": "https://web.archive.org/web/20150101221410/https://dp.la/",
+      "afterUrl": "https://web.archive.org/web/20181115005000/https://dp.la/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "added",
+      "archivalReason": "Content present in the later capture but absent earlier.",
+      "confidenceScore": 100,
+      "changeMagnitude": null
+    },
+    {
+      "id": 4,
+      "description": "Navigation menu updated",
+      "type": "navigation_change",
+      "section": "Navigation",
+      "beforeDate": "January 1, 2015",
+      "afterDate": "March 8, 2018",
+      "beforeText": "About Staff Board & Committees Funding History Policies Projects Awards Hubs Become a Hub For Developers API Codex Ideas & Projects Bulk Download Sample Code & Libraries Metadata Application Profile Get Involved Community Reps Open Calls Events DPLAfest Follow Us Forums Shop GIF IT UP Help Tutorials FAQ DPLA Accounts News Press Contact Jobs Donate Login Sign Up",
+      "afterText": "About DPLA News DPLA Pro",
+      "confidence": "high",
+      "confidenceReason": "The exact verbatim text was not found in Snapshot 3, and the beforeText is truncated. Confidence 100/100 — quote match 100%, agreement 100% across samples.",
+      "verificationNotes": "Q1: Fail; Q2: Fail; Q3: Corrected afterDate to Snapshot 3; Q4: Could be an archival artifact; Q5: Relevant to user focus.",
+      "stability": 1,
+      "beforeUrl": "https://web.archive.org/web/20150101221410/https://dp.la/",
+      "afterUrl": "https://web.archive.org/web/20180308190543/https://dp.la/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "wording_change",
+      "archivalReason": "Both versions verified in their captures — a genuine wording/policy change.",
+      "confidenceScore": 100,
+      "changeMagnitude": null
+    },
+    {
+      "id": 5,
+      "description": "Virtual event added",
+      "type": "content_added",
+      "section": "null",
+      "beforeDate": "January 1, 2015",
+      "afterDate": "October 16, 2020",
+      "beforeText": null,
+      "afterText": "Virtual Event: From Black Women&#x27;s Suffrage to Black Lives Matter Join us on Thursday, October 29th at 2pm ET for our next virtual event, From Black Women&#x27;s Suffrage to Black Lives Matter: A Liv",
+      "confidence": "high",
+      "confidenceReason": "The exact verbatim text was found in Snapshot 8, confirming the addition, but the beforeDate is uncertain. Confidence 100/100 — quote match 100%, agreement 100% across samples.",
+      "verificationNotes": "Q1: N/A; Q2: Pass; Q3: Corrected afterDate to Snapshot 8; Q4: Could be an archival artifact; Q5: Relevant to user focus.",
+      "stability": 1,
+      "beforeUrl": "https://web.archive.org/web/20150101221410/https://dp.la/",
+      "afterUrl": "https://web.archive.org/web/20201016181305/https://dp.la/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "added",
+      "archivalReason": "Content present in the later capture but absent earlier.",
+      "confidenceScore": 100,
+      "changeMagnitude": null
+    }
+  ],
+  "changeMagnitudes": [
+    {
+      "from": "January 1, 2015",
+      "to": "January 1, 2015",
+      "dissimilarity": 0,
+      "similarity": 100
+    },
+    {
+      "from": "January 1, 2015",
+      "to": "December 8, 2016",
+      "dissimilarity": 25,
+      "similarity": 75
+    },
+    {
+      "from": "December 8, 2016",
+      "to": "March 8, 2018",
+      "dissimilarity": 81,
+      "similarity": 19
+    },
+    {
+      "from": "March 8, 2018",
+      "to": "April 24, 2018",
+      "dissimilarity": 15,
+      "similarity": 85
+    },
+    {
+      "from": "April 24, 2018",
+      "to": "July 12, 2018",
+      "dissimilarity": 30,
+      "similarity": 70
+    },
+    {
+      "from": "July 12, 2018",
+      "to": "November 15, 2018",
+      "dissimilarity": 59,
+      "similarity": 41
+    },
+    {
+      "from": "November 15, 2018",
+      "to": "October 16, 2020",
+      "dissimilarity": 64,
+      "similarity": 36
+    },
+    {
+      "from": "October 16, 2020",
+      "to": "October 24, 2020",
+      "dissimilarity": 1,
+      "similarity": 99
+    }
+  ],
+  "overallChangeScore": 90,
+  "peakChange": {
+    "from": "December 8, 2016",
+    "to": "March 8, 2018",
+    "dissimilarity": 81,
+    "similarity": 19
+  },
+  "stableContent": [
+    "unchanged topics"
+  ],
+  "replayWarnings": [
+    "3 script resource(s) not preserved in this capture",
+    "4 script resource(s) not preserved in this capture",
+    "5 script resource(s) not preserved in this capture",
+    "7 script resource(s) not preserved in this capture",
+    "9 script resource(s) not preserved in this capture"
+  ],
+  "captureGaps": [
+    "gaps over 60 days",
+    "707-day gap: January 1, 2015 → December 8, 2016",
+    "455-day gap: December 8, 2016 → March 8, 2018",
+    "79-day gap: April 24, 2018 → July 12, 2018",
+    "126-day gap: July 12, 2018 → November 15, 2018",
+    "701-day gap: November 15, 2018 → October 16, 2020"
+  ],
+  "a11yAudit": {
+    "before": "January 1, 2015",
+    "after": "October 24, 2020",
+    "deltas": [
+      {
+        "metric": "Focusable elements before main content",
+        "before": 62,
+        "after": 19,
+        "direction": "better"
+      },
+      {
+        "metric": "Links before main content",
+        "before": 59,
+        "after": 18,
+        "direction": "better"
+      },
+      {
+        "metric": "Footer links",
+        "before": 16,
+        "after": 28,
+        "direction": "worse"
+      },
+      {
+        "metric": "Form inputs without labels",
+        "before": 3,
+        "after": 6,
+        "direction": "worse"
+      }
+    ],
+    "findings": [
+      "Search input gained an accessible label.",
+      "Ambiguous links: \"browse by topic\" ×4, \"browse by partner\" ×3, \"exhibitions\" ×3, \"primary source sets\" ×3, \"my lists\" ×3."
+    ],
+    "verdict": "No clear accessibility trend detected."
+  },
+  "privacy": null,
+  "keySnapshots": [
+    {
+      "timestamp": "20150101221410",
+      "date": "January 1, 2015",
+      "url": "https://web.archive.org/web/20150101221410/https://dp.la/",
+      "issues": [
+        "3 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 13
+    },
+    {
+      "timestamp": "20150101234017",
+      "date": "January 1, 2015",
+      "url": "https://web.archive.org/web/20150101234017/https://dp.la/",
+      "issues": [
+        "3 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 13
+    },
+    {
+      "timestamp": "20161208154458",
+      "date": "December 8, 2016",
+      "url": "https://web.archive.org/web/20161208154458/https://dp.la/",
+      "issues": [
+        "3 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 13
+    },
+    {
+      "timestamp": "20180308190543",
+      "date": "March 8, 2018",
+      "url": "https://web.archive.org/web/20180308190543/https://dp.la/",
+      "issues": [
+        "4 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 11
+    },
+    {
+      "timestamp": "20180424000440",
+      "date": "April 24, 2018",
+      "url": "https://web.archive.org/web/20180424000440/https://dp.la/",
+      "issues": [
+        "4 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 10
+    },
+    {
+      "timestamp": "20180712163308",
+      "date": "July 12, 2018",
+      "url": "https://web.archive.org/web/20180712163308/https://dp.la/",
+      "issues": [
+        "5 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 10
+    },
+    {
+      "timestamp": "20181115005000",
+      "date": "November 15, 2018",
+      "url": "https://web.archive.org/web/20181115005000/https://dp.la/",
+      "issues": [
+        "7 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 11
+    },
+    {
+      "timestamp": "20201016181305",
+      "date": "October 16, 2020",
+      "url": "https://web.archive.org/web/20201016181305/https://dp.la/",
+      "issues": [
+        "9 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 11
+    },
+    {
+      "timestamp": "20201024145122",
+      "date": "October 24, 2020",
+      "url": "https://web.archive.org/web/20201024145122/https://dp.la/",
+      "issues": [
+        "9 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 11
+    }
+  ],
+  "_rescore": {
+    "schema": 1,
+    "params": {
+      "url": "https://dp.la/",
+      "fromYear": 2015,
+      "toYear": 2024,
+      "focus": ""
+    },
+    "ai": {
+      "changes": [
+        {
+          "id": 1,
+          "description": "Count of digital items increased",
+          "type": "content_added",
+          "section": "null",
+          "beforeDate": "January 1, 2015",
+          "afterDate": "April 24, 2018",
+          "beforeText": null,
+          "afterText": "Discover 21,454,575 images, texts, videos, and sounds from across the United States",
+          "confidence": "high",
+          "confidenceReason": "The exact verbatim text was found in Snapshot 5, confirming the change.",
+          "verificationNotes": "Q1: Pass; Q2: Pass; Q3: Corrected beforeDate to Snapshot 5; Q4: Editorial change; Q5: Relevant to user focus.",
+          "stability": 1
+        },
+        {
+          "id": 2,
+          "description": "Count of digital items increased",
+          "type": "content_added",
+          "section": "null",
+          "beforeDate": "April 24, 2018",
+          "afterDate": "October 16, 2020",
+          "beforeText": "Discover 21,454,575 images, texts, videos, and sounds from across the United States",
+          "afterText": "Discover 40,807,340 images, texts, videos, and sounds from across the United States",
+          "confidence": "high",
+          "confidenceReason": "The exact verbatim text was found in Snapshot 8, confirming the change.",
+          "verificationNotes": "Q1: Pass; Q2: Pass; Q3: Corrected beforeDate to Snapshot 8; Q4: Editorial change; Q5: Relevant to user focus.",
+          "stability": 1
+        },
+        {
+          "id": 3,
+          "description": "DPLAfest event added",
+          "type": "content_added",
+          "section": "null",
+          "beforeDate": "January 1, 2015",
+          "afterDate": "November 15, 2018",
+          "beforeText": null,
+          "afterText": "Join us for DPLAfest 2019: Future Shapers, Culture Makers Taking place in Chicago on April 17-18, 2019, DPLAfest will explore how libraries, archives, museums, and other cultural organizations across the",
+          "confidence": "medium",
+          "confidenceReason": "The exact verbatim text was found in Snapshot 7, confirming the addition, but the beforeDate is uncertain.",
+          "verificationNotes": "Q1: N/A; Q2: Pass; Q3: Corrected afterDate to Snapshot 7; Q4: Could be an archival artifact; Q5: Relevant to user focus.",
+          "stability": 1
+        },
+        {
+          "id": 4,
+          "description": "Navigation menu updated",
+          "type": "navigation_change",
+          "section": "Navigation",
+          "beforeDate": "January 1, 2015",
+          "afterDate": "March 8, 2018",
+          "beforeText": "About Staff Board & Committees Funding History Policies Projects Awards Hubs Become a Hub For Developers API Codex Ideas & Projects Bulk Download Sample Code & Libraries Metadata Application Profile Get Involved Community Reps Open Calls Events DPLAfest Follow Us Forums Shop GIF IT UP Help Tutorials FAQ DPLA Accounts News Press Contact Jobs Donate Login Sign Up",
+          "afterText": "About DPLA News DPLA Pro",
+          "confidence": "low",
+          "confidenceReason": "The exact verbatim text was not found in Snapshot 3, and the beforeText is truncated.",
+          "verificationNotes": "Q1: Fail; Q2: Fail; Q3: Corrected afterDate to Snapshot 3; Q4: Could be an archival artifact; Q5: Relevant to user focus.",
+          "stability": 1
+        },
+        {
+          "id": 5,
+          "description": "Virtual event added",
+          "type": "content_added",
+          "section": "null",
+          "beforeDate": "January 1, 2015",
+          "afterDate": "October 16, 2020",
+          "beforeText": null,
+          "afterText": "Virtual Event: From Black Women&#x27;s Suffrage to Black Lives Matter Join us on Thursday, October 29th at 2pm ET for our next virtual event, From Black Women&#x27;s Suffrage to Black Lives Matter: A Liv",
+          "confidence": "medium",
+          "confidenceReason": "The exact verbatim text was found in Snapshot 8, confirming the addition, but the beforeDate is uncertain.",
+          "verificationNotes": "Q1: N/A; Q2: Pass; Q3: Corrected afterDate to Snapshot 8; Q4: Could be an archival artifact; Q5: Relevant to user focus.",
+          "stability": 1
+        }
+      ],
+      "overview": "Verification of proposed changes to the Digital Public Library of America website based on snapshot analysis.",
+      "coveApplied": true,
+      "samples": 1,
+      "stableContent": [
+        "unchanged topics"
+      ],
+      "captureGaps": [
+        "gaps over 60 days"
+      ]
+    },
+    "captureCounts": {
+      "total": 9,
+      "unique": 9,
+      "selected": 9
+    },
+    "snapshots": [
+      {
+        "date": "2015-01-01T00:00:00.000Z",
+        "timestamp": "20150101221410",
+        "url": "https://web.archive.org/web/20150101221410/https://dp.la/",
+        "fullText": "Digital Public Library of America Go to top navigation Go to main navigation Go to search form Go to main content Go to social media navigation Navigation About Staff Board & Committees Funding History Policies Projects Awards Hubs Become a Hub For Developers API Codex Ideas & Projects Bulk Download Sample Code & Libraries Metadata Application Profile Get Involved Community Reps Open Calls Events DPLAfest Follow Us Forums Shop GIF IT UP Help Tutorials FAQ DPLA Accounts News Press Contact Jobs Donate Login Sign Up Home Exhibitions Map Timeline Bookshelf Apps Login Americae Sive Novi Orbis Nova Descriptio, 1587. Ortelius Abraham, cartographer » Unidentified popper at the Roseland Ballroom, 1982. Joe Conzo, photographer » An Ordinance Abolishing Slavery in Missouri, 1865. (Missouri Emancipation Proclamation) » Winnie-the-Pooh, Kanga, Piglet, Eeyore, and Tigger, 1925 » Women on The Scrambler, Excelsior Amusement Park, Excelsior, Minnesota, c. [phone] » Mexican Folk Dancing, 9th Annual Texas Folklife Festival, 1980. Photograph by Michael Sidoric, Informedia » i A Wealth of Knowledge explore 8,417,033 items from libraries, archives, and museums Search the Library Exhibitions View all » Explore by Place Map » Explore by Date Timeline » Apps The DPLA is a platform. Developers make apps that use the library’s data in many different ways. Here are just a few. App Library » Term Frequency Map Dean Farrell See how your search term(s) frequency changes through time in DPLA. App Home Page » DPLA Visual Search Prototype Schuyler Lindberg A prototype visual search interface that explores content from the Digital Public Library of America. App Home Page » News Facebook Twitter RSS Tumblr All News » @dpla on Twitter Home Exhibitions Map Timeline Bookshelf Partners Subjects Apps About Follow Contact Terms & Privacy Facebook Twitter RSS Tumblr Return to top navigation Return to main navigation Return to search form Return to main content Return to social media navigation",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "3 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 62,
+          "linksBeforeMain": 59,
+          "headingCount": 13,
+          "h1Count": 2,
+          "imgsNoAlt": 0,
+          "totalImgs": 13,
+          "inputsNoLabel": 3,
+          "totalInputs": 3,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 16
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "A Wealth of Knowledge",
+            "text": "A Wealth of Knowledge explore 8,417,033 items from libraries, archives, and museums Search the Library"
+          },
+          {
+            "level": 2,
+            "heading": "Exhibitions",
+            "text": "Exhibitions"
+          },
+          {
+            "level": 6,
+            "heading": "View all »",
+            "text": "View all »"
+          },
+          {
+            "level": 2,
+            "heading": "Explore by Place",
+            "text": "Explore by Place"
+          },
+          {
+            "level": 6,
+            "heading": "Map »",
+            "text": "Map »"
+          },
+          {
+            "level": 2,
+            "heading": "Explore by Date",
+            "text": "Explore by Date"
+          },
+          {
+            "level": 6,
+            "heading": "Timeline »",
+            "text": "Timeline »"
+          },
+          {
+            "level": 1,
+            "heading": "Apps",
+            "text": "Apps"
+          },
+          {
+            "level": 4,
+            "heading": "The DPLA is a platform. Developers make apps that use the library’s data in many different ways. Here are just a few. App Library »",
+            "text": "The DPLA is a platform. Developers make apps that use the library’s data in many different ways. Here are just a few. App Library »"
+          },
+          {
+            "level": 5,
+            "heading": "Term Frequency Map",
+            "text": "Term Frequency Map Dean Farrell See how your search term(s) frequency changes through time in DPLA. App Home Page »"
+          },
+          {
+            "level": 5,
+            "heading": "DPLA Visual Search Prototype",
+            "text": "DPLA Visual Search Prototype Schuyler Lindberg A prototype visual search interface that explores content from the Digital Public Library of America. App Home Page »"
+          },
+          {
+            "level": 1,
+            "heading": "News",
+            "text": "News Facebook Twitter RSS Tumblr All News »"
+          },
+          {
+            "level": 2,
+            "heading": "@dpla on Twitter",
+            "text": "@dpla on Twitter Home Exhibitions Map Timeline Bookshelf Partners Subjects Apps About Follow Contact Terms & Privacy Facebook Twitter RSS Tumblr Return to top navigation Return to main navigation Return to search form Return to main content Return to social media navigation"
+          }
+        ]
+      },
+      {
+        "date": "2015-01-01T00:00:00.000Z",
+        "timestamp": "20150101234017",
+        "url": "https://web.archive.org/web/20150101234017/https://dp.la/",
+        "fullText": "Digital Public Library of America Go to top navigation Go to main navigation Go to search form Go to main content Go to social media navigation Navigation About Staff Board & Committees Funding History Policies Projects Awards Hubs Become a Hub For Developers API Codex Ideas & Projects Bulk Download Sample Code & Libraries Metadata Application Profile Get Involved Community Reps Open Calls Events DPLAfest Follow Us Forums Shop GIF IT UP Help Tutorials FAQ DPLA Accounts News Press Contact Jobs Donate Login Sign Up Home Exhibitions Map Timeline Bookshelf Apps Login Americae Sive Novi Orbis Nova Descriptio, 1587. Ortelius Abraham, cartographer » Unidentified popper at the Roseland Ballroom, 1982. Joe Conzo, photographer » An Ordinance Abolishing Slavery in Missouri, 1865. (Missouri Emancipation Proclamation) » Winnie-the-Pooh, Kanga, Piglet, Eeyore, and Tigger, 1925 » Women on The Scrambler, Excelsior Amusement Park, Excelsior, Minnesota, c. [phone] » Mexican Folk Dancing, 9th Annual Texas Folklife Festival, 1980. Photograph by Michael Sidoric, Informedia » i A Wealth of Knowledge explore 8,417,033 items from libraries, archives, and museums Search the Library Exhibitions View all » Explore by Place Map » Explore by Date Timeline » Apps The DPLA is a platform. Developers make apps that use the library’s data in many different ways. Here are just a few. App Library » Term Frequency Map Dean Farrell See how your search term(s) frequency changes through time in DPLA. App Home Page » DPLA Visual Search Prototype Schuyler Lindberg A prototype visual search interface that explores content from the Digital Public Library of America. App Home Page » News Facebook Twitter RSS Tumblr All News » @dpla on Twitter Home Exhibitions Map Timeline Bookshelf Partners Subjects Apps About Follow Contact Terms & Privacy Facebook Twitter RSS Tumblr Return to top navigation Return to main navigation Return to search form Return to main content Return to social media navigation",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "3 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 62,
+          "linksBeforeMain": 59,
+          "headingCount": 13,
+          "h1Count": 2,
+          "imgsNoAlt": 0,
+          "totalImgs": 13,
+          "inputsNoLabel": 3,
+          "totalInputs": 3,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 16
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "A Wealth of Knowledge",
+            "text": "A Wealth of Knowledge explore 8,417,033 items from libraries, archives, and museums Search the Library"
+          },
+          {
+            "level": 2,
+            "heading": "Exhibitions",
+            "text": "Exhibitions"
+          },
+          {
+            "level": 6,
+            "heading": "View all »",
+            "text": "View all »"
+          },
+          {
+            "level": 2,
+            "heading": "Explore by Place",
+            "text": "Explore by Place"
+          },
+          {
+            "level": 6,
+            "heading": "Map »",
+            "text": "Map »"
+          },
+          {
+            "level": 2,
+            "heading": "Explore by Date",
+            "text": "Explore by Date"
+          },
+          {
+            "level": 6,
+            "heading": "Timeline »",
+            "text": "Timeline »"
+          },
+          {
+            "level": 1,
+            "heading": "Apps",
+            "text": "Apps"
+          },
+          {
+            "level": 4,
+            "heading": "The DPLA is a platform. Developers make apps that use the library’s data in many different ways. Here are just a few. App Library »",
+            "text": "The DPLA is a platform. Developers make apps that use the library’s data in many different ways. Here are just a few. App Library »"
+          },
+          {
+            "level": 5,
+            "heading": "Term Frequency Map",
+            "text": "Term Frequency Map Dean Farrell See how your search term(s) frequency changes through time in DPLA. App Home Page »"
+          },
+          {
+            "level": 5,
+            "heading": "DPLA Visual Search Prototype",
+            "text": "DPLA Visual Search Prototype Schuyler Lindberg A prototype visual search interface that explores content from the Digital Public Library of America. App Home Page »"
+          },
+          {
+            "level": 1,
+            "heading": "News",
+            "text": "News Facebook Twitter RSS Tumblr All News »"
+          },
+          {
+            "level": 2,
+            "heading": "@dpla on Twitter",
+            "text": "@dpla on Twitter Home Exhibitions Map Timeline Bookshelf Partners Subjects Apps About Follow Contact Terms & Privacy Facebook Twitter RSS Tumblr Return to top navigation Return to main navigation Return to search form Return to main content Return to social media navigation"
+          }
+        ]
+      },
+      {
+        "date": "2016-12-08T00:00:00.000Z",
+        "timestamp": "20161208154458",
+        "url": "https://web.archive.org/web/20161208154458/https://dp.la/",
+        "fullText": "Digital Public Library of America Go to top navigation Go to main navigation Go to search form Go to main content Go to social media navigation Navigation About Staff Board Funding History Policies Projects Awards Hubs Become a Hub For Developers API Codex Ideas & Projects Bulk Download Sample Code & Libraries Metadata Application Profile Technical Documentation Education Primary Source Sets Education Advisory Committee National History Day Education Collaborations Outreach Materials Get Involved Community Reps Ebooks GIF IT UP Groups Workshops Events DPLAfest Follow Us Help FAQ Searching DPLA News Press Contact Jobs Donate Login Sign Up Home Exhibitions Map Timeline Apps Login Battle on the Ballot: Political Outsiders in US Presidential Elections » Check out the DPLA's new Primary Source Sets for Education » Americae Sive Novi Orbis Nova Descriptio, 1587. Ortelius Abraham, cartographer » Unidentified popper at the Roseland Ballroom, 1982. Joe Conzo, photographer » An Ordinance Abolishing Slavery in Missouri, 1865. (Missouri Emancipation Proclamation) » Winnie-the-Pooh, Kanga, Piglet, Eeyore, and Tigger, 1925 » Women on The Scrambler, Excelsior Amusement Park, Excelsior, Minnesota, c. [phone] » Mexican Folk Dancing, 9th Annual Texas Folklife Festival, 1980. Photograph by Michael Sidoric, Informedia » A Wealth of Knowledge explore 14,527,859 items from libraries, archives, and museums Search the Library Exhibitions View all » Explore by Place Map » Explore by Date Timeline » Apps The DPLA is a platform. Developers make apps that use the library’s data in many different ways. Here are just a few. App Library » DPLA Images Rebekah Heacock Jones DPLA Images lets you search the Digital Public Library of America, a collection of millions of cultural heritage objects from libraries, archives, and museums across the country, for images. App Home Page » DPLA by County and State Chad Nelson DPLA by State and County allows you to see how well the DPLA represents each state and each county within a state. App Home Page » News Facebook Twitter RSS Tumblr All News » @dpla on Twitter Home Exhibitions Map Timeline Partners Subjects Apps About Follow Contact Terms & Privacy Facebook Twitter RSS Tumblr Return to top navigation Return to main navigation Return to search form Return to main content Return to social media navigation",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "3 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 69,
+          "linksBeforeMain": 66,
+          "headingCount": 13,
+          "h1Count": 2,
+          "imgsNoAlt": 0,
+          "totalImgs": 15,
+          "inputsNoLabel": 3,
+          "totalInputs": 3,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 15
+        },
+        "sections": [
+          {
+            "level": 2,
+            "heading": "A Wealth of Knowledge",
+            "text": "A Wealth of Knowledge explore 14,527,859 items from libraries, archives, and museums Search the Library"
+          },
+          {
+            "level": 2,
+            "heading": "Exhibitions",
+            "text": "Exhibitions"
+          },
+          {
+            "level": 6,
+            "heading": "View all »",
+            "text": "View all »"
+          },
+          {
+            "level": 2,
+            "heading": "Explore by Place",
+            "text": "Explore by Place"
+          },
+          {
+            "level": 6,
+            "heading": "Map »",
+            "text": "Map »"
+          },
+          {
+            "level": 2,
+            "heading": "Explore by Date",
+            "text": "Explore by Date"
+          },
+          {
+            "level": 6,
+            "heading": "Timeline »",
+            "text": "Timeline »"
+          },
+          {
+            "level": 1,
+            "heading": "Apps",
+            "text": "Apps"
+          },
+          {
+            "level": 4,
+            "heading": "The DPLA is a platform. Developers make apps that use the library’s data in many different ways. Here are just a few. App Library »",
+            "text": "The DPLA is a platform. Developers make apps that use the library’s data in many different ways. Here are just a few. App Library »"
+          },
+          {
+            "level": 5,
+            "heading": "DPLA Images",
+            "text": "DPLA Images Rebekah Heacock Jones DPLA Images lets you search the Digital Public Library of America, a collection of millions of cultural heritage objects from libraries, archives, and museums across the country, for images. App Home Page »"
+          },
+          {
+            "level": 5,
+            "heading": "DPLA by County and State",
+            "text": "DPLA by County and State Chad Nelson DPLA by State and County allows you to see how well the DPLA represents each state and each county within a state. App Home Page »"
+          },
+          {
+            "level": 1,
+            "heading": "News",
+            "text": "News Facebook Twitter RSS Tumblr All News »"
+          },
+          {
+            "level": 2,
+            "heading": "@dpla on Twitter",
+            "text": "@dpla on Twitter Home Exhibitions Map Timeline Partners Subjects Apps About Follow Contact Terms & Privacy Facebook Twitter RSS Tumblr Return to top navigation Return to main navigation Return to search form Return to main content Return to social media navigation"
+          }
+        ]
+      },
+      {
+        "date": "2018-03-08T00:00:00.000Z",
+        "timestamp": "20180308190543",
+        "url": "https://web.archive.org/web/20180308190543/https://dp.la/",
+        "fullText": "Digital Public Library of America Skip to Main Content Digital Public Library of America Show Menu Browse by Topic Browse by Partner Exhibitions Primary Source Sets About DPLA News DPLA Pro Browse by Topic Browse by Partner Exhibitions Primary Source Sets About DPLA News DPLA Pro Digital Public Library of America Donate Discover 20,899,816 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here Announcing the Launch of our New Website DPLA is pleased to unveil its all-new redesigned website! The new site combines the same core features and functionality with new tools and resources developed to enhance the DPLA experience for all. Learn more Online Exhibitions Browse all Exhibitions Two Hundred Years on the Erie Canal American Empire Battle on the Ballot: Political Outsiders in US Presidential Elections Race to the Moon Staking Claims: The Gold Rush in Nineteenth-Century America Children in Progressive-Era America Primary Source Sets Browse all Sets Cotton Gin and the Expansion of Slavery Elie Wiesel's Night and the Holocaust Victorian Era Immigration through Angel Island Dutch New Netherland Women and the Temperance Movement Treaty of Versailles and the End of World War I Cherokee Removal and the Trail of Tears How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will give you a head start using our site. The guides reflect a few key activities that attract visitors to DPLA, but you can explore many other interests here too. View all user guides DPLA News Browse the archives Announcing the Launch of our New Website March 8, 2018 The Digital Public Library of America (DPLA) is pleased to unveil its all-new redesigned website, now live at https://dp.la. Ohio Digital Network Brings the Buckeye State to DPLA March 2, 2018 We are pleased to announce that over 90,000 new materials from Ohio Digital Network are now discoverable in DPLA. As a part of DPLA, students and teachers, researchers, and history… Announcing New Primary Source Sets for Education February 28, 2018 The Digital Public Library of America (DPLA) is excited to announce the publication of twenty-one new Primary Source Sets. These sets provide rich new primary sources from libraries, archives, and… Stay informed Get the latest DPLA news in your inbox DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions Our Supporters About DPLA Contact Us News Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions Search DPLA Pro DPLA Pro Home Community Reps Developers Ebooks Education Hub Network Prospective Hubs Projects Events Donate Feedback",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "4 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 17,
+          "linksBeforeMain": 16,
+          "headingCount": 11,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 17,
+          "inputsNoLabel": 2,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "browse by topic",
+              "count": 4
+            },
+            {
+              "label": "browse by partner",
+              "count": 3
+            },
+            {
+              "label": "exhibitions",
+              "count": 3
+            },
+            {
+              "label": "primary source sets",
+              "count": 3
+            },
+            {
+              "label": "about dpla",
+              "count": 3
+            }
+          ],
+          "footerLinks": 27
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Digital Public Library of America",
+            "text": "Digital Public Library of America Donate Discover 20,899,816 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here"
+          },
+          {
+            "level": 2,
+            "heading": "Announcing the Launch of our New Website",
+            "text": "Announcing the Launch of our New Website DPLA is pleased to unveil its all-new redesigned website! The new site combines the same core features and functionality with new tools and resources developed to enhance the DPLA experience for all. Learn more"
+          },
+          {
+            "level": 2,
+            "heading": "Online Exhibitions",
+            "text": "Online Exhibitions Browse all Exhibitions Two Hundred Years on the Erie Canal American Empire Battle on the Ballot: Political Outsiders in US Presidential Elections Race to the Moon Staking Claims: The Gold Rush in Nineteenth-Century America Children in Progressive-Era America"
+          },
+          {
+            "level": 2,
+            "heading": "Primary Source Sets",
+            "text": "Primary Source Sets Browse all Sets Cotton Gin and the Expansion of Slavery Elie Wiesel's Night and the Holocaust Victorian Era Immigration through Angel Island Dutch New Netherland Women and the Temperance Movement Treaty of Versailles and the End of World War I Cherokee Removal and the Trail of Tears"
+          },
+          {
+            "level": 2,
+            "heading": "How can I use DPLA?",
+            "text": "How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA News",
+            "text": "DPLA News Browse the archives Announcing the Launch of our New Website March 8, 2018 The Digital Public Library of America (DPLA) is pleased to unveil its all-new redesigned website, now live at https://dp.la. Ohio Digital Network Brings the Buckeye State to DPLA March 2, 2018 We are pleased to announce that over 90,000 new materials from Ohio Digital Network are now discoverable in DPLA. As a part of DPLA, students and teachers, researchers, and history… Announcing New Primary Source Sets for Education February 28, 2018 The Digital Public Library of America (DPLA) is excited to announce the p"
+          },
+          {
+            "level": 2,
+            "heading": "Stay informed",
+            "text": "Stay informed"
+          },
+          {
+            "level": 3,
+            "heading": "Get the latest DPLA news in your inbox",
+            "text": "Get the latest DPLA news in your inbox"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA",
+            "text": "DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions Our Supporters About DPLA Contact Us News"
+          },
+          {
+            "level": 2,
+            "heading": "Tools",
+            "text": "Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions Search"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA Pro",
+            "text": "DPLA Pro DPLA Pro Home Community Reps Developers Ebooks Education Hub Network Prospective Hubs Projects Events Donate Feedback"
+          }
+        ]
+      },
+      {
+        "date": "2018-04-24T00:00:00.000Z",
+        "timestamp": "20180424000440",
+        "url": "https://web.archive.org/web/20180424000440/https://dp.la/",
+        "fullText": "Digital Public Library of America Skip to Main Content Digital Public Library of America Show Menu Browse by Topic Browse by Partner Exhibitions Primary Source Sets About DPLA News DPLA Pro Browse by Topic Browse by Partner Exhibitions Primary Source Sets About DPLA News DPLA Pro Digital Public Library of America Donate Discover 21,454,575 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here Online Exhibitions Browse all Exhibitions Two Hundred Years on the Erie Canal American Empire Battle on the Ballot: Political Outsiders in US Presidential Elections Race to the Moon Staking Claims: The Gold Rush in Nineteenth-Century America Children in Progressive-Era America Primary Source Sets Browse all Sets Cotton Gin and the Expansion of Slavery Elie Wiesel&#x27;s Night and the Holocaust Victorian Era Immigration through Angel Island Dutch New Netherland Women and the Temperance Movement Treaty of Versailles and the End of World War I Cherokee Removal and the Trail of Tears How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will give you a head start using our site. The guides reflect a few key activities that attract visitors to DPLA, but you can explore many other interests here too. View all user guides DPLA News Browse the archives DPLA: A Look Back on the Last 5 Years April 18, 2018 Five years ago today, we launched the Digital Public Library of America and in a short five years, DPLA and our partners have turned a vision into a vibrant community. Announcing the Launch of our New Website March 8, 2018 The Digital Public Library of America (DPLA) is pleased to unveil its all-new redesigned website, now live at https://dp.la. Ohio Digital Network Brings the Buckeye State to DPLA March 2, 2018 We are pleased to announce that over 90,000 new materials from Ohio Digital Network are now discoverable in DPLA. As a part of DPLA, students and teachers, researchers, and history… Stay informed Get the latest DPLA news in your inbox DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions About DPLA Contact Us Feedback News Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions Search DPLA Pro DPLA Pro Home Prospective Hubs Community Reps Hub Network Developers Education Projects Ebooks Events Donate",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "4 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 17,
+          "linksBeforeMain": 16,
+          "headingCount": 10,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 16,
+          "inputsNoLabel": 2,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "browse by topic",
+              "count": 4
+            },
+            {
+              "label": "browse by partner",
+              "count": 3
+            },
+            {
+              "label": "exhibitions",
+              "count": 3
+            },
+            {
+              "label": "primary source sets",
+              "count": 3
+            },
+            {
+              "label": "about dpla",
+              "count": 3
+            }
+          ],
+          "footerLinks": 27
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Digital Public Library of America",
+            "text": "Digital Public Library of America Donate Discover 21,454,575 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here"
+          },
+          {
+            "level": 2,
+            "heading": "Online Exhibitions",
+            "text": "Online Exhibitions Browse all Exhibitions Two Hundred Years on the Erie Canal American Empire Battle on the Ballot: Political Outsiders in US Presidential Elections Race to the Moon Staking Claims: The Gold Rush in Nineteenth-Century America Children in Progressive-Era America"
+          },
+          {
+            "level": 2,
+            "heading": "Primary Source Sets",
+            "text": "Primary Source Sets Browse all Sets Cotton Gin and the Expansion of Slavery Elie Wiesel&#x27;s Night and the Holocaust Victorian Era Immigration through Angel Island Dutch New Netherland Women and the Temperance Movement Treaty of Versailles and the End of World War I Cherokee Removal and the Trail of Tears"
+          },
+          {
+            "level": 2,
+            "heading": "How can I use DPLA?",
+            "text": "How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA News",
+            "text": "DPLA News Browse the archives DPLA: A Look Back on the Last 5 Years April 18, 2018 Five years ago today, we launched the Digital Public Library of America and in a short five years, DPLA and our partners have turned a vision into a vibrant community. Announcing the Launch of our New Website March 8, 2018 The Digital Public Library of America (DPLA) is pleased to unveil its all-new redesigned website, now live at https://dp.la. Ohio Digital Network Brings the Buckeye State to DPLA March 2, 2018 We are pleased to announce that over 90,000 new materials from Ohio Digital Network are now discovera"
+          },
+          {
+            "level": 2,
+            "heading": "Stay informed",
+            "text": "Stay informed"
+          },
+          {
+            "level": 3,
+            "heading": "Get the latest DPLA news in your inbox",
+            "text": "Get the latest DPLA news in your inbox"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA",
+            "text": "DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions About DPLA Contact Us Feedback News"
+          },
+          {
+            "level": 2,
+            "heading": "Tools",
+            "text": "Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions Search"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA Pro",
+            "text": "DPLA Pro DPLA Pro Home Prospective Hubs Community Reps Hub Network Developers Education Projects Ebooks Events Donate"
+          }
+        ]
+      },
+      {
+        "date": "2018-07-12T00:00:00.000Z",
+        "timestamp": "20180712163308",
+        "url": "https://web.archive.org/web/20180712163308/https://dp.la/",
+        "fullText": "Digital Public Library of America Skip to Main Content Digital Public Library of America Show Menu Browse by Topic Browse by Partner Exhibitions Primary Source Sets About DPLA News DPLA Pro Browse by Topic Browse by Partner Exhibitions Primary Source Sets About DPLA News DPLA Pro Digital Public Library of America Donate Discover 22,534,671 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here Online Exhibitions Browse all Exhibitions Two Hundred Years on the Erie Canal American Empire Battle on the Ballot: Political Outsiders in US Presidential Elections Race to the Moon Staking Claims: The Gold Rush in Nineteenth-Century America Children in Progressive-Era America Primary Source Sets Browse all Sets Cotton Gin and the Expansion of Slavery Elie Wiesel&#x27;s Night and the Holocaust Victorian Era Immigration through Angel Island Dutch New Netherland Women and the Temperance Movement Treaty of Versailles and the End of World War I Cherokee Removal and the Trail of Tears How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will give you a head start using our site. The guides reflect a few key activities that attract visitors to DPLA, but you can explore many other interests here too. View all user guides DPLA News Browse the archives Save the Date: DPLAfest 2019 to take place in Chicago on April 17-18 July 11, 2018 The next DPLAfest and DPLA Network Day will take place at Chicago Public Library&#8217;s Harold Washington Library Center. DPLA launches Open Bookshelf, a Collection of Free Ebooks June 21, 2018 The Digital Public Library of America (DPLA) is pleased to announce the launch of Open Bookshelf, a digital library collection of popular books free to download and handpicked by librarians… Plains to Peaks Collective Brings Colorado and Wyoming Collections to DPLA June 5, 2018 We are pleased to announce that over 46,000 materials from the Plains to Peaks Collective, which represents Colorado and Wyoming, are now discoverable in DPLA. Check out highlighted collections, which… Stay informed Get the latest DPLA news in your inbox DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions About DPLA Contact Us Feedback News Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions Search DPLA Pro DPLA Pro Home Prospective Hubs Community Reps Hub Network Developers Education Projects Ebooks Events Donate",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "5 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 17,
+          "linksBeforeMain": 16,
+          "headingCount": 10,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 16,
+          "inputsNoLabel": 2,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "browse by topic",
+              "count": 4
+            },
+            {
+              "label": "browse by partner",
+              "count": 3
+            },
+            {
+              "label": "exhibitions",
+              "count": 3
+            },
+            {
+              "label": "primary source sets",
+              "count": 3
+            },
+            {
+              "label": "about dpla",
+              "count": 3
+            }
+          ],
+          "footerLinks": 27
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Digital Public Library of America",
+            "text": "Digital Public Library of America Donate Discover 22,534,671 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here"
+          },
+          {
+            "level": 2,
+            "heading": "Online Exhibitions",
+            "text": "Online Exhibitions Browse all Exhibitions Two Hundred Years on the Erie Canal American Empire Battle on the Ballot: Political Outsiders in US Presidential Elections Race to the Moon Staking Claims: The Gold Rush in Nineteenth-Century America Children in Progressive-Era America"
+          },
+          {
+            "level": 2,
+            "heading": "Primary Source Sets",
+            "text": "Primary Source Sets Browse all Sets Cotton Gin and the Expansion of Slavery Elie Wiesel&#x27;s Night and the Holocaust Victorian Era Immigration through Angel Island Dutch New Netherland Women and the Temperance Movement Treaty of Versailles and the End of World War I Cherokee Removal and the Trail of Tears"
+          },
+          {
+            "level": 2,
+            "heading": "How can I use DPLA?",
+            "text": "How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA News",
+            "text": "DPLA News Browse the archives Save the Date: DPLAfest 2019 to take place in Chicago on April 17-18 July 11, 2018 The next DPLAfest and DPLA Network Day will take place at Chicago Public Library&#8217;s Harold Washington Library Center. DPLA launches Open Bookshelf, a Collection of Free Ebooks June 21, 2018 The Digital Public Library of America (DPLA) is pleased to announce the launch of Open Bookshelf, a digital library collection of popular books free to download and handpicked by librarians… Plains to Peaks Collective Brings Colorado and Wyoming Collections to DPLA June 5, 2018 We are please"
+          },
+          {
+            "level": 2,
+            "heading": "Stay informed",
+            "text": "Stay informed"
+          },
+          {
+            "level": 3,
+            "heading": "Get the latest DPLA news in your inbox",
+            "text": "Get the latest DPLA news in your inbox"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA",
+            "text": "DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions About DPLA Contact Us Feedback News"
+          },
+          {
+            "level": 2,
+            "heading": "Tools",
+            "text": "Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions Search"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA Pro",
+            "text": "DPLA Pro DPLA Pro Home Prospective Hubs Community Reps Hub Network Developers Education Projects Ebooks Events Donate"
+          }
+        ]
+      },
+      {
+        "date": "2018-11-15T00:00:00.000Z",
+        "timestamp": "20181115005000",
+        "url": "https://web.archive.org/web/20181115005000/https://dp.la/",
+        "fullText": "Digital Public Library of America Skip to Main Content Digital Public Library of America Show Menu Browse by Topic Browse by Partner Exhibitions Primary Source Sets My Lists About DPLA News DPLA Pro Browse by Topic Browse by Partner Exhibitions Primary Source Sets My Lists About DPLA News DPLA Pro Digital Public Library of America Donate Discover 29,936,269 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here Join us for DPLAfest 2019: Future Shapers, Culture Makers Taking place in Chicago on April 17-18, 2019, DPLAfest will explore how libraries, archives, museums, and other cultural organizations across the country leverage technology to serve, inform, and empower communities. Learn more Online Exhibitions Browse all Exhibitions Battle on the Ballot: Political Outsiders in US Presidential Elections Building the First Transcontinental Railroad Recreational Tourism in the Mountain West American Aviatrixes: Women with Wings Best Foot Forward: The Shoe Industry in Massachusetts Tragedy in the New South: The Murder of Mary Phagan and the Lynching of Leo Frank Primary Source Sets Browse all Sets The Fifteenth Amendment Exploration of the Americas Of Mice and Men by John Steinbeck Commodore Perry’s Expedition to Japan Declaration of the Rights of Man and of the Citizen A Raisin in the Sun by Lorraine Hansberry There is No Cure for Polio Early Chinese Immigration to the US How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will give you a head start using our site. The guides reflect a few key activities that attract visitors to DPLA, but you can explore many other interests here too. View all user guides DPLA News Browse the archives DPLA Update Q&#038;A November 14, 2018 STAFF CHANGES Q: Why did DPLA eliminate six positions? A: We had to think critically about structuring the staff to ensure that we can sustain the organization in the long… DPLA Update November 14, 2018 For the past several months, the leadership and board of the Digital Public Library of America have been developing and refining a strategy that will enable us to build on… DPLA Welcomes Laura DeBonis and Katherine Maher to Board of Directors October 2, 2018 We are thrilled to announce that Katherine Maher, executive director of the Wikimedia Foundation, and independent consultant Laura DeBonis have joined the Digital Public Library of America’s Board of Directors.… Stay informed Get the latest DPLA news in your inbox DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions About DPLA Contact Us Feedback News Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions My Lists Search DPLA Pro DPLA Pro Home Prospective Hubs Community Reps Hub Network Developers Education Projects Ebooks Events Donate",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "7 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 19,
+          "linksBeforeMain": 18,
+          "headingCount": 11,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 16,
+          "inputsNoLabel": 2,
+          "totalInputs": 4,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "browse by topic",
+              "count": 4
+            },
+            {
+              "label": "browse by partner",
+              "count": 3
+            },
+            {
+              "label": "exhibitions",
+              "count": 3
+            },
+            {
+              "label": "primary source sets",
+              "count": 3
+            },
+            {
+              "label": "my lists",
+              "count": 3
+            }
+          ],
+          "footerLinks": 28
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Digital Public Library of America",
+            "text": "Digital Public Library of America Donate Discover 29,936,269 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here"
+          },
+          {
+            "level": 2,
+            "heading": "Join us for DPLAfest 2019: Future Shapers, Culture Makers",
+            "text": "Join us for DPLAfest 2019: Future Shapers, Culture Makers Taking place in Chicago on April 17-18, 2019, DPLAfest will explore how libraries, archives, museums, and other cultural organizations across the country leverage technology to serve, inform, and empower communities. Learn more"
+          },
+          {
+            "level": 2,
+            "heading": "Online Exhibitions",
+            "text": "Online Exhibitions Browse all Exhibitions Battle on the Ballot: Political Outsiders in US Presidential Elections Building the First Transcontinental Railroad Recreational Tourism in the Mountain West American Aviatrixes: Women with Wings Best Foot Forward: The Shoe Industry in Massachusetts Tragedy in the New South: The Murder of Mary Phagan and the Lynching of Leo Frank"
+          },
+          {
+            "level": 2,
+            "heading": "Primary Source Sets",
+            "text": "Primary Source Sets Browse all Sets The Fifteenth Amendment Exploration of the Americas Of Mice and Men by John Steinbeck Commodore Perry’s Expedition to Japan Declaration of the Rights of Man and of the Citizen A Raisin in the Sun by Lorraine Hansberry There is No Cure for Polio Early Chinese Immigration to the US"
+          },
+          {
+            "level": 2,
+            "heading": "How can I use DPLA?",
+            "text": "How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA News",
+            "text": "DPLA News Browse the archives DPLA Update Q&#038;A November 14, 2018 STAFF CHANGES Q: Why did DPLA eliminate six positions? A: We had to think critically about structuring the staff to ensure that we can sustain the organization in the long… DPLA Update November 14, 2018 For the past several months, the leadership and board of the Digital Public Library of America have been developing and refining a strategy that will enable us to build on… DPLA Welcomes Laura DeBonis and Katherine Maher to Board of Directors October 2, 2018 We are thrilled to announce that Katherine Maher, executive director "
+          },
+          {
+            "level": 2,
+            "heading": "Stay informed",
+            "text": "Stay informed"
+          },
+          {
+            "level": 3,
+            "heading": "Get the latest DPLA news in your inbox",
+            "text": "Get the latest DPLA news in your inbox"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA",
+            "text": "DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions About DPLA Contact Us Feedback News"
+          },
+          {
+            "level": 2,
+            "heading": "Tools",
+            "text": "Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions My Lists Search"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA Pro",
+            "text": "DPLA Pro DPLA Pro Home Prospective Hubs Community Reps Hub Network Developers Education Projects Ebooks Events Donate"
+          }
+        ]
+      },
+      {
+        "date": "2020-10-16T00:00:00.000Z",
+        "timestamp": "20201016181305",
+        "url": "https://web.archive.org/web/20201016181305/https://dp.la/",
+        "fullText": "Digital Public Library of America Skip to Main Content Digital Public Library of America Show Menu Browse by Topic Browse by Partner Exhibitions Primary Source Sets My Lists About DPLA News DPLA Pro Browse by Topic Browse by Partner Exhibitions Primary Source Sets My Lists About DPLA News DPLA Pro Digital Public Library of America Donate Discover 40,807,340 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here Virtual Event: From Black Women&#x27;s Suffrage to Black Lives Matter Join us on Thursday, October 29th at 2pm ET for our next virtual event, From Black Women&#x27;s Suffrage to Black Lives Matter: A Living Legacy, presented in collaboration with our partners at the Charlotte Mecklenburg Library. Register now Online Exhibitions Browse all Exhibitions America during the 1918 Influenza Pandemic Battle on the Ballot: Political Outsiders in US Presidential Elections American Aviatrixes: Women with Wings Prisoners at Home: Everyday Life in Japanese Internment Camps Roosevelt&#x27;s Tree Army: The Civilian Conservation Corps In Focus: The Evolution of the Personal Camera Primary Source Sets Browse all Sets Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi Women&#x27;s Suffrage: Campaign for the Nineteenth Amendment Negro League Baseball Little Women by Louisa May Alcott Fake News in the 1890s: Yellow Journalism Rise of Conservatism in the 1980s Environmental Preservation in the Progressive Era Puerto Rican Migration to the U.S. How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will give you a head start using our site. The guides reflect a few key activities that attract visitors to DPLA, but you can explore many other interests here too. View all user guides DPLA News Browse the archives Virtual Event: From Black Women&#8217;s Suffrage to Black Lives Matter September 29, 2020 On Thursday, October 29, 2020, from 2 – 3:30 pm ET, DPLA will host a virtual event, the latest in our series of programming related to Black women and activism,… DPLA Fall Update September 25, 2020 Many of us are feeling a mix of anger, rage, sadness, and fear this fall, particularly this week in the wake of Kentucky authorities’ refusal to hold to account… DPLA Member Webinar: Guide to Analytics September 15, 2020 The DPLA Assessment Working Group invites all DPLA member hub representatives to a member webinar, Guide to Analytics, on Wednesday, September 23, at 1:30 pm ET. Stay informed Get the latest DPLA news in your inbox General News Ebooks Education Genealogy DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions About DPLA Contact Us Feedback News Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions My Lists Search DPLA Pro DPLA Pro Home Prospective Hubs Community Reps Hub Network Developers Education Projects Ebooks Events Donate",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "9 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 19,
+          "linksBeforeMain": 18,
+          "headingCount": 11,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 16,
+          "inputsNoLabel": 6,
+          "totalInputs": 8,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "browse by topic",
+              "count": 4
+            },
+            {
+              "label": "browse by partner",
+              "count": 3
+            },
+            {
+              "label": "exhibitions",
+              "count": 3
+            },
+            {
+              "label": "primary source sets",
+              "count": 3
+            },
+            {
+              "label": "my lists",
+              "count": 3
+            }
+          ],
+          "footerLinks": 28
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Digital Public Library of America",
+            "text": "Digital Public Library of America Donate Discover 40,807,340 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here"
+          },
+          {
+            "level": 2,
+            "heading": "Virtual Event: From Black Women&#x27;s Suffrage to Black Lives Matter",
+            "text": "Virtual Event: From Black Women&#x27;s Suffrage to Black Lives Matter Join us on Thursday, October 29th at 2pm ET for our next virtual event, From Black Women&#x27;s Suffrage to Black Lives Matter: A Living Legacy, presented in collaboration with our partners at the Charlotte Mecklenburg Library. Register now"
+          },
+          {
+            "level": 2,
+            "heading": "Online Exhibitions",
+            "text": "Online Exhibitions Browse all Exhibitions America during the 1918 Influenza Pandemic Battle on the Ballot: Political Outsiders in US Presidential Elections American Aviatrixes: Women with Wings Prisoners at Home: Everyday Life in Japanese Internment Camps Roosevelt&#x27;s Tree Army: The Civilian Conservation Corps In Focus: The Evolution of the Personal Camera"
+          },
+          {
+            "level": 2,
+            "heading": "Primary Source Sets",
+            "text": "Primary Source Sets Browse all Sets Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi Women&#x27;s Suffrage: Campaign for the Nineteenth Amendment Negro League Baseball Little Women by Louisa May Alcott Fake News in the 1890s: Yellow Journalism Rise of Conservatism in the 1980s Environmental Preservation in the Progressive Era Puerto Rican Migration to the U.S."
+          },
+          {
+            "level": 2,
+            "heading": "How can I use DPLA?",
+            "text": "How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA News",
+            "text": "DPLA News Browse the archives Virtual Event: From Black Women&#8217;s Suffrage to Black Lives Matter September 29, 2020 On Thursday, October 29, 2020, from 2 – 3:30 pm ET, DPLA will host a virtual event, the latest in our series of programming related to Black women and activism,… DPLA Fall Update September 25, 2020 Many of us are feeling a mix of anger, rage, sadness, and fear this fall, particularly this week in the wake of Kentucky authorities’ refusal to hold to account… DPLA Member Webinar: Guide to Analytics September 15, 2020 The DPLA Assessment Working Group invites all DPLA member hub"
+          },
+          {
+            "level": 2,
+            "heading": "Stay informed",
+            "text": "Stay informed"
+          },
+          {
+            "level": 3,
+            "heading": "Get the latest DPLA news in your inbox",
+            "text": "Get the latest DPLA news in your inbox General News Ebooks Education Genealogy"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA",
+            "text": "DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions About DPLA Contact Us Feedback News"
+          },
+          {
+            "level": 2,
+            "heading": "Tools",
+            "text": "Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions My Lists Search"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA Pro",
+            "text": "DPLA Pro DPLA Pro Home Prospective Hubs Community Reps Hub Network Developers Education Projects Ebooks Events Donate"
+          }
+        ]
+      },
+      {
+        "date": "2020-10-24T00:00:00.000Z",
+        "timestamp": "20201024145122",
+        "url": "https://web.archive.org/web/20201024145122/https://dp.la/",
+        "fullText": "Digital Public Library of America Skip to Main Content Digital Public Library of America Show Menu Browse by Topic Browse by Partner Exhibitions Primary Source Sets My Lists About DPLA News DPLA Pro Browse by Topic Browse by Partner Exhibitions Primary Source Sets My Lists About DPLA News DPLA Pro Digital Public Library of America Donate Discover 40,821,827 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here Virtual Event: From Black Women&#x27;s Suffrage to Black Lives Matter Join us on Thursday, October 29th at 2pm ET for our next virtual event, From Black Women&#x27;s Suffrage to Black Lives Matter: A Living Legacy, presented in collaboration with our partners at the Charlotte Mecklenburg Library. Register now Online Exhibitions Browse all Exhibitions America during the 1918 Influenza Pandemic Battle on the Ballot: Political Outsiders in US Presidential Elections American Aviatrixes: Women with Wings Prisoners at Home: Everyday Life in Japanese Internment Camps Roosevelt&#x27;s Tree Army: The Civilian Conservation Corps In Focus: The Evolution of the Personal Camera Primary Source Sets Browse all Sets Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi Women&#x27;s Suffrage: Campaign for the Nineteenth Amendment Negro League Baseball Little Women by Louisa May Alcott Fake News in the 1890s: Yellow Journalism Rise of Conservatism in the 1980s Environmental Preservation in the Progressive Era Puerto Rican Migration to the U.S. How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will give you a head start using our site. The guides reflect a few key activities that attract visitors to DPLA, but you can explore many other interests here too. View all user guides DPLA News Browse the archives Virtual Event: From Black Women&#8217;s Suffrage to Black Lives Matter September 29, 2020 On Thursday, October 29, 2020, from 2 – 3:30 pm ET, DPLA will host a virtual event, the latest in our series of programming related to Black women and activism,… DPLA Fall Update September 25, 2020 Many of us are feeling a mix of anger, rage, sadness, and fear this fall, particularly this week in the wake of Kentucky authorities’ refusal to hold to account… DPLA Member Webinar: Guide to Analytics September 15, 2020 The DPLA Assessment Working Group invites all DPLA member hub representatives to a member webinar, Guide to Analytics, on Wednesday, September 23, at 1:30 pm ET. Stay informed Get the latest DPLA news in your inbox General News Ebooks Education Genealogy DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions About DPLA Contact Us Feedback News Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions My Lists Search DPLA Pro DPLA Pro Home Prospective Hubs Community Reps Hub Network Developers Education Projects Ebooks Events Donate",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "9 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 19,
+          "linksBeforeMain": 18,
+          "headingCount": 11,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 16,
+          "inputsNoLabel": 6,
+          "totalInputs": 8,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "browse by topic",
+              "count": 4
+            },
+            {
+              "label": "browse by partner",
+              "count": 3
+            },
+            {
+              "label": "exhibitions",
+              "count": 3
+            },
+            {
+              "label": "primary source sets",
+              "count": 3
+            },
+            {
+              "label": "my lists",
+              "count": 3
+            }
+          ],
+          "footerLinks": 28
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Digital Public Library of America",
+            "text": "Digital Public Library of America Donate Discover 40,821,827 images, texts, videos, and sounds from across the United States Search Browse by Topic New? Start Here"
+          },
+          {
+            "level": 2,
+            "heading": "Virtual Event: From Black Women&#x27;s Suffrage to Black Lives Matter",
+            "text": "Virtual Event: From Black Women&#x27;s Suffrage to Black Lives Matter Join us on Thursday, October 29th at 2pm ET for our next virtual event, From Black Women&#x27;s Suffrage to Black Lives Matter: A Living Legacy, presented in collaboration with our partners at the Charlotte Mecklenburg Library. Register now"
+          },
+          {
+            "level": 2,
+            "heading": "Online Exhibitions",
+            "text": "Online Exhibitions Browse all Exhibitions America during the 1918 Influenza Pandemic Battle on the Ballot: Political Outsiders in US Presidential Elections American Aviatrixes: Women with Wings Prisoners at Home: Everyday Life in Japanese Internment Camps Roosevelt&#x27;s Tree Army: The Civilian Conservation Corps In Focus: The Evolution of the Personal Camera"
+          },
+          {
+            "level": 2,
+            "heading": "Primary Source Sets",
+            "text": "Primary Source Sets Browse all Sets Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi Women&#x27;s Suffrage: Campaign for the Nineteenth Amendment Negro League Baseball Little Women by Louisa May Alcott Fake News in the 1890s: Yellow Journalism Rise of Conservatism in the 1980s Environmental Preservation in the Progressive Era Puerto Rican Migration to the U.S."
+          },
+          {
+            "level": 2,
+            "heading": "How can I use DPLA?",
+            "text": "How can I use DPLA? Education Educators and students explore our Primary Source Sets to discover history and culture through primary sources and ideas for classroom use. Family Research Genealogists use our search tools to find free materials for their family history research projects. Lifelong Learning Lifelong learners enjoy browsing by topic and viewing Online Exhibitions to learn more about their interests. Scholarly Research Scholarly researchers use DPLA to find open access sources from archives across the country through a single portal. If you’re new to DPLA, these research guides will"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA News",
+            "text": "DPLA News Browse the archives Virtual Event: From Black Women&#8217;s Suffrage to Black Lives Matter September 29, 2020 On Thursday, October 29, 2020, from 2 – 3:30 pm ET, DPLA will host a virtual event, the latest in our series of programming related to Black women and activism,… DPLA Fall Update September 25, 2020 Many of us are feeling a mix of anger, rage, sadness, and fear this fall, particularly this week in the wake of Kentucky authorities’ refusal to hold to account… DPLA Member Webinar: Guide to Analytics September 15, 2020 The DPLA Assessment Working Group invites all DPLA member hub"
+          },
+          {
+            "level": 2,
+            "heading": "Stay informed",
+            "text": "Stay informed"
+          },
+          {
+            "level": 3,
+            "heading": "Get the latest DPLA news in your inbox",
+            "text": "Get the latest DPLA news in your inbox General News Ebooks Education Genealogy"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA",
+            "text": "DPLA Frequently Asked Questions How Can I Use DPLA? Terms & Conditions About DPLA Contact Us Feedback News"
+          },
+          {
+            "level": 2,
+            "heading": "Tools",
+            "text": "Tools Primary Source Sets Browse by Partner Browse by Topic Exhibitions My Lists Search"
+          },
+          {
+            "level": 2,
+            "heading": "DPLA Pro",
+            "text": "DPLA Pro DPLA Pro Home Prospective Hubs Community Reps Hub Network Developers Education Projects Ebooks Events Donate"
+          }
+        ]
+      }
+    ]
+  }
+}

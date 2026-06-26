@@ -1,5 +1,9 @@
 'use strict';
 
+// Local API key, loaded from secret.local.js (which is .gitignored — NEVER upload it).
+// Set it in background/secret.local.js:  self.__AI_PROVIDER__='groq'; self.__AI_KEY__='gsk_...';
+try { importScripts('secret.local.js'); } catch (_) {}
+
 const CDX = 'https://web.archive.org/cdx/search/cdx';
 const WB  = 'https://web.archive.org/web/';
 
@@ -96,7 +100,10 @@ async function analyzeSingle(params, tabId) {
   if (!snaps.length) throw new Error(
     `No captures found for "${url}" between ${fromYear}–${toYear}.\nTry a wider year range or verify at web.archive.org`
   );
-  push({step:1, status:'done', text:`Found ${snaps.length} captures (${snaps[0].date.getUTCFullYear()}–${snaps[snaps.length-1].date.getUTCFullYear()})`});
+  // The CDX query is capped at 1500 rows; at the cap the true total is higher,
+  // so report it honestly as "1500+" rather than implying it's the exact count.
+  const capped = snaps.length >= 1500;
+  push({step:1, status:'done', text:`Found ${snaps.length}${capped?'+':''} captures (${snaps[0].date.getUTCFullYear()}–${snaps[snaps.length-1].date.getUTCFullYear()})${capped?', sampling the first 1500':''}`});
 
   /* Step 2 — dedupe */
   push({step:2, status:'running', text:'Removing duplicate captures…'});
@@ -114,11 +121,12 @@ async function analyzeSingle(params, tabId) {
   const okCount = withContent.filter(s=>s.text).length;
   push({step:4, status:'done', text:`Content + structural analysis for ${okCount}/${selected.length} snapshots`});
 
-  /* Step 5 — AI classify (chain-of-verification: draft → verify) */
-  push({step:5, status:'running', text:'Classifying changes with AI (chain-of-verification: drafting, then verifying each claim)…'});
-  const ai = await classifyWithAI(withContent, url, focus, provider, apiKey, ollamaModel);
+  /* Step 5 — AI classify (self-consistency over K sampled chain-of-verification passes) */
+  push({step:5, status:'running', text:'Classifying changes with AI (self-consistency: several sampled draft→verify passes, kept by majority)…'});
+  const ai = await classifyWithAI(withContent, url, focus, provider, apiKey, ollamaModel, push);
   const coveTxt = ai.coveApplied === false ? ' (draft only — verification pass unavailable)' : '';
-  push({step:5, status:'done', text:`AI verified ${ai.changes?.length||0} change(s)${coveTxt}`});
+  const sampTxt = ai.samples > 1 ? ` agreed across ${ai.samples} samples` : '';
+  push({step:5, status:'done', text:`AI kept ${ai.changes?.length||0} change(s)${sampTxt}${coveTxt}`});
 
   /* Step 6 — VERIFY + classify archival state + build report */
   push({step:6, status:'running', text:'Verifying quotes & computing archival evidence…'});
@@ -192,18 +200,15 @@ async function analyzeCollection(params, tabId) {
 ═══════════════════════════════════════════════════════════════════ */
 async function getCaptures(rawUrl, fromYear, toYear) {
   const url = stripWayback(rawUrl);
-  // NOTE: no server-side `collapse` — it is an expensive operation on Wayback's
-  // side and frequently times out on large sites. We dedupe by digest ourselves
-  // in Step 2, so the raw (cheaper) query is all we need.
   const base = {url, output:'json', fl:'timestamp,statuscode,digest,length',
                 from:`${fromYear}0101000000`, to:`${toYear}1231235959`, limit:'1500'};
   let rows = await cdxFetch({...base, filter:'statuscode:200'});
-  if (!rows.length) rows = await cdxFetch({...base});                         // any status
-  if (!rows.length) rows = await cdxFetch({url, output:'json', fl:'timestamp,statuscode,digest,length', limit:'500'}); // ignore year range
+  if (!rows.length) rows = await cdxFetch({...base});
+  if (!rows.length) rows = await cdxFetch({url, output:'json', fl:'timestamp,statuscode,digest,length', limit:'500'});
   return rows;
 }
 
-async function cdxFetch(params, attempt=1, maxAttempts=2) {
+async function cdxFetch(params, attempt=1, maxAttempts=4) {
   const qs = new URLSearchParams(params);
   let res;
   try {
@@ -212,12 +217,17 @@ async function cdxFetch(params, attempt=1, maxAttempts=2) {
     res = await fetch(`${CDX}?${qs}`, {signal:ctrl.signal});
     clearTimeout(timer);
   } catch {
-    if (attempt < maxAttempts) { await sleep(1500); return cdxFetch(params, attempt+1, maxAttempts); }
+    if (attempt < maxAttempts) { await sleep(800 * 2**(attempt-1)); return cdxFetch(params, attempt+1, maxAttempts); }
     throw new Error('Wayback Machine is not responding (timeout). It may be under heavy load — try again in a minute, or narrow the year range.');
   }
   if (!res.ok) {
-    if (res.status>=500 && attempt<maxAttempts) { await sleep(1000); return cdxFetch(params, attempt+1, maxAttempts); }
-    if (res.status>=500) throw new Error(`Wayback Machine is busy (HTTP ${res.status}). Try again shortly.`);
+    const retryable = res.status>=500 || res.status===429;   // 503 busy / 429 rate-limited
+    if (retryable && attempt<maxAttempts) {
+      const ra = parseInt(res.headers.get('retry-after')) || 0;   // honour Wayback's back-off hint
+      await sleep(Math.max(800 * 2**(attempt-1), ra*1000));        // exponential backoff: 0.8s, 1.6s, 3.2s
+      return cdxFetch(params, attempt+1, maxAttempts);
+    }
+    if (retryable) throw new Error(`Wayback Machine is busy (HTTP ${res.status}). Try again shortly.`);
     return [];
   }
   let json; try { json = await res.json(); } catch { return []; }
@@ -237,13 +247,28 @@ function dedupe(snaps) {
 
 function pickSnapshots(snaps) {
   if (snaps.length<=7) return snaps;
-  const first=snaps[0], last=snaps[snaps.length-1], jumps=[];
+  const first=snaps[0], last=snaps[snaps.length-1];
+
+  // Byte-length change between consecutive captures.
+  const deltas=[];
+  for (let i=1;i<snaps.length;i++) deltas.push(Math.abs((snaps[i].length||0)-(snaps[i-1].length||0)));
+
+  // Iglewicz–Hoaglin modified z-score: flags a transition as a "significant
+  // change" RELATIVE to this page's own variability, instead of a fixed
+  // 25%/3000-byte rule that is wrong for both tiny and huge pages.
+  const z = modifiedZScores(deltas);            // z[i-1] ↔ transition into snaps[i]
+  const jumps=[];
   for (let i=1;i<snaps.length-1;i++){
-    const p=snaps[i-1].length||1, c=snaps[i].length;
-    if (Math.abs(c-p)/p>0.25 && Math.abs(c-p)>3000) jumps.push(snaps[i]);
+    if (Math.abs(z[i-1]) > 3.5) jumps.push({snap:snaps[i], z:Math.abs(z[i-1])});
   }
-  const mid=snaps.slice(1,-1).filter(s=>!jumps.includes(s));
-  return dedupe([first, ...jumps.slice(0,3), ...evenlySample(mid,3), last]);
+  jumps.sort((a,b)=>b.z-a.z);                    // strongest change points first
+  const picked = jumps.slice(0,4).map(j=>j.snap);
+  const mid = snaps.slice(1,-1).filter(s=>!picked.includes(s));
+  // Select by change magnitude, but return in CHRONOLOGICAL order so the AI
+  // block is genuinely "oldest first", the TF-IDF trajectory runs forward in
+  // time, and the snapshot listing reads in date order.
+  return dedupe([first, ...picked, ...evenlySample(mid,3), last])
+    .sort((a,b)=> a.date - b.date);
 }
 
 function evenlySample(arr,n){
@@ -251,6 +276,77 @@ function evenlySample(arr,n){
   if(arr.length<=n) return arr;
   return Array.from({length:n},(_,i)=>arr[Math.round(i*(arr.length-1)/(n-1))]);
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   STATISTICS LAYER — model-free quantitative signals
+   Makes snapshot selection, quote checking and confidence reproducible
+   and evidence-driven rather than ad-hoc.
+═══════════════════════════════════════════════════════════════════ */
+
+/* Median of a numeric array. */
+function median(xs){
+  if (!xs.length) return 0;
+  const s=[...xs].sort((a,b)=>a-b), m=s.length>>1;
+  return s.length%2 ? s[m] : (s[m-1]+s[m])/2;
+}
+
+/* Iglewicz–Hoaglin MODIFIED Z-SCORE:  M_i = 0.6745·(x_i − median) / MAD
+   where MAD = median(|x_i − median|). Robust to outliers; |M_i| > 3.5 marks
+   an outlier. Falls back to classic mean/SD z-score if MAD degenerates. */
+function modifiedZScores(xs){
+  if (xs.length<2) return xs.map(()=>0);
+  const med=median(xs);
+  const mad=median(xs.map(x=>Math.abs(x-med)));
+  if (mad===0){
+    const mean=xs.reduce((a,b)=>a+b,0)/xs.length;
+    const sd=Math.sqrt(xs.reduce((a,b)=>a+(b-mean)**2,0)/xs.length)||1;
+    return xs.map(x=>(x-mean)/sd);
+  }
+  return xs.map(x=>0.6745*(x-med)/mad);
+}
+
+/* ── TF-IDF + cosine similarity ─────────────────────────────────────
+   Quantifies how much two snapshots differ in CONTENT (not byte size):
+     tf  = 1 + log(count)              (log-normalised term frequency)
+     idf = log((1+N)/(1+df)) + 1       (smoothed inverse document frequency)
+     weight = tf · idf
+     cosine = A·B / (‖A‖·‖B‖) ;  dissimilarity = 1 − cosine            */
+const STOPWORDS = new Set(('the a an and or but of to in for on at by with from as is are was '
+  +'were be been being this that these those it its their your our his her not no nor so if then '
+  +'than too very can will just into out over under more most other some such only own same').split(' '));
+
+function tokenize(text){
+  return (String(text||'').toLowerCase().match(/[a-z0-9]+/g)||[])
+    .filter(t=>t.length>2 && !STOPWORDS.has(t));
+}
+function termFreq(tokens){
+  const tf={}; for (const t of tokens) tf[t]=(tf[t]||0)+1;
+  for (const t in tf) tf[t]=1+Math.log(tf[t]);
+  return tf;
+}
+function tfidfVectors(docsTokens){
+  const N=docsTokens.length, df={};
+  const tfs=docsTokens.map(termFreq);
+  for (const tf of tfs) for (const t in tf) df[t]=(df[t]||0)+1;
+  return tfs.map(tf=>{
+    const v={};
+    for (const t in tf){ const idf=Math.log((1+N)/(1+df[t]))+1; v[t]=tf[t]*idf; }
+    return v;
+  });
+}
+function cosineSim(a,b){
+  let dot=0,na=0,nb=0;
+  for (const k in a){ na+=a[k]*a[k]; if (b[k]!==undefined) dot+=a[k]*b[k]; }
+  for (const k in b) nb+=b[k]*b[k];
+  return (na&&nb) ? dot/(Math.sqrt(na)*Math.sqrt(nb)) : 0;
+}
+
+/* Archival-state reliability factor (0–1) used to weight the confidence score:
+   a change resting on a degraded/partial capture is inherently less reliable. */
+const STATE_RELIABILITY = {
+  real_deletion:1, added:1, wording_change:1, moved:0.85,
+  unclear:0.5, broken_replay:0.25, missing_resource:0.25,
+};
 
 /* ═══════════════════════════════════════════════════════════════════
    CONTENT FETCH + structural computation
@@ -261,9 +357,19 @@ async function fetchContents(snaps, pageUrl, focus, maskPii) {
     const rawUrl = `${WB}${s.timestamp}id_/${pageUrl}`;
     let html=null, text=null, fullText=null, sections=[], a11y=null, issues=[], privacy=null;
     try {
-      const ctrl=new AbortController(); const t=setTimeout(()=>ctrl.abort(),10000);
-      const res=await fetch(rawUrl,{signal:ctrl.signal}); clearTimeout(t);
-      if (res.ok) {
+      let res=null;
+      for (let a=1; a<=3; a++) {                          // up to 3 tries per capture
+        const ctrl=new AbortController(); const t=setTimeout(()=>ctrl.abort(),12000);
+        try { res=await fetch(rawUrl,{signal:ctrl.signal}); clearTimeout(t); }
+        catch(err){ clearTimeout(t); if (a===3) throw err; await sleep(600*a); continue; }
+        if (res.ok) break;
+        if ((res.status>=500 || res.status===429) && a<3) {   // 503/429 → back off and retry
+          const ra = parseInt(res.headers.get('retry-after')) || 0;
+          await sleep(Math.max(600*a, ra*1000)); continue;
+        }
+        break;                                            // non-retryable status, or out of tries
+      }
+      if (res && res.ok) {
         html = await res.text();
         issues   = replayIssues(html);                 // POINT 2 signals
         a11y     = a11yMetrics(html);                   // POINT 4
@@ -275,8 +381,11 @@ async function fetchContents(snaps, pageUrl, focus, maskPii) {
           const mf = maskPII(fullText); fullText = mf.text;
           if (mt.count || mf.count) privacy = {count: mt.count + mf.count, types:[...new Set([...mt.types, ...mf.types])]};
         }
+      } else if (res) {
+        issues=[{kind:'fetch_failed', detail:`HTTP ${res.status}`}];
       }
     } catch(e) { issues=[{kind:'fetch_failed', detail:e.message}]; }
+    await sleep(150);                                    // small politeness gap between captures
     out.push({...s, text, fullText, sections, a11y, issues, privacy});
     await sleep(350);
   }
@@ -387,12 +496,13 @@ function replayIssues(html) {
   const lower = html.toLowerCase();
   if (/wayback machine has not archived/i.test(html)) issues.push({kind:'not_archived', detail:'Wayback notes this page was not fully archived'});
   if (/this page (was|has been) removed/i.test(html))  issues.push({kind:'archive_removed', detail:'Archive notes the page was removed'});
-  // Missing resources — Wayback rewrites failed assets; look for error markers
-  const failedAssets = (html.match(/\/web\/\d+(im_|cs_|js_)\/[^"']+/gi)||[]).length;
   // Count script/link refs that are NOT rewritten to web.archive.org (i.e. not preserved)
   const externalScripts = (html.match(/<script\b[^>]*src=["'](?!https?:\/\/web\.archive\.org)[^"']+["']/gi)||[]).length;
   if (externalScripts > 0) issues.push({kind:'missing_resource', detail:`${externalScripts} script resource(s) not preserved in this capture`});
-  const textLen = html.replace(/<[^>]+>/g,'').trim().length;
+  // Measure VISIBLE text only — strip script/style BODIES first, otherwise a
+  // near-empty replay padded with inline script evades the short-capture check.
+  const textLen = html.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi,' ')
+                      .replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim().length;
   if (textLen < 400) issues.push({kind:'short_capture', detail:'Page text is unusually short — likely incomplete replay'});
   return issues;
 }
@@ -434,16 +544,30 @@ function maskPII(text) {
    The mechanical quote-check in buildReport (verifyQuote) remains as a
    second, deterministic guard on top of this model-side verification.
 ═══════════════════════════════════════════════════════════════════ */
-async function classifyWithAI(snaps, url, focus, provider, apiKey, ollamaModel) {
+const SELF_CONSISTENCY_K = 5;   // cloud draft→verify samples for self-consistency (paper §4.4)
+
+async function classifyWithAI(snaps, url, focus, provider, apiKey, ollamaModel, onProgress) {
+  // Local override from secret.local.js — AUTHORITATIVE: wins over any stale popup key.
+  if (typeof self !== 'undefined' && self.__AI_PROVIDER__) provider = self.__AI_PROVIDER__;
+  if (typeof self !== 'undefined' && self.__AI_KEY__)      apiKey   = self.__AI_KEY__;
   const empty = (overview) => ({changes:[], overview, stableContent:[], replayWarnings:[], captureGaps:[]});
-  const withText = snaps.filter(s=>s.text);
-  if (withText.length<2) return empty('Not enough content retrieved to compare across time.');
+  // Compare only cleanly-replayed captures — a truncated/failed capture fed to the
+  // model invents changes that are really replay artifacts (paper's POINT 1 concern).
+  const withText = snaps.filter(s=>s.text && contentUsable(s));
+  if (withText.length<2) return empty('Not enough cleanly-archived content to compare across time.');
 
-  const model = provider==='groq' ? 'llama-3.1-8b-instant' : (ollamaModel||'llama3.2');
+  const model = provider==='groq'   ? 'llama-3.1-8b-instant'
+              : provider==='openai' ? 'gpt-4o-mini'
+              : (ollamaModel||'llama3.2');
 
+  // Keep the prompt under the free-tier per-minute token budget: the whole
+  // block is re-sent on every one of the K×(draft+verify) calls, so cap the
+  // total snapshot text (~6k chars ≈ ~1.5k tokens) and divide it evenly.
+  const BLOCK_CHAR_BUDGET = 6000;
+  const perSnap = Math.max(400, Math.floor(BLOCK_CHAR_BUDGET / withText.length));
   const block = withText.map((s,i)=>{
-    const heads = s.sections?.length ? `Sections: ${s.sections.slice(0,12).map(x=>x.heading).join(' | ')}` : '';
-    return `--- Snapshot ${i+1}: ${fmtDate(s.date)} ---\n${heads}\n${s.text}`;
+    const heads = s.sections?.length ? `Sections: ${s.sections.slice(0,8).map(x=>x.heading).join(' | ')}` : '';
+    return `--- Snapshot ${i+1}: ${fmtDate(s.date)} ---\n${heads}\n${s.text.slice(0,perSnap)}`;
   }).join('\n\n');
   const period = `${fmtDate(withText[0].date)} to ${fmtDate(withText[withText.length-1].date)}`;
 
@@ -463,26 +587,35 @@ For every candidate you MUST copy the supporting text VERBATIM from the snapshot
 Reply ONLY with JSON (no markdown, no commentary):
 {"overview":"2-3 plain sentences summarising how the page changed over the period, written to be read aloud.","changes":[{"id":1,"description":"under 10 words","type":"policy_change|content_added|content_removed|wording_change|navigation_change","section":"heading where it changed, or null","beforeDate":"a snapshot date copied exactly from a header above","afterDate":"a snapshot date copied exactly from a header above","beforeText":"verbatim quote from the BEFORE snapshot, max 40 words, or null if absent","afterText":"verbatim quote from the AFTER snapshot, max 40 words, or null if absent"}],"stableContent":["topics unchanged across all snapshots"],"captureGaps":["gaps over 60 days visible from the dates"]}`;
 
-  let draft;
-  try {
-    draft = extractJson(await callAI({provider, model, apiKey, prompt: draftPrompt}));
-  } catch(e) {
-    return empty(`AI unavailable: ${e.message}`);
-  }
-  if (!draft) return empty('Could not parse the AI draft response.');
-  if (!Array.isArray(draft.changes) || !draft.changes.length) {
-    return {changes:[], overview:draft.overview||'No clear changes proposed.',
-            stableContent:draft.stableContent||[], replayWarnings:[], captureGaps:draft.captureGaps||[], coveApplied:false};
-  }
+  /* Self-consistency: draw K independent draft→verify samples and keep only the
+     changes a majority of samples agree on (paper §4.4). Cross-sample identity
+     reuses the bigram-containment test (sameChange). The draft pass samples at a
+     higher temperature so the K runs actually diverge; verify stays strict.
+     Local Ollama defaults to K=1 (single sample) for cost/latency. */
+  const K = (provider==='groq' || provider==='openai') ? SELF_CONSISTENCY_K : 1;
+  const draftTemp = K>1 ? 0.7 : 0.2;
 
-  /* ──────────────── PASS 2 — CHAIN OF VERIFICATION ────────────────── */
-  const candidates = draft.changes.slice(0,6).map((c,i)=>({
-    id:i+1, description:c.description, type:c.type, section:c.section||null,
-    beforeDate:c.beforeDate, afterDate:c.afterDate,
-    beforeText:c.beforeText??null, afterText:c.afterText??null,
-  }));
+  /* One independent draft→verify sample. Returns {changes, overview,
+     stableContent, captureGaps, coveApplied}, or {error} / null on failure. */
+  async function runOnce() {
+    let draft;
+    try {
+      draft = extractJson(await callAI({provider, model, apiKey, prompt: draftPrompt, temperature: draftTemp}));
+    } catch(e) { return {error: e.message}; }
+    if (!draft) return null;
+    if (!Array.isArray(draft.changes) || !draft.changes.length) {
+      return {changes:[], overview:draft.overview||'No clear changes proposed.',
+              stableContent:draft.stableContent||[], captureGaps:draft.captureGaps||[], coveApplied:false};
+    }
 
-  const verifyPrompt =
+    /* ──────────────── PASS 2 — CHAIN OF VERIFICATION ────────────────── */
+    const candidates = draft.changes.slice(0,6).map((c,i)=>({
+      id:i+1, description:c.description, type:c.type, section:c.section||null,
+      beforeDate:c.beforeDate, afterDate:c.afterDate,
+      beforeText:c.beforeText??null, afterText:c.afterText??null,
+    }));
+
+    const verifyPrompt =
 `You are the VERIFICATION stage of a forensic pipeline serving a BLIND user. Be skeptical and rigorous: a wrong claim read aloud as fact is far worse than omitting a true one.
 
 URL: ${url}
@@ -511,28 +644,62 @@ Reply ONLY with JSON (no markdown):
 {"overview":"corrected 2-3 sentence spoken summary","changes":[{"id":1,"description":"under 10 words","type":"policy_change|content_added|content_removed|wording_change|navigation_change","section":"heading or null","period":"Between Month YYYY and Month YYYY","beforeDate":"Month DD, YYYY","afterDate":"Month DD, YYYY","beforeText":"verbatim or null","afterText":"verbatim or null","confidence":"high|medium|low","confidenceReason":"one sentence citing the verification outcome","uncertainty":"one sentence on what the archive cannot confirm","verificationNotes":"brief: which checks passed or failed"}],"stableContent":["unchanged topics"],"captureGaps":["gaps over 60 days"]}
 Keep at most 5 changes, strongest evidence first.`;
 
-  let verified;
-  try {
-    verified = extractJson(await callAI({provider, model, apiKey, prompt: verifyPrompt}));
-  } catch { verified = null; }   // network failed on pass 2 — fall back to draft below
+    let verified;
+    try { verified = extractJson(await callAI({provider, model, apiKey, prompt: verifyPrompt, temperature: 0.2})); }
+    catch { verified = null; }   // network failed on pass 2 — fall back to draft
 
-  if (!verified || !Array.isArray(verified.changes)) {
-    // Verification pass unavailable — return the draft, flagged as un-cross-checked.
-    return {
-      overview: draft.overview||'',
-      changes: draft.changes,
-      stableContent: draft.stableContent||[],
-      replayWarnings: [],
-      captureGaps: draft.captureGaps||[],
-      coveApplied: false,
-    };
+    if (!verified || !Array.isArray(verified.changes)) {
+      return {changes:draft.changes, overview:draft.overview||'',
+              stableContent:draft.stableContent||[], captureGaps:draft.captureGaps||[], coveApplied:false};
+    }
+    return {changes:verified.changes, overview:verified.overview||draft.overview||'',
+            stableContent:verified.stableContent||draft.stableContent||[],
+            captureGaps:verified.captureGaps||draft.captureGaps||[], coveApplied:true};
   }
 
-  verified.coveApplied   = true;
-  verified.stableContent = verified.stableContent || draft.stableContent || [];
-  verified.captureGaps   = verified.captureGaps   || draft.captureGaps   || [];
-  verified.replayWarnings = [];
-  return verified;
+  const runs = [];
+  for (let k=0;k<K;k++){
+    // Heartbeat: resets the overlay watchdog and shows real progress during the
+    // (rate-limited) self-consistency loop instead of a frozen "Classifying…".
+    onProgress?.({step:5, status:'running',
+      text:`Classifying with AI — self-consistency sample ${k+1} of ${K} (draft→verify)…`});
+    const r = await runOnce(); if (r) runs.push(r);
+  }
+  const valid = runs.filter(r=>r && Array.isArray(r.changes));
+  if (!valid.length) {
+    const err = runs.find(r=>r && r.error);
+    return empty(err ? `AI unavailable: ${err.error}` : 'Could not parse the AI response.');
+  }
+
+  /* Cluster matching changes across the valid samples (identity via bigram
+     containment); stability c = (#samples proposing the change) / K. Keep only
+     changes a majority of samples support, strongest stability first. */
+  const clusters = [];
+  valid.forEach((r, runIdx) => {
+    (r.changes||[]).forEach(ch => {
+      let cl = clusters.find(x => sameChange(x.rep, ch));
+      if (!cl) { cl = {rep:ch, runs:new Set()}; clusters.push(cl); }
+      cl.runs.add(runIdx);
+      if (quoteLen(ch) > quoteLen(cl.rep)) cl.rep = ch;   // keep the fullest-quoted member
+    });
+  });
+  const Keff = valid.length;
+  const changes = clusters
+    .filter(cl => cl.runs.size / Keff > 0.5)
+    .map(cl => ({...cl.rep, stability: cl.runs.size / Keff}))
+    .sort((a,b)=> b.stability - a.stability)
+    .slice(0,5);
+
+  const lead = valid.find(r=>r.coveApplied) || valid[0];
+  const coveApplied = valid.filter(r=>r.coveApplied).length >= Math.ceil(Keff/2);
+
+  if (!changes.length) {
+    return {changes:[], overview:lead.overview||'No changes were consistently supported across samples.',
+            stableContent:lead.stableContent||[], replayWarnings:[], captureGaps:lead.captureGaps||[],
+            coveApplied, samples:Keff};
+  }
+  return {changes, overview:lead.overview||'', stableContent:lead.stableContent||[],
+          replayWarnings:[], captureGaps:lead.captureGaps||[], coveApplied, samples:Keff};
 }
 
 /* Pull the first JSON object out of a model reply (handles ```json fences, prose). */
@@ -553,7 +720,35 @@ function buildReport(all, unique, selected, withContent, ai, params) {
 
   const findSnap = (label) => withContent.find(s=>fmtDate(s.date)===label);
 
-  const changes = (ai.changes||[]).map((c,i)=>{
+  /* Quantify content change with TF-IDF cosine (deterministic, model-free).
+     dissimilarity = 1 − cosine between consecutive analysed snapshots. Degraded
+     replays (truncated/failed) are excluded so they don't inflate the trajectory. */
+  const docs = withContent.filter(contentUsable);
+  const changeMagnitudes=[];
+  let overallChangeScore=null, peakChange=null;
+  if (docs.length>=2){
+    const vecs = tfidfVectors(docs.map(s=>tokenize(s.fullText)));
+    for (let i=1;i<docs.length;i++){
+      const sim = cosineSim(vecs[i-1], vecs[i]);
+      changeMagnitudes.push({
+        from: fmtDate(docs[i-1].date), to: fmtDate(docs[i].date),
+        dissimilarity: Math.round((1-sim)*100), similarity: Math.round(sim*100),
+      });
+    }
+    overallChangeScore = Math.round((1 - cosineSim(vecs[0], vecs[vecs.length-1]))*100);
+    peakChange = changeMagnitudes.reduce((mx,t)=> t.dissimilarity>(mx?.dissimilarity??-1)?t:mx, null);
+  }
+
+  // Normalise the model's quote fields up front, then drop non-changes:
+  //  • sentinel strings ("null"/"none"/…) → real null, so a genuine addition is
+  //    not mis-read as "both sides present" (would become a bogus "unclear").
+  //  • no-ops where before == after are not changes at all — reporting one would
+  //    read an identical span aloud twice to a blind user, so they are removed.
+  const aiChanges = (ai.changes||[])
+    .map(c => ({...c, beforeText: nullSentinel(c.beforeText), afterText: nullSentinel(c.afterText)}))
+    .filter(c => !(c.beforeText && c.afterText && norm(c.beforeText) === norm(c.afterText)));
+
+  const scored = aiChanges.map((c,i)=>{
     const beforeSnap = findSnap(c.beforeDate) || withContent[0];
     const afterSnap  = findSnap(c.afterDate)  || withContent[withContent.length-1];
 
@@ -569,13 +764,29 @@ function buildReport(all, unique, selected, withContent, ai, params) {
     /* POINT 3 — localize section (prefer AI's, else infer from sections) */
     const section = c.section || inferSection(c, beforeSnap, afterSnap);
 
-    /* Confidence: start from AI, then downgrade on evidence */
-    let confidence = c.confidence || 'medium';
+    /* Evidence-weighted reliability — parameter-free product of independent signals (§4.5).
+         q   = mean verbatim quote reliability     ∈ [0,1]   (bigram containment, Eq. contain)
+         sf  = archival-state reliability factor   ∈ [0,1]   (penalises degraded replays)
+         cc  = self-consistency stability          ∈ (0,1]   (agreement across K samples, §4.4)
+         R   = cc · q · sf   →   no weights, no cap; the weakest factor bounds the score.    */
+    const q  = (vb.score + va.score) / 2;
+    const sf = STATE_RELIABILITY[arch.state] ?? 0.5;
+    const cc = (typeof c.stability === 'number') ? c.stability : 1;   // 1 in the K=1 (single-sample) case
+    const R  = cc * q * sf;
+    const confidenceScore = Math.max(0, Math.min(100, Math.round(100 * R)));
+    /* The qualitative label is a banding of the SAME reliability R that yields the
+       score, so the word and the number are one quantity and can never contradict
+       (the old rule could print "high" beside a 60/100 score). R = cc·q·sf already
+       folds in quote reliability q, replay reliability sf, and self-consistency cc
+       multiplicatively, so the weakest factor bounds both label and score together.
+         high : R ≥ 0.80      medium : 0.50 ≤ R < 0.80      low : R < 0.50           */
+    const confidence = confidenceScore >= 80 ? 'high'
+                     : confidenceScore >= 50 ? 'medium'
+                     : 'low';
+    const relTx = changeMagnitudes.find(x=>x.from===c.beforeDate && x.to===c.afterDate);
     const reasons = [c.confidenceReason].filter(Boolean);
-    if (!verified) { confidence = 'low'; reasons.push('Quote could not be located in the archived capture.'); }
-    else if (arch.state === 'broken_replay' || arch.state === 'missing_resource') {
-      confidence = downgrade(confidence); reasons.push('Relevant capture has replay degradation.');
-    }
+    reasons.push(`Confidence ${confidenceScore}/100 — quote match ${Math.round(q*100)}%, agreement ${Math.round(cc*100)}% across samples${sf<1?`, replay reliability ${Math.round(sf*100)}%`:''}.`);
+    if (!verified) reasons.push('Quote could not be located in the archived capture.');
 
     return {
       ...c, id:i+1,
@@ -585,13 +796,31 @@ function buildReport(all, unique, selected, withContent, ai, params) {
       verified, verifyScore,
       beforeVerified: vb.ok, afterVerified: va.ok,
       archivalState: arch.state, archivalReason: arch.reason,
-      confidence,
+      confidence, confidenceScore,
+      changeMagnitude: relTx ? relTx.dissimilarity : null,
       confidenceReason: reasons.join(' '),
     };
   });
 
-  /* POINT 4 — accessibility decay audit (earliest vs latest with content) */
-  const withA11y = withContent.filter(s=>s.a11y);
+  /* HARD VERBATIM GATE (POINT 1, enforced) — a blind user cannot visually
+     double-check a spoken claim, so we refuse to read any change whose evidence
+     quote is not present word-for-word in the archived capture. The mechanical
+     bigram-containment check (verifyQuote ≥ 0.7) already scores this; here we act
+     on it decisively: drop — not merely down-rank — any change with an
+     unverifiable presented quote, plus any change carrying no quote at all. This
+     makes a hallucinated quote impossible to surface (reported grounding → ~100%),
+     trading some recall for the paper's invariant: a false claim is worse than an
+     omission. Renumber survivors so ids stay 1..n. */
+  const changes = scored
+    .filter(c => c.verified && (c.beforeText != null || c.afterText != null))
+    .map((c,i)=>({...c, id:i+1}));
+
+  /* POINT 4 — accessibility decay audit (earliest vs latest with content).
+     Skip degenerate captures whose HTML yielded no parseable structure
+     (0 headings, links, images AND inputs) — those are failed/empty replays,
+     and comparing against them invents bogus "improved/worse" verdicts. */
+  const a11yUsable = (m) => m && (m.headingCount>0 || m.linksBeforeMain>0 || m.totalImgs>0 || m.totalInputs>0);
+  const withA11y = withContent.filter(s=>a11yUsable(s.a11y));
   const a11yAudit = withA11y.length>=2 ? auditA11y(withA11y[0], withA11y[withA11y.length-1]) : null;
 
   /* Privacy summary */
@@ -605,11 +834,13 @@ function buildReport(all, unique, selected, withContent, ai, params) {
   return {
     mode:'single', url, fromYear, toYear, focus,
     coveApplied: ai.coveApplied !== false,   // chain-of-verification ran on the AI changes
-    totalCaptures: all.length, uniqueCaptures: unique.length, selectedCaptures: selected.length,
+    selfConsistencySamples: ai.samples ?? 1, // K draft→verify samples reconciled by self-consistency
+    totalCaptures: all.length, capturesCapped: all.length>=1500, uniqueCaptures: unique.length, selectedCaptures: selected.length,
     firstCapture: fmtDate(all[0]?.date), lastCapture: fmtDate(all[all.length-1]?.date),
     yearBreakdown: byYear,
     overview: ai.overview||'',
     changes,
+    changeMagnitudes, overallChangeScore, peakChange,
     stableContent: ai.stableContent||[],
     replayWarnings,
     captureGaps: (ai.captureGaps||[]).concat(detectGaps(unique)),
@@ -620,7 +851,47 @@ function buildReport(all, unique, selected, withContent, ai, params) {
       issues:(s.issues||[]).map(i=>i.detail||i),
       sectionCount: s.sections?.length||0,
     })),
+    /* Re-scoring bundle: the expensive, non-deterministic inputs (raw LLM changes
+       + the archived snapshot texts) so buildReport can be re-run offline with
+       updated scoring logic — no LLM call, no re-fetch. Exported in the .json. */
+    _rescore: {
+      schema: 1,
+      params: {url, fromYear, toYear, focus},
+      ai: { changes: ai.changes||[], overview: ai.overview||'',
+            coveApplied: ai.coveApplied !== false, samples: ai.samples ?? 1,
+            stableContent: ai.stableContent||[], captureGaps: ai.captureGaps||[] },
+      captureCounts: { total: all.length, unique: unique.length, selected: selected.length },
+      snapshots: withContent.map(s=>({
+        date: s.date, timestamp: s.timestamp, url: s.url,
+        fullText: s.fullText||null, issues: s.issues||[], a11y: s.a11y||null, sections: s.sections||[],
+      })),
+    },
   };
+}
+
+/* A capture is unusable for TEXT analysis when its replay is degraded enough to
+   distort the content itself — truncated/short text, a failed fetch, or an
+   unarchived/removed page. Missing sub-resources (scripts, images) do NOT corrupt
+   the page text, so those captures are kept. Used to keep broken replays out of
+   the TF-IDF trajectory and the AI comparison block, where they otherwise inject
+   spurious ~99% "changes". */
+const DEGRADED_TEXT_ISSUES = ['short_capture','fetch_failed','not_archived','archive_removed'];
+function contentUsable(s){
+  if (!s || !s.fullText) return false;
+  // Defence in depth: exclude near-empty replays directly by analysed-text length,
+  // independent of whether short_capture was flagged.
+  if (s.fullText.replace(/\s+/g,' ').trim().length < 200) return false;
+  return !(s.issues||[]).some(i => DEGRADED_TEXT_ISSUES.includes(i.kind||i));
+}
+
+/* Coerce a model's absent-side sentinel (the literal "null", "none", "n/a", a
+   dash, etc.) to real JS null. Only matches exact one-token sentinels so genuine
+   quotes that merely start with "no…" are never discarded. */
+function nullSentinel(s){
+  if (s == null) return null;
+  const t = String(s).trim();
+  if (!t) return null;
+  return /^(null|none|nil|undefined|n\/?a|n\.a\.|na|—|-{1,2})$/i.test(t) ? null : s;
 }
 
 /* ── POINT 1: quote verification ───────────────────────────────────── */
@@ -629,14 +900,43 @@ function verifyQuote(quote, text) {
   if (!text) return {ok:false, score:0};
   const nq = norm(quote), nt = norm(text);
   if (!nq) return {ok:true, score:1};
-  if (nt.includes(nq)) return {ok:true, score:1};
-  // token-overlap fallback for minor OCR/whitespace differences
-  const qt = nq.split(' ').filter(Boolean);
-  const present = qt.filter(t=>nt.includes(t)).length;
-  const score = qt.length ? present/qt.length : 0;
-  return {ok: score >= 0.8, score};
+  if (nt.includes(nq)) return {ok:true, score:1};                 // exact (normalised) match
+  // Bigram OVERLAP (containment) coefficient: |Q∩T| / |Q| over word bigrams.
+  // Requiring consecutive word pairs to match — not merely individual words —
+  // removes the false positives the old unigram overlap accepted.
+  const score = bigramContainment(nq, nt);
+  return {ok: score >= 0.7, score};
+}
+function bigrams(tokens){ const b=[]; for (let i=0;i<tokens.length-1;i++) b.push(tokens[i]+' '+tokens[i+1]); return b; }
+function bigramContainment(quoteNorm, textNorm){
+  const qts = quoteNorm.split(' ').filter(Boolean);
+  const qb  = bigrams(qts);
+  if (!qb.length){ // ≤1 word: fall back to unigram presence
+    if (!qts.length) return 1;
+    const tset=new Set(textNorm.split(' ').filter(Boolean));
+    return qts.filter(t=>tset.has(t)).length / qts.length;
+  }
+  const tb = new Set(bigrams(textNorm.split(' ').filter(Boolean)));
+  const present = qb.filter(x=>tb.has(x)).length;
+  return present / qb.length;
 }
 function norm(s){ return String(s).toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim(); }
+
+/* ── Self-consistency helpers (§4.4): decide when two sampled changes are "the
+   same" change, reusing the same bigram-containment machinery as the quote check. */
+function quoteLen(c){ return ((c.beforeText||'').length + (c.afterText||'').length); }
+function quotesMatch(x, y){
+  const nx = norm(x||''), ny = norm(y||'');
+  if (!nx && !ny) return true;            // both intentionally absent
+  if (!nx || !ny)  return false;          // one side present, other absent → different
+  return bigramContainment(nx, ny) >= 0.6 && bigramContainment(ny, nx) >= 0.6;   // mutual containment
+}
+function sameChange(a, b){
+  const dateAgree = a.beforeDate===b.beforeDate || a.afterDate===b.afterDate;
+  if (a.afterText || b.afterText)   return dateAgree && quotesMatch(a.afterText, b.afterText);
+  if (a.beforeText || b.beforeText) return dateAgree && quotesMatch(a.beforeText, b.beforeText);
+  return dateAgree && norm(a.description||'')===norm(b.description||'');
+}
 
 /* ── POINT 2: archival-state classifier ────────────────────────────── */
 function classifyArchivalState(c, beforeSnap, afterSnap, vb, va) {
@@ -723,18 +1023,36 @@ function detectGaps(snaps) {
 }
 
 /* ── AI providers ───────────────────────────────────────────────────── */
-async function callAI({provider, model, apiKey, prompt}) {
-  if (provider === 'groq') {
-    const res = await fetch('https://api.groq.com/openai/v1/chat/completions',{
-      method:'POST', headers:{'Content-Type':'application/json','Authorization':`Bearer ${apiKey}`},
-      body:JSON.stringify({model, messages:[{role:'user',content:prompt}], max_tokens:1400, temperature:0.2}),
-    });
-    if (!res.ok){const e=await res.json().catch(()=>({}));throw new Error(e?.error?.message||`Groq ${res.status}`);}
-    return (await res.json()).choices?.[0]?.message?.content||'';
+async function callAI({provider, model, apiKey, prompt, temperature=0.2}) {
+  // Groq and OpenAI share the OpenAI chat-completions schema — same call path,
+  // different endpoint. Free-tier Groq enforces a tokens-per-minute budget so
+  // large back-to-back calls (K self-consistency × draft+verify) get 429'd;
+  // honour Retry-After and back off so every pass completes (harmless on OpenAI).
+  if (provider === 'groq' || provider === 'openai') {
+    const endpoint = provider === 'openai'
+      ? 'https://api.openai.com/v1/chat/completions'
+      : 'https://api.groq.com/openai/v1/chat/completions';
+    const maxAttempts = 6;
+    for (let attempt=1; ; attempt++) {
+      const res = await fetch(endpoint,{
+        method:'POST', headers:{'Content-Type':'application/json','Authorization':`Bearer ${apiKey}`},
+        body:JSON.stringify({model, messages:[{role:'user',content:prompt}], max_tokens:1100, temperature}),
+      });
+      if (res.ok) return (await res.json()).choices?.[0]?.message?.content||'';
+      const rateLimited = res.status===429 || res.status>=500;
+      if (rateLimited && attempt<maxAttempts) {
+        const ra = parseFloat(res.headers.get('retry-after')||'');
+        const waitMs = Math.min(30000, (Number.isFinite(ra) ? ra*1000 : 0) || attempt*4000) + Math.random()*500;
+        await new Promise(r=>setTimeout(r, waitMs));
+        continue;
+      }
+      const e=await res.json().catch(()=>({}));
+      throw new Error(e?.error?.message||`${provider} ${res.status}`);
+    }
   }
   const res = await fetch('http://localhost:11434/api/chat',{
     method:'POST', headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({model:model||'llama3.2', stream:false, messages:[{role:'user',content:prompt}]}),
+    body:JSON.stringify({model:model||'llama3.2', stream:false, messages:[{role:'user',content:prompt}], options:{temperature}}),
   });
   if (!res.ok) throw new Error(`Ollama ${res.status}`);
   const d=await res.json(); return d.message?.content||d.response||'';
@@ -748,7 +1066,6 @@ function stripWayback(url){
 }
 function clean(s){ return String(s).replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim(); }
 function dedupeStr(a){ return a.filter((v,i)=>a.indexOf(v)===i); }
-function downgrade(c){ return c==='high'?'medium':c==='medium'?'low':'low'; }
 function parseTs(ts){ if(!ts||ts.length<8) return null; const d=new Date(`${ts.slice(0,4)}-${ts.slice(4,6)}-${ts.slice(6,8)}T00:00:00Z`); return isNaN(d)?null:d; }
 function fmtDate(d){ if(!d||isNaN(d)) return 'Unknown'; return d.toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}); }
 function sleep(ms){ return new Promise(r=>setTimeout(r,ms)); }

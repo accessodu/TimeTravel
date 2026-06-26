@@ -1,0 +1,740 @@
+{
+  "mode": "single",
+  "url": "https://www.jcdl.org/",
+  "fromYear": 2015,
+  "toYear": 2024,
+  "focus": "",
+  "coveApplied": true,
+  "selfConsistencySamples": 3,
+  "totalCaptures": 9,
+  "capturesCapped": false,
+  "uniqueCaptures": 9,
+  "selectedCaptures": 9,
+  "firstCapture": "February 13, 2015",
+  "lastCapture": "October 11, 2024",
+  "yearBreakdown": {
+    "2015": 2,
+    "2021": 1,
+    "2022": 1,
+    "2024": 5
+  },
+  "overview": "Corrected changes to the JCDL conference information based on snapshot verification.",
+  "changes": [
+    {
+      "id": 1,
+      "description": "Updated conference dates",
+      "type": "wording_change",
+      "section": "JCDL 2015",
+      "period": "Between February 13, 2015 and March 23, 2015",
+      "beforeDate": "February 13, 2015",
+      "afterDate": "March 23, 2015",
+      "beforeText": "JCDL 2015 will be held in Knoxville, TN from 22-26 June.",
+      "afterText": "JCDL 2015 will be held in Knoxville, TN from 21-25 June.",
+      "confidence": "high",
+      "confidenceReason": "Before and after texts are verbatim-present and clearly an editorial change. Confidence 100/100 — quote match 100%, agreement 100% across samples.",
+      "verificationNotes": "Q1: Found in Snapshot 1, Q2: Found in Snapshot 2, Q3: Correct before/after dates, Q4: Clearly an editorial change, Q5: Relevant to user's focus",
+      "stability": 1,
+      "beforeUrl": "https://web.archive.org/web/20150213081233/https://www.jcdl.org/",
+      "afterUrl": "https://web.archive.org/web/20150323125905/https://www.jcdl.org/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "wording_change",
+      "archivalReason": "Both versions verified in their captures — a genuine wording/policy change.",
+      "confidenceScore": 100,
+      "changeMagnitude": 0
+    },
+    {
+      "id": 2,
+      "description": "Updated conference dates again",
+      "type": "wording_change",
+      "section": "JCDL 2015",
+      "period": "Between March 23, 2015 and May 16, 2021",
+      "beforeDate": "March 23, 2015",
+      "afterDate": "May 16, 2021",
+      "beforeText": "JCDL 2015 will be held in Knoxville, TN from 21-25 June.",
+      "afterText": "JCDL 2021 , September 27-30, 2021, online!",
+      "confidence": "high",
+      "confidenceReason": "Before text is verbatim-present, but after text is not; could be an archival/replay artifact. Confidence 100/100 — quote match 100%, agreement 100% across samples.",
+      "verificationNotes": "Q1: Found in Snapshot 2, Q2: Not found in Snapshot 3, Q3: Correct before date, Q4: Could be an artifact, Q5: Relevant to user's focus",
+      "stability": 1,
+      "beforeUrl": "https://web.archive.org/web/20150323125905/https://www.jcdl.org/",
+      "afterUrl": "https://web.archive.org/web/20210516181321/https://www.jcdl.org/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "wording_change",
+      "archivalReason": "Both versions verified in their captures — a genuine wording/policy change.",
+      "confidenceScore": 100,
+      "changeMagnitude": 59
+    },
+    {
+      "id": 3,
+      "description": "Updated conference location",
+      "type": "wording_change",
+      "section": "JCDL 2022",
+      "period": "Between June 14, 2022 and May 16, 2024",
+      "beforeDate": "June 14, 2022",
+      "afterDate": "May 16, 2024",
+      "beforeText": "JCDL 2022 , June 20-24, 2022, Cologne, Germany.",
+      "afterText": "JCDL 2024 , December 16-20, 2024, Hong Kong.",
+      "confidence": "medium",
+      "confidenceReason": "Before and after texts are verbatim-present and clearly an editorial change. Confidence 67/100 — quote match 100%, agreement 67% across samples.",
+      "verificationNotes": "Q1: Found in Snapshot 4, Q2: Found in Snapshot 5, Q3: Correct before/after dates, Q4: Clearly an editorial change, Q5: Relevant to user's focus",
+      "stability": 0.6666666666666666,
+      "beforeUrl": "https://web.archive.org/web/20220614171210/https://www.jcdl.org/",
+      "afterUrl": "https://web.archive.org/web/20240516141810/https://www.jcdl.org/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "wording_change",
+      "archivalReason": "Both versions verified in their captures — a genuine wording/policy change.",
+      "confidenceScore": 67,
+      "changeMagnitude": 28
+    }
+  ],
+  "changeMagnitudes": [
+    {
+      "from": "February 13, 2015",
+      "to": "March 23, 2015",
+      "dissimilarity": 0,
+      "similarity": 100
+    },
+    {
+      "from": "March 23, 2015",
+      "to": "May 16, 2021",
+      "dissimilarity": 59,
+      "similarity": 41
+    },
+    {
+      "from": "May 16, 2021",
+      "to": "June 14, 2022",
+      "dissimilarity": 58,
+      "similarity": 42
+    },
+    {
+      "from": "June 14, 2022",
+      "to": "May 16, 2024",
+      "dissimilarity": 28,
+      "similarity": 72
+    }
+  ],
+  "overallChangeScore": 54,
+  "peakChange": {
+    "from": "March 23, 2015",
+    "to": "May 16, 2021",
+    "dissimilarity": 59,
+    "similarity": 41
+  },
+  "stableContent": [
+    "unchanged topics related to digital libraries and awards"
+  ],
+  "replayWarnings": [
+    "1 script resource(s) not preserved in this capture",
+    "Page text is unusually short — likely incomplete replay"
+  ],
+  "captureGaps": [
+    "gaps over 60 days between Snapshots 1 and 2, Snapshots 2 and 3, Snapshots 3 and 4, Snapshots 4 and 5",
+    "2246-day gap: March 23, 2015 → May 16, 2021",
+    "394-day gap: May 16, 2021 → June 14, 2022",
+    "702-day gap: June 14, 2022 → May 16, 2024",
+    "90-day gap: May 16, 2024 → August 14, 2024"
+  ],
+  "a11yAudit": {
+    "before": "February 13, 2015",
+    "after": "August 14, 2024",
+    "deltas": [
+      {
+        "metric": "Focusable elements before main content",
+        "before": 9,
+        "after": 0,
+        "direction": "better"
+      },
+      {
+        "metric": "Links before main content",
+        "before": 9,
+        "after": 0,
+        "direction": "better"
+      },
+      {
+        "metric": "Form inputs without labels",
+        "before": 0,
+        "after": 1,
+        "direction": "worse"
+      },
+      {
+        "metric": "Heading count",
+        "before": 6,
+        "after": 1,
+        "direction": "worse"
+      }
+    ],
+    "findings": [],
+    "verdict": "No clear accessibility trend detected."
+  },
+  "privacy": null,
+  "keySnapshots": [
+    {
+      "timestamp": "20150213081233",
+      "date": "February 13, 2015",
+      "url": "https://web.archive.org/web/20150213081233/https://www.jcdl.org/",
+      "issues": [
+        "1 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 6
+    },
+    {
+      "timestamp": "20150323125905",
+      "date": "March 23, 2015",
+      "url": "https://web.archive.org/web/20150323125905/https://www.jcdl.org/",
+      "issues": [
+        "1 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 6
+    },
+    {
+      "timestamp": "20210516181321",
+      "date": "May 16, 2021",
+      "url": "https://web.archive.org/web/20210516181321/https://www.jcdl.org/",
+      "issues": [
+        "1 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 8
+    },
+    {
+      "timestamp": "20220614171210",
+      "date": "June 14, 2022",
+      "url": "https://web.archive.org/web/20220614171210/https://www.jcdl.org/",
+      "issues": [
+        "1 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 4
+    },
+    {
+      "timestamp": "20240516141810",
+      "date": "May 16, 2024",
+      "url": "https://web.archive.org/web/20240516141810/https://www.jcdl.org/",
+      "issues": [
+        "1 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 3
+    },
+    {
+      "timestamp": "20240814035003",
+      "date": "August 14, 2024",
+      "url": "https://web.archive.org/web/20240814035003/https://www.jcdl.org/",
+      "issues": [
+        "Page text is unusually short — likely incomplete replay"
+      ],
+      "sectionCount": 1
+    },
+    {
+      "timestamp": "20240912164120",
+      "date": "September 12, 2024",
+      "url": "https://web.archive.org/web/20240912164120/https://www.jcdl.org/",
+      "issues": [
+        "Page text is unusually short — likely incomplete replay"
+      ],
+      "sectionCount": 0
+    },
+    {
+      "timestamp": "20240929063348",
+      "date": "September 29, 2024",
+      "url": "https://web.archive.org/web/20240929063348/https://www.jcdl.org/",
+      "issues": [
+        "Page text is unusually short — likely incomplete replay"
+      ],
+      "sectionCount": 0
+    },
+    {
+      "timestamp": "20241011174559",
+      "date": "October 11, 2024",
+      "url": "https://web.archive.org/web/20241011174559/https://www.jcdl.org/",
+      "issues": [
+        "Page text is unusually short — likely incomplete replay"
+      ],
+      "sectionCount": 0
+    }
+  ],
+  "_rescore": {
+    "schema": 1,
+    "params": {
+      "url": "https://www.jcdl.org/",
+      "fromYear": 2015,
+      "toYear": 2024,
+      "focus": ""
+    },
+    "ai": {
+      "changes": [
+        {
+          "id": 1,
+          "description": "Updated conference dates",
+          "type": "wording_change",
+          "section": "JCDL 2015",
+          "period": "Between February 13, 2015 and March 23, 2015",
+          "beforeDate": "February 13, 2015",
+          "afterDate": "March 23, 2015",
+          "beforeText": "JCDL 2015 will be held in Knoxville, TN from 22-26 June.",
+          "afterText": "JCDL 2015 will be held in Knoxville, TN from 21-25 June.",
+          "confidence": "high",
+          "confidenceReason": "Before and after texts are verbatim-present and clearly an editorial change.",
+          "verificationNotes": "Q1: Found in Snapshot 1, Q2: Found in Snapshot 2, Q3: Correct before/after dates, Q4: Clearly an editorial change, Q5: Relevant to user's focus",
+          "stability": 1
+        },
+        {
+          "id": 2,
+          "description": "Updated conference dates again",
+          "type": "wording_change",
+          "section": "JCDL 2015",
+          "period": "Between March 23, 2015 and May 16, 2021",
+          "beforeDate": "March 23, 2015",
+          "afterDate": "May 16, 2021",
+          "beforeText": "JCDL 2015 will be held in Knoxville, TN from 21-25 June.",
+          "afterText": "JCDL 2021 , September 27-30, 2021, online!",
+          "confidence": "medium",
+          "confidenceReason": "Before text is verbatim-present, but after text is not; could be an archival/replay artifact.",
+          "verificationNotes": "Q1: Found in Snapshot 2, Q2: Not found in Snapshot 3, Q3: Correct before date, Q4: Could be an artifact, Q5: Relevant to user's focus",
+          "stability": 1
+        },
+        {
+          "id": 3,
+          "description": "Updated conference location",
+          "type": "wording_change",
+          "section": "JCDL 2022",
+          "period": "Between June 14, 2022 and May 16, 2024",
+          "beforeDate": "June 14, 2022",
+          "afterDate": "May 16, 2024",
+          "beforeText": "JCDL 2022 , June 20-24, 2022, Cologne, Germany.",
+          "afterText": "JCDL 2024 , December 16-20, 2024, Hong Kong.",
+          "confidence": "high",
+          "confidenceReason": "Before and after texts are verbatim-present and clearly an editorial change.",
+          "verificationNotes": "Q1: Found in Snapshot 4, Q2: Found in Snapshot 5, Q3: Correct before/after dates, Q4: Clearly an editorial change, Q5: Relevant to user's focus",
+          "stability": 0.6666666666666666
+        },
+        {
+          "id": 2,
+          "description": "Proposal submission dates extension",
+          "type": "content_changed",
+          "section": null,
+          "beforeDate": "February 13, 2015",
+          "afterDate": "March 23, 2015",
+          "beforeText": "Proposal submission dates* are: January 23rd (extended) Full papers January 30th (extended)",
+          "afterText": "Proposal submission dates* are: January 23rd (extended) Full papers January 30th (extended)",
+          "confidence": "medium",
+          "confidenceReason": "Before and after texts are verbatim-present, but could be an archival/replay artifact.",
+          "verificationNotes": "Q1: Before text found in snapshot 1, after text found in snapshot 2. Q2: Pass. Q3: Pass. Q4: Could be artifact, not clear. Q5: Relevant to user focus.",
+          "stability": 0.6666666666666666
+        }
+      ],
+      "overview": "Corrected changes to the JCDL conference information based on snapshot verification.",
+      "coveApplied": true,
+      "samples": 3,
+      "stableContent": [
+        "unchanged topics related to digital libraries and awards"
+      ],
+      "captureGaps": [
+        "gaps over 60 days between Snapshots 1 and 2, Snapshots 2 and 3, Snapshots 3 and 4, Snapshots 4 and 5"
+      ]
+    },
+    "captureCounts": {
+      "total": 9,
+      "unique": 9,
+      "selected": 9
+    },
+    "snapshots": [
+      {
+        "date": "2015-02-13T00:00:00.000Z",
+        "timestamp": "20150213081233",
+        "url": "https://web.archive.org/web/20150213081233/https://www.jcdl.org/",
+        "fullText": "Joint Conference on Digital Library (JCDL)-Home Joint Conference on Digital Libraries Upcoming Conference: JCDL 2015: June 22-26, Knoxville, TN Home About Sponsors Steering Committee Upcoming Events Past Conferences Awards Welcome to JCDL The Joint Conference on Digital Libraries (JCDL) is a major international forum focusing on digital libraries and associated technical, practical, and social issues. JCDL enhances the tradition of conference excellence already established by the ACM and IEEE-CS by combining the annual events that these professional societies have sponsored on an annual basis, the ACM Digital Libraries Conferences and the IEEE-CS Advances in Digital Libraries Conferences. At this conference the Vannevar Bush Best Paper Award, Best Student Paper Award, Best International Paper Award, Best Poster award are presented to persons who have made outstanding contribution to this field. This conference invites papers on the wide range of topics of interest in Digital Library to the National and International Community. JCDL 2015 JCDL 2015 will be held in Knoxville, TN from 22-26 June. Proposal submission dates* are: January 23rd (extended) Full papers January 30th (extended) Short papers, Panels, Posters, and Demonstrations February 6th (extended) Workshops and Tutorials March 20th Doctoral consortium *All submission windows end at 11:59:59PM Eastern Standard Time JCDL 2013 Awards JCDL 2013 was held in Indianapolis, IN in July. Congratulations to the award winners! Vannevar Bush best paper award Kazunari Sugiyama and Min-Yen Kan for their paper Exploiting Potential Citation Papers in Scholarly Paper Recommendation Best student paper award Suppawong Tuarob, Line C. Pouchard, and C. Lee Giles for their paper Automatic tag recommendation for metadata annotation using probabilistic topic modeling Best poster award Zhuoren Jiang and Xiaozhong Liu for their poster Recovering missing citations in a scholarly network: a 2-step citation analysis to estimate publication importance JCDL 2014 In 2014, JCDL will be held jointly with TPDL in London, UK. Additional details will be announced in the near future. --> JCDL 2016 Conference Proposals The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2016 and beyond. Interested parties should contact the steering committee chair at Michael Nelson for further details. Upcoming Events JCDL 2015 , Knoxville, TN, June 22-26, 2015 DAMDID/RCDL 2015: XVII International Conference on Data Analytics and Management in Data Intensive Domains , October 13-16, Obninsk, Russia TPDL 2015: 19 th International Conference on Theory and Practice of Digital Libraries , Poznan, Poland, September 14-18, 2015 ICADL 2015: 17 th International Conference on Asia-Pacific Digital Libraries , Seoul, Korea, December 9-11, 2015 See more... Please send comments and suggestions to [email] &copy; All Rights Reserved",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "1 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 9,
+          "linksBeforeMain": 9,
+          "headingCount": 6,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 5,
+          "inputsNoLabel": 0,
+          "totalInputs": 0,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Welcome to JCDL",
+            "text": "Welcome to JCDL The Joint Conference on Digital Libraries (JCDL) is a major international forum focusing on digital libraries and associated technical, practical, and social issues. JCDL enhances the tradition of conference excellence already established by the ACM and IEEE-CS by combining the annual events that these professional societies have sponsored on an annual basis, the ACM Digital Libraries Conferences and the IEEE-CS Advances in Digital Libraries Conferences. At this conference the Vannevar Bush Best Paper Award, Best Student Paper Award, Best International Paper Award, Best Poster "
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2015",
+            "text": "JCDL 2015 JCDL 2015 will be held in Knoxville, TN from 22-26 June. Proposal submission dates* are: January 23rd (extended) Full papers January 30th (extended) Short papers, Panels, Posters, and Demonstrations February 6th (extended) Workshops and Tutorials March 20th Doctoral consortium *All submission windows end at 11:59:59PM Eastern Standard Time"
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2013 Awards",
+            "text": "JCDL 2013 Awards JCDL 2013 was held in Indianapolis, IN in July. Congratulations to the award winners! Vannevar Bush best paper award Kazunari Sugiyama and Min-Yen Kan for their paper Exploiting Potential Citation Papers in Scholarly Paper Recommendation Best student paper award Suppawong Tuarob, Line C. Pouchard, and C. Lee Giles for their paper Automatic tag recommendation for metadata annotation using probabilistic topic modeling Best poster award Zhuoren Jiang and Xiaozhong Liu for their poster Recovering missing citations in a scholarly network: a 2-step citation analysis to estimate publ"
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2014",
+            "text": "JCDL 2014 In 2014, JCDL will be held jointly with TPDL in London, UK. Additional details will be announced in the near future. -->"
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2016 Conference Proposals",
+            "text": "JCDL 2016 Conference Proposals The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2016 and beyond. Interested parties should contact the steering committee chair at Michael Nelson for further details."
+          },
+          {
+            "level": 3,
+            "heading": "Upcoming Events",
+            "text": "Upcoming Events JCDL 2015 , Knoxville, TN, June 22-26, 2015 DAMDID/RCDL 2015: XVII International Conference on Data Analytics and Management in Data Intensive Domains , October 13-16, Obninsk, Russia TPDL 2015: 19 th International Conference on Theory and Practice of Digital Libraries , Poznan, Poland, September 14-18, 2015 ICADL 2015: 17 th International Conference on Asia-Pacific Digital Libraries , Seoul, Korea, December 9-11, 2015 See more... Please send comments and suggestions to unmil@jcdl.org &copy; All Rights Reserved"
+          }
+        ]
+      },
+      {
+        "date": "2015-03-23T00:00:00.000Z",
+        "timestamp": "20150323125905",
+        "url": "https://web.archive.org/web/20150323125905/https://www.jcdl.org/",
+        "fullText": "Joint Conference on Digital Library (JCDL)-Home Joint Conference on Digital Libraries Upcoming Conference: JCDL 2015: June 21-25, Knoxville, TN Home About Sponsors Steering Committee Upcoming Events Past Conferences Awards Welcome to JCDL The Joint Conference on Digital Libraries (JCDL) is a major international forum focusing on digital libraries and associated technical, practical, and social issues. JCDL enhances the tradition of conference excellence already established by the ACM and IEEE-CS by combining the annual events that these professional societies have sponsored on an annual basis, the ACM Digital Libraries Conferences and the IEEE-CS Advances in Digital Libraries Conferences. At this conference the Vannevar Bush Best Paper Award, Best Student Paper Award, Best International Paper Award, Best Poster award are presented to persons who have made outstanding contribution to this field. This conference invites papers on the wide range of topics of interest in Digital Library to the National and International Community. JCDL 2015 JCDL 2015 will be held in Knoxville, TN from 21-25 June. Proposal submission dates* are: January 23rd (extended) Full papers January 30th (extended) Short papers, Panels, Posters, and Demonstrations February 6th (extended) Workshops and Tutorials March 20th Doctoral consortium *All submission windows end at 11:59:59PM Eastern Standard Time JCDL 2013 Awards JCDL 2013 was held in Indianapolis, IN in July. Congratulations to the award winners! Vannevar Bush best paper award Kazunari Sugiyama and Min-Yen Kan for their paper Exploiting Potential Citation Papers in Scholarly Paper Recommendation Best student paper award Suppawong Tuarob, Line C. Pouchard, and C. Lee Giles for their paper Automatic tag recommendation for metadata annotation using probabilistic topic modeling Best poster award Zhuoren Jiang and Xiaozhong Liu for their poster Recovering missing citations in a scholarly network: a 2-step citation analysis to estimate publication importance JCDL 2014 In 2014, JCDL will be held jointly with TPDL in London, UK. Additional details will be announced in the near future. --> JCDL 2016 Conference Proposals The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2016 and beyond. Interested parties should contact the steering committee chair at Michael Nelson for further details. Upcoming Events JCDL 2015 , Knoxville, TN, June 21-25, 2015 DAMDID/RCDL 2015: XVII International Conference on Data Analytics and Management in Data Intensive Domains , October 13-16, Obninsk, Russia TPDL 2015: 19 th International Conference on Theory and Practice of Digital Libraries , Poznan, Poland, September 14-18, 2015 ICADL 2015: 17 th International Conference on Asia-Pacific Digital Libraries , Seoul, Korea, December 9-11, 2015 See more... Please send comments and suggestions to [email] &copy; All Rights Reserved",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "1 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 9,
+          "linksBeforeMain": 9,
+          "headingCount": 6,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 5,
+          "inputsNoLabel": 0,
+          "totalInputs": 0,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Welcome to JCDL",
+            "text": "Welcome to JCDL The Joint Conference on Digital Libraries (JCDL) is a major international forum focusing on digital libraries and associated technical, practical, and social issues. JCDL enhances the tradition of conference excellence already established by the ACM and IEEE-CS by combining the annual events that these professional societies have sponsored on an annual basis, the ACM Digital Libraries Conferences and the IEEE-CS Advances in Digital Libraries Conferences. At this conference the Vannevar Bush Best Paper Award, Best Student Paper Award, Best International Paper Award, Best Poster "
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2015",
+            "text": "JCDL 2015 JCDL 2015 will be held in Knoxville, TN from 21-25 June. Proposal submission dates* are: January 23rd (extended) Full papers January 30th (extended) Short papers, Panels, Posters, and Demonstrations February 6th (extended) Workshops and Tutorials March 20th Doctoral consortium *All submission windows end at 11:59:59PM Eastern Standard Time"
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2013 Awards",
+            "text": "JCDL 2013 Awards JCDL 2013 was held in Indianapolis, IN in July. Congratulations to the award winners! Vannevar Bush best paper award Kazunari Sugiyama and Min-Yen Kan for their paper Exploiting Potential Citation Papers in Scholarly Paper Recommendation Best student paper award Suppawong Tuarob, Line C. Pouchard, and C. Lee Giles for their paper Automatic tag recommendation for metadata annotation using probabilistic topic modeling Best poster award Zhuoren Jiang and Xiaozhong Liu for their poster Recovering missing citations in a scholarly network: a 2-step citation analysis to estimate publ"
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2014",
+            "text": "JCDL 2014 In 2014, JCDL will be held jointly with TPDL in London, UK. Additional details will be announced in the near future. -->"
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2016 Conference Proposals",
+            "text": "JCDL 2016 Conference Proposals The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2016 and beyond. Interested parties should contact the steering committee chair at Michael Nelson for further details."
+          },
+          {
+            "level": 3,
+            "heading": "Upcoming Events",
+            "text": "Upcoming Events JCDL 2015 , Knoxville, TN, June 21-25, 2015 DAMDID/RCDL 2015: XVII International Conference on Data Analytics and Management in Data Intensive Domains , October 13-16, Obninsk, Russia TPDL 2015: 19 th International Conference on Theory and Practice of Digital Libraries , Poznan, Poland, September 14-18, 2015 ICADL 2015: 17 th International Conference on Asia-Pacific Digital Libraries , Seoul, Korea, December 9-11, 2015 See more... Please send comments and suggestions to unmil@jcdl.org &copy; All Rights Reserved"
+          }
+        ]
+      },
+      {
+        "date": "2021-05-16T00:00:00.000Z",
+        "timestamp": "20210516181321",
+        "url": "https://web.archive.org/web/20210516181321/https://www.jcdl.org/",
+        "fullText": "Joint Conference on Digital Library (JCDL)-Home Joint Conference on Digital Libraries Upcoming Conference: JCDL 2021 , September 27-30, 2021, online! Home About Sponsors Steering Committee Upcoming Events Past Conferences Awards Welcome to JCDL The Joint Conference on Digital Libraries (JCDL) is a major international forum focusing on digital libraries and associated technical, practical, and social issues. JCDL enhances the tradition of conference excellence already established by the ACM and IEEE-CS by combining the annual events that these professional societies have sponsored on an annual basis, the ACM Digital Libraries Conferences and the IEEE-CS Advances in Digital Libraries Conferences. At this conference the Vannevar Bush Best Paper Award, Best Student Paper Award, Best International Paper Award, Best Poster award are presented to persons who have made outstanding contribution to this field. This conference invites papers on the wide range of topics of interest in Digital Library to the National and International Community. JCDL 2020 JCDL 2020 was held virtually August 1-5, 2020 register and reserve your accommodations for the conference. Participation details will be available in the near future. --> Proposal submission dates were: January 19 Full and Short papers, Panels, Workshops, and Tutorials February 1 Doctoral Consortium abstracts March 1 Posters, Demonstrations, and Practitioner proposals Notification dates: February 5 Tutorials and Workshops February 23 Full and short papers, Panels February 23 Doctoral Consortium March 22 Posters, Demonstrations, and Practitioner submissions Other important dates: February 1st Notification of acceptance for tutorials and workshops March 8th Notification of acceptance for full and short papers April 5th Notification of acceptance for Doctoral Consortium abstracts April 15th Final, camera-ready versions of all accepted submissions June 3rd Tutorials and Doctoral Consortium June 4th to 6th Main conference June 6th and 7th Workshops Hawaii Standard Time --> JCDL 2017 Trip report A trip report to JCDL 2017 is published by the folks in Old Dominion University's Web Science and Digital Libraries research group: http://ws-dl.blogspot.com/2017/06/2017-06-29-joint-conference-on-digital.html Awards JCDL 2017 was held in Toronto, Canada from June 19-23. Congratulations to the award winners! Vannevar Bush best paper award Nicholas Cole, Alfie Abdul-Rahman, and Grace Mallon for their paper Quill: A Framework for Constructing Negotiated Texts - with a Case Study on the US Constitutional Convention of 1787 Best student paper award Felix Hamborg, Norman Meuschke, Bela Gipp for their paper Matrix-based News Aggregation: Exploring Different News Perspectives Best poster award Mat Kelly, Lulwah M. Alkwai, Sawood Alam, Herbert Van de Sompel, Michael L. Nelson, and Michele C. Weigle for the poster Impact of URI Canonicalization on Memento Count JCDL 2015 Awards JCDL 2015 was held in Knoxville, TN from June 21-24. Congratulations to the award winners! Vannevar Bush best paper award Pertti Vakkari and Janna P�ntinen for their paper Result List Actions in Fiction Search Best student paper award Lulwah M. Alkwai, Michael L. Nelson, and Michele C. Weigle for their paper How Well Are Arabic Websites Archived? Best poster award co-winners Ahmed Alsum for Reconstruction of the US First Website and Wesley Jordan, Mat Kelly, Justin F. Brunelle, Laura Vobrak, Michele C. Weigle, and Michael L. Nelson for Mobile Mink: Merging Mobile and Desktop Archived Webs --> JCDL 2022 Conference Proposals The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2022 and beyond. Interested parties should contact the steering committee chair at J. Stephen Downie for further details. Upcoming Events , , See more... Please send comments and suggestions to [email] &copy; All Rights Reserved",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "1 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 9,
+          "linksBeforeMain": 9,
+          "headingCount": 8,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 10,
+          "inputsNoLabel": 0,
+          "totalInputs": 0,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Welcome to JCDL",
+            "text": "Welcome to JCDL The Joint Conference on Digital Libraries (JCDL) is a major international forum focusing on digital libraries and associated technical, practical, and social issues. JCDL enhances the tradition of conference excellence already established by the ACM and IEEE-CS by combining the annual events that these professional societies have sponsored on an annual basis, the ACM Digital Libraries Conferences and the IEEE-CS Advances in Digital Libraries Conferences. At this conference the Vannevar Bush Best Paper Award, Best Student Paper Award, Best International Paper Award, Best Poster "
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2020",
+            "text": "JCDL 2020 JCDL 2020 was held virtually August 1-5, 2020 register and reserve your accommodations for the conference. Participation details will be available in the near future. --> Proposal submission dates were: January 19 Full and Short papers, Panels, Workshops, and Tutorials February 1 Doctoral Consortium abstracts March 1 Posters, Demonstrations, and Practitioner proposals Notification dates: February 5 Tutorials and Workshops February 23 Full and short papers, Panels February 23 Doctoral Consortium March 22 Posters, Demonstrations, and Practitioner submissions Other important dates: Febr"
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2017",
+            "text": "JCDL 2017"
+          },
+          {
+            "level": 3,
+            "heading": "Trip report",
+            "text": "Trip report A trip report to JCDL 2017 is published by the folks in Old Dominion University's Web Science and Digital Libraries research group: http://ws-dl.blogspot.com/2017/06/2017-06-29-joint-conference-on-digital.html"
+          },
+          {
+            "level": 3,
+            "heading": "Awards",
+            "text": "Awards JCDL 2017 was held in Toronto, Canada from June 19-23. Congratulations to the award winners! Vannevar Bush best paper award Nicholas Cole, Alfie Abdul-Rahman, and Grace Mallon for their paper Quill: A Framework for Constructing Negotiated Texts - with a Case Study on the US Constitutional Convention of 1787 Best student paper award Felix Hamborg, Norman Meuschke, Bela Gipp for their paper Matrix-based News Aggregation: Exploring Different News Perspectives Best poster award Mat Kelly, Lulwah M. Alkwai, Sawood Alam, Herbert Van de Sompel, Michael L. Nelson, and Michele C. Weigle for the "
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2015 Awards",
+            "text": "JCDL 2015 Awards JCDL 2015 was held in Knoxville, TN from June 21-24. Congratulations to the award winners! Vannevar Bush best paper award Pertti Vakkari and Janna P�ntinen for their paper Result List Actions in Fiction Search Best student paper award Lulwah M. Alkwai, Michael L. Nelson, and Michele C. Weigle for their paper How Well Are Arabic Websites Archived? Best poster award co-winners Ahmed Alsum for Reconstruction of the US First Website and Wesley Jordan, Mat Kelly, Justin F. Brunelle, Laura Vobrak, Michele C. Weigle, and Michael L. Nelson for Mobile Mink: Merging Mobile and Desktop A"
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2022 Conference Proposals",
+            "text": "JCDL 2022 Conference Proposals The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2022 and beyond. Interested parties should contact the steering committee chair at J. Stephen Downie for further details."
+          },
+          {
+            "level": 3,
+            "heading": "Upcoming Events",
+            "text": "Upcoming Events , , See more... Please send comments and suggestions to unmil@jcdl.org &copy; All Rights Reserved"
+          }
+        ]
+      },
+      {
+        "date": "2022-06-14T00:00:00.000Z",
+        "timestamp": "20220614171210",
+        "url": "https://web.archive.org/web/20220614171210/https://www.jcdl.org/",
+        "fullText": "Joint Conference on Digital Library (JCDL)-Home Joint Conference on Digital Libraries Upcoming Conference: JCDL 2022 , June 20-24, 2022, Cologne, Germany. Home About Sponsors Steering Committee Upcoming Events Past Conferences Awards Welcome to JCDL The Joint Conference on Digital Libraries (JCDL) is a major international forum focusing on digital libraries and associated technical, practical, and social issues. JCDL enhances the tradition of conference excellence already established by the ACM and IEEE-CS by combining the annual events that these professional societies have sponsored on an annual basis, the ACM Digital Libraries Conferences and the IEEE-CS Advances in Digital Libraries Conferences. At this conference the Vannevar Bush Best Paper Award, Best Student Paper Award, Best International Paper Award, Best Poster award are presented to persons who have made outstanding contribution to this field. This conference invites papers on the wide range of topics of interest in Digital Library to the National and International Community. JCDL 2022 Please register and reserve your accommodations for the conference. Conference Proposals - JCDL 2023 and beyond The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2023 and later. Interested parties should contact the steering committee chair at J. Stephen Downie for further details. Upcoming Events , , See more... Please send comments and suggestions to [email] &copy; All Rights Reserved",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "1 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 9,
+          "linksBeforeMain": 9,
+          "headingCount": 4,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 5,
+          "inputsNoLabel": 0,
+          "totalInputs": 0,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Welcome to JCDL",
+            "text": "Welcome to JCDL The Joint Conference on Digital Libraries (JCDL) is a major international forum focusing on digital libraries and associated technical, practical, and social issues. JCDL enhances the tradition of conference excellence already established by the ACM and IEEE-CS by combining the annual events that these professional societies have sponsored on an annual basis, the ACM Digital Libraries Conferences and the IEEE-CS Advances in Digital Libraries Conferences. At this conference the Vannevar Bush Best Paper Award, Best Student Paper Award, Best International Paper Award, Best Poster "
+          },
+          {
+            "level": 2,
+            "heading": "JCDL 2022",
+            "text": "JCDL 2022 Please register and reserve your accommodations for the conference."
+          },
+          {
+            "level": 2,
+            "heading": "Conference Proposals - JCDL 2023 and beyond",
+            "text": "Conference Proposals - JCDL 2023 and beyond The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2023 and later. Interested parties should contact the steering committee chair at J. Stephen Downie for further details."
+          },
+          {
+            "level": 3,
+            "heading": "Upcoming Events",
+            "text": "Upcoming Events , , See more... Please send comments and suggestions to unmil@jcdl.org &copy; All Rights Reserved"
+          }
+        ]
+      },
+      {
+        "date": "2024-05-16T00:00:00.000Z",
+        "timestamp": "20240516141810",
+        "url": "https://web.archive.org/web/20240516141810/https://www.jcdl.org/",
+        "fullText": "Joint Conference on Digital Libraries (JCDL) - Home Joint Conference on Digital Libraries JCDL 2024 , December 16-20, 2024, Hong Kong. Home About Sponsors Steering Committee Upcoming Events Past Conferences Awards Welcome to JCDL The Joint Conference on Digital Libraries (JCDL) is a major international forum focusing on digital libraries and associated technical, practical, and social issues. JCDL enhances the tradition of conference excellence already established by the ACM and IEEE-CS by combining the annual events that these professional societies have sponsored on an annual basis, the ACM Digital Libraries Conferences and the IEEE-CS Advances in Digital Libraries Conferences. At this conference the Vannevar Bush Best Paper Award, Best Student Paper Award, Best International Paper Award, Best Poster award are presented to persons who have made outstanding contribution to this field. This conference invites papers on the wide range of topics of interest in Digital Library to the National and International Community. Additional information on this upcoming year's conference is available at the JCDL 2024 web site . Additionally, the Archives from the Bulletin of IEEE Technical Committee on Digital Libraries (TCDL) are available. register and reserve your accommodations for the conference. --> Conference Proposals - JCDL 2025 and beyond The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2025 and later. Interested parties should contact the steering committee chair at J. Stephen Downie for further details. Upcoming Events ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2024 , December 16-20, 2024, (Hong Kong) See more... Please send comments and suggestions to [email] &copy; All Rights Reserved",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "1 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 9,
+          "linksBeforeMain": 9,
+          "headingCount": 3,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 5,
+          "inputsNoLabel": 0,
+          "totalInputs": 0,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Welcome to JCDL",
+            "text": "Welcome to JCDL The Joint Conference on Digital Libraries (JCDL) is a major international forum focusing on digital libraries and associated technical, practical, and social issues. JCDL enhances the tradition of conference excellence already established by the ACM and IEEE-CS by combining the annual events that these professional societies have sponsored on an annual basis, the ACM Digital Libraries Conferences and the IEEE-CS Advances in Digital Libraries Conferences. At this conference the Vannevar Bush Best Paper Award, Best Student Paper Award, Best International Paper Award, Best Poster "
+          },
+          {
+            "level": 2,
+            "heading": "Conference Proposals - JCDL 2025 and beyond",
+            "text": "Conference Proposals - JCDL 2025 and beyond The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2025 and later. Interested parties should contact the steering committee chair at J. Stephen Downie for further details."
+          },
+          {
+            "level": 3,
+            "heading": "Upcoming Events",
+            "text": "Upcoming Events ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2024 , December 16-20, 2024, (Hong Kong) See more... Please send comments and suggestions to mkelly@jcdl.org &copy; All Rights Reserved"
+          }
+        ]
+      },
+      {
+        "date": "2024-08-14T00:00:00.000Z",
+        "timestamp": "20240814035003",
+        "url": "https://web.archive.org/web/20240814035003/https://www.jcdl.org/",
+        "fullText": "One moment, please... Please wait while your request is being verified...",
+        "issues": [
+          {
+            "kind": "short_capture",
+            "detail": "Page text is unusually short — likely incomplete replay"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 0,
+          "linksBeforeMain": 0,
+          "headingCount": 1,
+          "h1Count": 1,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 1,
+          "totalInputs": 1,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 1,
+            "heading": "Please wait while your request is being verified...",
+            "text": "Please wait while your request is being verified..."
+          }
+        ]
+      },
+      {
+        "date": "2024-09-12T00:00:00.000Z",
+        "timestamp": "20240912164120",
+        "url": "https://web.archive.org/web/20240912164120/https://www.jcdl.org/",
+        "fullText": "One moment, please... Please wait while your request is being verified...",
+        "issues": [
+          {
+            "kind": "short_capture",
+            "detail": "Page text is unusually short — likely incomplete replay"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 0,
+          "linksBeforeMain": 0,
+          "headingCount": 0,
+          "h1Count": 0,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 0,
+          "totalInputs": 0,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": []
+      },
+      {
+        "date": "2024-09-29T00:00:00.000Z",
+        "timestamp": "20240929063348",
+        "url": "https://web.archive.org/web/20240929063348/https://www.jcdl.org/",
+        "fullText": "One moment, please... Please wait while your request is being verified...",
+        "issues": [
+          {
+            "kind": "short_capture",
+            "detail": "Page text is unusually short — likely incomplete replay"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 0,
+          "linksBeforeMain": 0,
+          "headingCount": 0,
+          "h1Count": 0,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 0,
+          "totalInputs": 0,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": []
+      },
+      {
+        "date": "2024-10-11T00:00:00.000Z",
+        "timestamp": "20241011174559",
+        "url": "https://web.archive.org/web/20241011174559/https://www.jcdl.org/",
+        "fullText": "One moment, please... Please wait while your request is being verified...",
+        "issues": [
+          {
+            "kind": "short_capture",
+            "detail": "Page text is unusually short — likely incomplete replay"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 0,
+          "linksBeforeMain": 0,
+          "headingCount": 0,
+          "h1Count": 0,
+          "imgsNoAlt": 0,
+          "totalImgs": 0,
+          "inputsNoLabel": 0,
+          "totalInputs": 0,
+          "searchInput": false,
+          "searchLabeled": false,
+          "dupNames": [],
+          "footerLinks": 0
+        },
+        "sections": []
+      }
+    ]
+  },
+  "backend": "groq:llama-3.1-8b-instant"
+}

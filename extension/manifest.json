@@ -8,6 +8,7 @@
     "https://web.archive.org/*",
     "http://localhost:11434/*",
     "https://api.groq.com/*",
+    "https://api.openai.com/*",
     "<all_urls>"
   ],
   "icons": {

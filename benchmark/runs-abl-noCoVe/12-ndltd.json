@@ -1,0 +1,1189 @@
+{
+  "mode": "single",
+  "url": "https://ndltd.org/",
+  "fromYear": 2015,
+  "toYear": 2024,
+  "focus": "",
+  "coveApplied": false,
+  "selfConsistencySamples": 3,
+  "totalCaptures": 9,
+  "capturesCapped": false,
+  "uniqueCaptures": 9,
+  "selectedCaptures": 9,
+  "firstCapture": "February 5, 2015",
+  "lastCapture": "December 29, 2024",
+  "yearBreakdown": {
+    "2015": 2,
+    "2020": 1,
+    "2022": 1,
+    "2023": 1,
+    "2024": 4
+  },
+  "overview": "The Networked Digital Library of Theses and Dissertations (NDLTD) website underwent several changes between February 5, 2015, and December 29, 2024, focusing on content updates and organizational shifts. The site's main sections and content areas remained relatively stable, with some additions and removals of specific items. Overall, the website's content became more focused on promoting electronic theses and dissertations.",
+  "changes": [
+    {
+      "id": 1,
+      "description": "wording change",
+      "type": "wording_change",
+      "section": "About",
+      "beforeDate": "February 7, 2015",
+      "afterDate": "February 23, 2022",
+      "beforeText": "ndltd Search this site Home About FAQ Directory Board of Directors Events News Calendar Photo Album Videos Thesis Resources",
+      "afterText": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs).",
+      "stability": 0.6666666666666666,
+      "beforeUrl": "https://web.archive.org/web/20150207021059/https://ndltd.org/",
+      "afterUrl": "https://web.archive.org/web/20220223021910/https://ndltd.org/",
+      "verified": true,
+      "verifyScore": 100,
+      "beforeVerified": true,
+      "afterVerified": true,
+      "archivalState": "wording_change",
+      "archivalReason": "Both versions verified in their captures — a genuine wording/policy change.",
+      "confidence": "medium",
+      "confidenceScore": 67,
+      "changeMagnitude": null,
+      "confidenceReason": "Confidence 67/100 — quote match 100%, agreement 67% across samples."
+    }
+  ],
+  "changeMagnitudes": [
+    {
+      "from": "February 5, 2015",
+      "to": "February 7, 2015",
+      "dissimilarity": 0,
+      "similarity": 100
+    },
+    {
+      "from": "February 7, 2015",
+      "to": "January 12, 2020",
+      "dissimilarity": 67,
+      "similarity": 33
+    },
+    {
+      "from": "January 12, 2020",
+      "to": "February 23, 2022",
+      "dissimilarity": 76,
+      "similarity": 24
+    },
+    {
+      "from": "February 23, 2022",
+      "to": "June 6, 2023",
+      "dissimilarity": 52,
+      "similarity": 48
+    },
+    {
+      "from": "June 6, 2023",
+      "to": "July 10, 2024",
+      "dissimilarity": 53,
+      "similarity": 47
+    },
+    {
+      "from": "July 10, 2024",
+      "to": "July 18, 2024",
+      "dissimilarity": 0,
+      "similarity": 100
+    },
+    {
+      "from": "July 18, 2024",
+      "to": "December 23, 2024",
+      "dissimilarity": 13,
+      "similarity": 87
+    },
+    {
+      "from": "December 23, 2024",
+      "to": "December 29, 2024",
+      "dissimilarity": 0,
+      "similarity": 100
+    }
+  ],
+  "overallChangeScore": 74,
+  "peakChange": {
+    "from": "January 12, 2020",
+    "to": "February 23, 2022",
+    "dissimilarity": 76,
+    "similarity": 24
+  },
+  "stableContent": [
+    "About",
+    "Contact Us",
+    "Social",
+    "Community"
+  ],
+  "replayWarnings": [
+    "1 script resource(s) not preserved in this capture",
+    "15 script resource(s) not preserved in this capture",
+    "16 script resource(s) not preserved in this capture"
+  ],
+  "captureGaps": [
+    "2020-02-12 to 2022-02-23",
+    "2022-02-23 to 2023-06-06",
+    "1800-day gap: February 7, 2015 → January 12, 2020",
+    "773-day gap: January 12, 2020 → February 23, 2022",
+    "468-day gap: February 23, 2022 → June 6, 2023",
+    "400-day gap: June 6, 2023 → July 10, 2024",
+    "158-day gap: July 18, 2024 → December 23, 2024"
+  ],
+  "a11yAudit": {
+    "before": "February 5, 2015",
+    "after": "December 29, 2024",
+    "deltas": [
+      {
+        "metric": "Focusable elements before main content",
+        "before": 78,
+        "after": 45,
+        "direction": "better"
+      },
+      {
+        "metric": "Links before main content",
+        "before": 76,
+        "after": 43,
+        "direction": "better"
+      },
+      {
+        "metric": "Footer links",
+        "before": 0,
+        "after": 1,
+        "direction": "worse"
+      },
+      {
+        "metric": "Images missing alt text",
+        "before": 4,
+        "after": 0,
+        "direction": "better"
+      },
+      {
+        "metric": "Form inputs without labels",
+        "before": 1,
+        "after": 6,
+        "direction": "worse"
+      }
+    ],
+    "findings": [
+      "Search input lost its accessible label after redesign.",
+      "Ambiguous links: \"read more\" ×4."
+    ],
+    "verdict": "Accessibility appears to have IMPROVED over time."
+  },
+  "privacy": null,
+  "keySnapshots": [
+    {
+      "timestamp": "20150205233025",
+      "date": "February 5, 2015",
+      "url": "https://web.archive.org/web/20150205233025/https://ndltd.org/",
+      "issues": [
+        "1 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 13
+    },
+    {
+      "timestamp": "20150207021059",
+      "date": "February 7, 2015",
+      "url": "https://web.archive.org/web/20150207021059/https://ndltd.org/",
+      "issues": [
+        "1 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 13
+    },
+    {
+      "timestamp": "20200112182333",
+      "date": "January 12, 2020",
+      "url": "https://web.archive.org/web/20200112182333/https://ndltd.org/",
+      "issues": [
+        "1 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 12
+    },
+    {
+      "timestamp": "20220223021910",
+      "date": "February 23, 2022",
+      "url": "https://web.archive.org/web/20220223021910/https://ndltd.org/",
+      "issues": [
+        "15 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 12
+    },
+    {
+      "timestamp": "20230606012447",
+      "date": "June 6, 2023",
+      "url": "https://web.archive.org/web/20230606012447/https://ndltd.org/",
+      "issues": [
+        "16 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 12
+    },
+    {
+      "timestamp": "20240710141441",
+      "date": "July 10, 2024",
+      "url": "https://web.archive.org/web/20240710141441/https://ndltd.org/",
+      "issues": [
+        "16 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 12
+    },
+    {
+      "timestamp": "20240718233543",
+      "date": "July 18, 2024",
+      "url": "https://web.archive.org/web/20240718233543/https://ndltd.org/",
+      "issues": [
+        "16 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 12
+    },
+    {
+      "timestamp": "20241223234816",
+      "date": "December 23, 2024",
+      "url": "https://web.archive.org/web/20241223234816/https://ndltd.org/",
+      "issues": [
+        "16 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 12
+    },
+    {
+      "timestamp": "20241229050700",
+      "date": "December 29, 2024",
+      "url": "https://web.archive.org/web/20241229050700/https://ndltd.org/",
+      "issues": [
+        "16 script resource(s) not preserved in this capture"
+      ],
+      "sectionCount": 12
+    }
+  ],
+  "_rescore": {
+    "schema": 1,
+    "params": {
+      "url": "https://ndltd.org/",
+      "fromYear": 2015,
+      "toYear": 2024,
+      "focus": ""
+    },
+    "ai": {
+      "changes": [
+        {
+          "id": 2,
+          "description": "wording change",
+          "type": "wording_change",
+          "section": "About",
+          "beforeDate": "February 7, 2015",
+          "afterDate": "February 23, 2022",
+          "beforeText": "ndltd Search this site Home About FAQ Directory Board of Directors Events News Calendar Photo Album Videos Thesis Resources",
+          "afterText": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs).",
+          "stability": 0.6666666666666666
+        }
+      ],
+      "overview": "The Networked Digital Library of Theses and Dissertations (NDLTD) website underwent several changes between February 5, 2015, and December 29, 2024, focusing on content updates and organizational shifts. The site's main sections and content areas remained relatively stable, with some additions and removals of specific items. Overall, the website's content became more focused on promoting electronic theses and dissertations.",
+      "coveApplied": false,
+      "samples": 3,
+      "stableContent": [
+        "About",
+        "Contact Us",
+        "Social",
+        "Community"
+      ],
+      "captureGaps": [
+        "2020-02-12 to 2022-02-23",
+        "2022-02-23 to 2023-06-06"
+      ]
+    },
+    "captureCounts": {
+      "total": 9,
+      "unique": 9,
+      "selected": 9
+    },
+    "snapshots": [
+      {
+        "date": "2015-02-05T00:00:00.000Z",
+        "timestamp": "20150205233025",
+        "url": "https://web.archive.org/web/20150205233025/https://ndltd.org/",
+        "fullText": "ndltd Search this site Home About FAQ Directory Board of Directors Events News Calendar Photo Album Videos Thesis Resources Find ETDs Build ETDs Manage ETDs FAQ Community ETD Forum BOD Forum About About FInancial Information List of Members FAQ Contact Us Directory Board of Directors Committees & Working Groups Membership Membership Benefits Become Member Renew Membership Edit Institutional Profile Edit Personal Profile Support NDLTD Volunteer Sponsor Students & Librarians Exhibit at a Conference Donate Thesis Resources Community ETD Forum Find ETDs Build ETDs Manage ETDs News News Calendar Events Photo Album Videos on NDLTDx NDLTD Awards Conferences Instructional Videos NDLTD Awards Innovative ETD Awards NDLTD Leadership Awards Social Facebook Twitter Home Mission Statement Welcome to the Networked Digital Library of Theses and Dissertations (NDLTD), an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. Our website includes resources for university administrators, librarians, faculty, students, and the general public. Topics include how to find, create, and preserve ETDs; how to set up an ETD program; legal and technical questions; and the latest news and research in the ETD community. More > > Thesis Resources For Researchers: Resources to find available open-access electronic theses and dissertations. For Authors and Thesis Advisors Resources to build a multimedia thesis, to promote research using open-access repositories, and to inform about copyright and publishing issues. For Librarians, Academic Managers, and Faculty: Resources to set up and manage an open-access repository for theses. Share your questions, comments, and ideas with the ETD community on the ETD Forum. Please e-mail suggestions for additional thesis resources to [email] . News USETDA 2014 Conference - Registration Open The US ETD Association will hold their 4th annual conference September 24-26, 2014, at the Rosen Plaza Hotel in Orlando, Florida. USETDA Conferences are an excellent educational opportunity for ... Posted Jul 28, 2014, 10:42 PM by John Hagen OpenCon 2014 - student and early career researcher conference on Open Access, Open Education, and Open Data OpenCon 2014 is the student and early career researcher conference on Open Access, Open Education, and Open Data and will be held on November 15-17, 2014 in Washington, DC ... Posted Jul 28, 2014, 8:26 PM by John Hagen ETD 2014 Symposium, 23-25 July 2014: registration closes, Monday 14 July Electronic Theses & Dissertations (ETD) is the key international conference on developments and trends in electronic theses and dissertations initiatives. Join us at the University of Leicester in the UK from ... Posted Jun 30, 2014, 9:03 AM by John Hagen NDLTD ETD Awards - 2014 Winners The Networked Digital Library of Theses and Dissertations (NDLTD) international consortium is pleased to announce this year's award winners. The awards recognize students who have written exemplary electronic theses ... Posted Jun 23, 2014, 2:51 PM by John Hagen Bid to Host ETD 2016, the 19th International Symposium on Electronic Theses and Dissertations The NDLTD Conference Standing Committee is now accepting bids to host the 19th International Symposium on Electronic Theses and Dissertations, ETD 2016. Please submit your bid by e-mail to ... Posted Jul 22, 2014, 8:39 AM by John Hagen Showing posts 1 - 5 of 13 . View more » Events What Where Date Time ETD 2013 Symposium Hong Kong September 23, 2013 9am-5pm ETD 2014 Symposium Leicester, UK July 23, 2014 9am - 5pm USETDA 2014 Conference Orlando, Florida, USA September 24, 2014 9am - 5pm IV Conferência Internacional Biredial - ISTEC Brazil October 15, 2014 9am - 5pm ETD 2015 Symposium New Delhi, India November 3, 2015 Showing 5 items from page Events sorted by Date. View more » This work is licensed under a Creative Commons Attribution 3.0 Unported License | Contact Webmaster Free Google Sites Templates by Sites SOS Templates . Sign in | Recent Site Activity | Report Abuse | Print Page | Powered By Google Sites",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "1 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 78,
+          "linksBeforeMain": 76,
+          "headingCount": 14,
+          "h1Count": 0,
+          "imgsNoAlt": 4,
+          "totalImgs": 6,
+          "inputsNoLabel": 1,
+          "totalInputs": 2,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "faq",
+              "count": 3
+            },
+            {
+              "label": "events",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 4,
+            "heading": "About",
+            "text": "About About FInancial Information List of Members FAQ"
+          },
+          {
+            "level": 4,
+            "heading": "Contact Us",
+            "text": "Contact Us Directory Board of Directors Committees & Working Groups"
+          },
+          {
+            "level": 4,
+            "heading": "Membership",
+            "text": "Membership Membership Benefits Become Member Renew Membership Edit Institutional Profile Edit Personal Profile"
+          },
+          {
+            "level": 4,
+            "heading": "Support NDLTD",
+            "text": "Support NDLTD Volunteer Sponsor Students & Librarians Exhibit at a Conference Donate"
+          },
+          {
+            "level": 4,
+            "heading": "Thesis Resources",
+            "text": "Thesis Resources Community ETD Forum Find ETDs Build ETDs Manage ETDs"
+          },
+          {
+            "level": 4,
+            "heading": "News",
+            "text": "News News Calendar Events Photo Album Videos on NDLTDx NDLTD Awards Conferences Instructional Videos"
+          },
+          {
+            "level": 4,
+            "heading": "NDLTD Awards",
+            "text": "NDLTD Awards Innovative ETD Awards NDLTD Leadership Awards"
+          },
+          {
+            "level": 4,
+            "heading": "Social",
+            "text": "Social Facebook Twitter"
+          },
+          {
+            "level": 3,
+            "heading": "Home",
+            "text": "Home"
+          },
+          {
+            "level": 3,
+            "heading": "Mission Statement",
+            "text": "Mission Statement Welcome to the Networked Digital Library of Theses and Dissertations (NDLTD), an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. Our website includes resources for university administrators, librarians, faculty, students, and the general public. Topics include how to find, create, and preserve ETDs; how to set up an ETD program; legal and technical q"
+          },
+          {
+            "level": 3,
+            "heading": "Thesis Resources",
+            "text": "Thesis Resources For Researchers: Resources to find available open-access electronic theses and dissertations. For Authors and Thesis Advisors Resources to build a multimedia thesis, to promote research using open-access repositories, and to inform about copyright and publishing issues. For Librarians, Academic Managers, and Faculty: Resources to set up and manage an open-access repository for theses. Share your questions, comments, and ideas with the ETD community on the ETD Forum. Please e-mail suggestions for additional thesis resources to admin@ndltd.org ."
+          },
+          {
+            "level": 3,
+            "heading": "News",
+            "text": "News USETDA 2014 Conference - Registration Open The US ETD Association will hold their 4th annual conference September 24-26, 2014, at the Rosen Plaza Hotel in Orlando, Florida. USETDA Conferences are an excellent educational opportunity for ... Posted Jul 28, 2014, 10:42 PM by John Hagen OpenCon 2014 - student and early career researcher conference on Open Access, Open Education, and Open Data OpenCon 2014 is the student and early career researcher conference on Open Access, Open Education, and Open Data and will be held on November 15-17, 2014 in Washington, DC ... Posted Jul 28, 2014, 8:26 "
+          },
+          {
+            "level": 3,
+            "heading": "Events",
+            "text": "Events What Where Date Time ETD 2013 Symposium Hong Kong September 23, 2013 9am-5pm ETD 2014 Symposium Leicester, UK July 23, 2014 9am - 5pm USETDA 2014 Conference Orlando, Florida, USA September 24, 2014 9am - 5pm IV Conferência Internacional Biredial - ISTEC Brazil October 15, 2014 9am - 5pm ETD 2015 Symposium New Delhi, India November 3, 2015 Showing 5 items from page Events sorted by Date. View more » This work is licensed under a Creative Commons Attribution 3.0 Unported License | Contact Webmaster Free Google Sites Templates by Sites SOS Templates . Sign in | Recent Site Activity | Repor"
+          }
+        ]
+      },
+      {
+        "date": "2015-02-07T00:00:00.000Z",
+        "timestamp": "20150207021059",
+        "url": "https://web.archive.org/web/20150207021059/https://ndltd.org/",
+        "fullText": "ndltd Search this site Home About FAQ Directory Board of Directors Events News Calendar Photo Album Videos Thesis Resources Find ETDs Build ETDs Manage ETDs FAQ Community ETD Forum BOD Forum About About FInancial Information List of Members FAQ Contact Us Directory Board of Directors Committees & Working Groups Membership Membership Benefits Become Member Renew Membership Edit Institutional Profile Edit Personal Profile Support NDLTD Volunteer Sponsor Students & Librarians Exhibit at a Conference Donate Thesis Resources Community ETD Forum Find ETDs Build ETDs Manage ETDs News News Calendar Events Photo Album Videos on NDLTDx NDLTD Awards Conferences Instructional Videos NDLTD Awards Innovative ETD Awards NDLTD Leadership Awards Social Facebook Twitter Home Mission Statement Welcome to the Networked Digital Library of Theses and Dissertations (NDLTD), an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. Our website includes resources for university administrators, librarians, faculty, students, and the general public. Topics include how to find, create, and preserve ETDs; how to set up an ETD program; legal and technical questions; and the latest news and research in the ETD community. More > > Thesis Resources For Researchers: Resources to find available open-access electronic theses and dissertations. For Authors and Thesis Advisors Resources to build a multimedia thesis, to promote research using open-access repositories, and to inform about copyright and publishing issues. For Librarians, Academic Managers, and Faculty: Resources to set up and manage an open-access repository for theses. Share your questions, comments, and ideas with the ETD community on the ETD Forum. Please e-mail suggestions for additional thesis resources to [email] . News USETDA 2014 Conference - Registration Open The US ETD Association will hold their 4th annual conference September 24-26, 2014, at the Rosen Plaza Hotel in Orlando, Florida. USETDA Conferences are an excellent educational opportunity for ... Posted Jul 28, 2014, 10:42 PM by John Hagen OpenCon 2014 - student and early career researcher conference on Open Access, Open Education, and Open Data OpenCon 2014 is the student and early career researcher conference on Open Access, Open Education, and Open Data and will be held on November 15-17, 2014 in Washington, DC ... Posted Jul 28, 2014, 8:26 PM by John Hagen ETD 2014 Symposium, 23-25 July 2014: registration closes, Monday 14 July Electronic Theses & Dissertations (ETD) is the key international conference on developments and trends in electronic theses and dissertations initiatives. Join us at the University of Leicester in the UK from ... Posted Jun 30, 2014, 9:03 AM by John Hagen NDLTD ETD Awards - 2014 Winners The Networked Digital Library of Theses and Dissertations (NDLTD) international consortium is pleased to announce this year's award winners. The awards recognize students who have written exemplary electronic theses ... Posted Jun 23, 2014, 2:51 PM by John Hagen Bid to Host ETD 2016, the 19th International Symposium on Electronic Theses and Dissertations The NDLTD Conference Standing Committee is now accepting bids to host the 19th International Symposium on Electronic Theses and Dissertations, ETD 2016. Please submit your bid by e-mail to ... Posted Jul 22, 2014, 8:39 AM by John Hagen Showing posts 1 - 5 of 13 . View more » Events What Where Date Time ETD 2013 Symposium Hong Kong September 23, 2013 9am-5pm ETD 2014 Symposium Leicester, UK July 23, 2014 9am - 5pm USETDA 2014 Conference Orlando, Florida, USA September 24, 2014 9am - 5pm IV Conferência Internacional Biredial - ISTEC Brazil October 15, 2014 9am - 5pm ETD 2015 Symposium New Delhi, India November 3, 2015 Showing 5 items from page Events sorted by Date. View more » This work is licensed under a Creative Commons Attribution 3.0 Unported License | Contact Webmaster Free Google Sites Templates by Sites SOS Templates . Sign in | Recent Site Activity | Report Abuse | Print Page | Powered By Google Sites",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "1 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 78,
+          "linksBeforeMain": 76,
+          "headingCount": 14,
+          "h1Count": 0,
+          "imgsNoAlt": 4,
+          "totalImgs": 6,
+          "inputsNoLabel": 1,
+          "totalInputs": 2,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "faq",
+              "count": 3
+            },
+            {
+              "label": "events",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 4,
+            "heading": "About",
+            "text": "About About FInancial Information List of Members FAQ"
+          },
+          {
+            "level": 4,
+            "heading": "Contact Us",
+            "text": "Contact Us Directory Board of Directors Committees & Working Groups"
+          },
+          {
+            "level": 4,
+            "heading": "Membership",
+            "text": "Membership Membership Benefits Become Member Renew Membership Edit Institutional Profile Edit Personal Profile"
+          },
+          {
+            "level": 4,
+            "heading": "Support NDLTD",
+            "text": "Support NDLTD Volunteer Sponsor Students & Librarians Exhibit at a Conference Donate"
+          },
+          {
+            "level": 4,
+            "heading": "Thesis Resources",
+            "text": "Thesis Resources Community ETD Forum Find ETDs Build ETDs Manage ETDs"
+          },
+          {
+            "level": 4,
+            "heading": "News",
+            "text": "News News Calendar Events Photo Album Videos on NDLTDx NDLTD Awards Conferences Instructional Videos"
+          },
+          {
+            "level": 4,
+            "heading": "NDLTD Awards",
+            "text": "NDLTD Awards Innovative ETD Awards NDLTD Leadership Awards"
+          },
+          {
+            "level": 4,
+            "heading": "Social",
+            "text": "Social Facebook Twitter"
+          },
+          {
+            "level": 3,
+            "heading": "Home",
+            "text": "Home"
+          },
+          {
+            "level": 3,
+            "heading": "Mission Statement",
+            "text": "Mission Statement Welcome to the Networked Digital Library of Theses and Dissertations (NDLTD), an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. Our website includes resources for university administrators, librarians, faculty, students, and the general public. Topics include how to find, create, and preserve ETDs; how to set up an ETD program; legal and technical q"
+          },
+          {
+            "level": 3,
+            "heading": "Thesis Resources",
+            "text": "Thesis Resources For Researchers: Resources to find available open-access electronic theses and dissertations. For Authors and Thesis Advisors Resources to build a multimedia thesis, to promote research using open-access repositories, and to inform about copyright and publishing issues. For Librarians, Academic Managers, and Faculty: Resources to set up and manage an open-access repository for theses. Share your questions, comments, and ideas with the ETD community on the ETD Forum. Please e-mail suggestions for additional thesis resources to admin@ndltd.org ."
+          },
+          {
+            "level": 3,
+            "heading": "News",
+            "text": "News USETDA 2014 Conference - Registration Open The US ETD Association will hold their 4th annual conference September 24-26, 2014, at the Rosen Plaza Hotel in Orlando, Florida. USETDA Conferences are an excellent educational opportunity for ... Posted Jul 28, 2014, 10:42 PM by John Hagen OpenCon 2014 - student and early career researcher conference on Open Access, Open Education, and Open Data OpenCon 2014 is the student and early career researcher conference on Open Access, Open Education, and Open Data and will be held on November 15-17, 2014 in Washington, DC ... Posted Jul 28, 2014, 8:26 "
+          },
+          {
+            "level": 3,
+            "heading": "Events",
+            "text": "Events What Where Date Time ETD 2013 Symposium Hong Kong September 23, 2013 9am-5pm ETD 2014 Symposium Leicester, UK July 23, 2014 9am - 5pm USETDA 2014 Conference Orlando, Florida, USA September 24, 2014 9am - 5pm IV Conferência Internacional Biredial - ISTEC Brazil October 15, 2014 9am - 5pm ETD 2015 Symposium New Delhi, India November 3, 2015 Showing 5 items from page Events sorted by Date. View more » This work is licensed under a Creative Commons Attribution 3.0 Unported License | Contact Webmaster Free Google Sites Templates by Sites SOS Templates . Sign in | Recent Site Activity | Repor"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-12T00:00:00.000Z",
+        "timestamp": "20200112182333",
+        "url": "https://web.archive.org/web/20200112182333/https://ndltd.org/",
+        "fullText": "ndltd Search this site News Events Calendar Videos NDLTD Awards NDLTD Conferences Instructional Videos Community ETD Forum Twitter Facebook Linkedin BOD Forum (Private) Thesis Resources Find ETDs Build ETDs Manage ETDs ETD Symposium Papers, Slides, and Posters FAQ Global ETD Search Help Build Global ETD Search About Mission, Goals, and History FInancial Information Official Documents FAQ Past NDLTD Conferences List of Members ETD Metadata Providers Contact Us Directory Board of Directors Volunteers Committees & Working Groups Community ETD Forum Facebook Twitter Linkedin BOD Forum (Private) Membership List of Members Membership Benefits Become Member Renew Membership Edit Institutional Profile Edit Personal Profile Support NDLTD Volunteer Sponsor Students & Librarians Exhibit at a Conference Donate Thesis Resources Find ETDs Global ETD Search Help Build Global ETD Search Build ETDs Manage ETDs ETD Symposium Papers, Slides, and Posters News News Events Calendar Videos on NDLTDx NDLTD Awards Conferences Instructional Videos NDLTD Awards Award Nominations Innovative ETD Awards NDLTD Leadership Awards Untitled ETD 2020: Call for Papers https://conferences.uaeu.ac.ae/etd2020/en/index.shtml Join us for ETD2020 (Electronic Theses and Dissertations) Conference in November 16-18, 2020 in Al Ain, Abu Dhabi, United Arab Emirates. Our theme, ‘Discovery, data, and dates’ is a reflection of our interest in the enhancement of discovery of research through digital repositories, access to data from around the world and how the Networked Digital Libraries of Theses and Dissertations (NDLTD) have contributed to research over time, and a light-hearted reference to our location in the home of research into date palms. The conference will be held at the United Arab Emirates University campus in the oasis city of Al Ain, within the Abu Dhabi Emirate of the UAE and we look forward to welcome you as researchers, librarians, archivists, open access advocates and industry representatives to this exotic location at a time of the year when the weather is perfect! Dates: 16-18 November 2020 Location: The state-of-the-art campus of the United Arab Emirates University, Al Ain. First in the region NDLTD is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. See the web site www.ndltd.org for details and background of the NDLTD organisation which was established in 1998 and has since held international conferences in the US, Europe, Oceana, Africa and Asia. ETD2019 was held in Porto, Portugal in November 2019. Previous conferences have been held in Taiwan (2018), Washington DC, USA (2017), Lille, France (ETD 2016), New Delhi, India (ETD 2015), Leicester, UK (ETD 2014), Hong Kong (ETD 2013); Lima, Peru (ETD 2012); Cape Town, South Africa (ETD 2011); Austin, Texas, USA (ETD 2010); Pittsburgh, Pennsylvania, USA (ETD 2009); Aberdeen, Scotland (ETD 2008); Uppsala, Sweden (ETD 2007) Quebec City, Canada (ETD 2006), Sydney Australia (ETD 2005); Lexington, Kentucky, USA (ETD 2004), and Berlin, Germany (ETD 2003).The first meeting was held in Memphis, Tennessee, USA, in June 1998. This conference, ETD2020 will be the first in the region, and we expect it will attract many participants from all over the world and specifically the Gulf region. Conference Themes: Discovery, Data, & Dates We invite papers and posters on topics addressing electronic resources in research from managing print collections to e-collections in supporting research: Institutional repositories and platforms Open Scholarship - Open Access - Open Science – policies, practices, use cases Research Data management Digital archives Technical processes – scanning; PDF; OCR; Arabic language texts; format migration Submission Timeline Abstracts for proposed papers will be considered and upon acceptance presenters will be invited to provide full papers for peer-review and program development according to the following timetable: Call for papers 1 st December 2019 Deadline for abstract submission February 1 st , 2020 Acceptance of abstracts February 15 th , 2020 Deadline for full-length papers May 15 th , 2020 Acceptance of papers June 15 th , 2020 Conference program will include several invited keynote addresses, workshops and submitted papers/presentations. All presenters, including poster presenters will be invited to prepare and submit a final version for publication online, subject to editorial and peer review before publication. New journal The NDLTD Board has decided to launch a new journal to publish such papers and related content. Selected papers of those submitted to the ETD2020 will be considered for editing and inclusion in the new journal from 2020. Please submit all abstracts (up to 350 words) in a word format providing Author(s) Names and affiliations; Title; and relevant conference theme. Upload a t https://edt2020.exordo.com and https://conferences.uaeu.ac.ae/etd2020/en/call_for_papers.shtml Contact Details: +971-[phone][email] News ETD2020: Call for Papers https://conferences.uaeu.ac.ae/etd2020/en/index.shtml Join us for ETD2020 (Electronic Theses and Dissertations) Conference in November 16-18, 2020 in Al Ain, Abu Dhabi, United Arab ... Posted Jan 8, 2020, 9:54 AM by NDLTD Admin ETD 2019: Register Now! Registration is open for the 22nd International Symposium on Electronic Theses and Dissertations - ETD2019.This year's conference will be held November 06-08, 2019, at UniversidadePortucalense in Porto ... Posted Sep 3, 2019, 9:36 AM by NDLTD Admin NDLTD Announces ETD 2019 Travel Award Winners NDLTD is pleased to announce the winners of the ETD 2019 travel awards. The winners will receive financial support to attend ETD 2019, to be held in Porto, Portugal, from ... Posted Jul 3, 2019, 10:35 AM by NDLTD Admin ETD 2019: Fruits of Knowledge, Call for Papers We are pleased to announce the Call for Papers for ETD 2019, the 22nd International Symposium on Electronic Theses and Dissertations. This is the key international conference to attend in ... Posted Apr 9, 2019, 10:27 AM by NDLTD Admin Request for Proposals to Host ETD 2020 and 2021 The NDLTD Conference Standing Committee is accepting bids to host the 23rd and 24th International Symposium on Electronic Theses and Dissertations, ETD 2020 and 2021. Hosting this prestigious international conference ... Posted Dec 26, 2018, 6:37 AM by NDLTD Admin Special CUNY Web Seminar: Graduate Students as Scholarly Contributors Back in March, we were snowed out of presenting at the Transforming Libraries for Graduate Students conference, and we just couldn’t let all that preparation go to waste. So ... Posted Nov 30, 2018, 11:39 AM by NDLTD Admin Photos from ETD 2018 Photos from ETD 2018 are now available. For a complete archive, click here.Here are some samples. Posted Oct 11, 2018, 4:01 PM by NDLTD Admin ETD 2018: Registration is now Open Registration is now open for the ETD 2018 Symposium. Complete registration information is available online at https://etd2018.ncl.edu.tw/en/registrationETD 2018, the 21st international symposium on ... Posted Jul 2, 2018, 10:31 AM by NDLTD Admin Showing posts 1 - 8 of 70 . View more » Events What Where Date Website ETD 2020 Al Ain, UAE November 16, 2020 edt2020.exordo.com/ ETD 2019: Fruits of Knowledge Porto, Portugal November 6, 2019 ETD 2019: Fruits of Knowledge USETDA 2019 Conference Charleston, SC September 25, 2019 USETDA 2019 ETD 2019 Award Nominations Due Online May 31, 2019 Award Nominations Giant Leaps: Symposium on Electronic Theses and Dissertations Purdue University May 23, 2019 Giant Leaps Showing 5 items from page Events sorted by Date. View more » This work is licensed under a Creative Commons Attribution 4.0 International License . Free Google Sites Templates by Sites SOS Templates . Contact Webmaster . Sign in | Recent Site Activity | Report Abuse | Print Page | Powered By Google Sites",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "1 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 97,
+          "linksBeforeMain": 95,
+          "headingCount": 13,
+          "h1Count": 0,
+          "imgsNoAlt": 7,
+          "totalImgs": 10,
+          "inputsNoLabel": 1,
+          "totalInputs": 2,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": ", 2020",
+              "count": 4
+            },
+            {
+              "label": "events",
+              "count": 3
+            },
+            {
+              "label": "th",
+              "count": 3
+            }
+          ],
+          "footerLinks": 0
+        },
+        "sections": [
+          {
+            "level": 4,
+            "heading": "About",
+            "text": "About Mission, Goals, and History FInancial Information Official Documents FAQ Past NDLTD Conferences List of Members ETD Metadata Providers"
+          },
+          {
+            "level": 4,
+            "heading": "Contact Us",
+            "text": "Contact Us Directory Board of Directors Volunteers Committees & Working Groups"
+          },
+          {
+            "level": 4,
+            "heading": "Community",
+            "text": "Community ETD Forum Facebook Twitter Linkedin BOD Forum (Private)"
+          },
+          {
+            "level": 4,
+            "heading": "Membership",
+            "text": "Membership List of Members Membership Benefits Become Member Renew Membership Edit Institutional Profile Edit Personal Profile"
+          },
+          {
+            "level": 4,
+            "heading": "Support NDLTD",
+            "text": "Support NDLTD Volunteer Sponsor Students & Librarians Exhibit at a Conference Donate"
+          },
+          {
+            "level": 4,
+            "heading": "Thesis Resources",
+            "text": "Thesis Resources Find ETDs Global ETD Search Help Build Global ETD Search Build ETDs Manage ETDs ETD Symposium Papers, Slides, and Posters"
+          },
+          {
+            "level": 4,
+            "heading": "News",
+            "text": "News News Events Calendar Videos on NDLTDx NDLTD Awards Conferences Instructional Videos"
+          },
+          {
+            "level": 4,
+            "heading": "NDLTD Awards",
+            "text": "NDLTD Awards Award Nominations Innovative ETD Awards NDLTD Leadership Awards"
+          },
+          {
+            "level": 3,
+            "heading": "Untitled",
+            "text": "Untitled"
+          },
+          {
+            "level": 3,
+            "heading": "ETD 2020: Call for Papers",
+            "text": "ETD 2020: Call for Papers https://conferences.uaeu.ac.ae/etd2020/en/index.shtml Join us for ETD2020 (Electronic Theses and Dissertations) Conference in November 16-18, 2020 in Al Ain, Abu Dhabi, United Arab Emirates. Our theme, ‘Discovery, data, and dates’ is a reflection of our interest in the enhancement of discovery of research through digital repositories, access to data from around the world and how the Networked Digital Libraries of Theses and Dissertations (NDLTD) have contributed to research over time, and a light-hearted reference to our location in the home of research into date palm"
+          },
+          {
+            "level": 3,
+            "heading": "News",
+            "text": "News ETD2020: Call for Papers https://conferences.uaeu.ac.ae/etd2020/en/index.shtml Join us for ETD2020 (Electronic Theses and Dissertations) Conference in November 16-18, 2020 in Al Ain, Abu Dhabi, United Arab ... Posted Jan 8, 2020, 9:54 AM by NDLTD Admin ETD 2019: Register Now! Registration is open for the 22nd International Symposium on Electronic Theses and Dissertations - ETD2019.This year's conference will be held November 06-08, 2019, at UniversidadePortucalense in Porto ... Posted Sep 3, 2019, 9:36 AM by NDLTD Admin NDLTD Announces ETD 2019 Travel Award Winners NDLTD is pleased to ann"
+          },
+          {
+            "level": 3,
+            "heading": "Events",
+            "text": "Events What Where Date Website ETD 2020 Al Ain, UAE November 16, 2020 edt2020.exordo.com/ ETD 2019: Fruits of Knowledge Porto, Portugal November 6, 2019 ETD 2019: Fruits of Knowledge USETDA 2019 Conference Charleston, SC September 25, 2019 USETDA 2019 ETD 2019 Award Nominations Due Online May 31, 2019 Award Nominations Giant Leaps: Symposium on Electronic Theses and Dissertations Purdue University May 23, 2019 Giant Leaps Showing 5 items from page Events sorted by Date. View more » This work is licensed under a Creative Commons Attribution 4.0 International License . Free Google Sites Template"
+          }
+        ]
+      },
+      {
+        "date": "2022-02-23T00:00:00.000Z",
+        "timestamp": "20220223021910",
+        "url": "https://web.archive.org/web/20220223021910/https://ndltd.org/",
+        "fullText": "Networked Digital Library of Theses and Dissertations - Skip to content Menu Menu Community Committees &#038; Working Groups Board of Directors Prior Board Members Volunteer Donate ETD Forum Membership List of Members Membership Benefits Become Member ETD Search Thesis Resources Find ETDs Global ETD Search Build ETDs Manage ETDs ETD Symposium Papers, Slides, and Posters FAQs ETD Conferences Sponsor Students &#038; Librarians Exhibit at a Conference Past NDLTD Conferences Conference Videos NDLTD Awards Awards Nominations Innovative ETD Awards ETD Leadership Awards Awards Videos ETD Journal News &#038; Events News Events Menu Community Committees &#038; Working Groups Board of Directors Prior Board Members Volunteer Donate ETD Forum Membership List of Members Membership Benefits Become Member ETD Search Thesis Resources Find ETDs Global ETD Search Build ETDs Manage ETDs ETD Symposium Papers, Slides, and Posters FAQs ETD Conferences Sponsor Students &#038; Librarians Exhibit at a Conference Past NDLTD Conferences Conference Videos NDLTD Awards Awards Nominations Innovative ETD Awards ETD Leadership Awards Awards Videos ETD Journal News &#038; Events News Events The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. ETD 2022: FAIRness of ETDs &#8211; Call for extended abstracts Novi Sad, Serbia The Networked Digital Library of Theses and Dissertations (NDLTD), University of Novi Sad and Science 2.0 Alliance invite you to attend the 25th International Symposium of Theses and Dissertations, ETD 2022 that will be held in Novi Sad, Serbia, from 7 to 9 September. It will be an excellent opportunity to exchange ETD experiences with professionals from different countries, to discuss innovative &#8230; Read more Suzie Allard new Executive Director of NDLTD On Jan. 1st, 2022, Prof. Suzie Allard succeeded Prof. Ed Fox as Executive Director of NDLTD. Prof. Fox will remain as Chair of the Board of Directors. These actions were approved at the most recent Board of Directors meeting on Nov. 22nd, 2021. Upon his stepping down as Executive Director, Prof. Fox wrote: &#8220;With the new year comes a change for the Networked Digital Library &#8230; Read more Sharon Reeves With great sadness, we report that Sharon Reeves, former NDLTD Board Member and Secretary of the Board, passed away on Dec. 21st, 2021, at her home in Vancouver Island. Sharon was many things to many people. At NDLTD, we knew her as an active board member, who also served several years as secretary of the board. We knew her as an Open Access activist and advocate &#8230; Read more ETD 2022: Full Papers Acceptance Details to be confirmed ETD 2022: Conference Details to be confirmed Post navigation Older posts Page 1 Page 2 Page 3 Next &rarr; Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP Community Community Committees &#038; Working Groups Board of Directors Prior Board Members Volunteer Donate ETD Forum Membership Membership List of Members Membership Benefits Become Member Renew Membership Edit Institutional Profile Edit Personal Profile ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs ETD Symposium Papers, Slides, and Posters Global ETD Search Help Build Global ETD Search FAQs About Mission, Goals, and History Financial Information Official Documents Past NDLTD Conferences ETD Metadata Providers NDLTD Awards Awards Videos Conference Videos Contact Contact Us Directory © 2022 Networked Digital Library of Theses and Dissertations. This work is licensed under a Creative Commons Attribution 4.0 International License. Skip to content Open toolbar Accessibility Tools Increase Text Decrease Text Grayscale High Contrast Negative Contrast Light Background Links Underline Readable Font Reset",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "15 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 82,
+          "linksBeforeMain": 77,
+          "headingCount": 12,
+          "h1Count": 0,
+          "imgsNoAlt": 0,
+          "totalImgs": 5,
+          "inputsNoLabel": 4,
+          "totalInputs": 6,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "menu",
+              "count": 3
+            },
+            {
+              "label": "community",
+              "count": 3
+            },
+            {
+              "label": "committees &#038; working groups",
+              "count": 3
+            },
+            {
+              "label": "board of directors",
+              "count": 3
+            },
+            {
+              "label": "prior board members",
+              "count": 3
+            }
+          ],
+          "footerLinks": 1
+        },
+        "sections": [
+          {
+            "level": 4,
+            "heading": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide.",
+            "text": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide."
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2022: FAIRness of ETDs &#8211; Call for extended abstracts",
+            "text": "ETD 2022: FAIRness of ETDs &#8211; Call for extended abstracts Novi Sad, Serbia The Networked Digital Library of Theses and Dissertations (NDLTD), University of Novi Sad and Science 2.0 Alliance invite you to attend the 25th International Symposium of Theses and Dissertations, ETD 2022 that will be held in Novi Sad, Serbia, from 7 to 9 September. It will be an excellent opportunity to exchange ETD experiences with professionals from different countries, to discuss innovative &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "Suzie Allard new Executive Director of NDLTD",
+            "text": "Suzie Allard new Executive Director of NDLTD On Jan. 1st, 2022, Prof. Suzie Allard succeeded Prof. Ed Fox as Executive Director of NDLTD. Prof. Fox will remain as Chair of the Board of Directors. These actions were approved at the most recent Board of Directors meeting on Nov. 22nd, 2021. Upon his stepping down as Executive Director, Prof. Fox wrote: &#8220;With the new year comes a change for the Networked Digital Library &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "Sharon Reeves",
+            "text": "Sharon Reeves With great sadness, we report that Sharon Reeves, former NDLTD Board Member and Secretary of the Board, passed away on Dec. 21st, 2021, at her home in Vancouver Island. Sharon was many things to many people. At NDLTD, we knew her as an active board member, who also served several years as secretary of the board. We knew her as an Open Access activist and advocate &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2022: Full Papers Acceptance",
+            "text": "ETD 2022: Full Papers Acceptance Details to be confirmed"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2022: Conference",
+            "text": "ETD 2022: Conference Details to be confirmed Post navigation Older posts Page 1 Page 2 Page 3 Next &rarr;"
+          },
+          {
+            "level": 3,
+            "heading": "Subscribe to our newsletter",
+            "text": "Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP"
+          },
+          {
+            "level": 2,
+            "heading": "Community",
+            "text": "Community Community Committees &#038; Working Groups Board of Directors Prior Board Members Volunteer Donate ETD Forum"
+          },
+          {
+            "level": 2,
+            "heading": "Membership",
+            "text": "Membership Membership List of Members Membership Benefits Become Member Renew Membership Edit Institutional Profile Edit Personal Profile"
+          },
+          {
+            "level": 2,
+            "heading": "ETD Search",
+            "text": "ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs ETD Symposium Papers, Slides, and Posters Global ETD Search Help Build Global ETD Search FAQs"
+          },
+          {
+            "level": 2,
+            "heading": "About",
+            "text": "About Mission, Goals, and History Financial Information Official Documents Past NDLTD Conferences ETD Metadata Providers NDLTD Awards Awards Videos Conference Videos"
+          },
+          {
+            "level": 2,
+            "heading": "Contact",
+            "text": "Contact Contact Us Directory © 2022 Networked Digital Library of Theses and Dissertations. This work is licensed under a Creative Commons Attribution 4.0 International License. Skip to content Open toolbar Accessibility Tools Increase Text Decrease Text Grayscale High Contrast Negative Contrast Light Background Links Underline Readable Font Reset"
+          }
+        ]
+      },
+      {
+        "date": "2023-06-06T00:00:00.000Z",
+        "timestamp": "20230606012447",
+        "url": "https://web.archive.org/web/20230606012447/https://ndltd.org/",
+        "fullText": "Networked Digital Library of Theses and Dissertations - Skip to content Menu Menu Community Board of Directors Committees &#038; Working Groups Prior Board Members Volunteer Donate ETD Forum Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Thesis Resources Find ETDs Global ETD Search Build ETDs Manage ETDs FAQs ETD Symposium Sponsor Students &#038; Librarians Exhibit at a Conference Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters Conference Videos NDLTD Awards Awards Nominations Innovative ETD Awards ETD Leadership Awards Awards Videos ETD Journal News &#038; Events News Events Menu Community Board of Directors Committees &#038; Working Groups Prior Board Members Volunteer Donate ETD Forum Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Thesis Resources Find ETDs Global ETD Search Build ETDs Manage ETDs FAQs ETD Symposium Sponsor Students &#038; Librarians Exhibit at a Conference Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters Conference Videos NDLTD Awards Awards Nominations Innovative ETD Awards ETD Leadership Awards Awards Videos ETD Journal News &#038; Events News Events The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. ETD2023 Call for Papers EXTENDED until June 15 May 30, 2023 May 19, 2023 Thee Call for papers for the 26th International Symposium on Electronic Theses and Dissertations, #ETD2023 is still open. This year’s theme is “Enriching ETDs and their reach” and is organized by the Information and Library Network Centre, Gandhinagar, Gujarat, India during October 26-28, 2023. The due date to send proposals is June 15. We invite submission on the following topics and beyond: Further information is &#8230; Read more Dr. John LeRoy Eaton March 14, 2023 With great sadness, we announce that Dr. John LeRoy Eaton passed away on Saturday, March 4, 2023. In 1969, Dr. Eaton accepted the position of Assistant Professor of Entomology at Virginia Tech where for the next 18 years he conducted basic research on the anatomy and physiology of Lepidoptera and rose to the rank of professor. Dr. Eaton then served as the Associate Dean &#8230; Read more Ed Fox Resumes His Leadership as Executive Director of NDLTD March 14, 2023 Professor Edward A. Fox resumed the position of Executive Director of NDLTD on January 1, 2023. Prof. Fox will continue as Chair of the Board of Directors. These actions were approved at the Board of Directors meeting on Nov. 21, 2022. Professor Fox looks forward to further guiding the continued growth of NDLTD. NDLTD will be cultivating beneficial collaborations and continuing its missions of dissemination, &#8230; Read more ETD 2023 Symposium April 13, 2023 February 21, 2023 The Networked Digital Library of Theses and Dissertations (NDLTD) invites you to attend the 26th International Symposium of Theses and Dissertations, ETD 2023. ETD 2023 is going to be held in the INFLIBNET Centre, Gandhinagar. The concluding day will be in the vicinity of the World’s Tallest Statue at Kevadia, Gujarat, INDIA from 26-28 October, 2023. ETD 2023 is hosted by the INFLIBNET Centre (http://etd2023.inflibnet.ac.in/) &#8230; Read more USETDA 2023 Conference February 21, 2023 September 20 @ 9:00 am &#8211; September 21 @ 5:00 pm EDT The USETDA 2023 Conference will be held September 20 – 21, 2023 as a virtual event, organized by Brigham Young University, the University of North Carolina – Charlotte, the University of Iowa and the USETDA. Older posts Page 1 Page 2 &hellip; Page 4 Next &rarr; Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP Community Community Volunteer Donate ETD Forum Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters ETD Symposium Videos NDLTD Awards Awards Videos Membership Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Global ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs Help Build Global ETD Search ETD Metadata Providers FAQs About Mission, Goals, and History Official Documents Financial Information Terms of Use Privacy Policy Contact Directory Committees &#038; Working Groups Board of Directors Prior Board Members Volunteers © 2023 Networked Digital Library of Theses and Dissertations. This work is licensed under a Creative Commons Attribution 4.0 International License. Skip to content Open toolbar Accessibility Tools Increase Text Decrease Text Grayscale High Contrast Negative Contrast Light Background Links Underline Readable Font Reset",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "16 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 84,
+          "linksBeforeMain": 79,
+          "headingCount": 12,
+          "h1Count": 0,
+          "imgsNoAlt": 0,
+          "totalImgs": 5,
+          "inputsNoLabel": 4,
+          "totalInputs": 6,
+          "searchInput": true,
+          "searchLabeled": true,
+          "dupNames": [
+            {
+              "label": "read more",
+              "count": 4
+            },
+            {
+              "label": "menu",
+              "count": 3
+            },
+            {
+              "label": "community",
+              "count": 3
+            },
+            {
+              "label": "board of directors",
+              "count": 3
+            },
+            {
+              "label": "committees &#038; working groups",
+              "count": 3
+            }
+          ],
+          "footerLinks": 1
+        },
+        "sections": [
+          {
+            "level": 4,
+            "heading": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide.",
+            "text": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide."
+          },
+          {
+            "level": 2,
+            "heading": "ETD2023 Call for Papers EXTENDED until June 15",
+            "text": "ETD2023 Call for Papers EXTENDED until June 15 May 30, 2023 May 19, 2023 Thee Call for papers for the 26th International Symposium on Electronic Theses and Dissertations, #ETD2023 is still open. This year’s theme is “Enriching ETDs and their reach” and is organized by the Information and Library Network Centre, Gandhinagar, Gujarat, India during October 26-28, 2023. The due date to send proposals is June 15. We invite submission on the following topics and beyond: Further information is &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "Dr. John LeRoy Eaton",
+            "text": "Dr. John LeRoy Eaton March 14, 2023 With great sadness, we announce that Dr. John LeRoy Eaton passed away on Saturday, March 4, 2023. In 1969, Dr. Eaton accepted the position of Assistant Professor of Entomology at Virginia Tech where for the next 18 years he conducted basic research on the anatomy and physiology of Lepidoptera and rose to the rank of professor. Dr. Eaton then served as the Associate Dean &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "Ed Fox Resumes His Leadership as Executive Director of NDLTD",
+            "text": "Ed Fox Resumes His Leadership as Executive Director of NDLTD March 14, 2023 Professor Edward A. Fox resumed the position of Executive Director of NDLTD on January 1, 2023. Prof. Fox will continue as Chair of the Board of Directors. These actions were approved at the Board of Directors meeting on Nov. 21, 2022. Professor Fox looks forward to further guiding the continued growth of NDLTD. NDLTD will be cultivating beneficial collaborations and continuing its missions of dissemination, &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2023 Symposium",
+            "text": "ETD 2023 Symposium April 13, 2023 February 21, 2023 The Networked Digital Library of Theses and Dissertations (NDLTD) invites you to attend the 26th International Symposium of Theses and Dissertations, ETD 2023. ETD 2023 is going to be held in the INFLIBNET Centre, Gandhinagar. The concluding day will be in the vicinity of the World’s Tallest Statue at Kevadia, Gujarat, INDIA from 26-28 October, 2023. ETD 2023 is hosted by the INFLIBNET Centre (http://etd2023.inflibnet.ac.in/) &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "USETDA 2023 Conference",
+            "text": "USETDA 2023 Conference February 21, 2023 September 20 @ 9:00 am &#8211; September 21 @ 5:00 pm EDT The USETDA 2023 Conference will be held September 20 – 21, 2023 as a virtual event, organized by Brigham Young University, the University of North Carolina – Charlotte, the University of Iowa and the USETDA. Older posts Page 1 Page 2 &hellip; Page 4 Next &rarr;"
+          },
+          {
+            "level": 3,
+            "heading": "Subscribe to our newsletter",
+            "text": "Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP"
+          },
+          {
+            "level": 2,
+            "heading": "Community",
+            "text": "Community Community Volunteer Donate ETD Forum Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters ETD Symposium Videos NDLTD Awards Awards Videos"
+          },
+          {
+            "level": 2,
+            "heading": "Membership",
+            "text": "Membership Membership List of Members Membership Benefits Become a Member Edit/Pay Membership"
+          },
+          {
+            "level": 2,
+            "heading": "ETD Search",
+            "text": "ETD Search Global ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs Help Build Global ETD Search ETD Metadata Providers FAQs"
+          },
+          {
+            "level": 2,
+            "heading": "About",
+            "text": "About Mission, Goals, and History Official Documents Financial Information Terms of Use Privacy Policy"
+          },
+          {
+            "level": 2,
+            "heading": "Contact",
+            "text": "Contact Directory Committees &#038; Working Groups Board of Directors Prior Board Members Volunteers © 2023 Networked Digital Library of Theses and Dissertations. This work is licensed under a Creative Commons Attribution 4.0 International License. Skip to content Open toolbar Accessibility Tools Accessibility Tools Increase Text Increase Text Decrease Text Decrease Text Grayscale Grayscale High Contrast High Contrast Negative Contrast Negative Contrast Light Background Light Background Links Underline Links Underline Readable Font Readable Font Reset Reset"
+          }
+        ]
+      },
+      {
+        "date": "2024-07-10T00:00:00.000Z",
+        "timestamp": "20240710141441",
+        "url": "https://web.archive.org/web/20240710141441/https://ndltd.org/",
+        "fullText": "Networked Digital Library of Theses and Dissertations - Skip to content Menu Menu Community Board of Directors Committees &#038; Working Groups Prior Board Members Volunteer Donate ETD Forum Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Thesis Resources Find ETDs Global ETD Search Build ETDs Manage ETDs FAQs ETD Symposium Sponsor Students &#038; Librarians Exhibit at a Conference Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters Conference Videos NDLTD Awards Awards Nominations Innovative ETD Awards ETD Leadership Awards Awards Videos ETD Journal News &#038; Events News Events The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. ETD 2024 Call for proposals extended! April 29, 2024 In response to numerous request, the paper/poster abstract and workshop proposal submission deadline for the ETD 2024 symposium has been extended to May 17 2024. It is hoped that this will give additional potential authors enough time to submit their work. The Call for Papers for ETD2024 is now open! March 20, 2024 27th International Symposium on Electronic Theses and Dissertations *Electronic Thesis and Dissertation Visibility at a Global Scale* /Join us, along with global leaders, from Wednesday, October 30th to Friday, November 1st, in Livingstone, Zambia./ The theme for ETD 2024 is &#8220;Electronic Thesis &#8230; Read more ETD 2024 Announcement February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with &#8230; Read more ETD 2024 Announcement February 26, 2024 February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with NDLTD. &#8230; Read more USETDA 2024 Conference September 25-27, 2024 in Provo, Utah January 18, 2024 The USETDA 2024 Conference will be held September 25-27, 2024 as a hybrid event in Provo, Utah on the campus of Brigham Young University and the Provo Marriott Hotel. For details visit https://www.usetda.org/usetda-conferences/usetda-2024/. Call for proposals. Important Dates Call for proposals &#8230; Read more Older posts Page 1 Page 2 &hellip; Page 5 Next &rarr; Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP Community Community Volunteer Donate ETD Forum Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters ETD Symposium Videos NDLTD Awards Awards Videos Membership Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Global ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs Help Build Global ETD Search ETD Metadata Providers FAQs About Mission, Goals, and History Official Documents Financial Information Terms of Use Privacy Policy Contact Directory Committees &#038; Working Groups Board of Directors Prior Board Members Volunteers &copy; 2024 Networked Digital Library of Theses and Dissertations &bull; Built with GeneratePress Search for: Skip to content Open toolbar Accessibility Tools Increase Text Decrease Text Grayscale High Contrast Negative Contrast Light Background Links Underline Readable Font Reset",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "16 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 45,
+          "linksBeforeMain": 43,
+          "headingCount": 12,
+          "h1Count": 0,
+          "imgsNoAlt": 0,
+          "totalImgs": 4,
+          "inputsNoLabel": 6,
+          "totalInputs": 6,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more",
+              "count": 4
+            }
+          ],
+          "footerLinks": 1
+        },
+        "sections": [
+          {
+            "level": 4,
+            "heading": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide.",
+            "text": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide."
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Call for proposals extended!",
+            "text": "ETD 2024 Call for proposals extended! April 29, 2024 In response to numerous request, the paper/poster abstract and workshop proposal submission deadline for the ETD 2024 symposium has been extended to May 17 2024. It is hoped that this will give additional potential authors enough time to submit their work."
+          },
+          {
+            "level": 2,
+            "heading": "The Call for Papers for ETD2024 is now open!",
+            "text": "The Call for Papers for ETD2024 is now open! March 20, 2024 27th International Symposium on Electronic Theses and Dissertations *Electronic Thesis and Dissertation Visibility at a Global Scale* /Join us, along with global leaders, from Wednesday, October 30th to Friday, November 1st, in Livingstone, Zambia./ The theme for ETD 2024 is &#8220;Electronic Thesis &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Announcement",
+            "text": "ETD 2024 Announcement February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Announcement",
+            "text": "ETD 2024 Announcement February 26, 2024 February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with NDLTD. &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "USETDA 2024 Conference September 25-27, 2024 in Provo, Utah",
+            "text": "USETDA 2024 Conference September 25-27, 2024 in Provo, Utah January 18, 2024 The USETDA 2024 Conference will be held September 25-27, 2024 as a hybrid event in Provo, Utah on the campus of Brigham Young University and the Provo Marriott Hotel. For details visit https://www.usetda.org/usetda-conferences/usetda-2024/. Call for proposals. Important Dates Call for proposals &#8230; Read more Older posts Page 1 Page 2 &hellip; Page 5 Next &rarr;"
+          },
+          {
+            "level": 3,
+            "heading": "Subscribe to our newsletter",
+            "text": "Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP"
+          },
+          {
+            "level": 2,
+            "heading": "Community",
+            "text": "Community Community Volunteer Donate ETD Forum Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters ETD Symposium Videos NDLTD Awards Awards Videos"
+          },
+          {
+            "level": 2,
+            "heading": "Membership",
+            "text": "Membership Membership List of Members Membership Benefits Become a Member Edit/Pay Membership"
+          },
+          {
+            "level": 2,
+            "heading": "ETD Search",
+            "text": "ETD Search Global ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs Help Build Global ETD Search ETD Metadata Providers FAQs"
+          },
+          {
+            "level": 2,
+            "heading": "About",
+            "text": "About Mission, Goals, and History Official Documents Financial Information Terms of Use Privacy Policy"
+          },
+          {
+            "level": 2,
+            "heading": "Contact",
+            "text": "Contact Directory Committees &#038; Working Groups Board of Directors Prior Board Members Volunteers &copy; 2024 Networked Digital Library of Theses and Dissertations &bull; Built with GeneratePress Search for: Skip to content Open toolbar Accessibility Tools Accessibility Tools Increase Text Increase Text Decrease Text Decrease Text Grayscale Grayscale High Contrast High Contrast Negative Contrast Negative Contrast Light Background Light Background Links Underline Links Underline Readable Font Readable Font Reset Reset"
+          }
+        ]
+      },
+      {
+        "date": "2024-07-18T00:00:00.000Z",
+        "timestamp": "20240718233543",
+        "url": "https://web.archive.org/web/20240718233543/https://ndltd.org/",
+        "fullText": "Networked Digital Library of Theses and Dissertations - Skip to content Menu Menu Community Board of Directors Committees &#038; Working Groups Prior Board Members Volunteer Donate ETD Forum Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Thesis Resources Find ETDs Global ETD Search Build ETDs Manage ETDs FAQs ETD Symposium Sponsor Students &#038; Librarians Exhibit at a Conference Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters Conference Videos NDLTD Awards Awards Nominations Innovative ETD Awards ETD Leadership Awards Awards Videos ETD Journal News &#038; Events News Events The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. ETD 2024 Call for proposals extended! April 29, 2024 In response to numerous request, the paper/poster abstract and workshop proposal submission deadline for the ETD 2024 symposium has been extended to May 17 2024. It is hoped that this will give additional potential authors enough time to submit their work. The Call for Papers for ETD2024 is now open! March 20, 2024 27th International Symposium on Electronic Theses and Dissertations *Electronic Thesis and Dissertation Visibility at a Global Scale* /Join us, along with global leaders, from Wednesday, October 30th to Friday, November 1st, in Livingstone, Zambia./ The theme for ETD 2024 is &#8220;Electronic Thesis &#8230; Read more ETD 2024 Announcement February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with &#8230; Read more ETD 2024 Announcement February 26, 2024 February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with NDLTD. &#8230; Read more USETDA 2024 Conference September 25-27, 2024 in Provo, Utah January 18, 2024 The USETDA 2024 Conference will be held September 25-27, 2024 as a hybrid event in Provo, Utah on the campus of Brigham Young University and the Provo Marriott Hotel. For details visit https://www.usetda.org/usetda-conferences/usetda-2024/. Call for proposals. Important Dates Call for proposals &#8230; Read more Older posts Page 1 Page 2 &hellip; Page 5 Next &rarr; Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP Community Community Volunteer Donate ETD Forum Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters ETD Symposium Videos NDLTD Awards Awards Videos Membership Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Global ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs Help Build Global ETD Search ETD Metadata Providers FAQs About Mission, Goals, and History Official Documents Financial Information Terms of Use Privacy Policy Contact Directory Committees &#038; Working Groups Board of Directors Prior Board Members Volunteers &copy; 2024 Networked Digital Library of Theses and Dissertations &bull; Built with GeneratePress Search for: Skip to content Open toolbar Accessibility Tools Increase Text Decrease Text Grayscale High Contrast Negative Contrast Light Background Links Underline Readable Font Reset",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "16 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 45,
+          "linksBeforeMain": 43,
+          "headingCount": 12,
+          "h1Count": 0,
+          "imgsNoAlt": 0,
+          "totalImgs": 4,
+          "inputsNoLabel": 6,
+          "totalInputs": 6,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more",
+              "count": 4
+            }
+          ],
+          "footerLinks": 1
+        },
+        "sections": [
+          {
+            "level": 4,
+            "heading": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide.",
+            "text": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide."
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Call for proposals extended!",
+            "text": "ETD 2024 Call for proposals extended! April 29, 2024 In response to numerous request, the paper/poster abstract and workshop proposal submission deadline for the ETD 2024 symposium has been extended to May 17 2024. It is hoped that this will give additional potential authors enough time to submit their work."
+          },
+          {
+            "level": 2,
+            "heading": "The Call for Papers for ETD2024 is now open!",
+            "text": "The Call for Papers for ETD2024 is now open! March 20, 2024 27th International Symposium on Electronic Theses and Dissertations *Electronic Thesis and Dissertation Visibility at a Global Scale* /Join us, along with global leaders, from Wednesday, October 30th to Friday, November 1st, in Livingstone, Zambia./ The theme for ETD 2024 is &#8220;Electronic Thesis &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Announcement",
+            "text": "ETD 2024 Announcement February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Announcement",
+            "text": "ETD 2024 Announcement February 26, 2024 February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with NDLTD. &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "USETDA 2024 Conference September 25-27, 2024 in Provo, Utah",
+            "text": "USETDA 2024 Conference September 25-27, 2024 in Provo, Utah January 18, 2024 The USETDA 2024 Conference will be held September 25-27, 2024 as a hybrid event in Provo, Utah on the campus of Brigham Young University and the Provo Marriott Hotel. For details visit https://www.usetda.org/usetda-conferences/usetda-2024/. Call for proposals. Important Dates Call for proposals &#8230; Read more Older posts Page 1 Page 2 &hellip; Page 5 Next &rarr;"
+          },
+          {
+            "level": 3,
+            "heading": "Subscribe to our newsletter",
+            "text": "Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP"
+          },
+          {
+            "level": 2,
+            "heading": "Community",
+            "text": "Community Community Volunteer Donate ETD Forum Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters ETD Symposium Videos NDLTD Awards Awards Videos"
+          },
+          {
+            "level": 2,
+            "heading": "Membership",
+            "text": "Membership Membership List of Members Membership Benefits Become a Member Edit/Pay Membership"
+          },
+          {
+            "level": 2,
+            "heading": "ETD Search",
+            "text": "ETD Search Global ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs Help Build Global ETD Search ETD Metadata Providers FAQs"
+          },
+          {
+            "level": 2,
+            "heading": "About",
+            "text": "About Mission, Goals, and History Official Documents Financial Information Terms of Use Privacy Policy"
+          },
+          {
+            "level": 2,
+            "heading": "Contact",
+            "text": "Contact Directory Committees &#038; Working Groups Board of Directors Prior Board Members Volunteers &copy; 2024 Networked Digital Library of Theses and Dissertations &bull; Built with GeneratePress Search for: Skip to content Open toolbar Accessibility Tools Accessibility Tools Increase Text Increase Text Decrease Text Decrease Text Grayscale Grayscale High Contrast High Contrast Negative Contrast Negative Contrast Light Background Light Background Links Underline Links Underline Readable Font Readable Font Reset Reset"
+          }
+        ]
+      },
+      {
+        "date": "2024-12-23T00:00:00.000Z",
+        "timestamp": "20241223234816",
+        "url": "https://web.archive.org/web/20241223234816/https://ndltd.org/",
+        "fullText": "Networked Digital Library of Theses and Dissertations - Skip to content Menu Menu Community Board of Directors Committees &#038; Working Groups Prior Board Members Volunteer Donate ETD Forum Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Thesis Resources Find ETDs Global ETD Search Build ETDs Manage ETDs FAQs ETD Symposium Sponsor Students &#038; Librarians Exhibit at a Conference Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters Conference Videos NDLTD Awards Awards Nominations Innovative ETD Awards ETD Leadership Awards Awards Videos ETD Journal News &#038; Events News Events The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. Iryna Kuchma recognized with the 2024 NDLTD Leadership Award November 7, 2024 We are proud to recognize Iryna Kuchma for her exceptional dedication and contributions to the NDLTD community. Serving on the NDLTD Board of Directors since 2011, Iryna has played a pivotal role in promoting open access electronic theses and dissertations (ETDS). Her &#8230; Read more ETD 2024 Announcement August 21, 2024 August 21, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on November 4-6 in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with NDLTD. This year&#8217;s topic &#8230; Read more ETD 2024 Call for proposals extended! April 29, 2024 In response to numerous request, the paper/poster abstract and workshop proposal submission deadline for the ETD 2024 symposium has been extended to May 17 2024. It is hoped that this will give additional potential authors enough time to submit their work. The Call for Papers for ETD2024 is now open! March 20, 2024 27th International Symposium on Electronic Theses and Dissertations *Electronic Thesis and Dissertation Visibility at a Global Scale* /Join us, along with global leaders, from Wednesday, October 30th to Friday, November 1st, in Livingstone, Zambia./ The theme for ETD 2024 is &#8220;Electronic Thesis &#8230; Read more ETD 2024 Announcement February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with &#8230; Read more Older posts Page 1 Page 2 &hellip; Page 5 Next &rarr; Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP Community Community Volunteer Donate ETD Forum Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters ETD Symposium Videos NDLTD Awards Awards Videos Membership Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Global ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs Help Build Global ETD Search ETD Metadata Providers FAQs About Mission, Goals, and History Official Documents Financial Information Terms of Use Privacy Policy Contact Directory Committees &#038; Working Groups Board of Directors Prior Board Members Volunteers &copy; 2024 Networked Digital Library of Theses and Dissertations &bull; Built with GeneratePress Search for: Skip to content Open toolbar Accessibility Tools Increase Text Decrease Text Grayscale High Contrast Negative Contrast Light Background Links Underline Readable Font Reset",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "16 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 45,
+          "linksBeforeMain": 43,
+          "headingCount": 12,
+          "h1Count": 0,
+          "imgsNoAlt": 0,
+          "totalImgs": 4,
+          "inputsNoLabel": 6,
+          "totalInputs": 6,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more",
+              "count": 4
+            }
+          ],
+          "footerLinks": 1
+        },
+        "sections": [
+          {
+            "level": 4,
+            "heading": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide.",
+            "text": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide."
+          },
+          {
+            "level": 2,
+            "heading": "Iryna Kuchma recognized with the 2024 NDLTD Leadership Award",
+            "text": "Iryna Kuchma recognized with the 2024 NDLTD Leadership Award November 7, 2024 We are proud to recognize Iryna Kuchma for her exceptional dedication and contributions to the NDLTD community. Serving on the NDLTD Board of Directors since 2011, Iryna has played a pivotal role in promoting open access electronic theses and dissertations (ETDS). Her &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Announcement",
+            "text": "ETD 2024 Announcement August 21, 2024 August 21, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on November 4-6 in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with NDLTD. This year&#8217;s topic &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Call for proposals extended!",
+            "text": "ETD 2024 Call for proposals extended! April 29, 2024 In response to numerous request, the paper/poster abstract and workshop proposal submission deadline for the ETD 2024 symposium has been extended to May 17 2024. It is hoped that this will give additional potential authors enough time to submit their work."
+          },
+          {
+            "level": 2,
+            "heading": "The Call for Papers for ETD2024 is now open!",
+            "text": "The Call for Papers for ETD2024 is now open! March 20, 2024 27th International Symposium on Electronic Theses and Dissertations *Electronic Thesis and Dissertation Visibility at a Global Scale* /Join us, along with global leaders, from Wednesday, October 30th to Friday, November 1st, in Livingstone, Zambia./ The theme for ETD 2024 is &#8220;Electronic Thesis &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Announcement",
+            "text": "ETD 2024 Announcement February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with &#8230; Read more Older posts Page 1 Page 2 &hellip; Page 5 Next &rarr;"
+          },
+          {
+            "level": 3,
+            "heading": "Subscribe to our newsletter",
+            "text": "Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP"
+          },
+          {
+            "level": 2,
+            "heading": "Community",
+            "text": "Community Community Volunteer Donate ETD Forum Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters ETD Symposium Videos NDLTD Awards Awards Videos"
+          },
+          {
+            "level": 2,
+            "heading": "Membership",
+            "text": "Membership Membership List of Members Membership Benefits Become a Member Edit/Pay Membership"
+          },
+          {
+            "level": 2,
+            "heading": "ETD Search",
+            "text": "ETD Search Global ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs Help Build Global ETD Search ETD Metadata Providers FAQs"
+          },
+          {
+            "level": 2,
+            "heading": "About",
+            "text": "About Mission, Goals, and History Official Documents Financial Information Terms of Use Privacy Policy"
+          },
+          {
+            "level": 2,
+            "heading": "Contact",
+            "text": "Contact Directory Committees &#038; Working Groups Board of Directors Prior Board Members Volunteers &copy; 2024 Networked Digital Library of Theses and Dissertations &bull; Built with GeneratePress Search for: Skip to content Open toolbar Accessibility Tools Accessibility Tools Increase Text Increase Text Decrease Text Decrease Text Grayscale Grayscale High Contrast High Contrast Negative Contrast Negative Contrast Light Background Light Background Links Underline Links Underline Readable Font Readable Font Reset Reset"
+          }
+        ]
+      },
+      {
+        "date": "2024-12-29T00:00:00.000Z",
+        "timestamp": "20241229050700",
+        "url": "https://web.archive.org/web/20241229050700/https://ndltd.org/",
+        "fullText": "Networked Digital Library of Theses and Dissertations - Skip to content Menu Menu Community Board of Directors Committees &#038; Working Groups Prior Board Members Volunteer Donate ETD Forum Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Thesis Resources Find ETDs Global ETD Search Build ETDs Manage ETDs FAQs ETD Symposium Sponsor Students &#038; Librarians Exhibit at a Conference Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters Conference Videos NDLTD Awards Awards Nominations Innovative ETD Awards ETD Leadership Awards Awards Videos ETD Journal News &#038; Events News Events The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide. Iryna Kuchma recognized with the 2024 NDLTD Leadership Award November 7, 2024 We are proud to recognize Iryna Kuchma for her exceptional dedication and contributions to the NDLTD community. Serving on the NDLTD Board of Directors since 2011, Iryna has played a pivotal role in promoting open access electronic theses and dissertations (ETDS). Her &#8230; Read more ETD 2024 Announcement August 21, 2024 August 21, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on November 4-6 in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with NDLTD. This year&#8217;s topic &#8230; Read more ETD 2024 Call for proposals extended! April 29, 2024 In response to numerous request, the paper/poster abstract and workshop proposal submission deadline for the ETD 2024 symposium has been extended to May 17 2024. It is hoped that this will give additional potential authors enough time to submit their work. The Call for Papers for ETD2024 is now open! March 20, 2024 27th International Symposium on Electronic Theses and Dissertations *Electronic Thesis and Dissertation Visibility at a Global Scale* /Join us, along with global leaders, from Wednesday, October 30th to Friday, November 1st, in Livingstone, Zambia./ The theme for ETD 2024 is &#8220;Electronic Thesis &#8230; Read more ETD 2024 Announcement February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with &#8230; Read more Older posts Page 1 Page 2 &hellip; Page 5 Next &rarr; Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP Community Community Volunteer Donate ETD Forum Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters ETD Symposium Videos NDLTD Awards Awards Videos Membership Membership List of Members Membership Benefits Become a Member Edit/Pay Membership ETD Search Global ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs Help Build Global ETD Search ETD Metadata Providers FAQs About Mission, Goals, and History Official Documents Financial Information Terms of Use Privacy Policy Contact Directory Committees &#038; Working Groups Board of Directors Prior Board Members Volunteers &copy; 2024 Networked Digital Library of Theses and Dissertations &bull; Built with GeneratePress Search for: Skip to content Open toolbar Accessibility Tools Increase Text Decrease Text Grayscale High Contrast Negative Contrast Light Background Links Underline Readable Font Reset",
+        "issues": [
+          {
+            "kind": "missing_resource",
+            "detail": "16 script resource(s) not preserved in this capture"
+          }
+        ],
+        "a11y": {
+          "focusableBeforeMain": 45,
+          "linksBeforeMain": 43,
+          "headingCount": 12,
+          "h1Count": 0,
+          "imgsNoAlt": 0,
+          "totalImgs": 4,
+          "inputsNoLabel": 6,
+          "totalInputs": 6,
+          "searchInput": true,
+          "searchLabeled": false,
+          "dupNames": [
+            {
+              "label": "read more",
+              "count": 4
+            }
+          ],
+          "footerLinks": 1
+        },
+        "sections": [
+          {
+            "level": 4,
+            "heading": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide.",
+            "text": "The Networked Digital Library of Theses and Dissertations (NDLTD) is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and dissertations (ETDs). We support electronic publishing and open access to scholarship in order to enhance the sharing of knowledge worldwide."
+          },
+          {
+            "level": 2,
+            "heading": "Iryna Kuchma recognized with the 2024 NDLTD Leadership Award",
+            "text": "Iryna Kuchma recognized with the 2024 NDLTD Leadership Award November 7, 2024 We are proud to recognize Iryna Kuchma for her exceptional dedication and contributions to the NDLTD community. Serving on the NDLTD Board of Directors since 2011, Iryna has played a pivotal role in promoting open access electronic theses and dissertations (ETDS). Her &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Announcement",
+            "text": "ETD 2024 Announcement August 21, 2024 August 21, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on November 4-6 in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with NDLTD. This year&#8217;s topic &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Call for proposals extended!",
+            "text": "ETD 2024 Call for proposals extended! April 29, 2024 In response to numerous request, the paper/poster abstract and workshop proposal submission deadline for the ETD 2024 symposium has been extended to May 17 2024. It is hoped that this will give additional potential authors enough time to submit their work."
+          },
+          {
+            "level": 2,
+            "heading": "The Call for Papers for ETD2024 is now open!",
+            "text": "The Call for Papers for ETD2024 is now open! March 20, 2024 27th International Symposium on Electronic Theses and Dissertations *Electronic Thesis and Dissertation Visibility at a Global Scale* /Join us, along with global leaders, from Wednesday, October 30th to Friday, November 1st, in Livingstone, Zambia./ The theme for ETD 2024 is &#8220;Electronic Thesis &#8230; Read more"
+          },
+          {
+            "level": 2,
+            "heading": "ETD 2024 Announcement",
+            "text": "ETD 2024 Announcement February 26, 2024 We are thrilled to announce that the 27th International Symposium on Electronic #Theses and #Dissertations (#ETD2024) will take place on October 30th to November 1st in Livingstone, Zambia. Hosted by The University Of Zambia (UNZA), Higher Education Authority of Zambia and Zambia Research and Education Network together with &#8230; Read more Older posts Page 1 Page 2 &hellip; Page 5 Next &rarr;"
+          },
+          {
+            "level": 3,
+            "heading": "Subscribe to our newsletter",
+            "text": "Subscribe to our newsletter Join our community and get the latest news on NDLTD events and resources Please enable JavaScript in your browser to complete this form. Name * Email * SIGN UP"
+          },
+          {
+            "level": 2,
+            "heading": "Community",
+            "text": "Community Community Volunteer Donate ETD Forum Past NDLTD Symposia ETD Symposium Papers, Slides, and Posters ETD Symposium Videos NDLTD Awards Awards Videos"
+          },
+          {
+            "level": 2,
+            "heading": "Membership",
+            "text": "Membership Membership List of Members Membership Benefits Become a Member Edit/Pay Membership"
+          },
+          {
+            "level": 2,
+            "heading": "ETD Search",
+            "text": "ETD Search Global ETD Search Thesis Resources Find ETDs Build ETDs Manage ETDs Help Build Global ETD Search ETD Metadata Providers FAQs"
+          },
+          {
+            "level": 2,
+            "heading": "About",
+            "text": "About Mission, Goals, and History Official Documents Financial Information Terms of Use Privacy Policy"
+          },
+          {
+            "level": 2,
+            "heading": "Contact",
+            "text": "Contact Directory Committees &#038; Working Groups Board of Directors Prior Board Members Volunteers &copy; 2024 Networked Digital Library of Theses and Dissertations &bull; Built with GeneratePress Search for: Skip to content Open toolbar Accessibility Tools Accessibility Tools Increase Text Increase Text Decrease Text Decrease Text Grayscale Grayscale High Contrast High Contrast Negative Contrast Negative Contrast Light Background Light Background Links Underline Links Underline Readable Font Readable Font Reset Reset"
+          }
+        ]
+      }
+    ]
+  }
+}
