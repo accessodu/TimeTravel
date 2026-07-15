@@ -1,0 +1,320 @@
+{
+  "_instructions": "For each change set label to TP (real, focus-relevant) or FP (artifact/not real/off-focus). Set missed=number of real changes the system did NOT report (FN) per page.",
+  "model": "groq:llama-3.1-8b-instant",
+  "runs": {
+    "01-jcdl": {
+      "url": "https://www.jcdl.org/",
+      "genre": "Conference sites",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "high(100)",
+          "description": "Updated conference dates",
+          "before": "JCDL 2015 will be held in Knoxville, TN from 22-26 June.",
+          "after": "JCDL 2015 will be held in Knoxville, TN from 21-25 June."
+        },
+        {
+          "n": 2,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "high(100)",
+          "description": "Updated conference dates again",
+          "before": "JCDL 2015 will be held in Knoxville, TN from 21-25 June.",
+          "after": "JCDL 2021 , September 27-30, 2021, online!"
+        },
+        {
+          "n": 3,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "medium(67)",
+          "description": "Updated conference location",
+          "before": "JCDL 2022 , June 20-24, 2022, Cologne, Germany.",
+          "after": "JCDL 2024 , December 16-20, 2024, Hong Kong."
+        }
+      ]
+    },
+    "02-dlib": {
+      "url": "https://www.dlib.org/dlib.html",
+      "genre": "Digital libraries & archives",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "added",
+          "confidence": "medium(75)",
+          "description": "Added suspension notice",
+          "before": null,
+          "after": "D-Lib Magazine suspended publication of new issues in July 2017."
+        },
+        {
+          "n": 2,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "medium(75)",
+          "description": "Contact email changed from [email] to [email&#160;protected] in February 2024.",
+          "before": "Send suggestions to [email] .",
+          "after": "Send suggestions to [email&#160;protected] ."
+        }
+      ]
+    },
+    "03-gutenberg": {
+      "url": "https://www.gutenberg.org/",
+      "genre": "Digital libraries & archives",
+      "focus": "",
+      "missed": 0,
+      "changes": []
+    },
+    "04-archive": {
+      "url": "https://archive.org/about/",
+      "genre": "Digital libraries & archives",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "unclear",
+          "confidence": "low(14)",
+          "description": "navigation change",
+          "before": "About the Internet Archive | Why the Archive is Building an 'Internet Library' | Future Libraries - How People Envision Using Internet Libraries | Related Projects and Research | Storage and Preservation",
+          "after": "Featured | Top | Featured | Top | Featured | Top | Featured | Featured"
+        },
+        {
+          "n": 2,
+          "label": "?",
+          "archivalState": "missing_resource",
+          "confidence": "low(15)",
+          "description": "'Storage and Preservation' section removed",
+          "before": "Sections: Read More | News [more] | About the Internet Archive | Why the Archive is Building an 'Internet Library' | Future Libraries - How People Envision Using Internet Libraries | Related Projects and Research | Storage and Preservation",
+          "after": null
+        }
+      ]
+    },
+    "05-dp": {
+      "url": "https://dp.la/",
+      "genre": "Digital libraries & archives",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "medium(67)",
+          "description": "Number of digital items available for discovery increased",
+          "before": "Discover 20,899,816 images, texts, videos, and sounds from across the United States",
+          "after": "Discover 40,821,827 images, texts, videos, and sounds from across the United States"
+        }
+      ]
+    },
+    "06-europeana": {
+      "url": "https://www.europeana.eu/en",
+      "genre": "Digital libraries & archives",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "medium(75)",
+          "description": "Updated navigation menu",
+          "before": "Discover inspiring European cultural heritage | Europeana Skip to page contents Home Collections Stories Log in / Join Home Collections Stories Teachers About us Help Log in / Join",
+          "after": "Discover Europe's digital cultural heritage | Europeana Skip to page contents Home Collections Stories For professionals Log in / Join Home Collections Stories For professionals For teachers About Help Log in / Join"
+        }
+      ]
+    },
+    "07-sigir": {
+      "url": "https://sigir.org/",
+      "genre": "Conference sites",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "medium(64)",
+          "description": "SIGIR Forum December 2014 to SIGIR Forum June 2020",
+          "before": "The current Editor-in-Chief (EiC) of the ACM Transactions on Intelligent Systems and Technology (TIST) is stepping down after two terms, and the ACM Publications Board has set up a nominating committee to assist the Board in selecting the next EiC.",
+          "after": "The June 2020 issue of the SIGIR Forum is available online. Check the latest news about our IR community in the time of a global pandemic in the Chair’s Letter."
+        },
+        {
+          "n": 2,
+          "label": "?",
+          "archivalState": "added",
+          "confidence": "medium(67)",
+          "description": "SIGIR Early Career Researcher Awards added",
+          "before": null,
+          "after": "Announcing the SIGIR Early Career Researcher Awards"
+        }
+      ]
+    },
+    "08-w3": {
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "genre": "Standards & policy",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "high(91)",
+          "description": "Navigation change",
+          "before": "Sections: Web Content Accessibility Guidelines (WCAG) Overview | Summary | Introduction | Quick links | Who WCAG is for | What is in the WCAG 2.0 Documents | Translations | Technical document format",
+          "after": "Sections: Web Content Accessibility Guidelines (WCAG) Overview | Summary | Introduction | WCAG 2.0, 2.1, 2.2 | Who WCAG is for | What is in the WCAG 2 Documents | Translations | Technical document format"
+        }
+      ]
+    },
+    "09-openai": {
+      "url": "https://openai.com/policies/privacy-policy/",
+      "genre": "Standards & policy",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "added",
+          "confidence": "low(41)",
+          "description": "Updated translation list",
+          "before": null,
+          "after": "Privacy policy | OpenAI Skip to main content Research Products Safety Company English (US) Spanish (US) English (UK) Danish German Spanish (Spain) French (Canada) French (France) Hungarian Italian Japanese Korean Dutch Polish Portuguese (Brazil) Portuguese (Portugal) Swedish"
+        },
+        {
+          "n": 2,
+          "label": "?",
+          "archivalState": "added",
+          "confidence": "low(40)",
+          "description": "Added new sections",
+          "before": null,
+          "after": "Privacy policy | 1. Personal information we collect | 2. How we use personal information | 3. Disclosure of personal information | 4. Your rights | 5. Additional U.S. state disclosures | 6. Children | 7. Links to other websites"
+        }
+      ]
+    },
+    "10-loc": {
+      "url": "https://www.loc.gov/about/",
+      "genre": "Digital libraries & archives",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "unclear",
+          "confidence": "low(29)",
+          "description": "Navigation change: Menu text",
+          "before": "About the Library | Library of Congress Loc.gov Congress.gov Copyright.gov Menu &#9776; Discover Catalogs & Finding Aids Search the Library's catalog records.",
+          "after": "About the Library | Library of Congress Skip to main content menu Discover Services Visit Education Connect About Ask a Librarian Help Contact Search Online Catalog Copyright.gov Congress.gov"
+        }
+      ]
+    },
+    "11-crossref": {
+      "url": "https://www.crossref.org/documentation/",
+      "genre": "Scholarly infrastructure",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "unclear",
+          "confidence": "low(27)",
+          "description": "Renamed section: Tech documentation to Documentation",
+          "before": "Tech documentation - Crossref Home Get involved Become a member Membership terms Benefits of membership Understanding our billing",
+          "after": "Documentation - Crossref Menu Home Home Apply Members Documentation Forum Labs Blog Contact"
+        }
+      ]
+    },
+    "12-ndltd": {
+      "url": "https://ndltd.org/",
+      "genre": "Digital libraries & archives",
+      "focus": "",
+      "missed": 0,
+      "changes": []
+    },
+    "13-ada": {
+      "url": "https://www.ada.gov/",
+      "genre": "Standards & policy",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "medium(67)",
+          "description": "New on ADA.gov section changes",
+          "before": "New on ADA.gov Election 2014 If you believe that you have been denied the right to vote based on your race, color, language minority status or disability, or that otherwise your voting rights under federal law have been violated, you may contact the Civil Rights Division of the United States Department of Justice. (posted 11/4/14) -->",
+          "after": "Roberts Riverwalk Hotel Settlement Agreement (posted 9/6/19)"
+        },
+        {
+          "n": 2,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "medium(67)",
+          "description": "Search ADA.gov section changes",
+          "before": "Search ADA.gov More Search Options",
+          "after": "Search ADA.gov Search ADA.gov More Search Options"
+        }
+      ]
+    },
+    "14-plos": {
+      "url": "https://plos.org/",
+      "genre": "Scholarly infrastructure",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "added",
+          "confidence": "high(100)",
+          "description": "COVID-19 RESEARCH UPDATES added to Home section.",
+          "before": null,
+          "after": "COVID-19 RESEARCH UPDATES We’re here to support researchers. Visit our COVID-19 page for links to emerging research, updates about our policies, and more resources related to the pandemic."
+        }
+      ]
+    },
+    "15-hathitrust": {
+      "url": "https://www.hathitrust.org/",
+      "genre": "Digital libraries & archives",
+      "focus": "",
+      "missed": 0,
+      "changes": []
+    },
+    "16-doaj": {
+      "url": "https://doaj.org/",
+      "genre": "Scholarly infrastructure",
+      "focus": "",
+      "missed": 0,
+      "changes": [
+        {
+          "n": 1,
+          "label": "?",
+          "archivalState": "wording_change",
+          "confidence": "medium(75)",
+          "description": "Change in wording of funding model",
+          "before": "There is a new process to have journals indexed in the DOAJ. All journals must apply using our new Application Form . Due to the extensive and detailed information we require, only a journal's publisher should complete the form.",
+          "after": "DOAJ is independent. All funding is via donations, 50% of which comes from sponsors and 50% from members and publisher members ."
+        },
+        {
+          "n": 2,
+          "label": "?",
+          "archivalState": "added",
+          "confidence": "medium(75)",
+          "description": "Introduction of cookie notice",
+          "before": null,
+          "after": "This website uses cookies to ensure you get the best experience. Learn more | Hide this message"
+        }
+      ]
+    }
+  }
+}

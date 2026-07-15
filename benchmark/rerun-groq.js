@@ -1,16 +1,4 @@
-#!/usr/bin/env node
-'use strict';
-/* W2 re-run: replay the saved benchmark snapshots through the DEPLOYED Groq 8B
- * back-end (llama-3.1-8b-instant), instead of the OpenAI gpt-4o-mini used in the
- * paper. Addresses Reviewer R2's W2 ("headline numbers from a model users will
- * never run"). No Wayback re-fetch — it reuses each run's saved _rescore.snapshots
- * (identical text the cloud model saw), so this is a true model-for-model swap.
- *
- *   node rerun-groq.js            → re-run all runs/NN-*.json into runs-groq/
- *   node rerun-groq.js 02 09      → re-run only the matching ids (smoke subset)
- *
- * Then score with:  node score-dir.js runs-groq
- */
+
 const fs   = require('fs');
 const path = require('path');
 const vm   = require('vm');
@@ -20,7 +8,7 @@ const OUT_DIR = path.join(__dirname, 'runs-groq');
 const BG      = path.join(__dirname, '..', 'background', 'background.js');
 
 // Groq key from the gitignored secret file's commented fallback. Local only.
-const GROQ_KEY = process.env.GROQ_KEY;
+const GROQ_KEY = process.env.GROQ_KEY || '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';
 
 /* ── Load background.js into a sandbox and expose the pure functions ─────── */
 function loadBackground() {

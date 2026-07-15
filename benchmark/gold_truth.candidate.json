@@ -1,0 +1,93 @@
+{
+  "_note": "CLEANED candidate gold from MJF's hand-filled worksheets (2026-06-25). Rule applied: keep real author edits (redesigns, funding/policy/mission, feature/section additions, named-fact changes, a running count's growth ONCE). CUT: per-snapshot counter ticks, news/political/seasonal/maintenance banners, trivial tweaks. Cuts are listed per site in `_cut`. NOT yet scored — predictions (TP/FP) must be re-matched to this gold before re-running verify_all.js. Flagged borderline keeps marked with (?).",
+  "runs": {
+    "01-jcdl": { "realChanges": [
+      { "from": "Mar 23, 2015", "to": "May 16, 2021", "section": "Header/Awards", "desc": "Next conference now JCDL 2021 online; 2017 awards added; chair changed to Downie" },
+      { "from": "May 16, 2021", "to": "Jun 14, 2022", "section": "Header", "desc": "Next conference now JCDL 2022 in Cologne" },
+      { "from": "Jun 14, 2022", "to": "May 16, 2024", "section": "Header", "desc": "Next conference now JCDL 2024 in Hong Kong" }
+    ], "_cut": [] },
+
+    "02-dlib": { "realChanges": [
+      { "from": "Dec 4, 2016", "to": "May 17, 2017", "section": "Contributors", "desc": "Alliance/support sections became one Contributors section" },
+      { "from": "Jul 15, 2017", "to": "Sep 25, 2017", "section": "Whole page", "desc": "Magazine suspended publication; archive notice added" }
+    ], "_cut": [] },
+
+    "03-gutenberg": { "realChanges": [
+      { "from": "Jan 1, 2015", "to": "Aug 26, 2016", "section": "Welcome", "desc": "Free-ebook count grew over time (46,000 -> 55,000) [counted once]" },
+      { "from": "Mar 6, 2016", "to": "Aug 26, 2016", "section": "Terms", "desc": "Cookies/captcha terms added" }
+    ], "_cut": ["TPP / Public-Domain news items (rotating news)", "per-tick count changes 50k/53k (same running counter)", "temporary 'maintenance notice' banner"] },
+
+    "04-archive": { "realChanges": [
+      { "from": "Jan 3, 2015", "to": "Sep 16, 2015", "section": "Whole site", "desc": "New Internet Archive redesign notice added" },
+      { "from": "Sep 16, 2015", "to": "Sep 18, 2015", "section": "About", "desc": "Full Internet Library / history text restored" },
+      { "from": "Jul 14, 2016", "to": "Feb 19, 2017", "section": "About", "desc": "About text changed to Universal Access framing" }
+    ], "_cut": ["Wayback page-count 436B->491B (counter tick)", "stats 279B/11M->330B/20M (counter tick)", "Wayback count 345B->351B (counter tick)"] },
+
+    "05-dp": { "realChanges": [
+      { "from": "Jan 1, 2015", "to": "Dec 8, 2016", "section": "Home/Navigation", "desc": "Item count grew (8.4M -> 14.5M, counted once); Education links added" },
+      { "from": "Dec 8, 2016", "to": "Mar 8, 2018", "section": "Whole site", "desc": "New website launched (redesign)" },
+      { "from": "Jul 12, 2018", "to": "Nov 15, 2018", "section": "Navigation", "desc": "'My Lists' feature added" }
+    ], "_cut": ["item-counter ticks 20.9M/21.5M/22.5M/29.9M/40.8M and the 8-day 40,807,340->40,821,827 tick", "transient 'launch notice'", "'Black Women' featured event (rotation)"] },
+
+    "06-europeana": { "realChanges": [
+      { "from": "Mar 24, 2020", "to": "Mar 25, 2020", "section": "Cards", "desc": "Cards got Exhibition/Gallery/Blog labels (?)" },
+      { "from": "Oct 29, 2020", "to": "Jul 21, 2021", "section": "Header/Home", "desc": "Stories, Log in/Join, gallery tools added" },
+      { "from": "Aug 14, 2022", "to": "Sep 13, 2022", "section": "Header/Home", "desc": "Heading changed to 'Discover Europe's digital cultural heritage'" }
+    ], "_cut": ["'Women's History Month' -> 'What's new' (seasonal rotation)"] },
+
+    "07-sigir": { "realChanges": [
+      { "from": "Jan 1, 2015", "to": "Apr 16, 2021", "section": "Navigation/Awards", "desc": "Menu added Artifact Badging, DEI, code of conduct, Academy" },
+      { "from": "Apr 16, 2021", "to": "Apr 28, 2024", "section": "Awards", "desc": "SIGIR Early Career Researcher Awards added" }
+    ], "_cut": [] },
+
+    "08-w3": { "realChanges": [
+      { "from": "May 17, 2018", "to": "Dec 20, 2020", "section": "Summary/Quick links", "desc": "WCAG 2.1 became standard; WCAG 2.2 draft added" },
+      { "from": "Jun 2, 2021", "to": "Feb 21, 2022", "section": "Title/Summary", "desc": "Page became 'WCAG 2 Overview'; WCAG 3 moved out" }
+    ], "_cut": [] },
+
+    "09-openai": { "realChanges": [
+      { "from": "Feb 27, 2023", "to": "Nov 7, 2023", "section": "Privacy policy", "desc": "Policy updated Sep 2022 -> Jun 2023; API data excluded" },
+      { "from": "Nov 7, 2023", "to": "Jun 13, 2024", "section": "Privacy policy", "desc": "Policy updated Nov 2023; EEA/UK/Switzerland note added" }
+    ], "_cut": [] },
+
+    "10-loc": { "realChanges": [
+      { "from": "Jun 9, 2015", "to": "Nov 3, 2016", "section": "Welcome message", "desc": "Librarian changed from James Billington to Carla Hayden" },
+      { "from": "May 16, 2018", "to": "Aug 2, 2019", "section": "Strategic Plan", "desc": "Digital Strategy link added beside Strategic Plan" }
+    ], "_cut": [] },
+
+    "11-crossref": { "realChanges": [
+      { "from": "Apr 25, 2019", "to": "Jun 6, 2021", "section": "Documentation", "desc": "Placeholder tech docs became full documentation overview" },
+      { "from": "Mar 29, 2023", "to": "Dec 20, 2024", "section": "Services", "desc": "Grant Linking System and API Learning Hub added" }
+    ], "_cut": ["Schema library added to menu (?)", "Research Nexus / metadata principles added (?) -- incremental doc-menu items, folded"] },
+
+    "12-ndltd": { "realChanges": [
+      { "from": "Feb 7, 2015", "to": "Jan 12, 2020", "section": "Navigation", "desc": "Global ETD Search added" },
+      { "from": "Jan 12, 2020", "to": "Feb 23, 2022", "section": "Whole site", "desc": "Site moved from Google Sites to redesigned NDLTD page" },
+      { "from": "Feb 23, 2022", "to": "Jun 6, 2023", "section": "Membership/Events", "desc": "Edit/Pay Membership added; ETD Conferences became ETD Symposium (?)" }
+    ], "_cut": ["'symposium papers added' (rotating conference content)"] },
+
+    "13-ada": { "realChanges": [
+      { "from": "Jan 23, 2017", "to": "Oct 18, 2018", "section": "Main links", "desc": "File an ADA Complaint and Emergency Preparedness added" },
+      { "from": "May 9, 2019", "to": "Sep 7, 2019", "section": "Featured Topics", "desc": "Featured topics collapsed to Service Animals FAQs only" },
+      { "from": "Sep 7, 2019", "to": "Apr 22, 2020", "section": "Main links", "desc": "Voting barriers question added under Introduction" }
+    ], "_cut": [] },
+
+    "14-plos": { "realChanges": [
+      { "from": "Jan 2, 2015", "to": "Mar 5, 2020", "section": "Whole site", "desc": "Homepage redesigned around Publish with PLOS and Open Science" },
+      { "from": "Dec 23, 2020", "to": "Feb 12, 2021", "section": "Open Science menu", "desc": "Protocols added to Open Science menu" }
+    ], "_cut": ["COVID-19 Research Updates banner (news banner) -- flip back if you count it"] },
+
+    "15-hathitrust": { "realChanges": [
+      { "from": "Dec 20, 2015", "to": "Jan 18, 2018", "section": "Navigation/Login", "desc": "Collaborative Programs and guest login option added" },
+      { "from": "Jan 18, 2018", "to": "Jun 6, 2019", "section": "Search", "desc": "Search fields changed to Field List and Available Indexes" }
+    ], "_cut": ["'Library is Open' COVID-19 response link (news banner)"] },
+
+    "16-doaj": { "realChanges": [
+      { "from": "Jan 2, 2015", "to": "Mar 3, 2017", "section": "Mission/Search", "desc": "Description changed to community-curated, high quality journal directory" },
+      { "from": "Mar 3, 2017", "to": "Oct 29, 2017", "section": "About/Funding", "desc": "Independence and 50/50 funding paragraph added" },
+      { "from": "Oct 29, 2017", "to": "Feb 17, 2018", "section": "About", "desc": "Education and outreach program paragraph added (?)" },
+      { "from": "Apr 1, 2018", "to": "Jan 31, 2019", "section": "Funding", "desc": "Funding split changed from 50/50 to 40/60" },
+      { "from": "Jan 31, 2019", "to": "Dec 3, 2019", "section": "Homepage", "desc": "'Why index your journal in DOAJ?' added (?)" }
+    ], "_cut": [] }
+  }
+}

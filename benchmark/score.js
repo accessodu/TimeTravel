@@ -1,23 +1,7 @@
-#!/usr/bin/env node
-'use strict';
-/* TimeTravel-A11y benchmark scorer.
- *
- *   node score.js init     → (re)generate ground_truth.json scaffold from the runs
- *   node score.js          → compute metrics (objective always; detection P/R once
- *                            ground_truth.json labels are filled in)
- *
- * OBJECTIVE metrics (need no human labels): quote-grounding / hallucination rate,
- * archival-state distribution, confidence distribution + calibration, a11y audit.
- * These are recomputed straight from each run's _rescore bundle (raw model changes
- * + archived snapshot texts) so they are reproducible from the saved JSON alone.
- *
- * DETECTION metrics (precision / recall / F1, per genre) need the human-confirmed
- * labels in ground_truth.json: each detected change marked TP or FP, plus any
- * missed real changes (FN) added per page.
- */
+
 const fs = require('fs');
 const path = require('path');
-const DIR = path.join(__dirname, process.argv[2] || 'runs');
+const DIR = path.join(__dirname, 'runs');
 const GT  = path.join(__dirname, 'ground_truth.json');
 
 /* ── genre map (edit freely; drives the per-genre detection table) ──────── */

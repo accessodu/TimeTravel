@@ -1,11 +1,4 @@
-#!/usr/bin/env node
-'use strict';
-/* Re-run buildReport (with the new HARD VERBATIM GATE) over the SAVED Groq model
- * outputs — no LLM calls. Uses each run's _rescore bundle (raw model changes +
- * snapshot texts), exactly what the bundle exists for. Writes runs-groq-gated/.
- *
- *   node regate.js   →   then: node score-dir.js runs-groq-gated
- */
+
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');

@@ -1,15 +1,4 @@
-#!/usr/bin/env node
-'use strict';
-/* Deterministic candidate-change finder (NO LLM) for Way-B ground truth.
- *
- * Compares each page's consecutive usable snapshots with a plain sentence-level
- * diff and surfaces candidate changes (added / removed / number-changed sentences).
- * A human then rules each candidate REAL vs ARTIFACT — the candidate generation is
- * mechanical/model-independent, only the final judgment is human (defensible, and
- * far less effort than reading raw pages).
- *
- *   node diff-candidates.js            → prints candidates + writes gold_candidates.json
- */
+
 const fs = require('fs');
 const path = require('path');
 const SRC = path.join(__dirname, 'runs-groq');

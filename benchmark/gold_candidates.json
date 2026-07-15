@@ -1,0 +1,1397 @@
+{
+  "_instructions": "Rule each candidate: verdict \"real\" (a genuine author edit) or \"artifact\" (archive noise / not a real change). Add any real change the diff MISSED as a row with source:\"manual\".",
+  "runs": {
+    "01-jcdl": {
+      "url": "https://www.jcdl.org/",
+      "snapshotsUsed": 5,
+      "autoDroppedArtifacts": 2,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Mar 23, 2015",
+          "to": "May 16, 2021",
+          "before": null,
+          "after": "Nelson for Mobile Mink: Merging Mobile and Desktop Archived Webs --> JCDL 2022 Conference Proposals The JCDL Steering Committee solicits proposals from groups i",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "removed",
+          "from": "Mar 23, 2015",
+          "to": "May 16, 2021",
+          "before": "Vannevar Bush best paper award Kazunari Sugiyama and Min-Yen Kan for their paper Exploiting Potential Citation Papers in Scholarly Paper Recommendation Best stu",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "May 16, 2021",
+          "to": "Jun 14, 2022",
+          "before": null,
+          "after": "Conference Proposals - JCDL 2023 and beyond The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2023 and ",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "removed",
+          "from": "May 16, 2021",
+          "to": "Jun 14, 2022",
+          "before": "Nelson for Mobile Mink: Merging Mobile and Desktop Archived Webs --> JCDL 2022 Conference Proposals The JCDL Steering Committee solicits proposals from groups i",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "number_changed",
+          "from": "Jun 14, 2022",
+          "to": "May 16, 2024",
+          "before": "Conference Proposals - JCDL 2023 and beyond The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2023 and ",
+          "after": "--> Conference Proposals - JCDL 2025 and beyond The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2025 ",
+          "verdict": "real",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "removed",
+          "from": "Mar 23, 2015",
+          "to": "May 16, 2021",
+          "before": "--> JCDL 2016 Conference Proposals The JCDL Steering Committee solicits proposals from groups interested in organizing the JCDL conference in 2016 and beyond.",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "added",
+          "from": "May 16, 2021",
+          "to": "Jun 14, 2022",
+          "before": null,
+          "after": "Joint Conference on Digital Library (JCDL)-Home Joint Conference on Digital Libraries Upcoming Conference: JCDL 2022 , June 20-24, 2022, Cologne, Germany.",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "removed",
+          "from": "Jun 14, 2022",
+          "to": "May 16, 2024",
+          "before": "Joint Conference on Digital Library (JCDL)-Home Joint Conference on Digital Libraries Upcoming Conference: JCDL 2022 , June 20-24, 2022, Cologne, Germany.",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "02-dlib": {
+      "url": "https://www.dlib.org/dlib.html",
+      "snapshotsUsed": 8,
+      "autoDroppedArtifacts": 17,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "removed",
+          "from": "Jan 9, 2015",
+          "to": "Feb 4, 2015",
+          "before": "N E W S & E V E N T S In Brief : Short Items of Current Awareness In the News : Recent Press Releases and Announcements Clips & Pointers : Documents, Deadlines,",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "removed",
+          "from": "Dec 4, 2016",
+          "to": "May 17, 2017",
+          "before": "| Mirror Sites E D I T O R I A L S T A F F Laurence Lannom, Editor-in-Chief Allison Powell, Associate Editor Catherine Rey, Managing Editor Bonita Wilson, Contr",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "May 17, 2017",
+          "to": "Jul 15, 2017",
+          "before": null,
+          "after": "D-Lib also recognizes the contributions of the following organizations that also generously support the continued open access publication of the magazine.",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "removed",
+          "from": "Jul 15, 2017",
+          "to": "Sep 25, 2017",
+          "before": "D-Lib also recognizes the contributions of the following organizations that also generously support the continued open access publication of the magazine.",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "added",
+          "from": "Feb 4, 2015",
+          "to": "Dec 4, 2016",
+          "before": null,
+          "after": "and NOAA's National Centers for Environmental Information [ Abstract ] [ Article ] Intake of Digital Content: Survey Results From the Field By Jody L.",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "removed",
+          "from": "Dec 4, 2016",
+          "to": "May 17, 2017",
+          "before": "and NOAA's National Centers for Environmental Information [ Abstract ] [ Article ] Intake of Digital Content: Survey Results From the Field By Jody L.",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "added",
+          "from": "Jul 15, 2017",
+          "to": "Sep 25, 2017",
+          "before": null,
+          "after": "In particular, D-Lib thanks Crossref , and Hesburgh Libraries at University of Notre Dame for their long-time membership in the D-Lib Alliance.",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "removed",
+          "from": "Dec 4, 2016",
+          "to": "May 17, 2017",
+          "before": "O T H E R C O N T R I B U T E R S --> D-Lib also thanks the following organizations for their generous ongoing support.",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "03-gutenberg": {
+      "url": "https://www.gutenberg.org/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 4,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "number_changed",
+          "from": "Jan 1, 2015",
+          "to": "Mar 6, 2016",
+          "before": "Welcome Project Gutenberg Mobile Site Project Gutenberg offers over 46,000 free ebooks: choose among free epub books, free kindle books, download them or read t",
+          "after": "Welcome Project Gutenberg Mobile Site Project Gutenberg offers over 50,000 free ebooks: choose among free epub books, free kindle books, download them or read t",
+          "verdict": "real",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "removed",
+          "from": "Jan 1, 2015",
+          "to": "Mar 6, 2016",
+          "before": "To learn more, and join Project Gutenberg in speaking out against this treaty, visit The Internet Archive Self-Publishing Portal Visit self.gutenberg.org to see",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "Mar 6, 2016",
+          "to": "Aug 26, 2016",
+          "before": null,
+          "after": "Project Gutenberg Mobile Site Project Gutenberg offers over 50,000 free ebooks: choose among free epub books, free kindle books, download them or read them onli",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "added",
+          "from": "Mar 6, 2016",
+          "to": "Aug 26, 2016",
+          "before": null,
+          "after": "Includes links to full-text search Report errors, bugs, typos (or, see detailed information about errata reporting ) Top 100 Books and Authors : the most downlo",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "removed",
+          "from": "Mar 6, 2016",
+          "to": "Aug 26, 2016",
+          "before": "Welcome Project Gutenberg Mobile Site Project Gutenberg offers over 50,000 free ebooks: choose among free epub books, free kindle books, download them or read t",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "added",
+          "from": "Aug 26, 2016",
+          "to": "Sep 22, 2016",
+          "before": null,
+          "after": "Welcome Project Gutenberg Mobile Site Project Gutenberg offers over 55,000 free ebooks: choose among free epub books, free kindle books, download them or read t",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "added",
+          "from": "Aug 26, 2016",
+          "to": "Sep 22, 2016",
+          "before": null,
+          "after": "No fee or registration is required, but if you find Project Gutenberg useful, we kindly ask you to donate a small amount so we can buy and digitize more books, ",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "removed",
+          "from": "Aug 26, 2016",
+          "to": "Sep 22, 2016",
+          "before": "Project Gutenberg Mobile Site Project Gutenberg offers over 50,000 free ebooks: choose among free epub books, free kindle books, download them or read them onli",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "04-archive": {
+      "url": "https://archive.org/about/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 0,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "removed",
+          "from": "Jan 3, 2015",
+          "to": "Sep 16, 2015",
+          "before": "Now the Internet Archive includes: texts , audio , moving images , and software as well as archived web pages in our collections, and provides specialized servi",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "removed",
+          "from": "Jan 3, 2015",
+          "to": "Sep 16, 2015",
+          "before": "If libraries are to continue to foster education and scholarship in this era of digital technology, it's essential for them to extend those functions into the d",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "removed",
+          "from": "Jan 3, 2015",
+          "to": "Sep 16, 2015",
+          "before": "Yet while the Internet has generally increased public access to information, states have just begun to amend those laws to reflect today's Internet environment.",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "removed",
+          "from": "Jan 3, 2015",
+          "to": "Sep 16, 2015",
+          "before": "In the meantime, while public officials are posting more information on the Internet than their state legislatures require, there's little regulatory control ov",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "removed",
+          "from": "Jan 3, 2015",
+          "to": "Sep 16, 2015",
+          "before": "Exercising our \"right to remember\": Without paper libraries, it would be hard to exercise our \"right to remember\" our political history or hold government accou",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "removed",
+          "from": "Jan 3, 2015",
+          "to": "Sep 16, 2015",
+          "before": "Imagine, for instance, how news coverage of an election campaign might suffer if journalists had only limited access to previous statements that candidates had ",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "removed",
+          "from": "Jan 3, 2015",
+          "to": "Sep 16, 2015",
+          "before": "\"The Internet Archive is a service so essential that its founding is bound to be looked back on with the fondness and respect that people now have for the publi",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "removed",
+          "from": "Jan 3, 2015",
+          "to": "Sep 16, 2015",
+          "before": "Understanding the economy: Economists could use Archive data such as link structures - what and how many links a site contains - to investigate how the Web affe",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "05-dp": {
+      "url": "https://dp.la/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 3,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Jan 1, 2015",
+          "to": "Dec 8, 2016",
+          "before": null,
+          "after": "Photograph by Michael Sidoric, Informedia » A Wealth of Knowledge explore 14,527,859 items from libraries, archives, and museums Search the Library Exhibitions ",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "added",
+          "from": "Jan 1, 2015",
+          "to": "Dec 8, 2016",
+          "before": null,
+          "after": "App Library » DPLA Images Rebekah Heacock Jones DPLA Images lets you search the Digital Public Library of America, a collection of millions of cultural heritage",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "Jan 1, 2015",
+          "to": "Dec 8, 2016",
+          "before": null,
+          "after": "App Home Page » DPLA by County and State Chad Nelson DPLA by State and County allows you to see how well the DPLA represents each state and each county within a",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "removed",
+          "from": "Jan 1, 2015",
+          "to": "Dec 8, 2016",
+          "before": "Photograph by Michael Sidoric, Informedia » i A Wealth of Knowledge explore 8,417,033 items from libraries, archives, and museums Search the Library Exhibitions",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "removed",
+          "from": "Jan 1, 2015",
+          "to": "Dec 8, 2016",
+          "before": "App Home Page » DPLA Visual Search Prototype Schuyler Lindberg A prototype visual search interface that explores content from the Digital Public Library of Amer",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "added",
+          "from": "Dec 8, 2016",
+          "to": "Mar 8, 2018",
+          "before": null,
+          "after": "View all user guides DPLA News Browse the archives Announcing the Launch of our New Website March 8, 2018 The Digital Public Library of America (DPLA) is please",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "added",
+          "from": "Dec 8, 2016",
+          "to": "Mar 8, 2018",
+          "before": null,
+          "after": "Ohio Digital Network Brings the Buckeye State to DPLA March 2, 2018 We are pleased to announce that over 90,000 new materials from Ohio Digital Network are now ",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "added",
+          "from": "Dec 8, 2016",
+          "to": "Mar 8, 2018",
+          "before": null,
+          "after": "As a part of DPLA, students and teachers, researchers, and history… Announcing New Primary Source Sets for Education February 28, 2018 The Digital Public Librar",
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "06-europeana": {
+      "url": "https://www.europeana.eu/en",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 2,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Mar 24, 2020",
+          "to": "Mar 25, 2020",
+          "before": null,
+          "after": "Gallery Maria Sibylla Merian Maria Sibylla Merian (1647–1717) was a naturalist and scientific illustrator, and one of the first naturalists to observe insects d",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "added",
+          "from": "Mar 24, 2020",
+          "to": "Mar 25, 2020",
+          "before": null,
+          "after": "Exhibition Madame de Staël Madame de Staël was a politically engaged woman of letters, who survived the French Revolution and was exiled more than once by Napol",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "Mar 24, 2020",
+          "to": "Mar 25, 2020",
+          "before": null,
+          "after": "Blog Anna May Wong Challenging the stereotypes of Hollywood Blog Countess Markievicz, Irish revolutionary Constance Markievicz was a leader in the fight for Ire",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "removed",
+          "from": "Mar 24, 2020",
+          "to": "Mar 25, 2020",
+          "before": "Maria Sibylla Merian Maria Sibylla Merian (1647–1717) was a naturalist and scientific illustrator, and one of the first naturalists to observe insects directly.",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "removed",
+          "from": "Mar 24, 2020",
+          "to": "Mar 25, 2020",
+          "before": "Anna May Wong Challenging the stereotypes of Hollywood Countess Markievicz, Irish revolutionary Constance Markievicz was a leader in the fight for Ireland’s ind",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "added",
+          "from": "Mar 25, 2020",
+          "to": "Oct 29, 2020",
+          "before": null,
+          "after": "Welcome to Europeana Discover inspiring cultural heritage from European museums, galleries, libraries and archives Praterallee im Herbst, Olga Wisinger-Florian,",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "removed",
+          "from": "Mar 25, 2020",
+          "to": "Oct 29, 2020",
+          "before": "Gallery Maria Sibylla Merian Maria Sibylla Merian (1647–1717) was a naturalist and scientific illustrator, and one of the first naturalists to observe insects d",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "removed",
+          "from": "Mar 25, 2020",
+          "to": "Oct 29, 2020",
+          "before": "Exhibition Madame de Staël Madame de Staël was a politically engaged woman of letters, who survived the French Revolution and was exiled more than once by Napol",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "07-sigir": {
+      "url": "https://sigir.org/",
+      "snapshotsUsed": 5,
+      "autoDroppedArtifacts": 5,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Jan 1, 2015",
+          "to": "Apr 16, 2021",
+          "before": null,
+          "after": "We are excited to announce the ACM SIGIR Academy that was recently established to honor and recognize individuals, who have made significant, cumulative contrib",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "added",
+          "from": "Jan 1, 2015",
+          "to": "Apr 16, 2021",
+          "before": null,
+          "after": "Introducing New SIGIR Chapter: Tokyo March 8, 2018 News Nattiya Kanhabua Following a very successful SIGIR 2017 Conference, a new ACM SIGIR Chapter has formed i",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "Jan 1, 2015",
+          "to": "Apr 16, 2021",
+          "before": null,
+          "after": "When the award guidelines were created, eligible papers were identified as those that were published in a window of time 10 to 12 years prior to the year of the",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "added",
+          "from": "Jan 1, 2015",
+          "to": "Apr 16, 2021",
+          "before": null,
+          "after": "Members of the committee were: Nicholas Belkin, Charlie Clarke, Susan Dumais, Norbert Fuhr, Donna Harman, Diane Kelly, Stephen Robertson, Stefan Rueger, Ian Rut",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "removed",
+          "from": "Jan 1, 2015",
+          "to": "Apr 16, 2021",
+          "before": "The EiC is responsible for maintaining the highest editorial quality, for setting technical direction of the papers published in TIST, and for maintaining a rea",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "removed",
+          "from": "Jan 1, 2015",
+          "to": "Apr 16, 2021",
+          "before": "CHIIR is a merger of two successful events: the Information Interaction in Context conference (IIiX) and the Human Computer Information Retrieval symposium (HCI",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "removed",
+          "from": "Jan 1, 2015",
+          "to": "Apr 16, 2021",
+          "before": "CHIIR builds upon the combined strengths of these events, emphasizing human interaction with information, information seeking contexts, and user-centered approa",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "removed",
+          "from": "Jan 1, 2015",
+          "to": "Apr 16, 2021",
+          "before": "Research on information interaction and retrieval that draws upon work in areas such as sociology, ethnography, psychology, and human-computer interaction is al",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "08-w3": {
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 3,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "May 17, 2018",
+          "to": "Dec 20, 2020",
+          "before": null,
+          "after": "The WCAG 2 supporting technical materials include: How to Meet WCAG 2 : A customizable quick reference to Web Content Accessibility Guidelines 2 requirements (s",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "added",
+          "from": "May 17, 2018",
+          "to": "Dec 20, 2020",
+          "before": null,
+          "after": "Understanding WCAG 2 ( 2.1 Understanding , 2.0 Understanding ) has additional guidance on learning and implementing WCAG 2 for people who want to understand the",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "May 17, 2018",
+          "to": "Dec 20, 2020",
+          "before": null,
+          "after": "Other guidelines WCAG is part of a series of accessibility guidelines, including the Authoring Tool Accessibility Guidelines (ATAG) and the User Agent Accessibi",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "removed",
+          "from": "May 17, 2018",
+          "to": "Dec 20, 2020",
+          "before": "The WCAG 2.0 supporting technical materials include: How to Meet WCAG 2.0 : A customizable quick reference to Web Content Accessibility Guidelines 2.0 requireme",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "removed",
+          "from": "May 17, 2018",
+          "to": "Dec 20, 2020",
+          "before": "Understanding WCAG 2.0 has additional guidance on learning and implementing WCAG 2.0 for people who want to understand the guidelines and success criteria more ",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "removed",
+          "from": "May 17, 2018",
+          "to": "Dec 20, 2020",
+          "before": "WCAG is part of a series of accessibility guidelines, including the Authoring Tool Accessibility Guidelines (ATAG) and the User Agent Accessibility Guidelines (",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "removed",
+          "from": "May 17, 2018",
+          "to": "Dec 20, 2020",
+          "before": "E-mail Fork & Edit on GitHub New GitHub Issue Back to Top W3C Web Accessibility Initiative (WAI) Strategies, standards, and supporting resources to make the Web",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "added",
+          "from": "Mar 15, 2021",
+          "to": "May 5, 2021",
+          "before": null,
+          "after": "“Making Content Usable for People with Cognitive and Learning Disabilities” helps you increase accessibility for people with cognitive and learning disabilities",
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "09-openai": {
+      "url": "https://openai.com/policies/privacy-policy/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 39,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Feb 27, 2023",
+          "to": "Nov 7, 2023",
+          "before": null,
+          "after": "For information about how we collect and use training information to develop our language models that power ChatGPT and other Services, and your choices with re",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "added",
+          "from": "Feb 27, 2023",
+          "to": "Nov 7, 2023",
+          "before": null,
+          "after": "User Content: When you use our Services, we collect Personal Information that is included in the input, file uploads, or feedback that you provide to our Servic",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "Feb 27, 2023",
+          "to": "Nov 7, 2023",
+          "before": null,
+          "after": "Communication Information : If you communicate with us, we collect your name, contact information, and the contents of any messages you send (“Communication Inf",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "added",
+          "from": "Feb 27, 2023",
+          "to": "Nov 7, 2023",
+          "before": null,
+          "after": "When you interact with our social media pages, we will collect Personal Information that you elect to provide to us, such as your contact details (collectively,",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "added",
+          "from": "Feb 27, 2023",
+          "to": "Nov 7, 2023",
+          "before": null,
+          "after": "Analytics : We may use a variety of online analytics products that use cookies to help us analyze how users use our Services and enhance your experience when yo",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "added",
+          "from": "Feb 27, 2023",
+          "to": "Nov 7, 2023",
+          "before": null,
+          "after": "We will maintain and use de-identified information in anonymous or de-identified form and we will not attempt to reidentify the information, unless required by ",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "added",
+          "from": "Feb 27, 2023",
+          "to": "Nov 7, 2023",
+          "before": null,
+          "after": "Your rights Depending on location, individuals in the EEA, the UK, and across the globe may have certain statutory rights in relation to their Personal Informat",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "added",
+          "from": "Feb 27, 2023",
+          "to": "Nov 7, 2023",
+          "before": null,
+          "after": "For information on how to exercise your rights with respect to data we have collected from the internet to train our models, please see this help center article",
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "10-loc": {
+      "url": "https://www.loc.gov/about/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 12,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Jun 9, 2015",
+          "to": "Nov 3, 2016",
+          "before": null,
+          "after": "The Library preserves and provides access to a rich, diverse and enduring source of knowledge to inform, inspire and engage you in your intellectual and creativ",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "added",
+          "from": "Jun 9, 2015",
+          "to": "Nov 3, 2016",
+          "before": null,
+          "after": "I encourage you to visit the Library of Congress in person in Washington, D.C., explore the Library online from wherever you are and connect with us on social m",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "Jun 9, 2015",
+          "to": "Nov 3, 2016",
+          "before": null,
+          "after": "Office of the Librarian The Office of the Librarian is the administrative branch of the Library of Congress and has overall management responsibility for the Li",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "added",
+          "from": "Jun 9, 2015",
+          "to": "Nov 3, 2016",
+          "before": null,
+          "after": "National and International Outreach National and International Outreach manages the public facing programs and activities of the Library of Congress with the mi",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "removed",
+          "from": "Jun 9, 2015",
+          "to": "Nov 3, 2016",
+          "before": "Formats Audio Recordings Books Films, Videos Legislation Manuscripts/Mixed Material Maps Notated Music Newspapers Periodicals Personal Narratives Photos, Prints",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "removed",
+          "from": "Jun 9, 2015",
+          "to": "Nov 3, 2016",
+          "before": "More Popular Read.gov National Jukebox Genealogy Poetry America´s Story for Kids Exhibits National Book Festival Historic Newspapers Services Research & Referen",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "removed",
+          "from": "Jun 9, 2015",
+          "to": "Nov 3, 2016",
+          "before": "Welcome Message from the Librarian of Congress The Library of Congress is the nation's oldest federal cultural institution and serves as the research arm of Con",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "removed",
+          "from": "Jun 9, 2015",
+          "to": "Nov 3, 2016",
+          "before": "The Library's mission is to support the Congress in fulfilling its constitutional duties and to further the progress of knowledge and creativity for the benefit",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "11-crossref": {
+      "url": "https://www.crossref.org/documentation/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 0,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Dec 20, 2018",
+          "to": "Apr 25, 2019",
+          "before": null,
+          "after": "Registering content Updating metadata Retrieving metadata Schema and metadata Services documentation Open a support ticket Please contact our support team and S",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "removed",
+          "from": "Dec 20, 2018",
+          "to": "Apr 25, 2019",
+          "before": "Registering content Updating metadata Retrieving metadata Schema and metadata Services documentation Open a support ticket Please contact our support team and S",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "Apr 25, 2019",
+          "to": "Jun 6, 2021",
+          "before": null,
+          "after": "...Find out more 2021 May 27 Our annual open call for board nominations Crossref’s Nominating Committee is inviting expressions of interest to join the Board of",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "added",
+          "from": "Apr 25, 2019",
+          "to": "Jun 6, 2021",
+          "before": null,
+          "after": "We rely on this group to support our schema as it evolves, to roll out new and updated services to members and to work closely with us on a variety of matters o",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "added",
+          "from": "Apr 25, 2019",
+          "to": "Jun 6, 2021",
+          "before": null,
+          "after": "I’ve learned a lot in the last year about how our community works with us, and I’m looking forward to working more closely with you in the coming year to improv",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "added",
+          "from": "Apr 25, 2019",
+          "to": "Jun 6, 2021",
+          "before": null,
+          "after": "...Find out more Menu search Documentation Home > Documentation Take a look at the topics on the right to browse and page through our documentation, or search u",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "added",
+          "from": "Apr 25, 2019",
+          "to": "Jun 6, 2021",
+          "before": null,
+          "after": "The importance of metadata Setting up as a member Content Registration Reports Reference Linking Crossmark Cited-by Funder Registry Similarity Check Metadata Re",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "added",
+          "from": "Jun 6, 2021",
+          "to": "Mar 30, 2022",
+          "before": null,
+          "after": "We learn more about their lives, how they came to know and work with us, and we hear insights about the scholarly research landscape in their country, challenge",
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "12-ndltd": {
+      "url": "https://ndltd.org/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 11,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Feb 7, 2015",
+          "to": "Jan 12, 2020",
+          "before": null,
+          "after": "First in the region NDLTD is an international organization dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic the",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "added",
+          "from": "Feb 7, 2015",
+          "to": "Jan 12, 2020",
+          "before": null,
+          "after": "See the web site www.ndltd.org for details and background of the NDLTD organisation which was established in 1998 and has since held international conferences i",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "Feb 7, 2015",
+          "to": "Jan 12, 2020",
+          "before": null,
+          "after": "This conference, ETD2020 will be the first in the region, and we expect it will attract many participants from all over the world and specifically the Gulf regi",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "added",
+          "from": "Feb 7, 2015",
+          "to": "Jan 12, 2020",
+          "before": null,
+          "after": "All presenters, including poster presenters will be invited to prepare and submit a final version for publication online, subject to editorial and peer review b",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "added",
+          "from": "Feb 7, 2015",
+          "to": "Jan 12, 2020",
+          "before": null,
+          "after": "Registration is open for the 22nd International Symposium on Electronic Theses and Dissertations - ETD2019.This year's conference will be held November 06-08, 2",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "added",
+          "from": "Feb 7, 2015",
+          "to": "Jan 12, 2020",
+          "before": null,
+          "after": "Posted Sep 3, 2019, 9:36 AM by NDLTD Admin NDLTD Announces ETD 2019 Travel Award Winners NDLTD is pleased to announce the winners of the ETD 2019 travel awards.",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "added",
+          "from": "Feb 7, 2015",
+          "to": "Jan 12, 2020",
+          "before": null,
+          "after": "Posted Jul 3, 2019, 10:35 AM by NDLTD Admin ETD 2019: Fruits of Knowledge, Call for Papers We are pleased to announce the Call for Papers for ETD 2019, the 22nd",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "added",
+          "from": "Feb 7, 2015",
+          "to": "Jan 12, 2020",
+          "before": null,
+          "after": "Posted Apr 9, 2019, 10:27 AM by NDLTD Admin Request for Proposals to Host ETD 2020 and 2021 The NDLTD Conference Standing Committee is accepting bids to host th",
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "13-ada": {
+      "url": "https://www.ada.gov/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 0,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Jan 8, 2015",
+          "to": "Jun 18, 2015",
+          "before": null,
+          "after": "ADA ENFORCEMENT ACTIVITIES The Department enforces the ADA through complaints, lawsuits, consent decrees, settlement agreements, and alternate dispute resolutio",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "removed",
+          "from": "Jan 8, 2015",
+          "to": "Jun 18, 2015",
+          "before": "| PDF Statement of Interest (posted 12/23/14) County of Erie NY and the Erie County Sheriff&rsquo;s Office Settlement Agreement (posted 12/23/14) DC Trails Inc.",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "removed",
+          "from": "Jan 8, 2015",
+          "to": "Jun 18, 2015",
+          "before": "James Health Settlement Agreement (posted 12/3/14) The Justice Blog: Recognizing World AIDS Day 2014 (posted 12/1/14) Resorts Casino Hotel Settlement Agreement ",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "removed",
+          "from": "Jan 8, 2015",
+          "to": "Jun 18, 2015",
+          "before": "ADA REQUIREMENTS AND TECHNICAL ASSISTANCE Regulations, design standards, publications, video, and other media that provide information about compliance with the",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "added",
+          "from": "Jun 18, 2015",
+          "to": "Jan 23, 2017",
+          "before": null,
+          "after": "ADA.gov homepage Search ADA.gov Search ADA.gov More Search Options New on ADA.gov Washington Metropolitan Area Transit Authority Complaint (posted 1/23/17) City",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "added",
+          "from": "Jun 18, 2015",
+          "to": "Jan 23, 2017",
+          "before": null,
+          "after": "PDF Technical Assistance Publication (posted 1/11/17) Lexington Chinese School Settlement Agreement (posted 1/5/17) Ohio Department of Rehabilitation and Correc",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "added",
+          "from": "Jun 18, 2015",
+          "to": "Jan 23, 2017",
+          "before": null,
+          "after": "A claims administrator is evaluating claims for compensation by individuals harmed by Greyhound's lack of accessible transportation or transportation-related se",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "added",
+          "from": "Jun 18, 2015",
+          "to": "Jan 23, 2017",
+          "before": null,
+          "after": "800 - 514 - 0301 (voice) 800 - 514 - 0383 (TTY) Featured Topics alt=\"Olmstead: Community Integration for Everyone\"/> Olmstead: Community Integration for Everyon",
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "14-plos": {
+      "url": "https://plos.org/",
+      "snapshotsUsed": 7,
+      "autoDroppedArtifacts": 4,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "removed",
+          "from": "Jan 1, 2015",
+          "to": "Jan 2, 2015",
+          "before": "Full article October 15, 2014 Newsroom: See all past articles Featured Article From PLOS Biology Grant Application Review: The Case of Transparency David Gurwit",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "added",
+          "from": "Jan 2, 2015",
+          "to": "Mar 5, 2020",
+          "before": null,
+          "after": "Make your work accessible to all, without restrictions, and accelerate scientific discovery with options like preprints and published peer review that make your",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "added",
+          "from": "Jan 2, 2015",
+          "to": "Mar 5, 2020",
+          "before": null,
+          "after": "Journals PLOS Biology PLOS Computational Biology PLOS Genetics PLOS Medicine PLOS Neglected Tropical Diseases PLOS ONE PLOS Pathogens More Content PLOS Blogs PL",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "added",
+          "from": "Jan 2, 2015",
+          "to": "Mar 5, 2020",
+          "before": null,
+          "after": "PLOS is a nonprofit, Open Access publisher empowering researchers to accelerate progress in science and medicine by leading a transformation in research communi",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "added",
+          "from": "Jan 2, 2015",
+          "to": "Mar 5, 2020",
+          "before": null,
+          "after": "The scientific community has come together rapidly to address this&hellip; Read more&hellip; View all Announcements PLOS JOURNALS PLOS publishes a suite of infl",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "added",
+          "from": "Jan 2, 2015",
+          "to": "Mar 5, 2020",
+          "before": null,
+          "after": "We encourage you to consider the scope of each journal before submission, as journals are editorially independent and specialized in their publication criteria ",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "added",
+          "from": "Jan 2, 2015",
+          "to": "Mar 5, 2020",
+          "before": null,
+          "after": "PLOS ONE PLOS Biology PLOS Computational Biology PLOS Genetics PLOS Medicine PLOS Neglected Tropical Diseases PLOS Pathogens ADVANCING OPEN SCIENCE Open opportu",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "added",
+          "from": "Jan 2, 2015",
+          "to": "Mar 5, 2020",
+          "before": null,
+          "after": "Published Peer Review All PLOS journals offer authors the opportunity to increase the transparency of the evaluation process by publishing their peer review his",
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "15-hathitrust": {
+      "url": "https://www.hathitrust.org/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 0,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Jan 18, 2018",
+          "to": "Jun 6, 2019",
+          "before": null,
+          "after": "See options to log in as a guest HathiTrust is a partnership of academic & research institutions, offering a collection of millions of titles digitized from lib",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "added",
+          "from": "Jan 18, 2018",
+          "to": "Jun 6, 2019",
+          "before": null,
+          "after": "We looked into this and believe this happens intermittently when the reading order of the book has… https://t.co/4eeHhZyb5y 05 Jun 19 Reply Retweet Favorite Hom",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "removed",
+          "from": "Jan 18, 2018",
+          "to": "Jun 6, 2019",
+          "before": "More info &raquo; --> HathiTrust is a partnership of academic & research institutions, offering a collection of millions of titles digitized from libraries arou",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "removed",
+          "from": "Jun 6, 2019",
+          "to": "Oct 28, 2019",
+          "before": "We looked into this and believe this happens intermittently when the reading order of the book has… https://t.co/4eeHhZyb5y 05 Jun 19 Reply Retweet Favorite Hom",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "added",
+          "from": "Oct 28, 2019",
+          "to": "Jul 7, 2020",
+          "before": null,
+          "after": "--> About HathiTrust HathiTrust is a partnership of academic and research institutions, offering a collection of millions of titles digitized from libraries aro",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "added",
+          "from": "Jul 16, 2015",
+          "to": "Dec 20, 2015",
+          "before": null,
+          "after": "More Projects & Initiatives &raquo; Latest tweet from @HathiTrust HathiTrust @hathitrust RT @matthiasbryson : I owe my life to @hathitrust .",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "removed",
+          "from": "Dec 20, 2015",
+          "to": "Jan 18, 2018",
+          "before": "More Projects & Initiatives &raquo; Latest tweet from @HathiTrust HathiTrust @hathitrust RT @matthiasbryson : I owe my life to @hathitrust .",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "added",
+          "from": "Jun 6, 2019",
+          "to": "Oct 28, 2019",
+          "before": null,
+          "after": "https://t.co/Gw8iVF4AxK 23 Oct 19 Reply Retweet Favorite Home About Collections Help Feedback Accessibility Take-Down Policy Privacy Contact",
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    },
+    "16-doaj": {
+      "url": "https://doaj.org/",
+      "snapshotsUsed": 9,
+      "autoDroppedArtifacts": 39,
+      "candidates": [
+        {
+          "n": 1,
+          "type": "added",
+          "from": "Jan 2, 2015",
+          "to": "Mar 3, 2017",
+          "before": null,
+          "after": "Latest News ScienceOpen and DOAJ combine efforts to make scholarly publishing more visible Guidelines for free indexing applicants Publishing can be a big, expe",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 2,
+          "type": "added",
+          "from": "Jan 2, 2015",
+          "to": "Mar 3, 2017",
+          "before": null,
+          "after": "As we informed last year universities, research centers, the Austrian Science Fund (FWF) and the Federal Ministry of Science, Research and Economy (BMWFW) decid",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 3,
+          "type": "removed",
+          "from": "Jan 2, 2015",
+          "to": "Mar 3, 2017",
+          "before": "Directory of Open Access Journals SUPPORT DOAJ Home Search Apply News About For Publishers Login journals articles [Advanced Search] Directory of Open Access Jo",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 4,
+          "type": "added",
+          "from": "Mar 3, 2017",
+          "to": "Oct 29, 2017",
+          "before": null,
+          "after": "We have received several messages via our Feedback account from library catalogue administrators, their readers, and researchers asking why all of a sudden so m",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 5,
+          "type": "added",
+          "from": "Mar 3, 2017",
+          "to": "Oct 29, 2017",
+          "before": null,
+          "after": "DOAJ has had excellent connections and representation throughout Latin America for many years, thanks to previous work by Redalyc, sponsorship from SciElo and, ",
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 6,
+          "type": "removed",
+          "from": "Mar 3, 2017",
+          "to": "Oct 29, 2017",
+          "before": "Latest News ScienceOpen and DOAJ combine efforts to make scholarly publishing more visible Guidelines for free indexing applicants Publishing can be a big, expe",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 7,
+          "type": "removed",
+          "from": "Mar 3, 2017",
+          "to": "Oct 29, 2017",
+          "before": "As we informed last year universities, research centers, the Austrian Science Fund (FWF) and the Federal Ministry of Science, Research and Economy (BMWFW) decid",
+          "after": null,
+          "verdict": "?",
+          "source": "diff"
+        },
+        {
+          "n": 8,
+          "type": "added",
+          "from": "Oct 29, 2017",
+          "to": "Feb 17, 2018",
+          "before": null,
+          "after": "Latest News Open Access in the Francophone Global South: Between Collective Empowerment and Neocolonialism This is a guest post by Florence Piron from Universit",
+          "verdict": "?",
+          "source": "diff"
+        }
+      ]
+    }
+  }
+}

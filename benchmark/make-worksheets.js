@@ -1,17 +1,4 @@
-#!/usr/bin/env node
-'use strict';
-/* Way B — model-INDEPENDENT gold-standard worksheets.
- *
- * For each archived page, emits a BLIND worksheet: the snapshot texts oldest→newest
- * with NO model output, plus a blank list for the annotator to enumerate the real
- * changes they see. The resulting gold set is scored against BOTH models, and a
- * second annotator can independently fill the same worksheets for inter-annotator
- * agreement (Cohen's κ). Addresses Reviewer R2's W5 (single, unblinded adjudicator).
- *
- *   node make-worksheets.js              → writes worksheets/NN-name.md (+ README)
- *
- * Source texts come from the saved _rescore.snapshots (no Wayback re-fetch).
- */
+
 const fs = require('fs');
 const path = require('path');
 const SRC = path.join(__dirname, 'runs-groq');     // same captures as runs/

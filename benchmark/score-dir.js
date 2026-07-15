@@ -1,14 +1,4 @@
-#!/usr/bin/env node
-'use strict';
-/* Objective (label-free) scorer for an arbitrary runs directory.
- *
- *   node score-dir.js runs-groq      → grounding / hallucination / states / calibration
- *
- * Mirrors the OBJECTIVE half of score.js exactly (same grounding math), so the
- * Groq re-run is measured identically to the gpt-4o-mini runs. Detection P/R is
- * NOT computed here: ground_truth.json labels are tied to the gpt-4o-mini changes
- * and do not map onto a different model's changes — those need re-adjudication.
- */
+
 const fs = require('fs');
 const path = require('path');
 const DIR = path.join(__dirname, process.argv[2] || 'runs');

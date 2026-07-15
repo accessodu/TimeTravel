@@ -1,8 +1,4 @@
-#!/usr/bin/env node
-'use strict';
-/* Integrity check: confirm the hand-encoded TP/FP predictions match the actual change
- * counts in runs-groq (ungated) and runs-groq-gated (gated), then recompute detection
- * both ways with per-genre breakdown. Flags any mismatch. */
+
 const fs=require('fs'), path=require('path');
 const gold=require('./gold_truth.json').runs;
 const GENRE={'01-jcdl':'Conf','07-sigir':'Conf','02-dlib':'DL','03-gutenberg':'DL','04-archive':'DL','05-dp':'DL','06-europeana':'DL','10-loc':'DL','12-ndltd':'DL','15-hathitrust':'DL','08-w3':'Std','09-openai':'Std','13-ada':'Std','11-crossref':'Schol','14-plos':'Schol','16-doaj':'Schol'};

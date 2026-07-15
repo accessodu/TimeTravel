@@ -1,13 +1,4 @@
-#!/usr/bin/env node
-'use strict';
-/* Final detection scoring: Groq llama-3.1-8b-instant vs the human-signed-off
- * model-independent gold standard (gold_truth.json, 33 real changes).
- *
- * Each Groq-reported change is adjudicated: real (TP) or junk (FP), and — if real —
- * which gold change it covers (for recall). Encoded below from the signed-off review.
- * Precision = TP/(TP+FP); Recall = (unique gold changes covered)/(total gold);
- * plus Wilson 95% CIs (R2's W4) and per-genre breakdown.
- */
+
 const gold = require('./gold_truth.json').runs;
 
 const GENRE = {
