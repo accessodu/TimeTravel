@@ -8,7 +8,7 @@ const fs=require('fs'), path=require('path'), vm=require('vm');
 const SRC_DIR=path.join(__dirname,'runs-groq');
 const OUT_DIR=path.join(__dirname, process.env.OUT||'runs-ablate-tmp');
 const BG=path.join(__dirname,'..','background','background.js');
-const GROQ_KEY=process.env.GROQ_KEY||'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';
+const GROQ_KEY=process.env.GROQ_KEY||'SERIEL_KEY';
 
 function loadBackground(){
   const deep=new Proxy(function(){},{get:()=>deep,apply:()=>deep});
